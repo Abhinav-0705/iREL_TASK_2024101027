@@ -1,0 +1,2398 @@
+{
+  "video_id": "video_2",
+  "method": "hybrid_implicit_detection",
+  "total_dependencies": 176,
+  "method_breakdown": {
+    "semantic_temporal": 20,
+    "cooccurrence": 4,
+    "video_explanation_overlap": 176,
+    "transitive": 0,
+    "final_unique": 176
+  },
+  "dependencies": [
+    {
+      "prerequisite": "Temperature Dependence",
+      "concept": "Solution Properties",
+      "confidence": 0.9537037037037037,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.9537037037037037,
+        "vocab_a_size": 103,
+        "vocab_b_size": 108,
+        "t_a": 0,
+        "t_b": 8.6
+      }
+    },
+    {
+      "prerequisite": "Equilibrium",
+      "concept": "Solution Properties",
+      "confidence": 0.9537037037037037,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.9537037037037037,
+        "vocab_a_size": 103,
+        "vocab_b_size": 108,
+        "t_a": 0,
+        "t_b": 8.6
+      }
+    },
+    {
+      "prerequisite": "Chemical Composition",
+      "concept": "Solution Properties",
+      "confidence": 0.9537037037037037,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.9537037037037037,
+        "vocab_a_size": 103,
+        "vocab_b_size": 108,
+        "t_a": 0,
+        "t_b": 8.6
+      }
+    },
+    {
+      "prerequisite": "Concentration",
+      "concept": "Solution Properties",
+      "confidence": 0.9537037037037037,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.9537037037037037,
+        "vocab_a_size": 103,
+        "vocab_b_size": 108,
+        "t_a": 0,
+        "t_b": 8.6
+      }
+    },
+    {
+      "prerequisite": "Phase Behavior",
+      "concept": "Solution Properties",
+      "confidence": 0.9537037037037037,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.9537037037037037,
+        "vocab_a_size": 103,
+        "vocab_b_size": 108,
+        "t_a": 0,
+        "t_b": 8.6
+      }
+    },
+    {
+      "prerequisite": "Molecular Interactions",
+      "concept": "Solution Properties",
+      "confidence": 0.9537037037037037,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.9537037037037037,
+        "vocab_a_size": 103,
+        "vocab_b_size": 108,
+        "t_a": 0,
+        "t_b": 8.6
+      }
+    },
+    {
+      "prerequisite": "Thermodynamics",
+      "concept": "Solution Properties",
+      "confidence": 0.9537037037037037,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.9537037037037037,
+        "vocab_a_size": 103,
+        "vocab_b_size": 108,
+        "t_a": 0,
+        "t_b": 8.6
+      }
+    },
+    {
+      "prerequisite": "Solute Properties",
+      "concept": "Solution Properties",
+      "confidence": 0.9537037037037037,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.9537037037037037,
+        "vocab_a_size": 103,
+        "vocab_b_size": 108,
+        "t_a": 0,
+        "t_b": 8.6
+      }
+    },
+    {
+      "prerequisite": "Volatile Compounds",
+      "concept": "Vapor Pressure",
+      "confidence": 0.8849557522123894,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.8849557522123894,
+        "vocab_a_size": 108,
+        "vocab_b_size": 105,
+        "t_a": 104.49,
+        "t_b": 110.43
+      }
+    },
+    {
+      "prerequisite": "Mole Fraction",
+      "concept": "Volatile Compounds",
+      "confidence": 0.8351851851851853,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "cooccurrence",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          1.0,
+          0.5185185185185185
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Volatile Compounds",
+      "concept": "Partial Pressure",
+      "confidence": 0.7665306564121458,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.5087363503551483,
+          0.8849557522123894
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Liquid Solutions",
+      "concept": "Mole Fraction",
+      "confidence": 0.6372589358209105,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.6365937870540619,
+          0.5220588235294118
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Mole Fraction",
+      "concept": "Henry's Law",
+      "confidence": 0.6183229813664597,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "cooccurrence",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.9130434782608695,
+          0.2111801242236025
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Solution Properties",
+      "concept": "Binary Solutions",
+      "confidence": 0.6007558258846625,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.5351404626474381,
+          0.5571428571428572
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Solution Properties",
+      "concept": "Ideal Solutions",
+      "confidence": 0.6007558258846625,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.5351404626474381,
+          0.5571428571428572
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Phase Behavior",
+      "concept": "Ideal Solutions",
+      "confidence": 0.5573144696833202,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.4918704643592834,
+          0.5214285714285715
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Solution Properties",
+      "concept": "Liquid Solutions",
+      "confidence": 0.5571428571428572,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.5571428571428572,
+        "vocab_a_size": 108,
+        "vocab_b_size": 110,
+        "t_a": 8.6,
+        "t_b": 41.539
+      }
+    },
+    {
+      "prerequisite": "Concentration",
+      "concept": "Ideal Solutions",
+      "confidence": 0.5530608906032155,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.4841366842136383,
+          0.5214285714285715
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Equilibrium",
+      "concept": "Ideal Solutions",
+      "confidence": 0.532145760077388,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.4461091741666794,
+          0.5214285714285715
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Chemical Composition",
+      "concept": "Ideal Solutions",
+      "confidence": 0.5305288359703132,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.4431693121538162,
+          0.5214285714285715
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Binary Solutions",
+      "concept": "Mole Fraction",
+      "confidence": 0.5220588235294118,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.5220588235294118,
+        "vocab_a_size": 110,
+        "vocab_b_size": 97,
+        "t_a": 41.539,
+        "t_b": 63.36
+      }
+    },
+    {
+      "prerequisite": "Ideal Solutions",
+      "concept": "Mole Fraction",
+      "confidence": 0.5220588235294118,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.5220588235294118,
+        "vocab_a_size": 110,
+        "vocab_b_size": 97,
+        "t_a": 41.539,
+        "t_b": 63.36
+      }
+    },
+    {
+      "prerequisite": "Temperature Dependence",
+      "concept": "Liquid Solutions",
+      "confidence": 0.5214285714285715,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.5214285714285715,
+        "vocab_a_size": 103,
+        "vocab_b_size": 110,
+        "t_a": 0,
+        "t_b": 41.539
+      }
+    },
+    {
+      "prerequisite": "Temperature Dependence",
+      "concept": "Binary Solutions",
+      "confidence": 0.5214285714285715,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.5214285714285715,
+        "vocab_a_size": 103,
+        "vocab_b_size": 110,
+        "t_a": 0,
+        "t_b": 41.539
+      }
+    },
+    {
+      "prerequisite": "Equilibrium",
+      "concept": "Liquid Solutions",
+      "confidence": 0.5214285714285715,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.5214285714285715,
+        "vocab_a_size": 103,
+        "vocab_b_size": 110,
+        "t_a": 0,
+        "t_b": 41.539
+      }
+    },
+    {
+      "prerequisite": "Equilibrium",
+      "concept": "Binary Solutions",
+      "confidence": 0.5214285714285715,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.5214285714285715,
+        "vocab_a_size": 103,
+        "vocab_b_size": 110,
+        "t_a": 0,
+        "t_b": 41.539
+      }
+    },
+    {
+      "prerequisite": "Chemical Composition",
+      "concept": "Liquid Solutions",
+      "confidence": 0.5214285714285715,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.5214285714285715,
+        "vocab_a_size": 103,
+        "vocab_b_size": 110,
+        "t_a": 0,
+        "t_b": 41.539
+      }
+    },
+    {
+      "prerequisite": "Chemical Composition",
+      "concept": "Binary Solutions",
+      "confidence": 0.5214285714285715,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.5214285714285715,
+        "vocab_a_size": 103,
+        "vocab_b_size": 110,
+        "t_a": 0,
+        "t_b": 41.539
+      }
+    },
+    {
+      "prerequisite": "Concentration",
+      "concept": "Liquid Solutions",
+      "confidence": 0.5214285714285715,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.5214285714285715,
+        "vocab_a_size": 103,
+        "vocab_b_size": 110,
+        "t_a": 0,
+        "t_b": 41.539
+      }
+    },
+    {
+      "prerequisite": "Concentration",
+      "concept": "Binary Solutions",
+      "confidence": 0.5214285714285715,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.5214285714285715,
+        "vocab_a_size": 103,
+        "vocab_b_size": 110,
+        "t_a": 0,
+        "t_b": 41.539
+      }
+    },
+    {
+      "prerequisite": "Phase Behavior",
+      "concept": "Liquid Solutions",
+      "confidence": 0.5214285714285715,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.5214285714285715,
+        "vocab_a_size": 103,
+        "vocab_b_size": 110,
+        "t_a": 0,
+        "t_b": 41.539
+      }
+    },
+    {
+      "prerequisite": "Phase Behavior",
+      "concept": "Binary Solutions",
+      "confidence": 0.5214285714285715,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.5214285714285715,
+        "vocab_a_size": 103,
+        "vocab_b_size": 110,
+        "t_a": 0,
+        "t_b": 41.539
+      }
+    },
+    {
+      "prerequisite": "Molecular Interactions",
+      "concept": "Liquid Solutions",
+      "confidence": 0.5214285714285715,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.5214285714285715,
+        "vocab_a_size": 103,
+        "vocab_b_size": 110,
+        "t_a": 0,
+        "t_b": 41.539
+      }
+    },
+    {
+      "prerequisite": "Molecular Interactions",
+      "concept": "Binary Solutions",
+      "confidence": 0.5214285714285715,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.5214285714285715,
+        "vocab_a_size": 103,
+        "vocab_b_size": 110,
+        "t_a": 0,
+        "t_b": 41.539
+      }
+    },
+    {
+      "prerequisite": "Molecular Interactions",
+      "concept": "Ideal Solutions",
+      "confidence": 0.5214285714285715,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.5214285714285715,
+        "vocab_a_size": 103,
+        "vocab_b_size": 110,
+        "t_a": 0,
+        "t_b": 41.539
+      }
+    },
+    {
+      "prerequisite": "Thermodynamics",
+      "concept": "Liquid Solutions",
+      "confidence": 0.5214285714285715,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.5214285714285715,
+        "vocab_a_size": 103,
+        "vocab_b_size": 110,
+        "t_a": 0,
+        "t_b": 41.539
+      }
+    },
+    {
+      "prerequisite": "Thermodynamics",
+      "concept": "Binary Solutions",
+      "confidence": 0.5214285714285715,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.5214285714285715,
+        "vocab_a_size": 103,
+        "vocab_b_size": 110,
+        "t_a": 0,
+        "t_b": 41.539
+      }
+    },
+    {
+      "prerequisite": "Thermodynamics",
+      "concept": "Ideal Solutions",
+      "confidence": 0.5214285714285715,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.5214285714285715,
+        "vocab_a_size": 103,
+        "vocab_b_size": 110,
+        "t_a": 0,
+        "t_b": 41.539
+      }
+    },
+    {
+      "prerequisite": "Solute Properties",
+      "concept": "Liquid Solutions",
+      "confidence": 0.5214285714285715,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.5214285714285715,
+        "vocab_a_size": 103,
+        "vocab_b_size": 110,
+        "t_a": 0,
+        "t_b": 41.539
+      }
+    },
+    {
+      "prerequisite": "Solute Properties",
+      "concept": "Binary Solutions",
+      "confidence": 0.5214285714285715,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.5214285714285715,
+        "vocab_a_size": 103,
+        "vocab_b_size": 110,
+        "t_a": 0,
+        "t_b": 41.539
+      }
+    },
+    {
+      "prerequisite": "Solute Properties",
+      "concept": "Ideal Solutions",
+      "confidence": 0.5214285714285715,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.5214285714285715,
+        "vocab_a_size": 103,
+        "vocab_b_size": 110,
+        "t_a": 0,
+        "t_b": 41.539
+      }
+    },
+    {
+      "prerequisite": "Temperature Dependence",
+      "concept": "Ideal Solutions",
+      "confidence": 0.5092542168678352,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.40448818651294705,
+          0.5214285714285715
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Mole Fraction",
+      "concept": "Vapor Pressure",
+      "confidence": 0.44285714285714284,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.44285714285714284,
+        "vocab_a_size": 97,
+        "vocab_b_size": 105,
+        "t_a": 63.36,
+        "t_b": 110.43
+      }
+    },
+    {
+      "prerequisite": "Solution Properties",
+      "concept": "Mole Fraction",
+      "confidence": 0.4105082347928013,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.5114388496780395,
+          0.23493975903614459
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Mole Fraction",
+      "concept": "Partial Pressure",
+      "confidence": 0.40670702179176754,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "cooccurrence",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.2966101694915254,
+          0.44285714285714284
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Liquid Solutions",
+      "concept": "Volatile Compounds",
+      "confidence": 0.40353894888323627,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.466265319322586,
+          0.26744186046511625
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Liquid Solutions",
+      "concept": "Vapor Pressure",
+      "confidence": 0.39354796122903823,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.4939508385982513,
+          0.2215909090909091
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Liquid Solutions",
+      "concept": "Partial Pressure",
+      "confidence": 0.39354796122903823,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.4939508385982513,
+          0.2215909090909091
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Partial Pressure",
+      "concept": "Henry's Law",
+      "confidence": 0.37762681159420297,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "cooccurrence",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.4782608695652174,
+          0.20833333333333334
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Vapor Pressure",
+      "concept": "Raoult's Law",
+      "confidence": 0.3469774588960012,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.4225347737503052,
+          0.20833333333333334
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Vapor Pressure",
+      "concept": "Henry's Law",
+      "confidence": 0.3469774588960012,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.4225347737503052,
+          0.20833333333333334
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Henry's Law",
+      "concept": "Boiling Point Elevation",
+      "confidence": 0.3352063229066905,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.4035836887073517,
+          0.20588235294117646
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Henry's Law",
+      "concept": "Freezing Point Depression",
+      "confidence": 0.3352063229066905,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.4035836887073517,
+          0.20588235294117646
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Boiling Point Elevation",
+      "concept": "Solvent Properties",
+      "confidence": 0.3248407643312102,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.3248407643312102,
+        "vocab_a_size": 107,
+        "vocab_b_size": 101,
+        "t_a": 549.29,
+        "t_b": 600.76
+      }
+    },
+    {
+      "prerequisite": "Freezing Point Depression",
+      "concept": "Solvent Properties",
+      "confidence": 0.3248407643312102,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.3248407643312102,
+        "vocab_a_size": 107,
+        "vocab_b_size": 101,
+        "t_a": 549.29,
+        "t_b": 600.76
+      }
+    },
+    {
+      "prerequisite": "Raoult's Law",
+      "concept": "Boiling Point Elevation",
+      "confidence": 0.311717265186983,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.36087631103515627,
+          0.20588235294117646
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Raoult's Law",
+      "concept": "Freezing Point Depression",
+      "confidence": 0.311717265186983,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.36087631103515627,
+          0.20588235294117646
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Raoult's Law",
+      "concept": "Solvent Properties",
+      "confidence": 0.29850562053463037,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.37214925658702847,
+          0.17058823529411765
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Binary Solutions",
+      "concept": "Volatile Compounds",
+      "confidence": 0.26744186046511625,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.26744186046511625,
+        "vocab_a_size": 110,
+        "vocab_b_size": 108,
+        "t_a": 41.539,
+        "t_b": 104.49
+      }
+    },
+    {
+      "prerequisite": "Ideal Solutions",
+      "concept": "Volatile Compounds",
+      "confidence": 0.26744186046511625,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.26744186046511625,
+        "vocab_a_size": 110,
+        "vocab_b_size": 108,
+        "t_a": 41.539,
+        "t_b": 104.49
+      }
+    },
+    {
+      "prerequisite": "Volatile Compounds",
+      "concept": "Raoult's Law",
+      "confidence": 0.2261904761904762,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.2261904761904762,
+        "vocab_a_size": 108,
+        "vocab_b_size": 98,
+        "t_a": 104.49,
+        "t_b": 401.51
+      }
+    },
+    {
+      "prerequisite": "Volatile Compounds",
+      "concept": "Henry's Law",
+      "confidence": 0.2261904761904762,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.2261904761904762,
+        "vocab_a_size": 108,
+        "vocab_b_size": 98,
+        "t_a": 104.49,
+        "t_b": 401.51
+      }
+    },
+    {
+      "prerequisite": "Binary Solutions",
+      "concept": "Vapor Pressure",
+      "confidence": 0.2215909090909091,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.2215909090909091,
+        "vocab_a_size": 110,
+        "vocab_b_size": 105,
+        "t_a": 41.539,
+        "t_b": 110.43
+      }
+    },
+    {
+      "prerequisite": "Binary Solutions",
+      "concept": "Partial Pressure",
+      "confidence": 0.2215909090909091,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.2215909090909091,
+        "vocab_a_size": 110,
+        "vocab_b_size": 105,
+        "t_a": 41.539,
+        "t_b": 110.43
+      }
+    },
+    {
+      "prerequisite": "Ideal Solutions",
+      "concept": "Vapor Pressure",
+      "confidence": 0.2215909090909091,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.2215909090909091,
+        "vocab_a_size": 110,
+        "vocab_b_size": 105,
+        "t_a": 41.539,
+        "t_b": 110.43
+      }
+    },
+    {
+      "prerequisite": "Ideal Solutions",
+      "concept": "Partial Pressure",
+      "confidence": 0.2215909090909091,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.2215909090909091,
+        "vocab_a_size": 110,
+        "vocab_b_size": 105,
+        "t_a": 41.539,
+        "t_b": 110.43
+      }
+    },
+    {
+      "prerequisite": "Mole Fraction",
+      "concept": "Raoult's Law",
+      "confidence": 0.2111801242236025,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.2111801242236025,
+        "vocab_a_size": 97,
+        "vocab_b_size": 98,
+        "t_a": 63.36,
+        "t_b": 401.51
+      }
+    },
+    {
+      "prerequisite": "Partial Pressure",
+      "concept": "Raoult's Law",
+      "confidence": 0.20833333333333334,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.20833333333333334,
+        "vocab_a_size": 105,
+        "vocab_b_size": 98,
+        "t_a": 110.43,
+        "t_b": 401.51
+      }
+    },
+    {
+      "prerequisite": "Temperature Dependence",
+      "concept": "Mole Fraction",
+      "confidence": 0.20481927710843373,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.20481927710843373,
+        "vocab_a_size": 103,
+        "vocab_b_size": 97,
+        "t_a": 0,
+        "t_b": 63.36
+      }
+    },
+    {
+      "prerequisite": "Equilibrium",
+      "concept": "Mole Fraction",
+      "confidence": 0.20481927710843373,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.20481927710843373,
+        "vocab_a_size": 103,
+        "vocab_b_size": 97,
+        "t_a": 0,
+        "t_b": 63.36
+      }
+    },
+    {
+      "prerequisite": "Chemical Composition",
+      "concept": "Mole Fraction",
+      "confidence": 0.20481927710843373,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.20481927710843373,
+        "vocab_a_size": 103,
+        "vocab_b_size": 97,
+        "t_a": 0,
+        "t_b": 63.36
+      }
+    },
+    {
+      "prerequisite": "Concentration",
+      "concept": "Mole Fraction",
+      "confidence": 0.20481927710843373,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.20481927710843373,
+        "vocab_a_size": 103,
+        "vocab_b_size": 97,
+        "t_a": 0,
+        "t_b": 63.36
+      }
+    },
+    {
+      "prerequisite": "Phase Behavior",
+      "concept": "Mole Fraction",
+      "confidence": 0.20481927710843373,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.20481927710843373,
+        "vocab_a_size": 103,
+        "vocab_b_size": 97,
+        "t_a": 0,
+        "t_b": 63.36
+      }
+    },
+    {
+      "prerequisite": "Molecular Interactions",
+      "concept": "Mole Fraction",
+      "confidence": 0.20481927710843373,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.20481927710843373,
+        "vocab_a_size": 103,
+        "vocab_b_size": 97,
+        "t_a": 0,
+        "t_b": 63.36
+      }
+    },
+    {
+      "prerequisite": "Thermodynamics",
+      "concept": "Mole Fraction",
+      "confidence": 0.20481927710843373,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.20481927710843373,
+        "vocab_a_size": 103,
+        "vocab_b_size": 97,
+        "t_a": 0,
+        "t_b": 63.36
+      }
+    },
+    {
+      "prerequisite": "Solute Properties",
+      "concept": "Mole Fraction",
+      "confidence": 0.20481927710843373,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.20481927710843373,
+        "vocab_a_size": 103,
+        "vocab_b_size": 97,
+        "t_a": 0,
+        "t_b": 63.36
+      }
+    },
+    {
+      "prerequisite": "Volatile Compounds",
+      "concept": "Boiling Point Elevation",
+      "confidence": 0.1878453038674033,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.1878453038674033,
+        "vocab_a_size": 108,
+        "vocab_b_size": 107,
+        "t_a": 104.49,
+        "t_b": 549.29
+      }
+    },
+    {
+      "prerequisite": "Volatile Compounds",
+      "concept": "Freezing Point Depression",
+      "confidence": 0.1878453038674033,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.1878453038674033,
+        "vocab_a_size": 108,
+        "vocab_b_size": 107,
+        "t_a": 104.49,
+        "t_b": 549.29
+      }
+    },
+    {
+      "prerequisite": "Temperature Dependence",
+      "concept": "Boiling Point Elevation",
+      "confidence": 0.1864406779661017,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.1864406779661017,
+        "vocab_a_size": 103,
+        "vocab_b_size": 107,
+        "t_a": 0,
+        "t_b": 549.29
+      }
+    },
+    {
+      "prerequisite": "Temperature Dependence",
+      "concept": "Freezing Point Depression",
+      "confidence": 0.1864406779661017,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.1864406779661017,
+        "vocab_a_size": 103,
+        "vocab_b_size": 107,
+        "t_a": 0,
+        "t_b": 549.29
+      }
+    },
+    {
+      "prerequisite": "Equilibrium",
+      "concept": "Boiling Point Elevation",
+      "confidence": 0.1864406779661017,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.1864406779661017,
+        "vocab_a_size": 103,
+        "vocab_b_size": 107,
+        "t_a": 0,
+        "t_b": 549.29
+      }
+    },
+    {
+      "prerequisite": "Equilibrium",
+      "concept": "Freezing Point Depression",
+      "confidence": 0.1864406779661017,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.1864406779661017,
+        "vocab_a_size": 103,
+        "vocab_b_size": 107,
+        "t_a": 0,
+        "t_b": 549.29
+      }
+    },
+    {
+      "prerequisite": "Chemical Composition",
+      "concept": "Boiling Point Elevation",
+      "confidence": 0.1864406779661017,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.1864406779661017,
+        "vocab_a_size": 103,
+        "vocab_b_size": 107,
+        "t_a": 0,
+        "t_b": 549.29
+      }
+    },
+    {
+      "prerequisite": "Chemical Composition",
+      "concept": "Freezing Point Depression",
+      "confidence": 0.1864406779661017,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.1864406779661017,
+        "vocab_a_size": 103,
+        "vocab_b_size": 107,
+        "t_a": 0,
+        "t_b": 549.29
+      }
+    },
+    {
+      "prerequisite": "Concentration",
+      "concept": "Boiling Point Elevation",
+      "confidence": 0.1864406779661017,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.1864406779661017,
+        "vocab_a_size": 103,
+        "vocab_b_size": 107,
+        "t_a": 0,
+        "t_b": 549.29
+      }
+    },
+    {
+      "prerequisite": "Concentration",
+      "concept": "Freezing Point Depression",
+      "confidence": 0.1864406779661017,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.1864406779661017,
+        "vocab_a_size": 103,
+        "vocab_b_size": 107,
+        "t_a": 0,
+        "t_b": 549.29
+      }
+    },
+    {
+      "prerequisite": "Phase Behavior",
+      "concept": "Boiling Point Elevation",
+      "confidence": 0.1864406779661017,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.1864406779661017,
+        "vocab_a_size": 103,
+        "vocab_b_size": 107,
+        "t_a": 0,
+        "t_b": 549.29
+      }
+    },
+    {
+      "prerequisite": "Phase Behavior",
+      "concept": "Freezing Point Depression",
+      "confidence": 0.1864406779661017,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.1864406779661017,
+        "vocab_a_size": 103,
+        "vocab_b_size": 107,
+        "t_a": 0,
+        "t_b": 549.29
+      }
+    },
+    {
+      "prerequisite": "Molecular Interactions",
+      "concept": "Boiling Point Elevation",
+      "confidence": 0.1864406779661017,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.1864406779661017,
+        "vocab_a_size": 103,
+        "vocab_b_size": 107,
+        "t_a": 0,
+        "t_b": 549.29
+      }
+    },
+    {
+      "prerequisite": "Molecular Interactions",
+      "concept": "Freezing Point Depression",
+      "confidence": 0.1864406779661017,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.1864406779661017,
+        "vocab_a_size": 103,
+        "vocab_b_size": 107,
+        "t_a": 0,
+        "t_b": 549.29
+      }
+    },
+    {
+      "prerequisite": "Thermodynamics",
+      "concept": "Boiling Point Elevation",
+      "confidence": 0.1864406779661017,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.1864406779661017,
+        "vocab_a_size": 103,
+        "vocab_b_size": 107,
+        "t_a": 0,
+        "t_b": 549.29
+      }
+    },
+    {
+      "prerequisite": "Thermodynamics",
+      "concept": "Freezing Point Depression",
+      "confidence": 0.1864406779661017,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.1864406779661017,
+        "vocab_a_size": 103,
+        "vocab_b_size": 107,
+        "t_a": 0,
+        "t_b": 549.29
+      }
+    },
+    {
+      "prerequisite": "Solute Properties",
+      "concept": "Boiling Point Elevation",
+      "confidence": 0.1864406779661017,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.1864406779661017,
+        "vocab_a_size": 103,
+        "vocab_b_size": 107,
+        "t_a": 0,
+        "t_b": 549.29
+      }
+    },
+    {
+      "prerequisite": "Solute Properties",
+      "concept": "Freezing Point Depression",
+      "confidence": 0.1864406779661017,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.1864406779661017,
+        "vocab_a_size": 103,
+        "vocab_b_size": 107,
+        "t_a": 0,
+        "t_b": 549.29
+      }
+    },
+    {
+      "prerequisite": "Vapor Pressure",
+      "concept": "Boiling Point Elevation",
+      "confidence": 0.18435754189944134,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.18435754189944134,
+        "vocab_a_size": 105,
+        "vocab_b_size": 107,
+        "t_a": 110.43,
+        "t_b": 549.29
+      }
+    },
+    {
+      "prerequisite": "Vapor Pressure",
+      "concept": "Freezing Point Depression",
+      "confidence": 0.18435754189944134,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.18435754189944134,
+        "vocab_a_size": 105,
+        "vocab_b_size": 107,
+        "t_a": 110.43,
+        "t_b": 549.29
+      }
+    },
+    {
+      "prerequisite": "Partial Pressure",
+      "concept": "Boiling Point Elevation",
+      "confidence": 0.18435754189944134,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.18435754189944134,
+        "vocab_a_size": 105,
+        "vocab_b_size": 107,
+        "t_a": 110.43,
+        "t_b": 549.29
+      }
+    },
+    {
+      "prerequisite": "Partial Pressure",
+      "concept": "Freezing Point Depression",
+      "confidence": 0.18435754189944134,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.18435754189944134,
+        "vocab_a_size": 105,
+        "vocab_b_size": 107,
+        "t_a": 110.43,
+        "t_b": 549.29
+      }
+    },
+    {
+      "prerequisite": "Solution Properties",
+      "concept": "Boiling Point Elevation",
+      "confidence": 0.1813186813186813,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.1813186813186813,
+        "vocab_a_size": 108,
+        "vocab_b_size": 107,
+        "t_a": 8.6,
+        "t_b": 549.29
+      }
+    },
+    {
+      "prerequisite": "Solution Properties",
+      "concept": "Freezing Point Depression",
+      "confidence": 0.1813186813186813,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.1813186813186813,
+        "vocab_a_size": 108,
+        "vocab_b_size": 107,
+        "t_a": 8.6,
+        "t_b": 549.29
+      }
+    },
+    {
+      "prerequisite": "Temperature Dependence",
+      "concept": "Volatile Compounds",
+      "confidence": 0.1787709497206704,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.1787709497206704,
+        "vocab_a_size": 103,
+        "vocab_b_size": 108,
+        "t_a": 0,
+        "t_b": 104.49
+      }
+    },
+    {
+      "prerequisite": "Equilibrium",
+      "concept": "Volatile Compounds",
+      "confidence": 0.1787709497206704,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.1787709497206704,
+        "vocab_a_size": 103,
+        "vocab_b_size": 108,
+        "t_a": 0,
+        "t_b": 104.49
+      }
+    },
+    {
+      "prerequisite": "Chemical Composition",
+      "concept": "Volatile Compounds",
+      "confidence": 0.1787709497206704,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.1787709497206704,
+        "vocab_a_size": 103,
+        "vocab_b_size": 108,
+        "t_a": 0,
+        "t_b": 104.49
+      }
+    },
+    {
+      "prerequisite": "Concentration",
+      "concept": "Volatile Compounds",
+      "confidence": 0.1787709497206704,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.1787709497206704,
+        "vocab_a_size": 103,
+        "vocab_b_size": 108,
+        "t_a": 0,
+        "t_b": 104.49
+      }
+    },
+    {
+      "prerequisite": "Phase Behavior",
+      "concept": "Volatile Compounds",
+      "confidence": 0.1787709497206704,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.1787709497206704,
+        "vocab_a_size": 103,
+        "vocab_b_size": 108,
+        "t_a": 0,
+        "t_b": 104.49
+      }
+    },
+    {
+      "prerequisite": "Molecular Interactions",
+      "concept": "Volatile Compounds",
+      "confidence": 0.1787709497206704,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.1787709497206704,
+        "vocab_a_size": 103,
+        "vocab_b_size": 108,
+        "t_a": 0,
+        "t_b": 104.49
+      }
+    },
+    {
+      "prerequisite": "Thermodynamics",
+      "concept": "Volatile Compounds",
+      "confidence": 0.1787709497206704,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.1787709497206704,
+        "vocab_a_size": 103,
+        "vocab_b_size": 108,
+        "t_a": 0,
+        "t_b": 104.49
+      }
+    },
+    {
+      "prerequisite": "Solute Properties",
+      "concept": "Volatile Compounds",
+      "confidence": 0.1787709497206704,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.1787709497206704,
+        "vocab_a_size": 103,
+        "vocab_b_size": 108,
+        "t_a": 0,
+        "t_b": 104.49
+      }
+    },
+    {
+      "prerequisite": "Vapor Pressure",
+      "concept": "Solvent Properties",
+      "confidence": 0.17714285714285713,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.17714285714285713,
+        "vocab_a_size": 105,
+        "vocab_b_size": 101,
+        "t_a": 110.43,
+        "t_b": 600.76
+      }
+    },
+    {
+      "prerequisite": "Partial Pressure",
+      "concept": "Solvent Properties",
+      "confidence": 0.17714285714285713,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.17714285714285713,
+        "vocab_a_size": 105,
+        "vocab_b_size": 101,
+        "t_a": 110.43,
+        "t_b": 600.76
+      }
+    },
+    {
+      "prerequisite": "Volatile Compounds",
+      "concept": "Solvent Properties",
+      "confidence": 0.17415730337078653,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.17415730337078653,
+        "vocab_a_size": 108,
+        "vocab_b_size": 101,
+        "t_a": 104.49,
+        "t_b": 600.76
+      }
+    },
+    {
+      "prerequisite": "Solution Properties",
+      "concept": "Volatile Compounds",
+      "confidence": 0.17391304347826086,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.17391304347826086,
+        "vocab_a_size": 108,
+        "vocab_b_size": 108,
+        "t_a": 8.6,
+        "t_b": 104.49
+      }
+    },
+    {
+      "prerequisite": "Liquid Solutions",
+      "concept": "Boiling Point Elevation",
+      "confidence": 0.17297297297297298,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.17297297297297298,
+        "vocab_a_size": 110,
+        "vocab_b_size": 107,
+        "t_a": 41.539,
+        "t_b": 549.29
+      }
+    },
+    {
+      "prerequisite": "Liquid Solutions",
+      "concept": "Freezing Point Depression",
+      "confidence": 0.17297297297297298,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.17297297297297298,
+        "vocab_a_size": 110,
+        "vocab_b_size": 107,
+        "t_a": 41.539,
+        "t_b": 549.29
+      }
+    },
+    {
+      "prerequisite": "Binary Solutions",
+      "concept": "Boiling Point Elevation",
+      "confidence": 0.17297297297297298,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.17297297297297298,
+        "vocab_a_size": 110,
+        "vocab_b_size": 107,
+        "t_a": 41.539,
+        "t_b": 549.29
+      }
+    },
+    {
+      "prerequisite": "Binary Solutions",
+      "concept": "Freezing Point Depression",
+      "confidence": 0.17297297297297298,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.17297297297297298,
+        "vocab_a_size": 110,
+        "vocab_b_size": 107,
+        "t_a": 41.539,
+        "t_b": 549.29
+      }
+    },
+    {
+      "prerequisite": "Ideal Solutions",
+      "concept": "Boiling Point Elevation",
+      "confidence": 0.17297297297297298,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.17297297297297298,
+        "vocab_a_size": 110,
+        "vocab_b_size": 107,
+        "t_a": 41.539,
+        "t_b": 549.29
+      }
+    },
+    {
+      "prerequisite": "Ideal Solutions",
+      "concept": "Freezing Point Depression",
+      "confidence": 0.17297297297297298,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.17297297297297298,
+        "vocab_a_size": 110,
+        "vocab_b_size": 107,
+        "t_a": 41.539,
+        "t_b": 549.29
+      }
+    },
+    {
+      "prerequisite": "Henry's Law",
+      "concept": "Solvent Properties",
+      "confidence": 0.17058823529411765,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.17058823529411765,
+        "vocab_a_size": 98,
+        "vocab_b_size": 101,
+        "t_a": 401.51,
+        "t_b": 600.76
+      }
+    },
+    {
+      "prerequisite": "Liquid Solutions",
+      "concept": "Raoult's Law",
+      "confidence": 0.16853932584269662,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.16853932584269662,
+        "vocab_a_size": 110,
+        "vocab_b_size": 98,
+        "t_a": 41.539,
+        "t_b": 401.51
+      }
+    },
+    {
+      "prerequisite": "Liquid Solutions",
+      "concept": "Henry's Law",
+      "confidence": 0.16853932584269662,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.16853932584269662,
+        "vocab_a_size": 110,
+        "vocab_b_size": 98,
+        "t_a": 41.539,
+        "t_b": 401.51
+      }
+    },
+    {
+      "prerequisite": "Binary Solutions",
+      "concept": "Raoult's Law",
+      "confidence": 0.16853932584269662,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.16853932584269662,
+        "vocab_a_size": 110,
+        "vocab_b_size": 98,
+        "t_a": 41.539,
+        "t_b": 401.51
+      }
+    },
+    {
+      "prerequisite": "Binary Solutions",
+      "concept": "Henry's Law",
+      "confidence": 0.16853932584269662,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.16853932584269662,
+        "vocab_a_size": 110,
+        "vocab_b_size": 98,
+        "t_a": 41.539,
+        "t_b": 401.51
+      }
+    },
+    {
+      "prerequisite": "Ideal Solutions",
+      "concept": "Raoult's Law",
+      "confidence": 0.16853932584269662,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.16853932584269662,
+        "vocab_a_size": 110,
+        "vocab_b_size": 98,
+        "t_a": 41.539,
+        "t_b": 401.51
+      }
+    },
+    {
+      "prerequisite": "Ideal Solutions",
+      "concept": "Henry's Law",
+      "confidence": 0.16853932584269662,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.16853932584269662,
+        "vocab_a_size": 110,
+        "vocab_b_size": 98,
+        "t_a": 41.539,
+        "t_b": 401.51
+      }
+    },
+    {
+      "prerequisite": "Temperature Dependence",
+      "concept": "Vapor Pressure",
+      "confidence": 0.16201117318435754,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.16201117318435754,
+        "vocab_a_size": 103,
+        "vocab_b_size": 105,
+        "t_a": 0,
+        "t_b": 110.43
+      }
+    },
+    {
+      "prerequisite": "Temperature Dependence",
+      "concept": "Partial Pressure",
+      "confidence": 0.16201117318435754,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.16201117318435754,
+        "vocab_a_size": 103,
+        "vocab_b_size": 105,
+        "t_a": 0,
+        "t_b": 110.43
+      }
+    },
+    {
+      "prerequisite": "Equilibrium",
+      "concept": "Vapor Pressure",
+      "confidence": 0.16201117318435754,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.16201117318435754,
+        "vocab_a_size": 103,
+        "vocab_b_size": 105,
+        "t_a": 0,
+        "t_b": 110.43
+      }
+    },
+    {
+      "prerequisite": "Equilibrium",
+      "concept": "Partial Pressure",
+      "confidence": 0.16201117318435754,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.16201117318435754,
+        "vocab_a_size": 103,
+        "vocab_b_size": 105,
+        "t_a": 0,
+        "t_b": 110.43
+      }
+    },
+    {
+      "prerequisite": "Chemical Composition",
+      "concept": "Vapor Pressure",
+      "confidence": 0.16201117318435754,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.16201117318435754,
+        "vocab_a_size": 103,
+        "vocab_b_size": 105,
+        "t_a": 0,
+        "t_b": 110.43
+      }
+    },
+    {
+      "prerequisite": "Chemical Composition",
+      "concept": "Partial Pressure",
+      "confidence": 0.16201117318435754,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.16201117318435754,
+        "vocab_a_size": 103,
+        "vocab_b_size": 105,
+        "t_a": 0,
+        "t_b": 110.43
+      }
+    },
+    {
+      "prerequisite": "Concentration",
+      "concept": "Vapor Pressure",
+      "confidence": 0.16201117318435754,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.16201117318435754,
+        "vocab_a_size": 103,
+        "vocab_b_size": 105,
+        "t_a": 0,
+        "t_b": 110.43
+      }
+    },
+    {
+      "prerequisite": "Concentration",
+      "concept": "Partial Pressure",
+      "confidence": 0.16201117318435754,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.16201117318435754,
+        "vocab_a_size": 103,
+        "vocab_b_size": 105,
+        "t_a": 0,
+        "t_b": 110.43
+      }
+    },
+    {
+      "prerequisite": "Phase Behavior",
+      "concept": "Vapor Pressure",
+      "confidence": 0.16201117318435754,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.16201117318435754,
+        "vocab_a_size": 103,
+        "vocab_b_size": 105,
+        "t_a": 0,
+        "t_b": 110.43
+      }
+    },
+    {
+      "prerequisite": "Phase Behavior",
+      "concept": "Partial Pressure",
+      "confidence": 0.16201117318435754,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.16201117318435754,
+        "vocab_a_size": 103,
+        "vocab_b_size": 105,
+        "t_a": 0,
+        "t_b": 110.43
+      }
+    },
+    {
+      "prerequisite": "Molecular Interactions",
+      "concept": "Vapor Pressure",
+      "confidence": 0.16201117318435754,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.16201117318435754,
+        "vocab_a_size": 103,
+        "vocab_b_size": 105,
+        "t_a": 0,
+        "t_b": 110.43
+      }
+    },
+    {
+      "prerequisite": "Molecular Interactions",
+      "concept": "Partial Pressure",
+      "confidence": 0.16201117318435754,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.16201117318435754,
+        "vocab_a_size": 103,
+        "vocab_b_size": 105,
+        "t_a": 0,
+        "t_b": 110.43
+      }
+    },
+    {
+      "prerequisite": "Thermodynamics",
+      "concept": "Vapor Pressure",
+      "confidence": 0.16201117318435754,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.16201117318435754,
+        "vocab_a_size": 103,
+        "vocab_b_size": 105,
+        "t_a": 0,
+        "t_b": 110.43
+      }
+    },
+    {
+      "prerequisite": "Thermodynamics",
+      "concept": "Partial Pressure",
+      "confidence": 0.16201117318435754,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.16201117318435754,
+        "vocab_a_size": 103,
+        "vocab_b_size": 105,
+        "t_a": 0,
+        "t_b": 110.43
+      }
+    },
+    {
+      "prerequisite": "Solute Properties",
+      "concept": "Vapor Pressure",
+      "confidence": 0.16201117318435754,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.16201117318435754,
+        "vocab_a_size": 103,
+        "vocab_b_size": 105,
+        "t_a": 0,
+        "t_b": 110.43
+      }
+    },
+    {
+      "prerequisite": "Solute Properties",
+      "concept": "Partial Pressure",
+      "confidence": 0.16201117318435754,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.16201117318435754,
+        "vocab_a_size": 103,
+        "vocab_b_size": 105,
+        "t_a": 0,
+        "t_b": 110.43
+      }
+    },
+    {
+      "prerequisite": "Mole Fraction",
+      "concept": "Boiling Point Elevation",
+      "confidence": 0.1590909090909091,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.1590909090909091,
+        "vocab_a_size": 97,
+        "vocab_b_size": 107,
+        "t_a": 63.36,
+        "t_b": 549.29
+      }
+    },
+    {
+      "prerequisite": "Mole Fraction",
+      "concept": "Freezing Point Depression",
+      "confidence": 0.1590909090909091,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.1590909090909091,
+        "vocab_a_size": 97,
+        "vocab_b_size": 107,
+        "t_a": 63.36,
+        "t_b": 549.29
+      }
+    },
+    {
+      "prerequisite": "Solution Properties",
+      "concept": "Vapor Pressure",
+      "confidence": 0.15760869565217392,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.15760869565217392,
+        "vocab_a_size": 108,
+        "vocab_b_size": 105,
+        "t_a": 8.6,
+        "t_b": 110.43
+      }
+    },
+    {
+      "prerequisite": "Solution Properties",
+      "concept": "Partial Pressure",
+      "confidence": 0.15760869565217392,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.15760869565217392,
+        "vocab_a_size": 108,
+        "vocab_b_size": 105,
+        "t_a": 8.6,
+        "t_b": 110.43
+      }
+    },
+    {
+      "prerequisite": "Mole Fraction",
+      "concept": "Solvent Properties",
+      "confidence": 0.1511627906976744,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.1511627906976744,
+        "vocab_a_size": 97,
+        "vocab_b_size": 101,
+        "t_a": 63.36,
+        "t_b": 600.76
+      }
+    },
+    {
+      "prerequisite": "Temperature Dependence",
+      "concept": "Raoult's Law",
+      "confidence": 0.14857142857142858,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.14857142857142858,
+        "vocab_a_size": 103,
+        "vocab_b_size": 98,
+        "t_a": 0,
+        "t_b": 401.51
+      }
+    },
+    {
+      "prerequisite": "Temperature Dependence",
+      "concept": "Henry's Law",
+      "confidence": 0.14857142857142858,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.14857142857142858,
+        "vocab_a_size": 103,
+        "vocab_b_size": 98,
+        "t_a": 0,
+        "t_b": 401.51
+      }
+    },
+    {
+      "prerequisite": "Equilibrium",
+      "concept": "Raoult's Law",
+      "confidence": 0.14857142857142858,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.14857142857142858,
+        "vocab_a_size": 103,
+        "vocab_b_size": 98,
+        "t_a": 0,
+        "t_b": 401.51
+      }
+    },
+    {
+      "prerequisite": "Equilibrium",
+      "concept": "Henry's Law",
+      "confidence": 0.14857142857142858,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.14857142857142858,
+        "vocab_a_size": 103,
+        "vocab_b_size": 98,
+        "t_a": 0,
+        "t_b": 401.51
+      }
+    },
+    {
+      "prerequisite": "Chemical Composition",
+      "concept": "Raoult's Law",
+      "confidence": 0.14857142857142858,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.14857142857142858,
+        "vocab_a_size": 103,
+        "vocab_b_size": 98,
+        "t_a": 0,
+        "t_b": 401.51
+      }
+    },
+    {
+      "prerequisite": "Chemical Composition",
+      "concept": "Henry's Law",
+      "confidence": 0.14857142857142858,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.14857142857142858,
+        "vocab_a_size": 103,
+        "vocab_b_size": 98,
+        "t_a": 0,
+        "t_b": 401.51
+      }
+    },
+    {
+      "prerequisite": "Concentration",
+      "concept": "Raoult's Law",
+      "confidence": 0.14857142857142858,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.14857142857142858,
+        "vocab_a_size": 103,
+        "vocab_b_size": 98,
+        "t_a": 0,
+        "t_b": 401.51
+      }
+    },
+    {
+      "prerequisite": "Concentration",
+      "concept": "Henry's Law",
+      "confidence": 0.14857142857142858,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.14857142857142858,
+        "vocab_a_size": 103,
+        "vocab_b_size": 98,
+        "t_a": 0,
+        "t_b": 401.51
+      }
+    },
+    {
+      "prerequisite": "Phase Behavior",
+      "concept": "Raoult's Law",
+      "confidence": 0.14857142857142858,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.14857142857142858,
+        "vocab_a_size": 103,
+        "vocab_b_size": 98,
+        "t_a": 0,
+        "t_b": 401.51
+      }
+    },
+    {
+      "prerequisite": "Phase Behavior",
+      "concept": "Henry's Law",
+      "confidence": 0.14857142857142858,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.14857142857142858,
+        "vocab_a_size": 103,
+        "vocab_b_size": 98,
+        "t_a": 0,
+        "t_b": 401.51
+      }
+    },
+    {
+      "prerequisite": "Molecular Interactions",
+      "concept": "Raoult's Law",
+      "confidence": 0.14857142857142858,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.14857142857142858,
+        "vocab_a_size": 103,
+        "vocab_b_size": 98,
+        "t_a": 0,
+        "t_b": 401.51
+      }
+    },
+    {
+      "prerequisite": "Molecular Interactions",
+      "concept": "Henry's Law",
+      "confidence": 0.14857142857142858,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.14857142857142858,
+        "vocab_a_size": 103,
+        "vocab_b_size": 98,
+        "t_a": 0,
+        "t_b": 401.51
+      }
+    },
+    {
+      "prerequisite": "Thermodynamics",
+      "concept": "Raoult's Law",
+      "confidence": 0.14857142857142858,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.14857142857142858,
+        "vocab_a_size": 103,
+        "vocab_b_size": 98,
+        "t_a": 0,
+        "t_b": 401.51
+      }
+    },
+    {
+      "prerequisite": "Thermodynamics",
+      "concept": "Henry's Law",
+      "confidence": 0.14857142857142858,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.14857142857142858,
+        "vocab_a_size": 103,
+        "vocab_b_size": 98,
+        "t_a": 0,
+        "t_b": 401.51
+      }
+    },
+    {
+      "prerequisite": "Solute Properties",
+      "concept": "Raoult's Law",
+      "confidence": 0.14857142857142858,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.14857142857142858,
+        "vocab_a_size": 103,
+        "vocab_b_size": 98,
+        "t_a": 0,
+        "t_b": 401.51
+      }
+    },
+    {
+      "prerequisite": "Solute Properties",
+      "concept": "Henry's Law",
+      "confidence": 0.14857142857142858,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.14857142857142858,
+        "vocab_a_size": 103,
+        "vocab_b_size": 98,
+        "t_a": 0,
+        "t_b": 401.51
+      }
+    },
+    {
+      "prerequisite": "Temperature Dependence",
+      "concept": "Solvent Properties",
+      "confidence": 0.14606741573033707,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.14606741573033707,
+        "vocab_a_size": 103,
+        "vocab_b_size": 101,
+        "t_a": 0,
+        "t_b": 600.76
+      }
+    },
+    {
+      "prerequisite": "Equilibrium",
+      "concept": "Solvent Properties",
+      "confidence": 0.14606741573033707,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.14606741573033707,
+        "vocab_a_size": 103,
+        "vocab_b_size": 101,
+        "t_a": 0,
+        "t_b": 600.76
+      }
+    },
+    {
+      "prerequisite": "Chemical Composition",
+      "concept": "Solvent Properties",
+      "confidence": 0.14606741573033707,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.14606741573033707,
+        "vocab_a_size": 103,
+        "vocab_b_size": 101,
+        "t_a": 0,
+        "t_b": 600.76
+      }
+    },
+    {
+      "prerequisite": "Concentration",
+      "concept": "Solvent Properties",
+      "confidence": 0.14606741573033707,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.14606741573033707,
+        "vocab_a_size": 103,
+        "vocab_b_size": 101,
+        "t_a": 0,
+        "t_b": 600.76
+      }
+    },
+    {
+      "prerequisite": "Phase Behavior",
+      "concept": "Solvent Properties",
+      "confidence": 0.14606741573033707,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.14606741573033707,
+        "vocab_a_size": 103,
+        "vocab_b_size": 101,
+        "t_a": 0,
+        "t_b": 600.76
+      }
+    },
+    {
+      "prerequisite": "Molecular Interactions",
+      "concept": "Solvent Properties",
+      "confidence": 0.14606741573033707,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.14606741573033707,
+        "vocab_a_size": 103,
+        "vocab_b_size": 101,
+        "t_a": 0,
+        "t_b": 600.76
+      }
+    },
+    {
+      "prerequisite": "Thermodynamics",
+      "concept": "Solvent Properties",
+      "confidence": 0.14606741573033707,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.14606741573033707,
+        "vocab_a_size": 103,
+        "vocab_b_size": 101,
+        "t_a": 0,
+        "t_b": 600.76
+      }
+    },
+    {
+      "prerequisite": "Solute Properties",
+      "concept": "Solvent Properties",
+      "confidence": 0.14606741573033707,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.14606741573033707,
+        "vocab_a_size": 103,
+        "vocab_b_size": 101,
+        "t_a": 0,
+        "t_b": 600.76
+      }
+    },
+    {
+      "prerequisite": "Solution Properties",
+      "concept": "Raoult's Law",
+      "confidence": 0.14444444444444443,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.14444444444444443,
+        "vocab_a_size": 108,
+        "vocab_b_size": 98,
+        "t_a": 8.6,
+        "t_b": 401.51
+      }
+    },
+    {
+      "prerequisite": "Solution Properties",
+      "concept": "Henry's Law",
+      "confidence": 0.14444444444444443,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.14444444444444443,
+        "vocab_a_size": 108,
+        "vocab_b_size": 98,
+        "t_a": 8.6,
+        "t_b": 401.51
+      }
+    },
+    {
+      "prerequisite": "Solution Properties",
+      "concept": "Solvent Properties",
+      "confidence": 0.14207650273224043,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.14207650273224043,
+        "vocab_a_size": 108,
+        "vocab_b_size": 101,
+        "t_a": 8.6,
+        "t_b": 600.76
+      }
+    },
+    {
+      "prerequisite": "Liquid Solutions",
+      "concept": "Solvent Properties",
+      "confidence": 0.14054054054054055,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.14054054054054055,
+        "vocab_a_size": 110,
+        "vocab_b_size": 101,
+        "t_a": 41.539,
+        "t_b": 600.76
+      }
+    },
+    {
+      "prerequisite": "Binary Solutions",
+      "concept": "Solvent Properties",
+      "confidence": 0.14054054054054055,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.14054054054054055,
+        "vocab_a_size": 110,
+        "vocab_b_size": 101,
+        "t_a": 41.539,
+        "t_b": 600.76
+      }
+    },
+    {
+      "prerequisite": "Ideal Solutions",
+      "concept": "Solvent Properties",
+      "confidence": 0.14054054054054055,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.14054054054054055,
+        "vocab_a_size": 110,
+        "vocab_b_size": 101,
+        "t_a": 41.539,
+        "t_b": 600.76
+      }
+    }
+  ]
+}

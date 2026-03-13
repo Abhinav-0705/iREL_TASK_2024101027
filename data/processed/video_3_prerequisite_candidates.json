@@ -1,0 +1,38 @@
+{
+  "video_id": "video_3",
+  "total_concepts": 20,
+  "candidate_edges": [
+    {
+      "prerequisite": "Graph",
+      "target": "Graph Theory",
+      "prerequisite_time": 3.59,
+      "target_time": 61.74,
+      "time_gap": 58.150000000000006,
+      "teaching_signals": [
+        "then",
+        "using"
+      ],
+      "signal_count": 2,
+      "strength": "strong",
+      "context_window": "and You can subscribe Subscribe button and in customers Quiet is not present in a factory Graph theory, so here we people are giving you two If we are focusing on things then visiting all and the second is exploring which means Alright So I will do it here, I will do it on that Subscribe to reach Don't forget to subscribe along with its pimples"
+    },
+    {
+      "prerequisite": "Graph",
+      "target": "Time Complexity",
+      "prerequisite_time": 3.59,
+      "target_time": 636.69,
+      "time_gap": 633.1,
+      "teaching_signals": [
+        "after",
+        "then"
+      ],
+      "signal_count": 2,
+      "strength": "strong",
+      "context_window": "After going back, this is what they are in the diagram It is visible, right, it will melt, we say that you Set this, then take out three from it But reached that there is some other option, some other There is no option so I am front four four No option is available but someone else has reached No option then I will be final Subscribe There are two things there Time complexity is O(B + C) Because we are doing all these products and What are all the apps doing, traveling It can be maximum on the "
+    }
+  ],
+  "total_candidates": 2,
+  "strong_candidates": 2,
+  "weak_candidates": 0,
+  "window_seconds": 30
+}

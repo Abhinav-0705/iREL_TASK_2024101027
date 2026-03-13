@@ -1,0 +1,76 @@
+# Global Settings
+
+# Whisper Model Configuration
+whisper:
+  model_size: "medium"  # tiny, base, small, medium, large
+  language: null  # null = auto-detect, "hi" = Hindi, "te" = Telugu, "en" = English
+  task: "transcribe"
+  # Supported languages: Hindi (hi), Telugu (te), English (en), and 90+ others
+  
+# Sentence Segmentation
+segmentation:
+  min_sentence_length: 5
+  max_sentence_length: 200
+  
+# Concept Extraction
+concept_extraction:
+  method: "llm"  # "llm" or "classical" (keybert/tfidf/ner)
+  
+  # LLM-based extraction (Pipeline 3: Iterative Refinement)
+  llm:
+    provider: "gemini"
+    model: "gemini-2.0-flash"
+    temperature: 0.3
+    max_concepts: 20
+    chunk_size: 500       # words per chunk
+    chunk_overlap: 50     # overlap words between chunks
+    # Groq config (used for Pass 2: critique & dedup)
+    groq_model: "llama-3.3-70b-versatile"
+
+  # Classical extraction (fallback)
+  classical:
+    methods:
+      - "keybert"
+      - "tfidf"
+      - "ner"
+    keybert:
+      top_n: 5
+      diversity: 0.7
+    tfidf:
+      max_features: 100
+      ngram_range: [1, 3]
+    ner:
+      enabled: true
+    
+# Language Model
+language_model:
+  model_name: "sentence-transformers/paraphrase-multilingual-mpnet-base-v2"
+  similarity_threshold: 0.7
+  
+# Prerequisite Detection
+prerequisite_detection:
+  confidence_threshold: 0.6
+  window_size: 3  # sentences to consider for context
+  
+# Relation Classification
+relation_classification:
+  classifier_type: "rule_based"  # or "ml_model"
+  confidence_threshold: 0.5
+  
+# Hypergraph
+hypergraph:
+  min_edge_confidence: 0.5
+  allow_self_loops: false
+  
+# Visualization
+visualization:
+  format: "png"
+  dpi: 300
+  layout: "spring"  # spring, circular, kamada_kawai
+  node_size: 2000
+  font_size: 10
+  
+# Output
+output:
+  save_intermediate: true
+  format: "json"

@@ -1,0 +1,221 @@
+{
+  "video_id": "video_5",
+  "total_concepts": 20,
+  "candidate_edges": [
+    {
+      "prerequisite": "Heat Capacity",
+      "target": "Thermodynamics",
+      "prerequisite_time": 4.0,
+      "target_time": 569.0,
+      "time_gap": 565.0,
+      "teaching_signals": [
+        "first"
+      ],
+      "signal_count": 1,
+      "strength": "strong",
+      "context_window": "There is a relationship between total heat capacity and specific heat capacity. For example, this relationship is often considered under conditions such as constant volume or constant pressure. Now, let's discuss the relationship between heat changes at constant pressure and constant volume. In the case of an ideal gas, the heat absorbed at constant volume—denoted by Q_v—is given by the equation Q_v = C_v ΔT. Since the volume is constant, no work is done (W=0); therefore, according to the first "
+    },
+    {
+      "prerequisite": "Heat Capacity",
+      "target": "Internal Energy",
+      "prerequisite_time": 4.0,
+      "target_time": 569.0,
+      "time_gap": 565.0,
+      "teaching_signals": [
+        "first"
+      ],
+      "signal_count": 1,
+      "strength": "strong",
+      "context_window": "There is a relationship between total heat capacity and specific heat capacity. For example, this relationship is often considered under conditions such as constant volume or constant pressure. Now, let's discuss the relationship between heat changes at constant pressure and constant volume. In the case of an ideal gas, the heat absorbed at constant volume—denoted by Q_v—is given by the equation Q_v = C_v ΔT. Since the volume is constant, no work is done (W=0); therefore, according to the first "
+    },
+    {
+      "prerequisite": "Heat Capacity",
+      "target": "First Law Of Thermodynamics",
+      "prerequisite_time": 4.0,
+      "target_time": 569.0,
+      "time_gap": 565.0,
+      "teaching_signals": [
+        "first"
+      ],
+      "signal_count": 1,
+      "strength": "strong",
+      "context_window": "There is a relationship between total heat capacity and specific heat capacity. For example, this relationship is often considered under conditions such as constant volume or constant pressure. Now, let's discuss the relationship between heat changes at constant pressure and constant volume. In the case of an ideal gas, the heat absorbed at constant volume—denoted by Q_v—is given by the equation Q_v = C_v ΔT. Since the volume is constant, no work is done (W=0); therefore, according to the first "
+    },
+    {
+      "prerequisite": "Heat Capacity",
+      "target": "Ideal Gas",
+      "prerequisite_time": 4.0,
+      "target_time": 569.0,
+      "time_gap": 565.0,
+      "teaching_signals": [
+        "first"
+      ],
+      "signal_count": 1,
+      "strength": "strong",
+      "context_window": "There is a relationship between total heat capacity and specific heat capacity. For example, this relationship is often considered under conditions such as constant volume or constant pressure. Now, let's discuss the relationship between heat changes at constant pressure and constant volume. In the case of an ideal gas, the heat absorbed at constant volume—denoted by Q_v—is given by the equation Q_v = C_v ΔT. Since the volume is constant, no work is done (W=0); therefore, according to the first "
+    },
+    {
+      "prerequisite": "Heat Capacity",
+      "target": "Mass",
+      "prerequisite_time": 4.0,
+      "target_time": 64.0,
+      "time_gap": 60.0,
+      "teaching_signals": [],
+      "signal_count": 0,
+      "strength": "weak",
+      "context_window": "This \"unit degree\" can be one degree Celsius or one degree Fahrenheit. The amount of heat required to raise the temperature of a given system by one unit degree is called the \"heat capacity\". So, heat capacity can be defined as: the amount of heat required to raise the temperature of a given mass (or a specific system) by one unit degree."
+    },
+    {
+      "prerequisite": "Heat Capacity",
+      "target": "Constant Volume",
+      "prerequisite_time": 4.0,
+      "target_time": 569.0,
+      "time_gap": 565.0,
+      "teaching_signals": [
+        "first"
+      ],
+      "signal_count": 1,
+      "strength": "strong",
+      "context_window": "There is a relationship between total heat capacity and specific heat capacity. For example, this relationship is often considered under conditions such as constant volume or constant pressure. Now, let's discuss the relationship between heat changes at constant pressure and constant volume. In the case of an ideal gas, the heat absorbed at constant volume—denoted by Q_v—is given by the equation Q_v = C_v ΔT. Since the volume is constant, no work is done (W=0); therefore, according to the first "
+    },
+    {
+      "prerequisite": "Heat Capacity",
+      "target": "Constant Pressure",
+      "prerequisite_time": 4.0,
+      "target_time": 569.0,
+      "time_gap": 565.0,
+      "teaching_signals": [
+        "first"
+      ],
+      "signal_count": 1,
+      "strength": "strong",
+      "context_window": "There is a relationship between total heat capacity and specific heat capacity. For example, this relationship is often considered under conditions such as constant volume or constant pressure. Now, let's discuss the relationship between heat changes at constant pressure and constant volume. In the case of an ideal gas, the heat absorbed at constant volume—denoted by Q_v—is given by the equation Q_v = C_v ΔT. Since the volume is constant, no work is done (W=0); therefore, according to the first "
+    },
+    {
+      "prerequisite": "Specific Heat Capacity",
+      "target": "Thermodynamics",
+      "prerequisite_time": 4.0,
+      "target_time": 569.0,
+      "time_gap": 565.0,
+      "teaching_signals": [
+        "first"
+      ],
+      "signal_count": 1,
+      "strength": "strong",
+      "context_window": "There is a relationship between total heat capacity and specific heat capacity. For example, this relationship is often considered under conditions such as constant volume or constant pressure. Now, let's discuss the relationship between heat changes at constant pressure and constant volume. In the case of an ideal gas, the heat absorbed at constant volume—denoted by Q_v—is given by the equation Q_v = C_v ΔT. Since the volume is constant, no work is done (W=0); therefore, according to the first "
+    },
+    {
+      "prerequisite": "Specific Heat Capacity",
+      "target": "Internal Energy",
+      "prerequisite_time": 4.0,
+      "target_time": 569.0,
+      "time_gap": 565.0,
+      "teaching_signals": [
+        "first"
+      ],
+      "signal_count": 1,
+      "strength": "strong",
+      "context_window": "There is a relationship between total heat capacity and specific heat capacity. For example, this relationship is often considered under conditions such as constant volume or constant pressure. Now, let's discuss the relationship between heat changes at constant pressure and constant volume. In the case of an ideal gas, the heat absorbed at constant volume—denoted by Q_v—is given by the equation Q_v = C_v ΔT. Since the volume is constant, no work is done (W=0); therefore, according to the first "
+    },
+    {
+      "prerequisite": "Specific Heat Capacity",
+      "target": "First Law Of Thermodynamics",
+      "prerequisite_time": 4.0,
+      "target_time": 569.0,
+      "time_gap": 565.0,
+      "teaching_signals": [
+        "first"
+      ],
+      "signal_count": 1,
+      "strength": "strong",
+      "context_window": "There is a relationship between total heat capacity and specific heat capacity. For example, this relationship is often considered under conditions such as constant volume or constant pressure. Now, let's discuss the relationship between heat changes at constant pressure and constant volume. In the case of an ideal gas, the heat absorbed at constant volume—denoted by Q_v—is given by the equation Q_v = C_v ΔT. Since the volume is constant, no work is done (W=0); therefore, according to the first "
+    },
+    {
+      "prerequisite": "Specific Heat Capacity",
+      "target": "Ideal Gas",
+      "prerequisite_time": 4.0,
+      "target_time": 569.0,
+      "time_gap": 565.0,
+      "teaching_signals": [
+        "first"
+      ],
+      "signal_count": 1,
+      "strength": "strong",
+      "context_window": "There is a relationship between total heat capacity and specific heat capacity. For example, this relationship is often considered under conditions such as constant volume or constant pressure. Now, let's discuss the relationship between heat changes at constant pressure and constant volume. In the case of an ideal gas, the heat absorbed at constant volume—denoted by Q_v—is given by the equation Q_v = C_v ΔT. Since the volume is constant, no work is done (W=0); therefore, according to the first "
+    },
+    {
+      "prerequisite": "Specific Heat Capacity",
+      "target": "Constant Volume",
+      "prerequisite_time": 4.0,
+      "target_time": 569.0,
+      "time_gap": 565.0,
+      "teaching_signals": [
+        "first"
+      ],
+      "signal_count": 1,
+      "strength": "strong",
+      "context_window": "There is a relationship between total heat capacity and specific heat capacity. For example, this relationship is often considered under conditions such as constant volume or constant pressure. Now, let's discuss the relationship between heat changes at constant pressure and constant volume. In the case of an ideal gas, the heat absorbed at constant volume—denoted by Q_v—is given by the equation Q_v = C_v ΔT. Since the volume is constant, no work is done (W=0); therefore, according to the first "
+    },
+    {
+      "prerequisite": "Specific Heat Capacity",
+      "target": "Constant Pressure",
+      "prerequisite_time": 4.0,
+      "target_time": 569.0,
+      "time_gap": 565.0,
+      "teaching_signals": [
+        "first"
+      ],
+      "signal_count": 1,
+      "strength": "strong",
+      "context_window": "There is a relationship between total heat capacity and specific heat capacity. For example, this relationship is often considered under conditions such as constant volume or constant pressure. Now, let's discuss the relationship between heat changes at constant pressure and constant volume. In the case of an ideal gas, the heat absorbed at constant volume—denoted by Q_v—is given by the equation Q_v = C_v ΔT. Since the volume is constant, no work is done (W=0); therefore, according to the first "
+    },
+    {
+      "prerequisite": "Ideal Gas",
+      "target": "Mole",
+      "prerequisite_time": 569.0,
+      "target_time": 760.0,
+      "time_gap": 191.0,
+      "teaching_signals": [],
+      "signal_count": 0,
+      "strength": "weak",
+      "context_window": "For an ideal gas, the ideal gas equation states that PV = nRT. In the case of one mole (n=1), it simplifies to PV = RT. If the temperature changes by ΔT at constant pressure, the volume changes by ΔV; this results in the equation P ΔV = R ΔT. Substituting this into the Q_p equation, we get Q_p = ΔU + R ΔT. Since Q_p = C_p ΔT and ΔU = C_v ΔT, we can write: C_p ΔT = C_v ΔT + R ΔT. Dividing both sides of the equation by ΔT, we arrive at this expression: C_p = C_v + R."
+    },
+    {
+      "prerequisite": "Temperature",
+      "target": "Mole",
+      "prerequisite_time": 4.0,
+      "target_time": 760.0,
+      "time_gap": 756.0,
+      "teaching_signals": [],
+      "signal_count": 0,
+      "strength": "weak",
+      "context_window": "For an ideal gas, the ideal gas equation states that PV = nRT. In the case of one mole (n=1), it simplifies to PV = RT. If the temperature changes by ΔT at constant pressure, the volume changes by ΔV; this results in the equation P ΔV = R ΔT. Substituting this into the Q_p equation, we get Q_p = ΔU + R ΔT. Since Q_p = C_p ΔT and ΔU = C_v ΔT, we can write: C_p ΔT = C_v ΔT + R ΔT. Dividing both sides of the equation by ΔT, we arrive at this expression: C_p = C_v + R."
+    },
+    {
+      "prerequisite": "Temperature",
+      "target": "Mass",
+      "prerequisite_time": 4.0,
+      "target_time": 64.0,
+      "time_gap": 60.0,
+      "teaching_signals": [],
+      "signal_count": 0,
+      "strength": "weak",
+      "context_window": "This \"unit degree\" can be one degree Celsius or one degree Fahrenheit. The amount of heat required to raise the temperature of a given system by one unit degree is called the \"heat capacity\". So, heat capacity can be defined as: the amount of heat required to raise the temperature of a given mass (or a specific system) by one unit degree."
+    },
+    {
+      "prerequisite": "Constant Pressure",
+      "target": "Mole",
+      "prerequisite_time": 569.0,
+      "target_time": 760.0,
+      "time_gap": 191.0,
+      "teaching_signals": [],
+      "signal_count": 0,
+      "strength": "weak",
+      "context_window": "For an ideal gas, the ideal gas equation states that PV = nRT. In the case of one mole (n=1), it simplifies to PV = RT. If the temperature changes by ΔT at constant pressure, the volume changes by ΔV; this results in the equation P ΔV = R ΔT. Substituting this into the Q_p equation, we get Q_p = ΔU + R ΔT. Since Q_p = C_p ΔT and ΔU = C_v ΔT, we can write: C_p ΔT = C_v ΔT + R ΔT. Dividing both sides of the equation by ΔT, we arrive at this expression: C_p = C_v + R."
+    }
+  ],
+  "total_candidates": 17,
+  "strong_candidates": 12,
+  "weak_candidates": 5,
+  "window_seconds": 30
+}

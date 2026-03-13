@@ -1,0 +1,34 @@
+{
+  "video_id": "video_3",
+  "domain": "Algorithms",
+  "total_relations": 0,
+  "relation_type_counts": {
+    "SINGLE": 0,
+    "HARD_AND": 0,
+    "SOFT_AND": 0,
+    "OR": 0
+  },
+  "relations": [],
+  "concepts": [
+    "Graph",
+    "Depth First Search",
+    "Breadth First Search",
+    "Tree Traversal",
+    "Level Order Traversal",
+    "Backtracking",
+    "Node",
+    "Edge",
+    "Recursion",
+    "Queue",
+    "Stack",
+    "Graph Theory",
+    "Dynamic Programming",
+    "Topological Sort",
+    "Time Complexity",
+    "Shortest Path",
+    "Space Complexity",
+    "Minimum Spanning Tree",
+    "Maximum Flow",
+    "Connected Component"
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "video_id": "video_5",
+  "method": "hybrid_implicit_filtered",
+  "num_nodes": 20,
+  "num_edges": 3,
+  "nodes": [
+    {
+      "id": 0,
+      "label": "Heat Capacity",
+      "concept": "Heat Capacity",
+      "llm_category": "core"
+    },
+    {
+      "id": 1,
+      "label": "Specific Heat Capacity",
+      "concept": "Specific Heat Capacity",
+      "llm_category": "core"
+    },
+    {
+      "id": 2,
+      "label": "Molar Heat Capacity",
+      "concept": "Molar Heat Capacity",
+      "llm_category": "core"
+    },
+    {
+      "id": 3,
+      "label": "Thermodynamics",
+      "concept": "Thermodynamics",
+      "llm_category": "core"
+    },
+    {
+      "id": 4,
+      "label": "Internal Energy",
+      "concept": "Internal Energy",
+      "llm_category": "prerequisite"
+    },
+    {
+      "id": 5,
+      "label": "First Law Of Thermodynamics",
+      "concept": "First Law Of Thermodynamics",
+      "llm_category": "prerequisite"
+    },
+    {
+      "id": 6,
+      "label": "Ideal Gas",
+      "concept": "Ideal Gas",
+      "llm_category": "prerequisite"
+    },
+    {
+      "id": 7,
+      "label": "Gas Constant",
+      "concept": "Gas Constant",
+      "llm_category": "prerequisite"
+    },
+    {
+      "id": 8,
+      "label": "Mole",
+      "concept": "Mole",
+      "llm_category": "prerequisite"
+    },
+    {
+      "id": 9,
+      "label": "Mass",
+      "concept": "Mass",
+      "llm_category": "prerequisite"
+    },
+    {
+      "id": 10,
+      "label": "Ideal Gas Law",
+      "concept": "Ideal Gas Law",
+      "llm_category": "prerequisite"
+    },
+    {
+      "id": 11,
+      "label": "Heat Transfer",
+      "concept": "Heat Transfer",
+      "llm_category": "related"
+    },
+    {
+      "id": 12,
+      "label": "Thermal Energy",
+      "concept": "Thermal Energy",
+      "llm_category": "related"
+    },
+    {
+      "id": 13,
+      "label": "Temperature",
+      "concept": "Temperature",
+      "llm_category": "definition"
+    },
+    {
+      "id": 14,
+      "label": "Constant Volume",
+      "concept": "Constant Volume",
+      "llm_category": "related"
+    },
+    {
+      "id": 15,
+      "label": "Constant Pressure",
+      "concept": "Constant Pressure",
+      "llm_category": "related"
+    },
+    {
+      "id": 16,
+      "label": "Adiabatic Process",
+      "concept": "Adiabatic Process",
+      "llm_category": "related"
+    },
+    {
+      "id": 17,
+      "label": "Isothermal Process",
+      "concept": "Isothermal Process",
+      "llm_category": "related"
+    },
+    {
+      "id": 18,
+      "label": "Isobaric Process",
+      "concept": "Isobaric Process",
+      "llm_category": "related"
+    },
+    {
+      "id": 19,
+      "label": "Isochoric Process",
+      "concept": "Isochoric Process",
+      "llm_category": "related"
+    }
+  ],
+  "edges": [
+    {
+      "source": 0,
+      "target": 9,
+      "prerequisite": "Heat Capacity",
+      "target_concept": "Mass",
+      "confidence": 0.6762221002578734,
+      "edge_type": "semantic_temporal"
+    },
+    {
+      "source": 1,
+      "target": 9,
+      "prerequisite": "Specific Heat Capacity",
+      "target_concept": "Mass",
+      "confidence": 0.6912913286685943,
+      "edge_type": "semantic_temporal"
+    },
+    {
+      "source": 2,
+      "target": 9,
+      "prerequisite": "Molar Heat Capacity",
+      "target_concept": "Mass",
+      "confidence": 0.5813269877433777,
+      "edge_type": "semantic_temporal"
+    }
+  ]
+}

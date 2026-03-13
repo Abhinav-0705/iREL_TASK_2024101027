@@ -1,0 +1,28 @@
+{
+  "video_id": "video_3",
+  "domain": "Algorithms",
+  "total_prerequisites": 0,
+  "prerequisites": [],
+  "concepts": [
+    "Graph",
+    "Depth First Search",
+    "Breadth First Search",
+    "Tree Traversal",
+    "Level Order Traversal",
+    "Backtracking",
+    "Node",
+    "Edge",
+    "Recursion",
+    "Queue",
+    "Stack",
+    "Graph Theory",
+    "Dynamic Programming",
+    "Topological Sort",
+    "Time Complexity",
+    "Shortest Path",
+    "Space Complexity",
+    "Minimum Spanning Tree",
+    "Maximum Flow",
+    "Connected Component"
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "video_id": "video_1",
+  "nodes": [
+    {
+      "id": 0,
+      "label": "Dynamic Programming"
+    },
+    {
+      "id": 1,
+      "label": "Algorithm"
+    },
+    {
+      "id": 2,
+      "label": "Algorithmic Thinking"
+    },
+    {
+      "id": 3,
+      "label": "Recursion"
+    },
+    {
+      "id": 4,
+      "label": "Time Complexity"
+    },
+    {
+      "id": 5,
+      "label": "Space Complexity"
+    },
+    {
+      "id": 6,
+      "label": "Function Parameterization"
+    },
+    {
+      "id": 7,
+      "label": "Memoization"
+    },
+    {
+      "id": 8,
+      "label": "Optimization"
+    },
+    {
+      "id": 9,
+      "label": "Top Down Dynamic Programming"
+    },
+    {
+      "id": 10,
+      "label": "Bottom Up Dynamic Programming"
+    },
+    {
+      "id": 11,
+      "label": "Overlapping Subproblems"
+    },
+    {
+      "id": 12,
+      "label": "Optimal Substructure"
+    },
+    {
+      "id": 13,
+      "label": "Tabulation"
+    },
+    {
+      "id": 14,
+      "label": "Memoization Table"
+    },
+    {
+      "id": 15,
+      "label": "DP Array"
+    },
+    {
+      "id": 16,
+      "label": "Recurrence Relation"
+    },
+    {
+      "id": 17,
+      "label": "Divide and Conquer"
+    },
+    {
+      "id": 18,
+      "label": "Fibonacci Series"
+    }
+  ],
+  "edges": [
+    {
+      "source": 0,
+      "target": 7,
+      "prerequisite": "Dynamic Programming",
+      "target_concept": "Memoization",
+      "confidence": 0.9,
+      "teaching_signals": [
+        "remember"
+      ]
+    },
+    {
+      "source": 0,
+      "target": 10,
+      "prerequisite": "Dynamic Programming",
+      "target_concept": "Bottom Up Dynamic Programming",
+      "confidence": 0.9,
+      "teaching_signals": [
+        "depends on"
+      ]
+    },
+    {
+      "source": 0,
+      "target": 15,
+      "prerequisite": "Dynamic Programming",
+      "target_concept": "DP Array",
+      "confidence": 0.8,
+      "teaching_signals": []
+    },
+    {
+      "source": 13,
+      "target": 10,
+      "prerequisite": "Tabulation",
+      "target_concept": "Bottom Up Dynamic Programming",
+      "confidence": 0.9,
+      "teaching_signals": [
+        "depends on"
+      ]
+    }
+  ],
+  "metadata": {
+    "num_nodes": 19,
+    "num_edges": 4,
+    "is_dag": true
+  }
+}

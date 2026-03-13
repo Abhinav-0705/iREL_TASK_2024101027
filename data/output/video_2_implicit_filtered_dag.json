@@ -1,0 +1,256 @@
+{
+  "video_id": "video_2",
+  "method": "hybrid_implicit_filtered",
+  "num_nodes": 21,
+  "num_edges": 15,
+  "nodes": [
+    {
+      "id": 0,
+      "label": "Liquid Solutions",
+      "concept": "Liquid Solutions",
+      "llm_category": "core"
+    },
+    {
+      "id": 1,
+      "label": "Vapor Pressure",
+      "concept": "Vapor Pressure",
+      "llm_category": "core"
+    },
+    {
+      "id": 2,
+      "label": "Volatile Compounds",
+      "concept": "Volatile Compounds",
+      "llm_category": "core"
+    },
+    {
+      "id": 3,
+      "label": "Partial Pressure",
+      "concept": "Partial Pressure",
+      "llm_category": "core"
+    },
+    {
+      "id": 4,
+      "label": "Raoult's Law",
+      "concept": "Raoult's Law",
+      "llm_category": "core"
+    },
+    {
+      "id": 5,
+      "label": "Solution Properties",
+      "concept": "Solution Properties",
+      "llm_category": "core"
+    },
+    {
+      "id": 6,
+      "label": "Binary Solutions",
+      "concept": "Binary Solutions",
+      "llm_category": "core"
+    },
+    {
+      "id": 7,
+      "label": "Mole Fraction",
+      "concept": "Mole Fraction",
+      "llm_category": "core"
+    },
+    {
+      "id": 8,
+      "label": "Temperature Dependence",
+      "concept": "Temperature Dependence",
+      "llm_category": "supporting"
+    },
+    {
+      "id": 9,
+      "label": "Equilibrium",
+      "concept": "Equilibrium",
+      "llm_category": "supporting"
+    },
+    {
+      "id": 10,
+      "label": "Chemical Composition",
+      "concept": "Chemical Composition",
+      "llm_category": "supporting"
+    },
+    {
+      "id": 11,
+      "label": "Concentration",
+      "concept": "Concentration",
+      "llm_category": "supporting"
+    },
+    {
+      "id": 12,
+      "label": "Phase Behavior",
+      "concept": "Phase Behavior",
+      "llm_category": "supporting"
+    },
+    {
+      "id": 13,
+      "label": "Ideal Solutions",
+      "concept": "Ideal Solutions",
+      "llm_category": "supporting"
+    },
+    {
+      "id": 14,
+      "label": "Molecular Interactions",
+      "concept": "Molecular Interactions",
+      "llm_category": "supporting"
+    },
+    {
+      "id": 15,
+      "label": "Thermodynamics",
+      "concept": "Thermodynamics",
+      "llm_category": "supporting"
+    },
+    {
+      "id": 16,
+      "label": "Solvent Properties",
+      "concept": "Solvent Properties",
+      "llm_category": "supporting"
+    },
+    {
+      "id": 17,
+      "label": "Solute Properties",
+      "concept": "Solute Properties",
+      "llm_category": "supporting"
+    },
+    {
+      "id": 18,
+      "label": "Henry's Law",
+      "concept": "Henry's Law",
+      "llm_category": "advanced"
+    },
+    {
+      "id": 19,
+      "label": "Boiling Point Elevation",
+      "concept": "Boiling Point Elevation",
+      "llm_category": "advanced"
+    },
+    {
+      "id": 20,
+      "label": "Freezing Point Depression",
+      "concept": "Freezing Point Depression",
+      "llm_category": "advanced"
+    }
+  ],
+  "edges": [
+    {
+      "source": 0,
+      "target": 7,
+      "prerequisite": "Liquid Solutions",
+      "target_concept": "Mole Fraction",
+      "confidence": 0.6372589358209105,
+      "edge_type": "combined"
+    },
+    {
+      "source": 2,
+      "target": 1,
+      "prerequisite": "Volatile Compounds",
+      "target_concept": "Vapor Pressure",
+      "confidence": 0.8849557522123894,
+      "edge_type": "video_explanation_overlap"
+    },
+    {
+      "source": 2,
+      "target": 3,
+      "prerequisite": "Volatile Compounds",
+      "target_concept": "Partial Pressure",
+      "confidence": 0.7665306564121458,
+      "edge_type": "combined"
+    },
+    {
+      "source": 5,
+      "target": 6,
+      "prerequisite": "Solution Properties",
+      "target_concept": "Binary Solutions",
+      "confidence": 0.6007558258846625,
+      "edge_type": "combined"
+    },
+    {
+      "source": 5,
+      "target": 13,
+      "prerequisite": "Solution Properties",
+      "target_concept": "Ideal Solutions",
+      "confidence": 0.6007558258846625,
+      "edge_type": "combined"
+    },
+    {
+      "source": 7,
+      "target": 2,
+      "prerequisite": "Mole Fraction",
+      "target_concept": "Volatile Compounds",
+      "confidence": 0.8351851851851853,
+      "edge_type": "combined"
+    },
+    {
+      "source": 7,
+      "target": 18,
+      "prerequisite": "Mole Fraction",
+      "target_concept": "Henry's Law",
+      "confidence": 0.6183229813664597,
+      "edge_type": "combined"
+    },
+    {
+      "source": 8,
+      "target": 5,
+      "prerequisite": "Temperature Dependence",
+      "target_concept": "Solution Properties",
+      "confidence": 0.9537037037037037,
+      "edge_type": "video_explanation_overlap"
+    },
+    {
+      "source": 9,
+      "target": 5,
+      "prerequisite": "Equilibrium",
+      "target_concept": "Solution Properties",
+      "confidence": 0.9537037037037037,
+      "edge_type": "video_explanation_overlap"
+    },
+    {
+      "source": 10,
+      "target": 5,
+      "prerequisite": "Chemical Composition",
+      "target_concept": "Solution Properties",
+      "confidence": 0.9537037037037037,
+      "edge_type": "video_explanation_overlap"
+    },
+    {
+      "source": 11,
+      "target": 5,
+      "prerequisite": "Concentration",
+      "target_concept": "Solution Properties",
+      "confidence": 0.9537037037037037,
+      "edge_type": "video_explanation_overlap"
+    },
+    {
+      "source": 12,
+      "target": 5,
+      "prerequisite": "Phase Behavior",
+      "target_concept": "Solution Properties",
+      "confidence": 0.9537037037037037,
+      "edge_type": "video_explanation_overlap"
+    },
+    {
+      "source": 14,
+      "target": 5,
+      "prerequisite": "Molecular Interactions",
+      "target_concept": "Solution Properties",
+      "confidence": 0.9537037037037037,
+      "edge_type": "video_explanation_overlap"
+    },
+    {
+      "source": 15,
+      "target": 5,
+      "prerequisite": "Thermodynamics",
+      "target_concept": "Solution Properties",
+      "confidence": 0.9537037037037037,
+      "edge_type": "video_explanation_overlap"
+    },
+    {
+      "source": 17,
+      "target": 5,
+      "prerequisite": "Solute Properties",
+      "target_concept": "Solution Properties",
+      "confidence": 0.9537037037037037,
+      "edge_type": "video_explanation_overlap"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "video_id": "video_2",
+  "total_candidates": 3,
+  "total_verified": 2,
+  "all_edges": [
+    {
+      "prerequisite": "Vapor Pressure",
+      "target": "Partial Pressure",
+      "prerequisite_time": 137.53,
+      "target_time": 211.31,
+      "time_gap": 73.78,
+      "teaching_signals": [
+        "need",
+        "then"
+      ],
+      "signal_count": 2,
+      "strength": "strong",
+      "context_window": "Vapor pressure will be combined The total vapor pressure that you have here will be Water vapor pressure development will be of baby water vapor Pressure development will also take place, it's a poetic pressure How much it will be, that needs to be calculated, how to do it Calculate when it is hundred percent He was the President then, now he does Seven Eight 0.41 6 Presentation Bundle Operation Polo Matter That's it, now you can say this is 14% or this We can say this is 50% and multiply It has",
+      "llm_verified": false,
+      "llm_confidence": 0.8,
+      "llm_reasoning": "The teacher does not explicitly reference \"Vapor Pressure\" as a prerequisite or a foundation for understanding \"Partial Pressure\" in this context. The explanation of vapor pressure development seems to be a standalone concept, and there is no clear indication that understanding vapor pressure is necessary to grasp partial pressure. The teacher's explanation lacks teaching signals that would suggest a prerequisite relationship between the two concepts.",
+      "llm_response": "ANSWER: NO\nCONFIDENCE: 0.8\nREASONING: The teacher does not explicitly reference \"Vapor Pressure\" as a prerequisite or a foundation for understanding \"Partial Pressure\" in this context. The explanation of vapor pressure development seems to be a standalone concept, and there is no clear indication that understanding vapor pressure is necessary to grasp partial pressure. The teacher's explanation lacks teaching signals that would suggest a prerequisite relationship between the two concepts."
+    },
+    {
+      "prerequisite": "Partial Pressure",
+      "target": "Henry's Law",
+      "prerequisite_time": 211.31,
+      "target_time": 727.2,
+      "time_gap": 515.8900000000001,
+      "teaching_signals": [],
+      "signal_count": 0,
+      "strength": "weak",
+      "context_window": "Percentage of infection in mall traction is whose Percentage small percentage in precious moments Expressed in small fraction and gas Will be equal to K times parcel pressure and Gas back this formula has become if I From here to here Let me pause and explain how to parse it I have kept the pressure and gas at the mall Fraction of gas put it there into one I will make the accountant which is the The function will become a formula, a mole fraction Our gas multiplied by k between which we They say",
+      "llm_verified": true,
+      "llm_confidence": 0.8,
+      "llm_reasoning": "The teacher mentions \"parcel pressure\" which seems to be a reference to partial pressure, and uses it to explain the formula related to Henry's Law, indicating a connection between the two concepts. The explanation of Henry's Law builds upon the idea of partial pressure, suggesting that understanding partial pressure is necessary to grasp Henry's Law. Although the teacher does not use explicit teaching signals like \"before\" or \"first\", the context implies that partial pressure is a foundational concept for understanding Henry's Law.",
+      "llm_response": "ANSWER: YES\nCONFIDENCE: 0.8\nREASONING: The teacher mentions \"parcel pressure\" which seems to be a reference to partial pressure, and uses it to explain the formula related to Henry's Law, indicating a connection between the two concepts. The explanation of Henry's Law builds upon the idea of partial pressure, suggesting that understanding partial pressure is necessary to grasp Henry's Law. Although the teacher does not use explicit teaching signals like \"before\" or \"first\", the context implies that partial pressure is a foundational concept for understanding Henry's Law."
+    },
+    {
+      "prerequisite": "Mole Fraction",
+      "target": "Henry's Law",
+      "prerequisite_time": 684.5,
+      "target_time": 727.2,
+      "time_gap": 42.700000000000045,
+      "teaching_signals": [],
+      "signal_count": 0,
+      "strength": "weak",
+      "context_window": "Percentage of infection in mall traction is whose Percentage small percentage in precious moments Expressed in small fraction and gas Will be equal to K times parcel pressure and Gas back this formula has become if I From here to here Let me pause and explain how to parse it I have kept the pressure and gas at the mall Fraction of gas put it there into one I will make the accountant which is the The function will become a formula, a mole fraction Our gas multiplied by k between which we They say",
+      "llm_verified": true,
+      "llm_confidence": 0.9,
+      "llm_reasoning": "The teacher explicitly references \"mole fraction\" when explaining Henry's Law, indicating that understanding mole fraction is necessary to grasp the concept of Henry's Law. The teacher also uses phrases like \"the function will become a formula, a mole fraction\" and \"Our gas multiplied by k between which we They say\", suggesting that mole fraction is a fundamental component of Henry's Law. This implies that a student would need to understand mole fraction before learning Henry's Law, as the teacher's explanation of Henry's Law builds upon the concept of mole fraction.",
+      "llm_response": "ANSWER: YES\nCONFIDENCE: 0.9\nREASONING: The teacher explicitly references \"mole fraction\" when explaining Henry's Law, indicating that understanding mole fraction is necessary to grasp the concept of Henry's Law. The teacher also uses phrases like \"the function will become a formula, a mole fraction\" and \"Our gas multiplied by k between which we They say\", suggesting that mole fraction is a fundamental component of Henry's Law. This implies that a student would need to understand mole fraction before learning Henry's Law, as the teacher's explanation of Henry's Law builds upon the concept of mole fraction."
+    }
+  ],
+  "confirmed_edges": [
+    {
+      "prerequisite": "Partial Pressure",
+      "target": "Henry's Law",
+      "prerequisite_time": 211.31,
+      "target_time": 727.2,
+      "time_gap": 515.8900000000001,
+      "teaching_signals": [],
+      "signal_count": 0,
+      "strength": "weak",
+      "context_window": "Percentage of infection in mall traction is whose Percentage small percentage in precious moments Expressed in small fraction and gas Will be equal to K times parcel pressure and Gas back this formula has become if I From here to here Let me pause and explain how to parse it I have kept the pressure and gas at the mall Fraction of gas put it there into one I will make the accountant which is the The function will become a formula, a mole fraction Our gas multiplied by k between which we They say",
+      "llm_verified": true,
+      "llm_confidence": 0.8,
+      "llm_reasoning": "The teacher mentions \"parcel pressure\" which seems to be a reference to partial pressure, and uses it to explain the formula related to Henry's Law, indicating a connection between the two concepts. The explanation of Henry's Law builds upon the idea of partial pressure, suggesting that understanding partial pressure is necessary to grasp Henry's Law. Although the teacher does not use explicit teaching signals like \"before\" or \"first\", the context implies that partial pressure is a foundational concept for understanding Henry's Law.",
+      "llm_response": "ANSWER: YES\nCONFIDENCE: 0.8\nREASONING: The teacher mentions \"parcel pressure\" which seems to be a reference to partial pressure, and uses it to explain the formula related to Henry's Law, indicating a connection between the two concepts. The explanation of Henry's Law builds upon the idea of partial pressure, suggesting that understanding partial pressure is necessary to grasp Henry's Law. Although the teacher does not use explicit teaching signals like \"before\" or \"first\", the context implies that partial pressure is a foundational concept for understanding Henry's Law."
+    },
+    {
+      "prerequisite": "Mole Fraction",
+      "target": "Henry's Law",
+      "prerequisite_time": 684.5,
+      "target_time": 727.2,
+      "time_gap": 42.700000000000045,
+      "teaching_signals": [],
+      "signal_count": 0,
+      "strength": "weak",
+      "context_window": "Percentage of infection in mall traction is whose Percentage small percentage in precious moments Expressed in small fraction and gas Will be equal to K times parcel pressure and Gas back this formula has become if I From here to here Let me pause and explain how to parse it I have kept the pressure and gas at the mall Fraction of gas put it there into one I will make the accountant which is the The function will become a formula, a mole fraction Our gas multiplied by k between which we They say",
+      "llm_verified": true,
+      "llm_confidence": 0.9,
+      "llm_reasoning": "The teacher explicitly references \"mole fraction\" when explaining Henry's Law, indicating that understanding mole fraction is necessary to grasp the concept of Henry's Law. The teacher also uses phrases like \"the function will become a formula, a mole fraction\" and \"Our gas multiplied by k between which we They say\", suggesting that mole fraction is a fundamental component of Henry's Law. This implies that a student would need to understand mole fraction before learning Henry's Law, as the teacher's explanation of Henry's Law builds upon the concept of mole fraction.",
+      "llm_response": "ANSWER: YES\nCONFIDENCE: 0.9\nREASONING: The teacher explicitly references \"mole fraction\" when explaining Henry's Law, indicating that understanding mole fraction is necessary to grasp the concept of Henry's Law. The teacher also uses phrases like \"the function will become a formula, a mole fraction\" and \"Our gas multiplied by k between which we They say\", suggesting that mole fraction is a fundamental component of Henry's Law. This implies that a student would need to understand mole fraction before learning Henry's Law, as the teacher's explanation of Henry's Law builds upon the concept of mole fraction."
+    }
+  ]
+}

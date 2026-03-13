@@ -1,0 +1,300 @@
+{
+  "video_id": "video_1",
+  "method": "hybrid_implicit_filtered",
+  "num_nodes": 19,
+  "num_edges": 22,
+  "nodes": [
+    {
+      "id": 0,
+      "label": "Dynamic Programming",
+      "concept": "Dynamic Programming",
+      "llm_category": "core"
+    },
+    {
+      "id": 1,
+      "label": "Algorithm",
+      "concept": "Algorithm",
+      "llm_category": "prerequisite"
+    },
+    {
+      "id": 2,
+      "label": "Algorithmic Thinking",
+      "concept": "Algorithmic Thinking",
+      "llm_category": "prerequisite"
+    },
+    {
+      "id": 3,
+      "label": "Recursion",
+      "concept": "Recursion",
+      "llm_category": "prerequisite"
+    },
+    {
+      "id": 4,
+      "label": "Time Complexity",
+      "concept": "Time Complexity",
+      "llm_category": "prerequisite"
+    },
+    {
+      "id": 5,
+      "label": "Space Complexity",
+      "concept": "Space Complexity",
+      "llm_category": "prerequisite"
+    },
+    {
+      "id": 6,
+      "label": "Function Parameterization",
+      "concept": "Function Parameterization",
+      "llm_category": "prerequisite"
+    },
+    {
+      "id": 7,
+      "label": "Memoization",
+      "concept": "Memoization",
+      "llm_category": "related"
+    },
+    {
+      "id": 8,
+      "label": "Optimization",
+      "concept": "Optimization",
+      "llm_category": "related"
+    },
+    {
+      "id": 9,
+      "label": "Top Down Dynamic Programming",
+      "concept": "Top Down Dynamic Programming",
+      "llm_category": "related"
+    },
+    {
+      "id": 10,
+      "label": "Bottom Up Dynamic Programming",
+      "concept": "Bottom Up Dynamic Programming",
+      "llm_category": "related"
+    },
+    {
+      "id": 11,
+      "label": "Overlapping Subproblems",
+      "concept": "Overlapping Subproblems",
+      "llm_category": "related"
+    },
+    {
+      "id": 12,
+      "label": "Optimal Substructure",
+      "concept": "Optimal Substructure",
+      "llm_category": "related"
+    },
+    {
+      "id": 13,
+      "label": "Tabulation",
+      "concept": "Tabulation",
+      "llm_category": "related"
+    },
+    {
+      "id": 14,
+      "label": "Memoization Table",
+      "concept": "Memoization Table",
+      "llm_category": "related"
+    },
+    {
+      "id": 15,
+      "label": "DP Array",
+      "concept": "DP Array",
+      "llm_category": "related"
+    },
+    {
+      "id": 16,
+      "label": "Recurrence Relation",
+      "concept": "Recurrence Relation",
+      "llm_category": "related"
+    },
+    {
+      "id": 17,
+      "label": "Divide and Conquer",
+      "concept": "Divide and Conquer",
+      "llm_category": "related"
+    },
+    {
+      "id": 18,
+      "label": "Fibonacci Series",
+      "concept": "Fibonacci Series",
+      "llm_category": "related"
+    }
+  ],
+  "edges": [
+    {
+      "source": 0,
+      "target": 2,
+      "prerequisite": "Dynamic Programming",
+      "target_concept": "Algorithmic Thinking",
+      "confidence": 0.901554372450161,
+      "edge_type": "combined"
+    },
+    {
+      "source": 0,
+      "target": 3,
+      "prerequisite": "Dynamic Programming",
+      "target_concept": "Recursion",
+      "confidence": 0.7516480328275195,
+      "edge_type": "combined"
+    },
+    {
+      "source": 0,
+      "target": 17,
+      "prerequisite": "Dynamic Programming",
+      "target_concept": "Divide and Conquer",
+      "confidence": 0.6330488784525655,
+      "edge_type": "combined"
+    },
+    {
+      "source": 1,
+      "target": 9,
+      "prerequisite": "Algorithm",
+      "target_concept": "Top Down Dynamic Programming",
+      "confidence": 0.7334340346402789,
+      "edge_type": "combined"
+    },
+    {
+      "source": 1,
+      "target": 10,
+      "prerequisite": "Algorithm",
+      "target_concept": "Bottom Up Dynamic Programming",
+      "confidence": 0.7334340346402789,
+      "edge_type": "combined"
+    },
+    {
+      "source": 1,
+      "target": 2,
+      "prerequisite": "Algorithm",
+      "target_concept": "Algorithmic Thinking",
+      "confidence": 0.7320265846402789,
+      "edge_type": "combined"
+    },
+    {
+      "source": 2,
+      "target": 3,
+      "prerequisite": "Algorithmic Thinking",
+      "target_concept": "Recursion",
+      "confidence": 0.6852304835844985,
+      "edge_type": "combined"
+    },
+    {
+      "source": 2,
+      "target": 17,
+      "prerequisite": "Algorithmic Thinking",
+      "target_concept": "Divide and Conquer",
+      "confidence": 0.609463662804105,
+      "edge_type": "combined"
+    },
+    {
+      "source": 3,
+      "target": 17,
+      "prerequisite": "Recursion",
+      "target_concept": "Divide and Conquer",
+      "confidence": 0.6896603094841877,
+      "edge_type": "combined"
+    },
+    {
+      "source": 3,
+      "target": 18,
+      "prerequisite": "Recursion",
+      "target_concept": "Fibonacci Series",
+      "confidence": 0.6208881405315115,
+      "edge_type": "combined"
+    },
+    {
+      "source": 3,
+      "target": 16,
+      "prerequisite": "Recursion",
+      "target_concept": "Recurrence Relation",
+      "confidence": 0.6026908960319372,
+      "edge_type": "combined"
+    },
+    {
+      "source": 5,
+      "target": 12,
+      "prerequisite": "Space Complexity",
+      "target_concept": "Optimal Substructure",
+      "confidence": 0.7406770262309477,
+      "edge_type": "combined"
+    },
+    {
+      "source": 5,
+      "target": 4,
+      "prerequisite": "Space Complexity",
+      "target_concept": "Time Complexity",
+      "confidence": 0.6055951563036758,
+      "edge_type": "combined"
+    },
+    {
+      "source": 8,
+      "target": 12,
+      "prerequisite": "Optimization",
+      "target_concept": "Optimal Substructure",
+      "confidence": 0.7526469367929861,
+      "edge_type": "combined"
+    },
+    {
+      "source": 9,
+      "target": 2,
+      "prerequisite": "Top Down Dynamic Programming",
+      "target_concept": "Algorithmic Thinking",
+      "confidence": 1.0,
+      "edge_type": "video_explanation_overlap"
+    },
+    {
+      "source": 9,
+      "target": 17,
+      "prerequisite": "Top Down Dynamic Programming",
+      "target_concept": "Divide and Conquer",
+      "confidence": 0.6213023187134527,
+      "edge_type": "combined"
+    },
+    {
+      "source": 10,
+      "target": 2,
+      "prerequisite": "Bottom Up Dynamic Programming",
+      "target_concept": "Algorithmic Thinking",
+      "confidence": 1.0,
+      "edge_type": "video_explanation_overlap"
+    },
+    {
+      "source": 10,
+      "target": 17,
+      "prerequisite": "Bottom Up Dynamic Programming",
+      "target_concept": "Divide and Conquer",
+      "confidence": 0.6183722992155812,
+      "edge_type": "combined"
+    },
+    {
+      "source": 13,
+      "target": 8,
+      "prerequisite": "Tabulation",
+      "target_concept": "Optimization",
+      "confidence": 0.8738726790450929,
+      "edge_type": "combined"
+    },
+    {
+      "source": 13,
+      "target": 14,
+      "prerequisite": "Tabulation",
+      "target_concept": "Memoization Table",
+      "confidence": 0.8485372817530816,
+      "edge_type": "combined"
+    },
+    {
+      "source": 13,
+      "target": 5,
+      "prerequisite": "Tabulation",
+      "target_concept": "Space Complexity",
+      "confidence": 0.6076867816091954,
+      "edge_type": "combined"
+    },
+    {
+      "source": 17,
+      "target": 18,
+      "prerequisite": "Divide and Conquer",
+      "target_concept": "Fibonacci Series",
+      "confidence": 0.7070309794087475,
+      "edge_type": "combined"
+    }
+  ]
+}

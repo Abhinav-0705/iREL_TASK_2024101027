@@ -1,0 +1,874 @@
+{
+  "video_id": "video_1",
+  "total_sentences": 144,
+  "sentences": [
+    {
+      "id": "sent_1",
+      "text": "hey everyone welcome back to the channel i hope you guys are doing extremely well so finally it's yeah yes the ultimate dynamic programming playlist now you might be thinking or what is the hype all about let me tell you this is going to be the best yes when i say best i mean it i've already delivered one of the best craft playlist one of the best three playlists one of the best price playlist one of the best recursion playlist none of the topics were easy",
+      "length": 460,
+      "position": 1
+    },
+    {
+      "id": "sent_2",
+      "text": "i have made videos which will make sure that you build your logics right from the bottom",
+      "length": 88,
+      "position": 2
+    },
+    {
+      "id": "sent_3",
+      "text": "you go off till the most advanced level of questions that might be asked in an interview",
+      "length": 88,
+      "position": 3
+    },
+    {
+      "id": "sent_4",
+      "text": "i promise today i'm starting the dynamic programming series",
+      "length": 59,
+      "position": 4
+    },
+    {
+      "id": "sent_5",
+      "text": "when you end the series you will be like yes this is indeed the best i know there are a lot of series that exist in the market which are very very very good",
+      "length": 156,
+      "position": 5
+    },
+    {
+      "id": "sent_6",
+      "text": "trust me this is going to be on some different level point number one why the reason is because this series will contain the maximum number of videos which none of the other channels have given this series will be containing around 60 to 70 videos yes i repeat 60 to 70 videos so when you solve 60 to 70 videos on a given pattern you tend to master a topic yes you do the second reason is most of the people either teach uh the uh tabulation format where they just form tables they give you some formulas",
+      "length": 504,
+      "position": 6
+    },
+    {
+      "id": "sent_7",
+      "text": "then they fill up the table i'm not gonna do that way now i'm gonna do the recursion way",
+      "length": 88,
+      "position": 7
+    },
+    {
+      "id": "sent_8",
+      "text": "the tabulation way you might be thinking okay this has also been done on the market someone has also done the recursion way",
+      "length": 123,
+      "position": 8
+    },
+    {
+      "id": "sent_9",
+      "text": "then the tabulation way so what's different in yours the difference is i'm gonna do recursion i'm gonna do tabulation",
+      "length": 117,
+      "position": 9
+    },
+    {
+      "id": "sent_10",
+      "text": "after that i'm gonna do space optimization which none of the creators in the market have done for every problem i'll be telling you the most optimal solution which i guarantee no one has ever taught in even the paid courses yeah i might not be able to give you teaching assistance that is something which i will not promise",
+      "length": 323,
+      "position": 10
+    },
+    {
+      "id": "sent_11",
+      "text": "the content is going to be so crisp",
+      "length": 35,
+      "position": 11
+    },
+    {
+      "id": "sent_12",
+      "text": "so clear that you will learn completely",
+      "length": 39,
+      "position": 12
+    },
+    {
+      "id": "sent_13",
+      "text": "you will have no doubts so without waiting let's get started what is dp those who cannot remember the past are condemned to repeat it this is one of the famous quotes for dp which is dynamic programming yes now when i talk about a dynamic programming there are a couple of ways in which people tend to solve it one is the tabulation we while the other one is the memoization way a lot of people called to uh tend to call this memorization memoration doesn't matter as long as you understand it's okay another thing the series is going to be entirely in english so it doesn't matter where you're where you are located you're going to understand each",
+      "length": 648,
+      "position": 13
+    },
+    {
+      "id": "sent_14",
+      "text": "every word of this series so when i say tabulation it means a bottom up dynamic programming yes now when i say bottom up it doesn't necessarily means that you're going to start from zero till n it can be vice versa also",
+      "length": 219,
+      "position": 14
+    },
+    {
+      "id": "sent_15",
+      "text": "yeah as the name suggests it's a bottom up dynamic programming",
+      "length": 62,
+      "position": 15
+    },
+    {
+      "id": "sent_16",
+      "text": "when i say uh memoration it's a top down dynamic programming again when i say top down it doesn't means that it is going to be from n to zero it can be the vice versa also depends on your implementation skills so going forward in every lecture what i'm going to do is i'm going to teach you uh the memorization topic",
+      "length": 316,
+      "position": 16
+    },
+    {
+      "id": "sent_17",
+      "text": "i'm going to discuss the time complexity",
+      "length": 40,
+      "position": 17
+    },
+    {
+      "id": "sent_18",
+      "text": "the space complexity once i've done that i will move to the tabulation yes i'll move to the tabulation",
+      "length": 102,
+      "position": 18
+    },
+    {
+      "id": "sent_19",
+      "text": "i'll teach you again the time complexity",
+      "length": 40,
+      "position": 19
+    },
+    {
+      "id": "sent_20",
+      "text": "the space complexity that the tabulation takes what after tabulation after that there is a specific step which most of the creators miss that is space optimization what i'm going to do is i'm going to optimize space yes in every problem",
+      "length": 236,
+      "position": 20
+    },
+    {
+      "id": "sent_21",
+      "text": "that will be our final solution generally uh in an interview if you see this it will work",
+      "length": 89,
+      "position": 21
+    },
+    {
+      "id": "sent_22",
+      "text": "if you are going to deliver this",
+      "length": 32,
+      "position": 22
+    },
+    {
+      "id": "sent_23",
+      "text": "along with this this i can bet no one is going to ever ever reject you in an interview that's my bed so without without actually wasting any time let's get started with the first lecture that is again to understand dynamic programming",
+      "length": 234,
+      "position": 23
+    },
+    {
+      "id": "sent_24",
+      "text": "to understand the entire flow that i'll be teaching now there will be a lot of topics which you'll feel like we know this topic",
+      "length": 127,
+      "position": 24
+    },
+    {
+      "id": "sent_25",
+      "text": "i'll still recommend you to watch it till the end because there will be certain techniques in every lecture that i'll be telling you so it might happen like in this lecture i'll be talking you about uh fibonacci using dynamic programming you might be like oh i know fibonacci i'm not gonna watch it",
+      "length": 298,
+      "position": 25
+    },
+    {
+      "id": "sent_26",
+      "text": "trust me you should watch it till",
+      "length": 33,
+      "position": 26
+    },
+    {
+      "id": "sent_27",
+      "text": "even if you know you can watch this on 2x the reason is uh because there will be certain techniques that i will be discussing during fibonacci specifically uh this flow which is very very important how to optimize the space complexity how to look so that's why i'll recommend you to watch it till the absolute end so yeah let's get started with a fibonacci number now the prerequisite for the dynamic programming uh playlist is you should have done my entire recursion playlist i repeat you should have done my entire recursion playlist it has 19 videos even if you don't do 19 videos i will still recommend you to do the first 10 videos where the lecture number 6",
+      "length": 664,
+      "position": 27
+    },
+    {
+      "id": "sent_28",
+      "text": "the lecture number 7 are of highest importance please please do the lecture number six",
+      "length": 86,
+      "position": 28
+    },
+    {
+      "id": "sent_29",
+      "text": "the lecture number seven for sure so the first problem fibonacci number what's a fibonacci number the first fibonacci number is 0 followed by 1 followed by 1 followed by 2 followed by 3 followed by 5 followed by 8 followed by 13 followed by 21",
+      "length": 243,
+      "position": 29
+    },
+    {
+      "id": "sent_30",
+      "text": "so on now if you carefully observe these are the first two fibonacci numbers",
+      "length": 76,
+      "position": 30
+    },
+    {
+      "id": "sent_31",
+      "text": "when you add them up yes when you add them up you get the next fibonacci number similarly if you take the next two fibonacci numbers",
+      "length": 132,
+      "position": 31
+    },
+    {
+      "id": "sent_32",
+      "text": "you add them up you get the next fibonacci number correct so what i can say is the recurrence relation again i have already explained this so i'll not be explaining the recursion relations in depth in any of the lectures i'm assuming you are very very good at recursion so the recursion relation comes up to be f of n minus 1 plus f of n minus 2 without any doubt because whenever i say 5 it says that okay for this recursion this fibonacci number you need to know the previous one",
+      "length": 481,
+      "position": 32
+    },
+    {
+      "id": "sent_33",
+      "text": "uh the previous to that one so that's n f of n minus 1 plus f of n minus 2 is what you need to know correct so f of n equal to f of n minus 1 f of n minus 2 now if i ask you a very very simple question give me the fibonacci number 4 so assuming i'm doing 0 indexing fibonacci number this is the 0th 1 2 3 4 so this will be the fourth fibonacci number which is three so i i ask you to give me the fourth fibonacci number so the moment i ask you to give the fourth fibonacci number you will be like okay why can't i draw write a recursion which you have already done in the recursion lecture so if you try to write a recursion the recursion will look something like f of n",
+      "length": 670,
+      "position": 33
+    },
+    {
+      "id": "sent_34",
+      "text": "then you'll be like if n is lesser than equal to 1 you can return n or else you can return something as f of n minus 1 plus f of n minus 2.",
+      "length": 139,
+      "position": 34
+    },
+    {
+      "id": "sent_35",
+      "text": "this is the recursion code that you wrote in the recursion classes remember where every guy had couple of options uh tending out the time complexity to be exponential of this particular recursion if you don't understand this recursion uh please please go",
+      "length": 254,
+      "position": 35
+    },
+    {
+      "id": "sent_36",
+      "text": "watch my recursion playlist now if i try to draw the recursion tree so the next step let's try to draw the recursion tree for n equal to 5 where i have been asked to find the fifth fibonacci number so f of 5 states i will require f of 4 i will require f of 3 correct that is what it states f of 4 states i'll require f of 3",
+      "length": 323,
+      "position": 36
+    },
+    {
+      "id": "sent_37",
+      "text": "i'll require f 2.",
+      "length": 17,
+      "position": 37
+    },
+    {
+      "id": "sent_38",
+      "text": "now remember in the recursion classes i did tell you if there is a function called there is first function call of four",
+      "length": 119,
+      "position": 38
+    },
+    {
+      "id": "sent_39",
+      "text": "there is a function call of f of three first f of four will go complete itself",
+      "length": 78,
+      "position": 39
+    },
+    {
+      "id": "sent_40",
+      "text": "come back",
+      "length": 9,
+      "position": 40
+    },
+    {
+      "id": "sent_41",
+      "text": "f of three will go complete itself",
+      "length": 34,
+      "position": 41
+    },
+    {
+      "id": "sent_42",
+      "text": "come back you remember right so similarly over here whenever f of 5 calls f of 4",
+      "length": 80,
+      "position": 42
+    },
+    {
+      "id": "sent_43",
+      "text": "f of 3 first it goes completes f of 4 next it completes f of 3.",
+      "length": 63,
+      "position": 43
+    },
+    {
+      "id": "sent_4",
+      "text": "so first it has to complete f of 4.",
+      "length": 35,
+      "position": 4
+    },
+    {
+      "id": "sent_45",
+      "text": "so the call for f of 4 will go at first in the recursion right in the recursion call for this will go come back",
+      "length": 111,
+      "position": 45
+    },
+    {
+      "id": "sent_46",
+      "text": "the call for this will go",
+      "length": 25,
+      "position": 46
+    },
+    {
+      "id": "sent_47",
+      "text": "come back remember this so first f of four will go similarly when you go to f of four f of three will be called",
+      "length": 111,
+      "position": 47
+    },
+    {
+      "id": "sent_48",
+      "text": "f of two can wait now f of three will be like okay let's do an f of two let's do an f of one similarly f of two will be like let's do an f of one",
+      "length": 145,
+      "position": 48
+    },
+    {
+      "id": "sent_49",
+      "text": "let's do an f of zero now remember one thing remember one thing in the recursion this is a base case whenever you reach f of one that's a base case so you're gonna return so what will you return you will definitely return one because that is what the recursion stated",
+      "length": 267,
+      "position": 49
+    },
+    {
+      "id": "sent_50",
+      "text": "it will definitely return zero so the f of one is one plus zero because the previous two sorry f of two will be one plus zero because the previous two uh recursion uh did give you one plus zero so this is going to be f of 2 is going to be 1 plus 0 which is 1 so this is going to return you 1 correct now whenever you go to f 1 again base case so this returns you 1 correct so when this returns you 1 you get f of 3 which is indeed 1 plus 1 gives you 2 so this is 2 this returns you 2 now it's a very very interesting uh point is over here we are at f of 4 f of 4 called f 3 which gave you 2 f of 4 also called f 2 now ideally recursion what recursion would have done is it would have gone",
+      "length": 688,
+      "position": 50
+    },
+    {
+      "id": "sent_51",
+      "text": "created ff1",
+      "length": 11,
+      "position": 51
+    },
+    {
+      "id": "sent_52",
+      "text": "it would have called f of 0 this would have returned 1 this would have returned 0 sum it up",
+      "length": 91,
+      "position": 52
+    },
+    {
+      "id": "sent_53",
+      "text": "then it would have returned so it's a lot of time waste because is there a need to recompute f 2 the answer to that is no why because we have seen f of 2 has been previously computed now when i say f of 2 what does that signify f of 2 signifies second fibonacci number so if the second fibonacci number is 1 over here it's not going to change over here the second f 2 is going to be same at any instance in the entire program f of 2 is going to be same",
+      "length": 452,
+      "position": 53
+    },
+    {
+      "id": "sent_54",
+      "text": "that is what we call as overlapping sub problems we solved a problem f 2 over here",
+      "length": 82,
+      "position": 54
+    },
+    {
+      "id": "sent_55",
+      "text": "we again encounter that same problem over here so that's what we call as over lapping sub problems remember this term whenever we end up solving same sub problems again again again that's when we call it overlapping sub problems make sense so it's a sub problem which has been solved so will you again go",
+      "length": 304,
+      "position": 55
+    },
+    {
+      "id": "sent_56",
+      "text": "solve it there's absolutely no use there's absolutely no use to solve it this is where something as memoration jumps in this is where something as memo i asian jumps in what is memoration we tend to store the value of sub problems we tend to store the value of sub problems in some map slash table in some map slash table like over here we are having f 2 how many parameters are there how many parameters are there one so there is one parameter we can create in one dre we can create in one dra so i'll come across to that afterwards how will how we will create in one year",
+      "length": 573,
+      "position": 56
+    },
+    {
+      "id": "sent_57",
+      "text": "all we'll come up to that afterwards",
+      "length": 36,
+      "position": 57
+    },
+    {
+      "id": "sent_58",
+      "text": "as of now we we don't need to recompute f of 2 because we know the value is 1 so we'll return 1 so f of 4 is 2 plus 1 3 so we can return f of 4 as 3 now over here we come to f of 3.",
+      "length": 181,
+      "position": 58
+    },
+    {
+      "id": "sent_59",
+      "text": "will you compute f of 3 are in no baba no why because f of 3 has been pre-computed this f of 3 is a sub problem where we have been asked to find the third fibonacci number",
+      "length": 171,
+      "position": 59
+    },
+    {
+      "id": "sent_60",
+      "text": "we see that the third fibonacci number has already been figured out so is there a point of going to f of 2 going to f 1 going to f of 1 going to f of 0 is there a necessity there is no necessity because this has already been computed this sub problem has already been solved so what we do is we go across",
+      "length": 304,
+      "position": 60
+    },
+    {
+      "id": "sent_61",
+      "text": "see what's the value stored two so let's return it so we'll return that value so over here we get three over here we get two so the last",
+      "length": 136,
+      "position": 61
+    },
+    {
+      "id": "sent_62",
+      "text": "second last will get added up to get five so that's how yes that's how you're going to solve a normal recursion if you are going to use um memorization now the question arises what is memoization because i've been talking about memoration till now what is memo ideation that is where the question comes",
+      "length": 302,
+      "position": 62
+    },
+    {
+      "id": "sent_63",
+      "text": "stands so over here you did find out f of 2 so if you carefully see where are the sub problems what are the sub problems there is a sub problem as f of 5 there is a problem as f of 4 f of 3 f of 2 f of 1 f of 0 so can i say at max the sub problems are from 0 to 5 okay make sense 0 to 5.",
+      "length": 287,
+      "position": 63
+    },
+    {
+      "id": "sent_64",
+      "text": "so can i say uh if i can create a array of six eyes if i can create an array of six size",
+      "length": 88,
+      "position": 64
+    },
+    {
+      "id": "sent_65",
+      "text": "i can call that as some dp array sounds cool right you can call it as fibo array as well dp dynamic programming so what i did was what i did was f of 2 was computed over here f of 2 was computed over here what's the value 1 so i said dp of 2 can you please keep like initially what i did was see initially you will keep everyone as minus 1tk initially you can keep everyone as minus 1.",
+      "length": 385,
+      "position": 65
+    },
+    {
+      "id": "sent_8",
+      "text": "so whenever you go to f of 5 it's minus 1 you go f of 4 minus 1 you go f of 3 minus 1 you go f of 2.",
+      "length": 100,
+      "position": 8
+    },
+    {
+      "id": "sent_9",
+      "text": "so whenever f of 2 is computed you take this 1 and you store it over here so please store it okay now you computed f of 3 that's 2.",
+      "length": 131,
+      "position": 9
+    },
+    {
+      "id": "sent_68",
+      "text": "so please store it at the moment the moment you come to f of 2 next time is that minus 1 no thereby meaning it has some values it has some values",
+      "length": 145,
+      "position": 68
+    },
+    {
+      "id": "sent_69",
+      "text": "from if it is not minus 1 from where will that value come that value would have come from recursion itself that means you would have solved that sub problem prior to this thereby you can easily pick up this value",
+      "length": 212,
+      "position": 69
+    },
+    {
+      "id": "sent_70",
+      "text": "you can return it so that's how it works again there's a call for f of 3 so whenever f of 5 tends to call for f 3 f 3 will say i do have a value 2 so why will i go",
+      "length": 163,
+      "position": 70
+    },
+    {
+      "id": "sent_71",
+      "text": "call f of 2 why will i go",
+      "length": 25,
+      "position": 71
+    },
+    {
+      "id": "sent_72",
+      "text": "call f of 2 so what we do is we return this value 2 directly so that's how we do it",
+      "length": 83,
+      "position": 72
+    },
+    {
+      "id": "sent_73",
+      "text": "f of 4 was 3 so you can also store that f of 5 is 5 you can store that so what i did was every time a problem was solved i tend to store that in an array",
+      "length": 153,
+      "position": 73
+    },
+    {
+      "id": "sent_74",
+      "text": "whenever the problem is called i check if that problem has been proudly solved or not if it has been i return that value otherwise i do not return that value that's how i generally do this so this is the recursion right in order to convert this into a dynamic programming solution generally what we do is we tend to write something like this we tend to take a dp array now this is the function parameter right we'll be carrying an n we we think what is the maximum value of n because that is the highest sub problem that you'll be solving over here it was five so i can say uh i need spaces for n plus one because there will be a zero guy as well so i require spaces for n plus one so i declare our dp array so remember this declare a dp array that's your first intention you should always declare in dpi once you've done this what you will do over here is you remember this is what you're returning as the value of f of n this is what you're returning as the value of f of n so can i say the value of f of n or the value of this particular sub problem is this thereby what you can do is you can just take this",
+      "length": 1110,
+      "position": 74
+    },
+    {
+      "id": "sent_75",
+      "text": "store it where in this array thereby step one remember this this is step one store it over here dp of n is equal to just plunging at dp of n equal to that means whatever is computed whatever is the answer to the sub problem i'll store it in dp of one that's just step one to convert a recursion to the step two the step two is there is a call made to f of one f of n there is a call made to f of n you can check base cases after the base cases you are calling again sub problems you're calling sub problems over here like you're calling sub problems to go",
+      "length": 555,
+      "position": 75
+    },
+    {
+      "id": "sent_76",
+      "text": "solve them",
+      "length": 10,
+      "position": 76
+    },
+    {
+      "id": "sent_77",
+      "text": "over here you'll not call sub problems you will first check is the sub problem been solved previously so there is a check if dp of n's value is not equal to minus 1 i'm saying is it not equal to minus 1 is it having some value stored if it is having some value stored i'll be like why don't you return that value stored this is step two so in order to convert a recursion to a dynamic programming i implemented kind of three steps where i can say the step zero is declaring an array considering the size of the sub problems like over here there were n sub problems thereby i declared an array of size n step one storing the answer which is being computed for every sub problem step two checking if the sub problem has been previously solved if it is previously solved",
+      "length": 767,
+      "position": 77
+    },
+    {
+      "id": "sent_78",
+      "text": "the value will not be -1 thereby i can easily return it so if you follow these three steps you can convert any recursion to a dynamic programming solution so the gist of the dynamic programming lies in the in mastering recursion if you have mastered recursion you can easily do dynamic programming there is absolutely no problem like if you have mastered recursion trust me dp is going to be not an issue so what i've done is i've converted this as i've converted this so generically uh in in an interview what you'll be asked is to not use global variables so what you can do is you can definitely declare an int n you can take n",
+      "length": 630,
+      "position": 78
+    },
+    {
+      "id": "sent_79",
+      "text": "then you can be like dp of you know n plus 1 is required you can mems it is to dp of minus 1 size of dp",
+      "length": 103,
+      "position": 79
+    },
+    {
+      "id": "sent_80",
+      "text": "over here what you can write is int probably identity f",
+      "length": 55,
+      "position": 80
+    },
+    {
+      "id": "sent_81",
+      "text": "you can keep the ind",
+      "length": 20,
+      "position": 81
+    },
+    {
+      "id": "sent_82",
+      "text": "you know if n is less than equal to one you can return the n over here step one step two will be concluded which is dp of n is not equal to minus one that means previously computed no need to compute",
+      "length": 199,
+      "position": 82
+    },
+    {
+      "id": "sent_83",
+      "text": "over here whatever answer you are getting like you are usually saying f of n minus 1 plus f of n minus 2 so what you will do is you will just go over here",
+      "length": 154,
+      "position": 83
+    },
+    {
+      "id": "sent_84",
+      "text": "say dp of n equal to so just include two steps",
+      "length": 46,
+      "position": 84
+    },
+    {
+      "id": "sent_85",
+      "text": "this dp is over here so generally i will recommend you to use vectors that's how i do it you can use rs as well dp n of minus 1",
+      "length": 127,
+      "position": 85
+    },
+    {
+      "id": "sent_86",
+      "text": "what you can do is you can say c out of f of n",
+      "length": 46,
+      "position": 86
+    },
+    {
+      "id": "sent_87",
+      "text": "you can pass on this dp parameter",
+      "length": 33,
+      "position": 87
+    },
+    {
+      "id": "sent_88",
+      "text": "over here you can always take the vector by reference okay by by reference you can take it so that uh this is how like this will be changed on every step so you can just do it like this",
+      "length": 185,
+      "position": 88
+    },
+    {
+      "id": "sent_89",
+      "text": "over here if i give 5 you'll see five coming out i can just run it sorry n plus one uh i'll do it n plus one so over here if i just run it you'll see uh the fibonacci number will come out to be five so step one step two step declaration three steps so in this way you can avoid using global variables",
+      "length": 300,
+      "position": 89
+    },
+    {
+      "id": "sent_90",
+      "text": "you can easily write your fivonachi or dp or any of the dp's so that's how you do the first step which is recursion so i've taught you the first step which is memoization i have to teach you the time complexity",
+      "length": 210,
+      "position": 90
+    },
+    {
+      "id": "sent_91",
+      "text": "the space complexity let's analyze that as well so over here f of 5 called f of four f of four called f of three f of three called f of two",
+      "length": 139,
+      "position": 91
+    },
+    {
+      "id": "sent_92",
+      "text": "then one five steps or n steps are these calls going into deep are these calls going into deep no these are big of one calls like constant calls so can i say uh the deeper calls where five or n like f of five went on to call f of three f of four like f of four two so i can say f of five called fourth four two three three two two",
+      "length": 330,
+      "position": 92
+    },
+    {
+      "id": "sent_93",
+      "text": "two one",
+      "length": 7,
+      "position": 93
+    },
+    {
+      "id": "sent_94",
+      "text": "there are these calls are constant so can i say there is a linear pattern there's a linear pattern yes thereby i can say the time complexity to be v go of n which is a linear pattern whatever the space complexity i can say i'm using a recursion stack space which is big o of n so i'm using a recursion stack space because uh if you if you've seen my recursion lectures you'll understand what is stack space",
+      "length": 406,
+      "position": 94
+    },
+    {
+      "id": "sent_95",
+      "text": "i'm using a big o of n for array that's what i'm using so we have covered up memoration with time complexity as well as space complexity now the question arises how do you convert a recursive solution into a tabulation format okay that's very very important how do you convert a recursion into a tabulation so remember as a tabulation what did the name suggest bottom up okay so try to go from the base case to the required answer this is the meaning of the bottom-up stuff try to go from the base case like the basis can be anything",
+      "length": 533,
+      "position": 95
+    },
+    {
+      "id": "sent_96",
+      "text": "recursion means top down that means uh try to uh go from the b like try starting whichever answer you require",
+      "length": 109,
+      "position": 96
+    },
+    {
+      "id": "sent_97",
+      "text": "then go to the base case",
+      "length": 24,
+      "position": 97
+    },
+    {
+      "id": "sent_98",
+      "text": "then come back this is why top down over here you start from the base case",
+      "length": 74,
+      "position": 98
+    },
+    {
+      "id": "sent_99",
+      "text": "you go to the required answer remember a pattern it's very simple in recursion whatever dp array you have used initialize the same thing that's the first step so we used a dp of n plus 1 in fibonacci we initialized that what are the base cases let's go",
+      "length": 252,
+      "position": 99
+    },
+    {
+      "id": "sent_100",
+      "text": "observe the base cases can i say there are a couple of base cases if i carefully see which states n lesser than equal to one given that we require zeroth",
+      "length": 153,
+      "position": 100
+    },
+    {
+      "id": "sent_101",
+      "text": "one at fibonacci can i say uh dp of like the 0th fibonacci is 0",
+      "length": 63,
+      "position": 101
+    },
+    {
+      "id": "sent_102",
+      "text": "can i say dp of 1 is 1 because that is what the base case exactly states so you're going to write the exact same thing dp of 0 equal to 0",
+      "length": 137,
+      "position": 102
+    },
+    {
+      "id": "sent_103",
+      "text": "dp of 1 equal to 1 because that is what the base cases so in order to convert this into tabulation you'll write this dp of 0 equal to 0 dp of 1 equal to 1 written what's the next step the next step is going to be very very simple you again go back",
+      "length": 247,
+      "position": 103
+    },
+    {
+      "id": "sent_104",
+      "text": "look out the look at the recursion relationship so the recursion relationship is this f of n minus 1 plus f of n minus 2 now can i say this line will be executed when n is lesser than equal to one",
+      "length": 196,
+      "position": 104
+    },
+    {
+      "id": "sent_105",
+      "text": "these lines will be executed when n is two ns3 ns4",
+      "length": 50,
+      "position": 105
+    },
+    {
+      "id": "sent_106",
+      "text": "so on",
+      "length": 5,
+      "position": 106
+    },
+    {
+      "id": "sent_107",
+      "text": "nothing before two so i know these lines will be executed from 2 correct so change this to dp change this to dp",
+      "length": 111,
+      "position": 107
+    },
+    {
+      "id": "sent_108",
+      "text": "write it so i know this will be executed from 2 because the recurrence will never be executed before 2 so from 2 to n is what you write okay",
+      "length": 140,
+      "position": 108
+    },
+    {
+      "id": "sent_109",
+      "text": "you're going to write dp of i because that is what you wrote over there in recursion equal to instead of f of n minus 1 you'll write dp of i minus 1 plus dp of i minus 2 similar stuff you'll write just you change it to i",
+      "length": 220,
+      "position": 109
+    },
+    {
+      "id": "sent_110",
+      "text": "similar stuff",
+      "length": 13,
+      "position": 110
+    },
+    {
+      "id": "sent_111",
+      "text": "this is how you can make a tabulation interesting isn't it just look at the recurrence",
+      "length": 86,
+      "position": 111
+    },
+    {
+      "id": "sent_112",
+      "text": "try to convert that into a tabulation",
+      "length": 37,
+      "position": 112
+    },
+    {
+      "id": "sent_113",
+      "text": "it becomes easy what's the time complexity over here it's we go of n again or the space complexity this term is just a beak often no recursion stack space so it's a better solution that uh than the recursion or the memory action one because we are reducing or we are eliminating the recursion stack space that we were using now how do we eliminate uh this particular space i want this to be done in a much better way so that's where that's when uh some brain comes in like it's a very very standard observation that will help you out so can i say in order to find dp of i what do i require i require i minus 1 i require i minus 2 correct so i require i minus 1",
+      "length": 660,
+      "position": 113
+    },
+    {
+      "id": "sent_114",
+      "text": "i require i minus 2 which means the previous",
+      "length": 44,
+      "position": 114
+    },
+    {
+      "id": "sent_115",
+      "text": "the second previous is what i want so if i just try to write uh like i just give you dots",
+      "length": 89,
+      "position": 115
+    },
+    {
+      "id": "sent_116",
+      "text": "i say i is now here imagine you know this is i minus 1",
+      "length": 54,
+      "position": 116
+    },
+    {
+      "id": "sent_117",
+      "text": "this is i minus 2 posture for this guy you require this guy",
+      "length": 59,
+      "position": 117
+    },
+    {
+      "id": "sent_118",
+      "text": "this guy so just think of in terms of variables can i say this as previous as of now",
+      "length": 84,
+      "position": 118
+    },
+    {
+      "id": "sent_119",
+      "text": "can i say this as previous like second previous i can in the next step where will i go i will go over here",
+      "length": 106,
+      "position": 119
+    },
+    {
+      "id": "sent_120",
+      "text": "this will become i minus 1",
+      "length": 26,
+      "position": 120
+    },
+    {
+      "id": "sent_121",
+      "text": "this will become i minus 2 can i say the next step in the next step i minus 1 will become previous",
+      "length": 98,
+      "position": 121
+    },
+    {
+      "id": "sent_122",
+      "text": "i minus 2 will become previous 2",
+      "length": 32,
+      "position": 122
+    },
+    {
+      "id": "sent_123",
+      "text": "can i do in the similar way in the next step again when i say i will go here",
+      "length": 76,
+      "position": 123
+    },
+    {
+      "id": "sent_124",
+      "text": "they said this will become i minus 1",
+      "length": 36,
+      "position": 124
+    },
+    {
+      "id": "sent_125",
+      "text": "this will become i minus 2 which means this becomes previous this becomes previous 2 makes absolute sense do you see a pattern yes you see i becoming previous",
+      "length": 158,
+      "position": 125
+    },
+    {
+      "id": "sent_126",
+      "text": "the previous becoming previous to",
+      "length": 33,
+      "position": 126
+    },
+    {
+      "id": "sent_127",
+      "text": "that's what you all need you don't need an array do you you don't okay so you have seen the pattern right so initially previous two was the first element",
+      "length": 153,
+      "position": 127
+    },
+    {
+      "id": "sent_128",
+      "text": "previous two was the second element so let's do the same thing what i'll do is i'll say okay this guy is the previous now previous two rather this guy is the previous for sure now can i say this is the ith element which means the curve i can i say instead of i minus 1 i can write previous instead of this i can write previous two i can similarly can i say if i have curve of i equal to previous plus previous two in the next i because after this will go here i will increase",
+      "length": 475,
+      "position": 128
+    },
+    {
+      "id": "sent_129",
+      "text": "i will go to three in the next step this karai will become someone's previous so you can be like okay",
+      "length": 101,
+      "position": 129
+    },
+    {
+      "id": "sent_130",
+      "text": "before that let's see previous two for that summer previous two will be previous now isn't it if you see previous two will become previous so just initialize that",
+      "length": 162,
+      "position": 130
+    },
+    {
+      "id": "sent_131",
+      "text": "previous will become karai do you agree indeed you have to agree so in this way you can keep on going",
+      "length": 101,
+      "position": 131
+    },
+    {
+      "id": "sent_132",
+      "text": "right at the end right at the end can i say if you print previous your answer will be there because when you will end up this will go up n plus 1 because i will the follow-up will end at n plus 1 so you will have the previous stored as the fibonacci number so in this way you can optimize the space as well i have eliminated the space used i've used just a couple of variables so if i just use my sublime text now what i can do is i can say okay previous two is zero previous one is one i can go on saying i equal to 2 i lesser than equal to n i plus plus",
+      "length": 555,
+      "position": 132
+    },
+    {
+      "id": "sent_133",
+      "text": "over here what i can definitely write is i can say uh int curve of i is equal to previous plus previous two correct",
+      "length": 115,
+      "position": 133
+    },
+    {
+      "id": "sent_134",
+      "text": "i can say previous two will become previous",
+      "length": 43,
+      "position": 134
+    },
+    {
+      "id": "sent_135",
+      "text": "i can say previous will become car of i",
+      "length": 39,
+      "position": 135
+    },
+    {
+      "id": "sent_136",
+      "text": "at the end of the day over here i can definitely do a c out of previous so if you try to run this you'll see so if you try to run this you'll see this is working absolutely fine so as simple as it can get what i've done i've eliminated the extra time extra space that i was using now this boils down into a time complexity of big of n",
+      "length": 334,
+      "position": 136
+    },
+    {
+      "id": "sent_137",
+      "text": "the space complexity of big of one so going forward in every problem we will be observing this pattern where we will be actually using the previous guys in the second previous guys or something similar to that so we don't need to always create an array that's what i wanted to teach you via this fibonacci number is this is an intuitive solution to this so that was it for the first lecture if you need the notes as well as the running codes for c plus plus as well as java if you need both of them you will find them in the article below yes there is a link of the article you'll find the c plus plus as well as the running java codes for this particular problem",
+      "length": 663,
+      "position": 137
+    },
+    {
+      "id": "sent_138",
+      "text": "yes if you are new to this channel please please please please do consider subscribing that is the only request that i will do",
+      "length": 126,
+      "position": 138
+    },
+    {
+      "id": "sent_139",
+      "text": "if you did understand this video please make sure you like this video",
+      "length": 69,
+      "position": 139
+    },
+    {
+      "id": "sent_140",
+      "text": "for this dp series particularly i am starting a trend after you watch this video whatever if you have any doubts you can put that into the comment section i will be trying to reply that if it's a unique doubt",
+      "length": 208,
+      "position": 140
+    },
+    {
+      "id": "sent_141",
+      "text": "if you have understood please please write this as a trend like from every from now onwards on every video at least try to write this small word understood that is what i will be expecting from you if you keep on doing this i will be bringing videos every day till 60 like for two months i'll bring video every day on this until i'm ill or i'm traveling i'll make sure i'll bring the videos every day",
+      "length": 400,
+      "position": 141
+    },
+    {
+      "id": "sent_142",
+      "text": "this is what i require from you uh like an understood comment on the uh video that is what i'll expect from you",
+      "length": 111,
+      "position": 142
+    },
+    {
+      "id": "sent_143",
+      "text": "please do share this dp playlist among all your friends because this is going to be the biggest ever playlist so just just before wrapping up this video just a quick reminder if you haven't yet checked our sd sheet what are you doing man the link in the description go",
+      "length": 268,
+      "position": 143
+    },
+    {
+      "id": "sent_144",
+      "text": "check it out because it's the ultimate resource for interview preparation so yeah with this let's wrap up this video guys uh let's meet in the next one bye-bye take care [Music]",
+      "length": 177,
+      "position": 144
+    }
+  ],
+  "metadata": {
+    "source": "youtube_api",
+    "original_text_length": 28045
+  }
+}

@@ -1,0 +1,2489 @@
+{
+  "video_id": "video_1",
+  "method": "hybrid_implicit_detection",
+  "total_dependencies": 167,
+  "method_breakdown": {
+    "semantic_temporal": 61,
+    "cooccurrence": 21,
+    "video_explanation_overlap": 167,
+    "transitive": 0,
+    "final_unique": 167
+  },
+  "dependencies": [
+    {
+      "prerequisite": "Top Down Dynamic Programming",
+      "concept": "Algorithmic Thinking",
+      "confidence": 1.0,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 1.0,
+        "vocab_a_size": 93,
+        "vocab_b_size": 93,
+        "t_a": 7.04,
+        "t_b": 9.599
+      }
+    },
+    {
+      "prerequisite": "Bottom Up Dynamic Programming",
+      "concept": "Algorithmic Thinking",
+      "confidence": 1.0,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 1.0,
+        "vocab_a_size": 93,
+        "vocab_b_size": 93,
+        "t_a": 7.04,
+        "t_b": 9.599
+      }
+    },
+    {
+      "prerequisite": "Dynamic Programming",
+      "concept": "Algorithmic Thinking",
+      "confidence": 0.901554372450161,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.6391897680912018,
+          1.0
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Algorithm",
+      "concept": "Dynamic Programming",
+      "confidence": 0.8924731182795699,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.8924731182795699,
+        "vocab_a_size": 83,
+        "vocab_b_size": 93,
+        "t_a": 0,
+        "t_b": 7.04
+      }
+    },
+    {
+      "prerequisite": "Tabulation",
+      "concept": "Optimization",
+      "confidence": 0.8738726790450929,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "cooccurrence",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.9423076923076923,
+          0.646551724137931
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Tabulation",
+      "concept": "Memoization Table",
+      "confidence": 0.8485372817530816,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.6197181346559524,
+          0.9230769230769231
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Optimization",
+      "concept": "Optimal Substructure",
+      "confidence": 0.7526469367929861,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.4762921132421493,
+          0.8921568627450981
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Dynamic Programming",
+      "concept": "Recursion",
+      "confidence": 0.7516480328275195,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.6213497680912017,
+          0.7452830188679245
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Top Down Dynamic Programming",
+      "concept": "Recursion",
+      "confidence": 0.7452830188679245,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.7452830188679245,
+        "vocab_a_size": 93,
+        "vocab_b_size": 92,
+        "t_a": 7.04,
+        "t_b": 27.439
+      }
+    },
+    {
+      "prerequisite": "Bottom Up Dynamic Programming",
+      "concept": "Recursion",
+      "confidence": 0.7452830188679245,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.7452830188679245,
+        "vocab_a_size": 93,
+        "vocab_b_size": 92,
+        "t_a": 7.04,
+        "t_b": 27.439
+      }
+    },
+    {
+      "prerequisite": "Space Complexity",
+      "concept": "Optimal Substructure",
+      "confidence": 0.7406770262309477,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.45452863949298855,
+          0.8921568627450981
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Algorithm",
+      "concept": "Top Down Dynamic Programming",
+      "confidence": 0.7334340346402789,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.441043308339119,
+          0.8924731182795699
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Algorithm",
+      "concept": "Bottom Up Dynamic Programming",
+      "confidence": 0.7334340346402789,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.441043308339119,
+          0.8924731182795699
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Algorithm",
+      "concept": "Algorithmic Thinking",
+      "confidence": 0.7320265846402789,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.4384843083391189,
+          0.8924731182795699
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Divide and Conquer",
+      "concept": "Fibonacci Series",
+      "confidence": 0.7070309794087475,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.4476730338144302,
+          0.8378378378378378
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Memoization Table",
+      "concept": "Space Complexity",
+      "confidence": 0.6956521739130435,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.6956521739130435,
+        "vocab_a_size": 102,
+        "vocab_b_size": 93,
+        "t_a": 88.96,
+        "t_b": 111.2
+      }
+    },
+    {
+      "prerequisite": "Memoization Table",
+      "concept": "Optimization",
+      "confidence": 0.6956521739130435,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.6956521739130435,
+        "vocab_a_size": 102,
+        "vocab_b_size": 93,
+        "t_a": 88.96,
+        "t_b": 111.2
+      }
+    },
+    {
+      "prerequisite": "Recursion",
+      "concept": "Divide and Conquer",
+      "confidence": 0.6896603094841877,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.45953531206130976,
+          0.794392523364486
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Algorithmic Thinking",
+      "concept": "Recursion",
+      "confidence": 0.6852304835844985,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.5005905876493454,
+          0.7452830188679245
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Optimal Substructure",
+      "concept": "DP Array",
+      "confidence": 0.6491228070175439,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.6491228070175439,
+        "vocab_a_size": 100,
+        "vocab_b_size": 88,
+        "t_a": 118.64,
+        "t_b": 141.599
+      }
+    },
+    {
+      "prerequisite": "Dynamic Programming",
+      "concept": "Divide and Conquer",
+      "confidence": 0.6330488784525655,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.5559566385087966,
+          0.5950413223140496
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Memoization Table",
+      "concept": "Optimal Substructure",
+      "confidence": 0.6290322580645161,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.6290322580645161,
+        "vocab_a_size": 102,
+        "vocab_b_size": 100,
+        "t_a": 88.96,
+        "t_b": 118.64
+      }
+    },
+    {
+      "prerequisite": "Top Down Dynamic Programming",
+      "concept": "Divide and Conquer",
+      "confidence": 0.6213023187134527,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.5345992571649552,
+          0.5950413223140496
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Recursion",
+      "concept": "Fibonacci Series",
+      "confidence": 0.6208881405315115,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.4536738530254364,
+          0.6752136752136753
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Bottom Up Dynamic Programming",
+      "concept": "Divide and Conquer",
+      "confidence": 0.6183722992155812,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.529271948987007,
+          0.5950413223140496
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Algorithmic Thinking",
+      "concept": "Divide and Conquer",
+      "confidence": 0.609463662804105,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.5130744282388687,
+          0.5950413223140496
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Tabulation",
+      "concept": "Space Complexity",
+      "confidence": 0.6076867816091954,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "cooccurrence",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.4583333333333333,
+          0.646551724137931
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Space Complexity",
+      "concept": "Time Complexity",
+      "confidence": 0.6055951563036758,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "cooccurrence",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.8475609756097561,
+          0.2535211267605634
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Recursion",
+      "concept": "Recurrence Relation",
+      "confidence": 0.6026908960319372,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "cooccurrence",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.3750847280025482,
+          0.9722222222222222,
+          0.15942028985507245
+        ],
+        "method_count": 3
+      }
+    },
+    {
+      "prerequisite": "Algorithm",
+      "concept": "Recursion",
+      "confidence": 0.5893732375110438,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.4206443083391189,
+          0.6509433962264151
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Tabulation",
+      "concept": "Optimal Substructure",
+      "confidence": 0.584,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.584,
+        "vocab_a_size": 98,
+        "vocab_b_size": 100,
+        "t_a": 85.6,
+        "t_b": 118.64
+      }
+    },
+    {
+      "prerequisite": "Dynamic Programming",
+      "concept": "Fibonacci Series",
+      "confidence": 0.5756559784161054,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.5312626180992126,
+          0.5153846153846153
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Top Down Dynamic Programming",
+      "concept": "Fibonacci Series",
+      "confidence": 0.568625625167986,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.5184801576480865,
+          0.5153846153846153
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Bottom Up Dynamic Programming",
+      "concept": "Fibonacci Series",
+      "confidence": 0.5664199640797579,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.5144698647603989,
+          0.5153846153846153
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Algorithmic Thinking",
+      "concept": "Fibonacci Series",
+      "confidence": 0.5599951847933256,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.5027884478759765,
+          0.5153846153846153
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Recursion",
+      "concept": "Tabulation",
+      "confidence": 0.5529428510075446,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "cooccurrence",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.48519009293460846,
+          0.6388888888888888,
+          0.2582781456953642
+        ],
+        "method_count": 3
+      }
+    },
+    {
+      "prerequisite": "DP Array",
+      "concept": "Memoization",
+      "confidence": 0.5471698113207547,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.5471698113207547,
+        "vocab_a_size": 88,
+        "vocab_b_size": 76,
+        "t_a": 141.599,
+        "t_b": 166.12
+      }
+    },
+    {
+      "prerequisite": "Optimization",
+      "concept": "DP Array",
+      "confidence": 0.5379869735832157,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.417813306201458,
+          0.5603448275862069
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Space Complexity",
+      "concept": "DP Array",
+      "confidence": 0.5239878876353445,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.392360422659874,
+          0.5603448275862069
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Memoization Table",
+      "concept": "DP Array",
+      "confidence": 0.5191920525264235,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.546926726518631,
+          0.39705882352941174
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Tabulation",
+      "concept": "DP Array",
+      "confidence": 0.5078032818957079,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.5656144607791901,
+          0.35766423357664234
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Algorithm",
+      "concept": "Divide and Conquer",
+      "confidence": 0.5028359460670775,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.4018504804525375,
+          0.512396694214876
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Dynamic Programming",
+      "concept": "Optimization",
+      "confidence": 0.5016441126213074,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "cooccurrence",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.5041102815532684,
+          0.5576923076923077,
+          0.19230769230769232
+        ],
+        "method_count": 3
+      }
+    },
+    {
+      "prerequisite": "Recursion",
+      "concept": "Space Complexity",
+      "confidence": 0.49411859843306405,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "cooccurrence",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.4070985502376556,
+          0.6190476190476191,
+          0.20915032679738563
+        ],
+        "method_count": 3
+      }
+    },
+    {
+      "prerequisite": "Dynamic Programming",
+      "concept": "DP Array",
+      "confidence": 0.493900474912227,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "cooccurrence",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.5517446513328552,
+          0.5,
+          0.1830065359477124
+        ],
+        "method_count": 3
+      }
+    },
+    {
+      "prerequisite": "Recursion",
+      "concept": "DP Array",
+      "confidence": 0.48539682539682544,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "cooccurrence",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.6825396825396826,
+          0.2
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Recursion",
+      "concept": "Memoization",
+      "confidence": 0.47278898166775335,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "cooccurrence",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.3603461061658859,
+          0.6301369863013698,
+          0.19148936170212766
+        ],
+        "method_count": 3
+      }
+    },
+    {
+      "prerequisite": "Algorithm",
+      "concept": "Fibonacci Series",
+      "confidence": 0.4707449331235079,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.4174383399448395,
+          0.43846153846153846
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Fibonacci Series",
+      "concept": "Tabulation",
+      "confidence": 0.44285714285714284,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.44285714285714284,
+        "vocab_a_size": 104,
+        "vocab_b_size": 98,
+        "t_a": 44.079,
+        "t_b": 85.6
+      }
+    },
+    {
+      "prerequisite": "Recursion",
+      "concept": "Time Complexity",
+      "confidence": 0.4350549976087997,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "cooccurrence",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.6341463414634146,
+          0.1568627450980392
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Recursion",
+      "concept": "Optimization",
+      "confidence": 0.4234226277370934,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "cooccurrence",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.4070985502376556,
+          0.4423076923076923,
+          0.20915032679738563
+        ],
+        "method_count": 3
+      }
+    },
+    {
+      "prerequisite": "Fibonacci Series",
+      "concept": "Memoization Table",
+      "confidence": 0.4206896551724138,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.4206896551724138,
+        "vocab_a_size": 104,
+        "vocab_b_size": 102,
+        "t_a": 44.079,
+        "t_b": 88.96
+      }
+    },
+    {
+      "prerequisite": "Bottom Up Dynamic Programming",
+      "concept": "DP Array",
+      "confidence": 0.407962369107866,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.5587432260665893,
+          0.1830065359477124
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Dynamic Programming",
+      "concept": "Space Complexity",
+      "confidence": 0.4071386181158129,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "cooccurrence",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.5041102815532684,
+          0.32142857142857145,
+          0.19230769230769232
+        ],
+        "method_count": 3
+      }
+    },
+    {
+      "prerequisite": "Dynamic Programming",
+      "concept": "Memoization",
+      "confidence": 0.4060849412043442,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "cooccurrence",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.4772297876310348,
+          0.3561643835616438,
+          0.18181818181818182
+        ],
+        "method_count": 3
+      }
+    },
+    {
+      "prerequisite": "Dynamic Programming",
+      "concept": "Tabulation",
+      "confidence": 0.4006011283405401,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "cooccurrence",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.44294519490242,
+          0.37222222222222223,
+          0.18633540372670807
+        ],
+        "method_count": 3
+      }
+    },
+    {
+      "prerequisite": "Space Complexity",
+      "concept": "Memoization",
+      "confidence": 0.39221062509260557,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "cooccurrence",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.38108274771451944,
+          0.3287671232876712,
+          0.2706766917293233
+        ],
+        "method_count": 3
+      }
+    },
+    {
+      "prerequisite": "Dynamic Programming",
+      "concept": "Optimal Substructure",
+      "confidence": 0.3920151670589622,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.5287057694435119,
+          0.18404907975460122
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Recursion",
+      "concept": "Memoization Table",
+      "confidence": 0.3912458302634692,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.4677663114347458,
+          0.24358974358974358
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Tabulation",
+      "concept": "Time Complexity",
+      "confidence": 0.38708872155835655,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "cooccurrence",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.47560975609756095,
+          0.22818791946308725
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Bottom Up Dynamic Programming",
+      "concept": "Optimal Substructure",
+      "confidence": 0.38415359902526697,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.5144120093822478,
+          0.18404907975460122
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Top Down Dynamic Programming",
+      "concept": "DP Array",
+      "confidence": 0.37674042307701083,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.5019760514650344,
+          0.1830065359477124
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Algorithmic Thinking",
+      "concept": "Space Complexity",
+      "confidence": 0.3626228239071626,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.46700653297805783,
+          0.19230769230769232
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Algorithmic Thinking",
+      "concept": "Optimization",
+      "confidence": 0.3626228239071626,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.46700653297805783,
+          0.19230769230769232
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Top Down Dynamic Programming",
+      "concept": "Optimal Substructure",
+      "confidence": 0.357893733562487,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.4666667994499206,
+          0.18404907975460122
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Bottom Up Dynamic Programming",
+      "concept": "Tabulation",
+      "confidence": 0.35753336813792036,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "cooccurrence",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.42416468328475954,
+          0.2833333333333333,
+          0.18633540372670807
+        ],
+        "method_count": 3
+      }
+    },
+    {
+      "prerequisite": "Algorithmic Thinking",
+      "concept": "Tabulation",
+      "confidence": 0.35708128231494446,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.46290329139137265,
+          0.18633540372670807
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Recursion",
+      "concept": "Optimal Substructure",
+      "confidence": 0.35651019874043466,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.4482003613462448,
+          0.2
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Algorithmic Thinking",
+      "concept": "Optimal Substructure",
+      "confidence": 0.35342490900656554,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.45854166389369966,
+          0.18404907975460122
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Algorithmic Thinking",
+      "concept": "Memoization Table",
+      "confidence": 0.35254834986109734,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.45917881792926785,
+          0.18181818181818182
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Algorithmic Thinking",
+      "concept": "DP Array",
+      "confidence": 0.3498506111832616,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.45308548438549046,
+          0.1830065359477124
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Divide and Conquer",
+      "concept": "Tabulation",
+      "confidence": 0.3469387755102041,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.3469387755102041,
+        "vocab_a_size": 100,
+        "vocab_b_size": 98,
+        "t_a": 36.559,
+        "t_b": 85.6
+      }
+    },
+    {
+      "prerequisite": "Optimal Substructure",
+      "concept": "Memoization",
+      "confidence": 0.3435114503816794,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.3435114503816794,
+        "vocab_a_size": 100,
+        "vocab_b_size": 76,
+        "t_a": 118.64,
+        "t_b": 166.12
+      }
+    },
+    {
+      "prerequisite": "Dynamic Programming",
+      "concept": "Memoization Table",
+      "confidence": 0.33635892143273355,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.429743493514061,
+          0.18181818181818182
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Bottom Up Dynamic Programming",
+      "concept": "Memoization Table",
+      "confidence": 0.3310479885878563,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.4200872519779205,
+          0.18181818181818182
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Top Down Dynamic Programming",
+      "concept": "Memoization Table",
+      "confidence": 0.33040385564589503,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.41891610117435457,
+          0.18181818181818182
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Top Down Dynamic Programming",
+      "concept": "Tabulation",
+      "confidence": 0.3294015750465156,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.4125765509033203,
+          0.18633540372670807
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Divide and Conquer",
+      "concept": "Memoization Table",
+      "confidence": 0.32894736842105265,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.32894736842105265,
+        "vocab_a_size": 100,
+        "vocab_b_size": 102,
+        "t_a": 36.559,
+        "t_b": 88.96
+      }
+    },
+    {
+      "prerequisite": "Memoization",
+      "concept": "Time Complexity",
+      "confidence": 0.319672131147541,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.319672131147541,
+        "vocab_a_size": 76,
+        "vocab_b_size": 85,
+        "t_a": 166.12,
+        "t_b": 227.68
+      }
+    },
+    {
+      "prerequisite": "Recursion",
+      "concept": "Function Parameterization",
+      "confidence": 0.31773122400045395,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.44488063454627985,
+          0.1328125
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Top Down Dynamic Programming",
+      "concept": "Optimization",
+      "confidence": 0.31730769230769235,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "cooccurrence",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.38461538461538464,
+          0.19230769230769232
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Algorithmic Thinking",
+      "concept": "Memoization",
+      "confidence": 0.3135824190649509,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.38833167102718347,
+          0.18181818181818182
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Algorithm",
+      "concept": "Tabulation",
+      "confidence": 0.3012898023038526,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.38005770506858827,
+          0.16774193548387098
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Algorithm",
+      "concept": "Memoization Table",
+      "confidence": 0.29102205878372284,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.358244940021038,
+          0.17088607594936708
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Dynamic Programming",
+      "concept": "Time Complexity",
+      "confidence": 0.2836396464516095,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.35986429224967953,
+          0.15584415584415584
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Bottom Up Dynamic Programming",
+      "concept": "Memoization",
+      "confidence": 0.28082191780821925,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "cooccurrence",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.3287671232876712,
+          0.18181818181818182
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Fibonacci Series",
+      "concept": "Space Complexity",
+      "confidence": 0.2792207792207792,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.2792207792207792,
+        "vocab_a_size": 104,
+        "vocab_b_size": 93,
+        "t_a": 44.079,
+        "t_b": 111.2
+      }
+    },
+    {
+      "prerequisite": "Fibonacci Series",
+      "concept": "Optimization",
+      "confidence": 0.2792207792207792,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.2792207792207792,
+        "vocab_a_size": 104,
+        "vocab_b_size": 93,
+        "t_a": 44.079,
+        "t_b": 111.2
+      }
+    },
+    {
+      "prerequisite": "Tabulation",
+      "concept": "Memoization",
+      "confidence": 0.2774435394298408,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "cooccurrence",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.3287671232876712,
+          0.17567567567567569
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Optimization",
+      "concept": "Memoization",
+      "confidence": 0.2706766917293233,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.2706766917293233,
+        "vocab_a_size": 93,
+        "vocab_b_size": 76,
+        "t_a": 111.2,
+        "t_b": 166.12
+      }
+    },
+    {
+      "prerequisite": "Optimal Substructure",
+      "concept": "Time Complexity",
+      "confidence": 0.2671232876712329,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.2671232876712329,
+        "vocab_a_size": 100,
+        "vocab_b_size": 85,
+        "t_a": 118.64,
+        "t_b": 227.68
+      }
+    },
+    {
+      "prerequisite": "Fibonacci Series",
+      "concept": "Optimal Substructure",
+      "confidence": 0.25925925925925924,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.25925925925925924,
+        "vocab_a_size": 104,
+        "vocab_b_size": 100,
+        "t_a": 44.079,
+        "t_b": 118.64
+      }
+    },
+    {
+      "prerequisite": "Optimization",
+      "concept": "Time Complexity",
+      "confidence": 0.2535211267605634,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.2535211267605634,
+        "vocab_a_size": 93,
+        "vocab_b_size": 85,
+        "t_a": 111.2,
+        "t_b": 227.68
+      }
+    },
+    {
+      "prerequisite": "Recurrence Relation",
+      "concept": "Function Parameterization",
+      "confidence": 0.23469387755102042,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.23469387755102042,
+        "vocab_a_size": 68,
+        "vocab_b_size": 53,
+        "t_a": 398.56,
+        "t_b": 530.64
+      }
+    },
+    {
+      "prerequisite": "Memoization Table",
+      "concept": "Time Complexity",
+      "confidence": 0.23026315789473684,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.23026315789473684,
+        "vocab_a_size": 102,
+        "vocab_b_size": 85,
+        "t_a": 88.96,
+        "t_b": 227.68
+      }
+    },
+    {
+      "prerequisite": "Fibonacci Series",
+      "concept": "DP Array",
+      "confidence": 0.21518987341772153,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.21518987341772153,
+        "vocab_a_size": 104,
+        "vocab_b_size": 88,
+        "t_a": 44.079,
+        "t_b": 141.599
+      }
+    },
+    {
+      "prerequisite": "DP Array",
+      "concept": "Time Complexity",
+      "confidence": 0.2097902097902098,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.2097902097902098,
+        "vocab_a_size": 88,
+        "vocab_b_size": 85,
+        "t_a": 141.599,
+        "t_b": 227.68
+      }
+    },
+    {
+      "prerequisite": "Fibonacci Series",
+      "concept": "Memoization",
+      "confidence": 0.2080536912751678,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.2080536912751678,
+        "vocab_a_size": 104,
+        "vocab_b_size": 76,
+        "t_a": 44.079,
+        "t_b": 166.12
+      }
+    },
+    {
+      "prerequisite": "Divide and Conquer",
+      "concept": "Space Complexity",
+      "confidence": 0.19875776397515527,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.19875776397515527,
+        "vocab_a_size": 100,
+        "vocab_b_size": 93,
+        "t_a": 36.559,
+        "t_b": 111.2
+      }
+    },
+    {
+      "prerequisite": "Divide and Conquer",
+      "concept": "Optimization",
+      "confidence": 0.19875776397515527,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.19875776397515527,
+        "vocab_a_size": 100,
+        "vocab_b_size": 93,
+        "t_a": 36.559,
+        "t_b": 111.2
+      }
+    },
+    {
+      "prerequisite": "Divide and Conquer",
+      "concept": "Optimal Substructure",
+      "confidence": 0.19760479041916168,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.19760479041916168,
+        "vocab_a_size": 100,
+        "vocab_b_size": 100,
+        "t_a": 36.559,
+        "t_b": 118.64
+      }
+    },
+    {
+      "prerequisite": "Divide and Conquer",
+      "concept": "DP Array",
+      "confidence": 0.19745222929936307,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.19745222929936307,
+        "vocab_a_size": 100,
+        "vocab_b_size": 88,
+        "t_a": 36.559,
+        "t_b": 141.599
+      }
+    },
+    {
+      "prerequisite": "Algorithm",
+      "concept": "Space Complexity",
+      "confidence": 0.19727891156462585,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.19727891156462585,
+        "vocab_a_size": 83,
+        "vocab_b_size": 93,
+        "t_a": 0,
+        "t_b": 111.2
+      }
+    },
+    {
+      "prerequisite": "Algorithm",
+      "concept": "Optimization",
+      "confidence": 0.19727891156462585,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.19727891156462585,
+        "vocab_a_size": 83,
+        "vocab_b_size": 93,
+        "t_a": 0,
+        "t_b": 111.2
+      }
+    },
+    {
+      "prerequisite": "Algorithm",
+      "concept": "DP Array",
+      "confidence": 0.1958041958041958,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.1958041958041958,
+        "vocab_a_size": 83,
+        "vocab_b_size": 88,
+        "t_a": 0,
+        "t_b": 141.599
+      }
+    },
+    {
+      "prerequisite": "Algorithm",
+      "concept": "Memoization",
+      "confidence": 0.19548872180451127,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.19548872180451127,
+        "vocab_a_size": 83,
+        "vocab_b_size": 76,
+        "t_a": 0,
+        "t_b": 166.12
+      }
+    },
+    {
+      "prerequisite": "Top Down Dynamic Programming",
+      "concept": "Space Complexity",
+      "confidence": 0.19230769230769232,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.19230769230769232,
+        "vocab_a_size": 93,
+        "vocab_b_size": 93,
+        "t_a": 7.04,
+        "t_b": 111.2
+      }
+    },
+    {
+      "prerequisite": "Bottom Up Dynamic Programming",
+      "concept": "Space Complexity",
+      "confidence": 0.19230769230769232,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.19230769230769232,
+        "vocab_a_size": 93,
+        "vocab_b_size": 93,
+        "t_a": 7.04,
+        "t_b": 111.2
+      }
+    },
+    {
+      "prerequisite": "Bottom Up Dynamic Programming",
+      "concept": "Optimization",
+      "confidence": 0.19230769230769232,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.19230769230769232,
+        "vocab_a_size": 93,
+        "vocab_b_size": 93,
+        "t_a": 7.04,
+        "t_b": 111.2
+      }
+    },
+    {
+      "prerequisite": "Divide and Conquer",
+      "concept": "Memoization",
+      "confidence": 0.1891891891891892,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.1891891891891892,
+        "vocab_a_size": 100,
+        "vocab_b_size": 76,
+        "t_a": 36.559,
+        "t_b": 166.12
+      }
+    },
+    {
+      "prerequisite": "Algorithm",
+      "concept": "Optimal Substructure",
+      "confidence": 0.18831168831168832,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.18831168831168832,
+        "vocab_a_size": 83,
+        "vocab_b_size": 100,
+        "t_a": 0,
+        "t_b": 118.64
+      }
+    },
+    {
+      "prerequisite": "Function Parameterization",
+      "concept": "Overlapping Subproblems",
+      "confidence": 0.18478260869565216,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.18478260869565216,
+        "vocab_a_size": 53,
+        "vocab_b_size": 56,
+        "t_a": 530.64,
+        "t_b": 703.12
+      }
+    },
+    {
+      "prerequisite": "Top Down Dynamic Programming",
+      "concept": "Memoization",
+      "confidence": 0.18181818181818182,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.18181818181818182,
+        "vocab_a_size": 93,
+        "vocab_b_size": 76,
+        "t_a": 7.04,
+        "t_b": 166.12
+      }
+    },
+    {
+      "prerequisite": "Dynamic Programming",
+      "concept": "Recurrence Relation",
+      "confidence": 0.17518248175182483,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.17518248175182483,
+        "vocab_a_size": 93,
+        "vocab_b_size": 68,
+        "t_a": 7.04,
+        "t_b": 398.56
+      }
+    },
+    {
+      "prerequisite": "Algorithmic Thinking",
+      "concept": "Recurrence Relation",
+      "confidence": 0.17518248175182483,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.17518248175182483,
+        "vocab_a_size": 93,
+        "vocab_b_size": 68,
+        "t_a": 9.599,
+        "t_b": 398.56
+      }
+    },
+    {
+      "prerequisite": "Top Down Dynamic Programming",
+      "concept": "Recurrence Relation",
+      "confidence": 0.17518248175182483,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.17518248175182483,
+        "vocab_a_size": 93,
+        "vocab_b_size": 68,
+        "t_a": 7.04,
+        "t_b": 398.56
+      }
+    },
+    {
+      "prerequisite": "Bottom Up Dynamic Programming",
+      "concept": "Recurrence Relation",
+      "confidence": 0.17518248175182483,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.17518248175182483,
+        "vocab_a_size": 93,
+        "vocab_b_size": 68,
+        "t_a": 7.04,
+        "t_b": 398.56
+      }
+    },
+    {
+      "prerequisite": "Memoization Table",
+      "concept": "Memoization",
+      "confidence": 0.17105263157894737,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.17105263157894737,
+        "vocab_a_size": 102,
+        "vocab_b_size": 76,
+        "t_a": 88.96,
+        "t_b": 166.12
+      }
+    },
+    {
+      "prerequisite": "Algorithm",
+      "concept": "Time Complexity",
+      "confidence": 0.16666666666666666,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.16666666666666666,
+        "vocab_a_size": 83,
+        "vocab_b_size": 85,
+        "t_a": 0,
+        "t_b": 227.68
+      }
+    },
+    {
+      "prerequisite": "Fibonacci Series",
+      "concept": "Time Complexity",
+      "confidence": 0.16666666666666666,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.16666666666666666,
+        "vocab_a_size": 104,
+        "vocab_b_size": 85,
+        "t_a": 44.079,
+        "t_b": 227.68
+      }
+    },
+    {
+      "prerequisite": "Divide and Conquer",
+      "concept": "Time Complexity",
+      "confidence": 0.15625,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.15625,
+        "vocab_a_size": 100,
+        "vocab_b_size": 85,
+        "t_a": 36.559,
+        "t_b": 227.68
+      }
+    },
+    {
+      "prerequisite": "Algorithmic Thinking",
+      "concept": "Time Complexity",
+      "confidence": 0.15584415584415584,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.15584415584415584,
+        "vocab_a_size": 93,
+        "vocab_b_size": 85,
+        "t_a": 9.599,
+        "t_b": 227.68
+      }
+    },
+    {
+      "prerequisite": "Top Down Dynamic Programming",
+      "concept": "Time Complexity",
+      "confidence": 0.15584415584415584,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.15584415584415584,
+        "vocab_a_size": 93,
+        "vocab_b_size": 85,
+        "t_a": 7.04,
+        "t_b": 227.68
+      }
+    },
+    {
+      "prerequisite": "Bottom Up Dynamic Programming",
+      "concept": "Time Complexity",
+      "confidence": 0.15584415584415584,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.15584415584415584,
+        "vocab_a_size": 93,
+        "vocab_b_size": 85,
+        "t_a": 7.04,
+        "t_b": 227.68
+      }
+    },
+    {
+      "prerequisite": "Optimal Substructure",
+      "concept": "Overlapping Subproblems",
+      "confidence": 0.15555555555555556,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.15555555555555556,
+        "vocab_a_size": 100,
+        "vocab_b_size": 56,
+        "t_a": 118.64,
+        "t_b": 703.12
+      }
+    },
+    {
+      "prerequisite": "DP Array",
+      "concept": "Recurrence Relation",
+      "confidence": 0.15555555555555556,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.15555555555555556,
+        "vocab_a_size": 88,
+        "vocab_b_size": 68,
+        "t_a": 141.599,
+        "t_b": 398.56
+      }
+    },
+    {
+      "prerequisite": "Algorithm",
+      "concept": "Recurrence Relation",
+      "confidence": 0.15267175572519084,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.15267175572519084,
+        "vocab_a_size": 83,
+        "vocab_b_size": 68,
+        "t_a": 0,
+        "t_b": 398.56
+      }
+    },
+    {
+      "prerequisite": "Algorithm",
+      "concept": "Function Parameterization",
+      "confidence": 0.15254237288135594,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.15254237288135594,
+        "vocab_a_size": 83,
+        "vocab_b_size": 53,
+        "t_a": 0,
+        "t_b": 530.64
+      }
+    },
+    {
+      "prerequisite": "DP Array",
+      "concept": "Overlapping Subproblems",
+      "confidence": 0.152,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.152,
+        "vocab_a_size": 88,
+        "vocab_b_size": 56,
+        "t_a": 141.599,
+        "t_b": 703.12
+      }
+    },
+    {
+      "prerequisite": "Memoization",
+      "concept": "Function Parameterization",
+      "confidence": 0.15178571428571427,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.15178571428571427,
+        "vocab_a_size": 76,
+        "vocab_b_size": 53,
+        "t_a": 166.12,
+        "t_b": 530.64
+      }
+    },
+    {
+      "prerequisite": "Divide and Conquer",
+      "concept": "Recurrence Relation",
+      "confidence": 0.1506849315068493,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.1506849315068493,
+        "vocab_a_size": 100,
+        "vocab_b_size": 68,
+        "t_a": 36.559,
+        "t_b": 398.56
+      }
+    },
+    {
+      "prerequisite": "Time Complexity",
+      "concept": "Recurrence Relation",
+      "confidence": 0.15037593984962405,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.15037593984962405,
+        "vocab_a_size": 85,
+        "vocab_b_size": 68,
+        "t_a": 227.68,
+        "t_b": 398.56
+      }
+    },
+    {
+      "prerequisite": "Optimal Substructure",
+      "concept": "Function Parameterization",
+      "confidence": 0.15037593984962405,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.15037593984962405,
+        "vocab_a_size": 100,
+        "vocab_b_size": 53,
+        "t_a": 118.64,
+        "t_b": 530.64
+      }
+    },
+    {
+      "prerequisite": "Space Complexity",
+      "concept": "Recurrence Relation",
+      "confidence": 0.15,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.15,
+        "vocab_a_size": 93,
+        "vocab_b_size": 68,
+        "t_a": 111.2,
+        "t_b": 398.56
+      }
+    },
+    {
+      "prerequisite": "Optimization",
+      "concept": "Recurrence Relation",
+      "confidence": 0.15,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.15,
+        "vocab_a_size": 93,
+        "vocab_b_size": 68,
+        "t_a": 111.2,
+        "t_b": 398.56
+      }
+    },
+    {
+      "prerequisite": "Dynamic Programming",
+      "concept": "Function Parameterization",
+      "confidence": 0.14960629921259844,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.14960629921259844,
+        "vocab_a_size": 93,
+        "vocab_b_size": 53,
+        "t_a": 7.04,
+        "t_b": 530.64
+      }
+    },
+    {
+      "prerequisite": "Algorithmic Thinking",
+      "concept": "Function Parameterization",
+      "confidence": 0.14960629921259844,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.14960629921259844,
+        "vocab_a_size": 93,
+        "vocab_b_size": 53,
+        "t_a": 9.599,
+        "t_b": 530.64
+      }
+    },
+    {
+      "prerequisite": "Top Down Dynamic Programming",
+      "concept": "Function Parameterization",
+      "confidence": 0.14960629921259844,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.14960629921259844,
+        "vocab_a_size": 93,
+        "vocab_b_size": 53,
+        "t_a": 7.04,
+        "t_b": 530.64
+      }
+    },
+    {
+      "prerequisite": "Bottom Up Dynamic Programming",
+      "concept": "Function Parameterization",
+      "confidence": 0.14960629921259844,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.14960629921259844,
+        "vocab_a_size": 93,
+        "vocab_b_size": 53,
+        "t_a": 7.04,
+        "t_b": 530.64
+      }
+    },
+    {
+      "prerequisite": "Tabulation",
+      "concept": "Overlapping Subproblems",
+      "confidence": 0.14925373134328357,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.14925373134328357,
+        "vocab_a_size": 98,
+        "vocab_b_size": 56,
+        "t_a": 85.6,
+        "t_b": 703.12
+      }
+    },
+    {
+      "prerequisite": "Fibonacci Series",
+      "concept": "Recurrence Relation",
+      "confidence": 0.14666666666666667,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.14666666666666667,
+        "vocab_a_size": 104,
+        "vocab_b_size": 68,
+        "t_a": 44.079,
+        "t_b": 398.56
+      }
+    },
+    {
+      "prerequisite": "DP Array",
+      "concept": "Function Parameterization",
+      "confidence": 0.14634146341463414,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.14634146341463414,
+        "vocab_a_size": 88,
+        "vocab_b_size": 53,
+        "t_a": 141.599,
+        "t_b": 530.64
+      }
+    },
+    {
+      "prerequisite": "Space Complexity",
+      "concept": "Overlapping Subproblems",
+      "confidence": 0.14615384615384616,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.14615384615384616,
+        "vocab_a_size": 93,
+        "vocab_b_size": 56,
+        "t_a": 111.2,
+        "t_b": 703.12
+      }
+    },
+    {
+      "prerequisite": "Optimization",
+      "concept": "Overlapping Subproblems",
+      "confidence": 0.14615384615384616,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.14615384615384616,
+        "vocab_a_size": 93,
+        "vocab_b_size": 56,
+        "t_a": 111.2,
+        "t_b": 703.12
+      }
+    },
+    {
+      "prerequisite": "Memoization Table",
+      "concept": "Overlapping Subproblems",
+      "confidence": 0.14492753623188406,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.14492753623188406,
+        "vocab_a_size": 102,
+        "vocab_b_size": 56,
+        "t_a": 88.96,
+        "t_b": 703.12
+      }
+    },
+    {
+      "prerequisite": "Tabulation",
+      "concept": "Recurrence Relation",
+      "confidence": 0.14482758620689656,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.14482758620689656,
+        "vocab_a_size": 98,
+        "vocab_b_size": 68,
+        "t_a": 85.6,
+        "t_b": 398.56
+      }
+    },
+    {
+      "prerequisite": "Optimal Substructure",
+      "concept": "Recurrence Relation",
+      "confidence": 0.14285714285714285,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.14285714285714285,
+        "vocab_a_size": 100,
+        "vocab_b_size": 68,
+        "t_a": 118.64,
+        "t_b": 398.56
+      }
+    },
+    {
+      "prerequisite": "Fibonacci Series",
+      "concept": "Overlapping Subproblems",
+      "confidence": 0.14285714285714285,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.14285714285714285,
+        "vocab_a_size": 104,
+        "vocab_b_size": 56,
+        "t_a": 44.079,
+        "t_b": 703.12
+      }
+    },
+    {
+      "prerequisite": "Memoization Table",
+      "concept": "Recurrence Relation",
+      "confidence": 0.14093959731543623,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.14093959731543623,
+        "vocab_a_size": 102,
+        "vocab_b_size": 68,
+        "t_a": 88.96,
+        "t_b": 398.56
+      }
+    },
+    {
+      "prerequisite": "Space Complexity",
+      "concept": "Function Parameterization",
+      "confidence": 0.140625,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.140625,
+        "vocab_a_size": 93,
+        "vocab_b_size": 53,
+        "t_a": 111.2,
+        "t_b": 530.64
+      }
+    },
+    {
+      "prerequisite": "Optimization",
+      "concept": "Function Parameterization",
+      "confidence": 0.140625,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.140625,
+        "vocab_a_size": 93,
+        "vocab_b_size": 53,
+        "t_a": 111.2,
+        "t_b": 530.64
+      }
+    },
+    {
+      "prerequisite": "Memoization",
+      "concept": "Overlapping Subproblems",
+      "confidence": 0.13793103448275862,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.13793103448275862,
+        "vocab_a_size": 76,
+        "vocab_b_size": 56,
+        "t_a": 166.12,
+        "t_b": 703.12
+      }
+    },
+    {
+      "prerequisite": "Recurrence Relation",
+      "concept": "Overlapping Subproblems",
+      "confidence": 0.13761467889908258,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.13761467889908258,
+        "vocab_a_size": 68,
+        "vocab_b_size": 56,
+        "t_a": 398.56,
+        "t_b": 703.12
+      }
+    },
+    {
+      "prerequisite": "Memoization",
+      "concept": "Recurrence Relation",
+      "confidence": 0.13385826771653545,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.13385826771653545,
+        "vocab_a_size": 76,
+        "vocab_b_size": 68,
+        "t_a": 166.12,
+        "t_b": 398.56
+      }
+    },
+    {
+      "prerequisite": "Time Complexity",
+      "concept": "Function Parameterization",
+      "confidence": 0.13114754098360656,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.13114754098360656,
+        "vocab_a_size": 85,
+        "vocab_b_size": 53,
+        "t_a": 227.68,
+        "t_b": 530.64
+      }
+    },
+    {
+      "prerequisite": "Tabulation",
+      "concept": "Function Parameterization",
+      "confidence": 0.12686567164179105,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.12686567164179105,
+        "vocab_a_size": 98,
+        "vocab_b_size": 53,
+        "t_a": 85.6,
+        "t_b": 530.64
+      }
+    },
+    {
+      "prerequisite": "Memoization Table",
+      "concept": "Function Parameterization",
+      "confidence": 0.12318840579710146,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.12318840579710146,
+        "vocab_a_size": 102,
+        "vocab_b_size": 53,
+        "t_a": 88.96,
+        "t_b": 530.64
+      }
+    },
+    {
+      "prerequisite": "Divide and Conquer",
+      "concept": "Overlapping Subproblems",
+      "confidence": 0.1223021582733813,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.1223021582733813,
+        "vocab_a_size": 100,
+        "vocab_b_size": 56,
+        "t_a": 36.559,
+        "t_b": 703.12
+      }
+    },
+    {
+      "prerequisite": "Fibonacci Series",
+      "concept": "Function Parameterization",
+      "confidence": 0.12142857142857143,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.12142857142857143,
+        "vocab_a_size": 104,
+        "vocab_b_size": 53,
+        "t_a": 44.079,
+        "t_b": 530.64
+      }
+    },
+    {
+      "prerequisite": "Recursion",
+      "concept": "Overlapping Subproblems",
+      "confidence": 0.12121212121212122,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.12121212121212122,
+        "vocab_a_size": 92,
+        "vocab_b_size": 56,
+        "t_a": 27.439,
+        "t_b": 703.12
+      }
+    },
+    {
+      "prerequisite": "Time Complexity",
+      "concept": "Overlapping Subproblems",
+      "confidence": 0.11904761904761904,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.11904761904761904,
+        "vocab_a_size": 85,
+        "vocab_b_size": 56,
+        "t_a": 227.68,
+        "t_b": 703.12
+      }
+    },
+    {
+      "prerequisite": "Divide and Conquer",
+      "concept": "Function Parameterization",
+      "confidence": 0.10869565217391304,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.10869565217391304,
+        "vocab_a_size": 100,
+        "vocab_b_size": 53,
+        "t_a": 36.559,
+        "t_b": 530.64
+      }
+    },
+    {
+      "prerequisite": "Dynamic Programming",
+      "concept": "Overlapping Subproblems",
+      "confidence": 0.1037037037037037,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.1037037037037037,
+        "vocab_a_size": 93,
+        "vocab_b_size": 56,
+        "t_a": 7.04,
+        "t_b": 703.12
+      }
+    },
+    {
+      "prerequisite": "Algorithmic Thinking",
+      "concept": "Overlapping Subproblems",
+      "confidence": 0.1037037037037037,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.1037037037037037,
+        "vocab_a_size": 93,
+        "vocab_b_size": 56,
+        "t_a": 9.599,
+        "t_b": 703.12
+      }
+    },
+    {
+      "prerequisite": "Top Down Dynamic Programming",
+      "concept": "Overlapping Subproblems",
+      "confidence": 0.1037037037037037,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.1037037037037037,
+        "vocab_a_size": 93,
+        "vocab_b_size": 56,
+        "t_a": 7.04,
+        "t_b": 703.12
+      }
+    },
+    {
+      "prerequisite": "Bottom Up Dynamic Programming",
+      "concept": "Overlapping Subproblems",
+      "confidence": 0.1037037037037037,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.1037037037037037,
+        "vocab_a_size": 93,
+        "vocab_b_size": 56,
+        "t_a": 7.04,
+        "t_b": 703.12
+      }
+    },
+    {
+      "prerequisite": "Algorithm",
+      "concept": "Overlapping Subproblems",
+      "confidence": 0.10317460317460317,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.10317460317460317,
+        "vocab_a_size": 83,
+        "vocab_b_size": 56,
+        "t_a": 0,
+        "t_b": 703.12
+      }
+    }
+  ]
+}

@@ -1,0 +1,578 @@
+{
+  "video_id": "video_4",
+  "method": "hybrid_implicit_filtered",
+  "num_nodes": 20,
+  "num_edges": 56,
+  "nodes": [
+    {
+      "id": 0,
+      "label": "Coulomb's Law",
+      "concept": "Coulomb's Law",
+      "llm_category": "core"
+    },
+    {
+      "id": 1,
+      "label": "Electrical Charge",
+      "concept": "Electrical Charge",
+      "llm_category": "core"
+    },
+    {
+      "id": 2,
+      "label": "Electric Field",
+      "concept": "Electric Field",
+      "llm_category": "core"
+    },
+    {
+      "id": 3,
+      "label": "Electromagnetic Forces",
+      "concept": "Electromagnetic Forces",
+      "llm_category": "core"
+    },
+    {
+      "id": 4,
+      "label": "Permittivity of Free Space",
+      "concept": "Permittivity of Free Space",
+      "llm_category": "core"
+    },
+    {
+      "id": 5,
+      "label": "Electric Force",
+      "concept": "Electric Force",
+      "llm_category": "core"
+    },
+    {
+      "id": 6,
+      "label": "Point Charge",
+      "concept": "Point Charge",
+      "llm_category": "prerequisite"
+    },
+    {
+      "id": 7,
+      "label": "Vector Form",
+      "concept": "Vector Form",
+      "llm_category": "prerequisite"
+    },
+    {
+      "id": 8,
+      "label": "Newton's Law",
+      "concept": "Newton's Law",
+      "llm_category": "prerequisite"
+    },
+    {
+      "id": 9,
+      "label": "Conservation of Energy",
+      "concept": "Conservation of Energy",
+      "llm_category": "prerequisite"
+    },
+    {
+      "id": 10,
+      "label": "Electrostatics",
+      "concept": "Electrostatics",
+      "llm_category": "related"
+    },
+    {
+      "id": 11,
+      "label": "Inverse Square Law",
+      "concept": "Inverse Square Law",
+      "llm_category": "definition"
+    },
+    {
+      "id": 12,
+      "label": "Dielectric Medium",
+      "concept": "Dielectric Medium",
+      "llm_category": "related"
+    },
+    {
+      "id": 13,
+      "label": "Gauss's Law",
+      "concept": "Gauss's Law",
+      "llm_category": "related"
+    },
+    {
+      "id": 14,
+      "label": "Electric Potential",
+      "concept": "Electric Potential",
+      "llm_category": "related"
+    },
+    {
+      "id": 15,
+      "label": "Magnetic Field",
+      "concept": "Magnetic Field",
+      "llm_category": "related"
+    },
+    {
+      "id": 16,
+      "label": "Electromagnetic Induction",
+      "concept": "Electromagnetic Induction",
+      "llm_category": "related"
+    },
+    {
+      "id": 17,
+      "label": "Lorentz Force",
+      "concept": "Lorentz Force",
+      "llm_category": "related"
+    },
+    {
+      "id": 18,
+      "label": "Ampere's Law",
+      "concept": "Ampere's Law",
+      "llm_category": "related"
+    },
+    {
+      "id": 19,
+      "label": "Biot-Savart Law",
+      "concept": "Biot-Savart Law",
+      "llm_category": "related"
+    }
+  ],
+  "edges": [
+    {
+      "source": 0,
+      "target": 7,
+      "prerequisite": "Coulomb's Law",
+      "target_concept": "Vector Form",
+      "confidence": 0.91907765555177,
+      "edge_type": "combined"
+    },
+    {
+      "source": 0,
+      "target": 6,
+      "prerequisite": "Coulomb's Law",
+      "target_concept": "Point Charge",
+      "confidence": 0.8809091974500233,
+      "edge_type": "combined"
+    },
+    {
+      "source": 0,
+      "target": 4,
+      "prerequisite": "Coulomb's Law",
+      "target_concept": "Permittivity of Free Space",
+      "confidence": 0.8739963085611343,
+      "edge_type": "combined"
+    },
+    {
+      "source": 0,
+      "target": 9,
+      "prerequisite": "Coulomb's Law",
+      "target_concept": "Conservation of Energy",
+      "confidence": 0.8739963085611343,
+      "edge_type": "combined"
+    },
+    {
+      "source": 0,
+      "target": 1,
+      "prerequisite": "Coulomb's Law",
+      "target_concept": "Electrical Charge",
+      "confidence": 0.8406612345091076,
+      "edge_type": "combined"
+    },
+    {
+      "source": 0,
+      "target": 3,
+      "prerequisite": "Coulomb's Law",
+      "target_concept": "Electromagnetic Forces",
+      "confidence": 0.7561260442754202,
+      "edge_type": "combined"
+    },
+    {
+      "source": 0,
+      "target": 5,
+      "prerequisite": "Coulomb's Law",
+      "target_concept": "Electric Force",
+      "confidence": 0.7561260442754202,
+      "edge_type": "combined"
+    },
+    {
+      "source": 0,
+      "target": 17,
+      "prerequisite": "Coulomb's Law",
+      "target_concept": "Lorentz Force",
+      "confidence": 0.7561260442754202,
+      "edge_type": "combined"
+    },
+    {
+      "source": 0,
+      "target": 2,
+      "prerequisite": "Coulomb's Law",
+      "target_concept": "Electric Field",
+      "confidence": 0.7148480913073306,
+      "edge_type": "combined"
+    },
+    {
+      "source": 0,
+      "target": 14,
+      "prerequisite": "Coulomb's Law",
+      "target_concept": "Electric Potential",
+      "confidence": 0.7148480913073306,
+      "edge_type": "combined"
+    },
+    {
+      "source": 1,
+      "target": 4,
+      "prerequisite": "Electrical Charge",
+      "target_concept": "Permittivity of Free Space",
+      "confidence": 0.8682321179995537,
+      "edge_type": "combined"
+    },
+    {
+      "source": 1,
+      "target": 9,
+      "prerequisite": "Electrical Charge",
+      "target_concept": "Conservation of Energy",
+      "confidence": 0.8682321179995537,
+      "edge_type": "combined"
+    },
+    {
+      "source": 1,
+      "target": 3,
+      "prerequisite": "Electrical Charge",
+      "target_concept": "Electromagnetic Forces",
+      "confidence": 0.7438797108566966,
+      "edge_type": "combined"
+    },
+    {
+      "source": 1,
+      "target": 17,
+      "prerequisite": "Electrical Charge",
+      "target_concept": "Lorentz Force",
+      "confidence": 0.7438797108566966,
+      "edge_type": "combined"
+    },
+    {
+      "source": 1,
+      "target": 2,
+      "prerequisite": "Electrical Charge",
+      "target_concept": "Electric Field",
+      "confidence": 0.7231185882344984,
+      "edge_type": "combined"
+    },
+    {
+      "source": 1,
+      "target": 14,
+      "prerequisite": "Electrical Charge",
+      "target_concept": "Electric Potential",
+      "confidence": 0.7231185882344984,
+      "edge_type": "combined"
+    },
+    {
+      "source": 1,
+      "target": 5,
+      "prerequisite": "Electrical Charge",
+      "target_concept": "Electric Force",
+      "confidence": 0.6983804752579253,
+      "edge_type": "combined"
+    },
+    {
+      "source": 3,
+      "target": 14,
+      "prerequisite": "Electromagnetic Forces",
+      "target_concept": "Electric Potential",
+      "confidence": 0.8234330431663435,
+      "edge_type": "combined"
+    },
+    {
+      "source": 4,
+      "target": 5,
+      "prerequisite": "Permittivity of Free Space",
+      "target_concept": "Electric Force",
+      "confidence": 0.6493562697041069,
+      "edge_type": "combined"
+    },
+    {
+      "source": 4,
+      "target": 17,
+      "prerequisite": "Permittivity of Free Space",
+      "target_concept": "Lorentz Force",
+      "confidence": 0.6493562697041069,
+      "edge_type": "combined"
+    },
+    {
+      "source": 4,
+      "target": 14,
+      "prerequisite": "Permittivity of Free Space",
+      "target_concept": "Electric Potential",
+      "confidence": 0.6348322228271465,
+      "edge_type": "combined"
+    },
+    {
+      "source": 5,
+      "target": 2,
+      "prerequisite": "Electric Force",
+      "target_concept": "Electric Field",
+      "confidence": 0.95,
+      "edge_type": "combined"
+    },
+    {
+      "source": 5,
+      "target": 14,
+      "prerequisite": "Electric Force",
+      "target_concept": "Electric Potential",
+      "confidence": 0.8311196572625081,
+      "edge_type": "combined"
+    },
+    {
+      "source": 6,
+      "target": 9,
+      "prerequisite": "Point Charge",
+      "target_concept": "Conservation of Energy",
+      "confidence": 0.95,
+      "edge_type": "combined"
+    },
+    {
+      "source": 6,
+      "target": 4,
+      "prerequisite": "Point Charge",
+      "target_concept": "Permittivity of Free Space",
+      "confidence": 0.95,
+      "edge_type": "combined"
+    },
+    {
+      "source": 6,
+      "target": 2,
+      "prerequisite": "Point Charge",
+      "target_concept": "Electric Field",
+      "confidence": 0.888348588863463,
+      "edge_type": "combined"
+    },
+    {
+      "source": 6,
+      "target": 17,
+      "prerequisite": "Point Charge",
+      "target_concept": "Lorentz Force",
+      "confidence": 0.7396501007414069,
+      "edge_type": "combined"
+    },
+    {
+      "source": 6,
+      "target": 14,
+      "prerequisite": "Point Charge",
+      "target_concept": "Electric Potential",
+      "confidence": 0.7034139076426765,
+      "edge_type": "combined"
+    },
+    {
+      "source": 6,
+      "target": 5,
+      "prerequisite": "Point Charge",
+      "target_concept": "Electric Force",
+      "confidence": 0.6706747658079626,
+      "edge_type": "combined"
+    },
+    {
+      "source": 7,
+      "target": 9,
+      "prerequisite": "Vector Form",
+      "target_concept": "Conservation of Energy",
+      "confidence": 0.7168513018659831,
+      "edge_type": "combined"
+    },
+    {
+      "source": 7,
+      "target": 1,
+      "prerequisite": "Vector Form",
+      "target_concept": "Electrical Charge",
+      "confidence": 0.6548611111111112,
+      "edge_type": "combined"
+    },
+    {
+      "source": 8,
+      "target": 9,
+      "prerequisite": "Newton's Law",
+      "target_concept": "Conservation of Energy",
+      "confidence": 0.8120869608113029,
+      "edge_type": "combined"
+    },
+    {
+      "source": 8,
+      "target": 17,
+      "prerequisite": "Newton's Law",
+      "target_concept": "Lorentz Force",
+      "confidence": 0.6237493068298272,
+      "edge_type": "combined"
+    },
+    {
+      "source": 8,
+      "target": 2,
+      "prerequisite": "Newton's Law",
+      "target_concept": "Electric Field",
+      "confidence": 0.6200610221205188,
+      "edge_type": "combined"
+    },
+    {
+      "source": 8,
+      "target": 14,
+      "prerequisite": "Newton's Law",
+      "target_concept": "Electric Potential",
+      "confidence": 0.6043932841748481,
+      "edge_type": "combined"
+    },
+    {
+      "source": 9,
+      "target": 2,
+      "prerequisite": "Conservation of Energy",
+      "target_concept": "Electric Field",
+      "confidence": 0.8453470633104502,
+      "edge_type": "combined"
+    },
+    {
+      "source": 9,
+      "target": 5,
+      "prerequisite": "Conservation of Energy",
+      "target_concept": "Electric Force",
+      "confidence": 0.6034543325526932,
+      "edge_type": "combined"
+    },
+    {
+      "source": 10,
+      "target": 0,
+      "prerequisite": "Electrostatics",
+      "target_concept": "Coulomb's Law",
+      "confidence": 1.0,
+      "edge_type": "video_explanation_overlap"
+    },
+    {
+      "source": 10,
+      "target": 8,
+      "prerequisite": "Electrostatics",
+      "target_concept": "Newton's Law",
+      "confidence": 1.0,
+      "edge_type": "video_explanation_overlap"
+    },
+    {
+      "source": 10,
+      "target": 11,
+      "prerequisite": "Electrostatics",
+      "target_concept": "Inverse Square Law",
+      "confidence": 0.8831539140627385,
+      "edge_type": "combined"
+    },
+    {
+      "source": 10,
+      "target": 13,
+      "prerequisite": "Electrostatics",
+      "target_concept": "Gauss's Law",
+      "confidence": 0.8831539140627385,
+      "edge_type": "combined"
+    },
+    {
+      "source": 10,
+      "target": 18,
+      "prerequisite": "Electrostatics",
+      "target_concept": "Ampere's Law",
+      "confidence": 0.8831539140627385,
+      "edge_type": "combined"
+    },
+    {
+      "source": 10,
+      "target": 19,
+      "prerequisite": "Electrostatics",
+      "target_concept": "Biot-Savart Law",
+      "confidence": 0.8831539140627385,
+      "edge_type": "combined"
+    },
+    {
+      "source": 10,
+      "target": 17,
+      "prerequisite": "Electrostatics",
+      "target_concept": "Lorentz Force",
+      "confidence": 0.6906381997770242,
+      "edge_type": "combined"
+    },
+    {
+      "source": 10,
+      "target": 14,
+      "prerequisite": "Electrostatics",
+      "target_concept": "Electric Potential",
+      "confidence": 0.6687721021489386,
+      "edge_type": "combined"
+    },
+    {
+      "source": 11,
+      "target": 4,
+      "prerequisite": "Inverse Square Law",
+      "target_concept": "Permittivity of Free Space",
+      "confidence": 0.8840000000000001,
+      "edge_type": "combined"
+    },
+    {
+      "source": 11,
+      "target": 6,
+      "prerequisite": "Inverse Square Law",
+      "target_concept": "Point Charge",
+      "confidence": 0.6660075329566856,
+      "edge_type": "combined"
+    },
+    {
+      "source": 11,
+      "target": 17,
+      "prerequisite": "Inverse Square Law",
+      "target_concept": "Lorentz Force",
+      "confidence": 0.6135499615540675,
+      "edge_type": "combined"
+    },
+    {
+      "source": 13,
+      "target": 17,
+      "prerequisite": "Gauss's Law",
+      "target_concept": "Lorentz Force",
+      "confidence": 0.6170759408494405,
+      "edge_type": "combined"
+    },
+    {
+      "source": 13,
+      "target": 14,
+      "prerequisite": "Gauss's Law",
+      "target_concept": "Electric Potential",
+      "confidence": 0.6065229995579009,
+      "edge_type": "combined"
+    },
+    {
+      "source": 16,
+      "target": 0,
+      "prerequisite": "Electromagnetic Induction",
+      "target_concept": "Coulomb's Law",
+      "confidence": 1.0,
+      "edge_type": "video_explanation_overlap"
+    },
+    {
+      "source": 16,
+      "target": 8,
+      "prerequisite": "Electromagnetic Induction",
+      "target_concept": "Newton's Law",
+      "confidence": 1.0,
+      "edge_type": "video_explanation_overlap"
+    },
+    {
+      "source": 16,
+      "target": 11,
+      "prerequisite": "Electromagnetic Induction",
+      "target_concept": "Inverse Square Law",
+      "confidence": 1.0,
+      "edge_type": "video_explanation_overlap"
+    },
+    {
+      "source": 16,
+      "target": 13,
+      "prerequisite": "Electromagnetic Induction",
+      "target_concept": "Gauss's Law",
+      "confidence": 1.0,
+      "edge_type": "video_explanation_overlap"
+    },
+    {
+      "source": 16,
+      "target": 18,
+      "prerequisite": "Electromagnetic Induction",
+      "target_concept": "Ampere's Law",
+      "confidence": 0.7822857233122588,
+      "edge_type": "combined"
+    },
+    {
+      "source": 16,
+      "target": 19,
+      "prerequisite": "Electromagnetic Induction",
+      "target_concept": "Biot-Savart Law",
+      "confidence": 0.7822857233122588,
+      "edge_type": "combined"
+    }
+  ]
+}

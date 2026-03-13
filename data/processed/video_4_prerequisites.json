@@ -1,0 +1,212 @@
+{
+  "video_id": "video_4",
+  "total_candidates": 7,
+  "total_verified": 4,
+  "all_edges": [
+    {
+      "prerequisite": "Coulomb's Law",
+      "target": "Electrical Charge",
+      "prerequisite_time": 0.48,
+      "target_time": 31.92,
+      "time_gap": 31.44,
+      "teaching_signals": [
+        "then"
+      ],
+      "signal_count": 1,
+      "strength": "strong",
+      "context_window": "I will try to gather complete information that The law tells us what and how many are inside it There are a few important concepts that you should know It should be that I am absolutely fundamental I will clarify point charges Concept, what it is, and then vectors Form of Columns Law we will also understand and Along with that, we will also see that one Numerically, what are its applications So let's start the conversation quickly They are about Coulomb's Law in detail We are going to take infor",
+      "llm_verified": false,
+      "llm_confidence": 0.8,
+      "llm_reasoning": "The teacher does not explicitly reference Coulomb's Law as a prerequisite for understanding Electrical Charge, and instead, seems to be introducing Coulomb's Law as a separate concept to be explored in detail. The teacher mentions point charges and concept, which is related to Electrical Charge, but does not indicate that Coulomb's Law is necessary to understand it. The lack of teaching signals like \"before\", \"first\", or \"based on\" also suggests that the teacher does not consider Coulomb's Law a strict prerequisite for Electrical Charge.",
+      "llm_response": "ANSWER: NO\nCONFIDENCE: 0.8\nREASONING: The teacher does not explicitly reference Coulomb's Law as a prerequisite for understanding Electrical Charge, and instead, seems to be introducing Coulomb's Law as a separate concept to be explored in detail. The teacher mentions point charges and concept, which is related to Electrical Charge, but does not indicate that Coulomb's Law is necessary to understand it. The lack of teaching signals like \"before\", \"first\", or \"based on\" also suggests that the teacher does not consider Coulomb's Law a strict prerequisite for Electrical Charge."
+    },
+    {
+      "prerequisite": "Coulomb's Law",
+      "target": "Point Charge",
+      "prerequisite_time": 0.48,
+      "target_time": 12.519,
+      "time_gap": 12.039,
+      "teaching_signals": [
+        "then"
+      ],
+      "signal_count": 1,
+      "strength": "strong",
+      "context_window": "Hello children, today we are going to discuss Coulomb's Law I will try to gather complete information that The law tells us what and how many are inside it There are a few important concepts that you should know It should be that I am absolutely fundamental I will clarify point charges Concept, what it is, and then vectors Form of Columns Law we will also understand and Along with that, we will also see that one Numerically, what are its applications So let's start the conversation quickly They ",
+      "llm_verified": true,
+      "llm_confidence": 0.8,
+      "llm_reasoning": "The teacher mentions that they will \"clarify point charges Concept\" after introducing Coulomb's Law, implying that understanding Coulomb's Law is necessary before learning about point charges. The teacher also mentions \"Form of Columns Law\" in the same context as point charges, suggesting a connection between the two concepts. Additionally, the teacher's phrase \"let's start the conversation quickly\" after introducing Coulomb's Law implies that they will build upon this concept to explain point charges.",
+      "llm_response": "ANSWER: YES\nCONFIDENCE: 0.8\nREASONING: The teacher mentions that they will \"clarify point charges Concept\" after introducing Coulomb's Law, implying that understanding Coulomb's Law is necessary before learning about point charges. The teacher also mentions \"Form of Columns Law\" in the same context as point charges, suggesting a connection between the two concepts. Additionally, the teacher's phrase \"let's start the conversation quickly\" after introducing Coulomb's Law implies that they will build upon this concept to explain point charges."
+    },
+    {
+      "prerequisite": "Coulomb's Law",
+      "target": "Vector Form",
+      "prerequisite_time": 0.48,
+      "target_time": 539.12,
+      "time_gap": 538.64,
+      "teaching_signals": [
+        "next",
+        "let's see",
+        "first"
+      ],
+      "signal_count": 3,
+      "strength": "strong",
+      "context_window": "So the link to Aravind Academy app is Description is given by clicking Download it and in the Drona batch mine Join us now as we move on to the next topic We move forward and come back to the topic Let's see the Coolman's first law when we are talking So first, a vector quantity is We had said the things that Magni Module 1 of 4, PA, with q1 q2 divided by r, this will be Scalar form Coulomb's law states that Magni Tud told about the direction of what to do Direction is also known as Magnetic Nor",
+      "llm_verified": true,
+      "llm_confidence": 0.8,
+      "llm_reasoning": "The teacher explicitly references Coulomb's Law when explaining the concept of vector form, stating that Coulomb's Law has a scalar form and then implies a connection to the direction, which is a key aspect of vectors. The teacher's explanation builds upon Coulomb's Law to introduce the concept of vector form, suggesting that understanding Coulomb's Law is necessary to grasp the vector form. The use of transitional phrases and the sequential explanation of Coulomb's Law before vector form implies a prerequisite relationship between the two concepts.",
+      "llm_response": "ANSWER: YES\nCONFIDENCE: 0.8\nREASONING: The teacher explicitly references Coulomb's Law when explaining the concept of vector form, stating that Coulomb's Law has a scalar form and then implies a connection to the direction, which is a key aspect of vectors. The teacher's explanation builds upon Coulomb's Law to introduce the concept of vector form, suggesting that understanding Coulomb's Law is necessary to grasp the vector form. The use of transitional phrases and the sequential explanation of Coulomb's Law before vector form implies a prerequisite relationship between the two concepts."
+    },
+    {
+      "prerequisite": "Coulomb's Law",
+      "target": "Inverse Square Law",
+      "prerequisite_time": 0.48,
+      "target_time": 243.4,
+      "time_gap": 242.92000000000002,
+      "teaching_signals": [
+        "then",
+        "need",
+        "after",
+        "first"
+      ],
+      "signal_count": 4,
+      "strength": "strong",
+      "context_window": "We treat, so charge means this which Point charge means what are the charges The distance between its size is quite a lot If it is more, then we will charge it a point four We will treat it like I also mentioned It does not mean point charge We need to understand that this is a small charge so this Clarity gives you an understanding of this thing that What is called point charge now something Important concepts that are very essential To understand Ohm's Law properly First thing we start with is",
+      "llm_verified": false,
+      "llm_confidence": 1.0,
+      "llm_reasoning": "The teacher does not explicitly mention Coulomb's Law when explaining the context, and there is no indication that Inverse Square Law builds upon or extends Coulomb's Law in this specific transcript segment. Additionally, the teacher does not provide any teaching signals that suggest a prerequisite relationship between the two concepts, making it unlikely that understanding Coulomb's Law is necessary before learning Inverse Square Law based on this explanation.",
+      "llm_response": "ANSWER: NO\nCONFIDENCE: 1.0\nREASONING: The teacher does not explicitly mention Coulomb's Law when explaining the context, and there is no indication that Inverse Square Law builds upon or extends Coulomb's Law in this specific transcript segment. Additionally, the teacher does not provide any teaching signals that suggest a prerequisite relationship between the two concepts, making it unlikely that understanding Coulomb's Law is necessary before learning Inverse Square Law based on this explanation."
+    },
+    {
+      "prerequisite": "Electric Force",
+      "target": "Electric Field",
+      "prerequisite_time": 355.12,
+      "target_time": 357.24,
+      "time_gap": 2.1200000000000045,
+      "teaching_signals": [
+        "then",
+        "depends on",
+        "next",
+        "first"
+      ],
+      "signal_count": 4,
+      "strength": "strong",
+      "context_window": "Let's follow the pair, that is Newton's third I follow the law as much as I can The force you apply on me will be the same as the force I apply on you First, equal and opposite forces are its Let's discuss a few more concepts above There are things that are very important for you to know Lami's Law is a conservative force Lami Law of conservation of force is conservation Forces are path dependent It does not only have initial and final points This means that if you Electric force is related to e",
+      "llm_verified": true,
+      "llm_confidence": 0.8,
+      "llm_reasoning": "The teacher mentions \"Electric force is related to e\" which implies a connection between Electric Force and potentially Electric Field, suggesting that understanding Electric Force may be necessary to grasp the concept of Electric Field. Although the teacher does not explicitly state that Electric Force is a prerequisite, the context implies a relationship between the two concepts. The teacher's explanation of Electric Force seems to be laying the groundwork for discussing Electric Field, indicating that understanding Concept A may be necessary before learning Concept B.",
+      "llm_response": "ANSWER: YES\nCONFIDENCE: 0.8\nREASONING: The teacher mentions \"Electric force is related to e\" which implies a connection between Electric Force and potentially Electric Field, suggesting that understanding Electric Force may be necessary to grasp the concept of Electric Field. Although the teacher does not explicitly state that Electric Force is a prerequisite, the context implies a relationship between the two concepts. The teacher's explanation of Electric Force seems to be laying the groundwork for discussing Electric Field, indicating that understanding Concept A may be necessary before learning Concept B."
+    },
+    {
+      "prerequisite": "Point Charge",
+      "target": "Electrical Charge",
+      "prerequisite_time": 12.519,
+      "target_time": 31.92,
+      "time_gap": 19.401000000000003,
+      "teaching_signals": [
+        "then"
+      ],
+      "signal_count": 1,
+      "strength": "strong",
+      "context_window": "I will try to gather complete information that The law tells us what and how many are inside it There are a few important concepts that you should know It should be that I am absolutely fundamental I will clarify point charges Concept, what it is, and then vectors Form of Columns Law we will also understand and Along with that, we will also see that one Numerically, what are its applications So let's start the conversation quickly They are about Coulomb's Law in detail We are going to take infor",
+      "llm_verified": true,
+      "llm_confidence": 0.8,
+      "llm_reasoning": "The teacher mentions that they will \"clarify point charges Concept\" before diving into other topics, implying that understanding point charges is a foundational step. The explanation of point charges is presented as a necessary precursor to discussing other concepts, including Coulomb's Law, which is related to electrical charge. Although the teacher does not explicitly state that point charge is a prerequisite for electrical charge, the sequence of topics and the emphasis on clarifying point charges first suggests that understanding point charges is necessary before learning about electrical charge.",
+      "llm_response": "ANSWER: YES\nCONFIDENCE: 0.8\nREASONING: The teacher mentions that they will \"clarify point charges Concept\" before diving into other topics, implying that understanding point charges is a foundational step. The explanation of point charges is presented as a necessary precursor to discussing other concepts, including Coulomb's Law, which is related to electrical charge. Although the teacher does not explicitly state that point charge is a prerequisite for electrical charge, the sequence of topics and the emphasis on clarifying point charges first suggests that understanding point charges is necessary before learning about electrical charge."
+    },
+    {
+      "prerequisite": "Point Charge",
+      "target": "Inverse Square Law",
+      "prerequisite_time": 12.519,
+      "target_time": 243.4,
+      "time_gap": 230.881,
+      "teaching_signals": [
+        "then",
+        "need",
+        "after",
+        "first"
+      ],
+      "signal_count": 4,
+      "strength": "strong",
+      "context_window": "We treat, so charge means this which Point charge means what are the charges The distance between its size is quite a lot If it is more, then we will charge it a point four We will treat it like I also mentioned It does not mean point charge We need to understand that this is a small charge so this Clarity gives you an understanding of this thing that What is called point charge now something Important concepts that are very essential To understand Ohm's Law properly First thing we start with is",
+      "llm_verified": false,
+      "llm_confidence": 0.8,
+      "llm_reasoning": "The teacher does not explicitly reference \"Point Charge\" when explaining \"Inverse Square Law\" in this transcript segment, and the explanation of \"Inverse Square Law\" is not provided at all. The teacher is still explaining the concept of \"Point Charge\" and has not yet started discussing \"Inverse Square Law\", indicating that the relationship between the two concepts is not established in this context. The teacher mentions \"Important concepts\" that are essential to understand another concept, \"Ohm's Law\", but does not mention \"Inverse Square Law\" as one of them.",
+      "llm_response": "ANSWER: NO\nCONFIDENCE: 0.8\nREASONING: The teacher does not explicitly reference \"Point Charge\" when explaining \"Inverse Square Law\" in this transcript segment, and the explanation of \"Inverse Square Law\" is not provided at all. The teacher is still explaining the concept of \"Point Charge\" and has not yet started discussing \"Inverse Square Law\", indicating that the relationship between the two concepts is not established in this context. The teacher mentions \"Important concepts\" that are essential to understand another concept, \"Ohm's Law\", but does not mention \"Inverse Square Law\" as one of them."
+    }
+  ],
+  "confirmed_edges": [
+    {
+      "prerequisite": "Coulomb's Law",
+      "target": "Point Charge",
+      "prerequisite_time": 0.48,
+      "target_time": 12.519,
+      "time_gap": 12.039,
+      "teaching_signals": [
+        "then"
+      ],
+      "signal_count": 1,
+      "strength": "strong",
+      "context_window": "Hello children, today we are going to discuss Coulomb's Law I will try to gather complete information that The law tells us what and how many are inside it There are a few important concepts that you should know It should be that I am absolutely fundamental I will clarify point charges Concept, what it is, and then vectors Form of Columns Law we will also understand and Along with that, we will also see that one Numerically, what are its applications So let's start the conversation quickly They ",
+      "llm_verified": true,
+      "llm_confidence": 0.8,
+      "llm_reasoning": "The teacher mentions that they will \"clarify point charges Concept\" after introducing Coulomb's Law, implying that understanding Coulomb's Law is necessary before learning about point charges. The teacher also mentions \"Form of Columns Law\" in the same context as point charges, suggesting a connection between the two concepts. Additionally, the teacher's phrase \"let's start the conversation quickly\" after introducing Coulomb's Law implies that they will build upon this concept to explain point charges.",
+      "llm_response": "ANSWER: YES\nCONFIDENCE: 0.8\nREASONING: The teacher mentions that they will \"clarify point charges Concept\" after introducing Coulomb's Law, implying that understanding Coulomb's Law is necessary before learning about point charges. The teacher also mentions \"Form of Columns Law\" in the same context as point charges, suggesting a connection between the two concepts. Additionally, the teacher's phrase \"let's start the conversation quickly\" after introducing Coulomb's Law implies that they will build upon this concept to explain point charges."
+    },
+    {
+      "prerequisite": "Coulomb's Law",
+      "target": "Vector Form",
+      "prerequisite_time": 0.48,
+      "target_time": 539.12,
+      "time_gap": 538.64,
+      "teaching_signals": [
+        "next",
+        "let's see",
+        "first"
+      ],
+      "signal_count": 3,
+      "strength": "strong",
+      "context_window": "So the link to Aravind Academy app is Description is given by clicking Download it and in the Drona batch mine Join us now as we move on to the next topic We move forward and come back to the topic Let's see the Coolman's first law when we are talking So first, a vector quantity is We had said the things that Magni Module 1 of 4, PA, with q1 q2 divided by r, this will be Scalar form Coulomb's law states that Magni Tud told about the direction of what to do Direction is also known as Magnetic Nor",
+      "llm_verified": true,
+      "llm_confidence": 0.8,
+      "llm_reasoning": "The teacher explicitly references Coulomb's Law when explaining the concept of vector form, stating that Coulomb's Law has a scalar form and then implies a connection to the direction, which is a key aspect of vectors. The teacher's explanation builds upon Coulomb's Law to introduce the concept of vector form, suggesting that understanding Coulomb's Law is necessary to grasp the vector form. The use of transitional phrases and the sequential explanation of Coulomb's Law before vector form implies a prerequisite relationship between the two concepts.",
+      "llm_response": "ANSWER: YES\nCONFIDENCE: 0.8\nREASONING: The teacher explicitly references Coulomb's Law when explaining the concept of vector form, stating that Coulomb's Law has a scalar form and then implies a connection to the direction, which is a key aspect of vectors. The teacher's explanation builds upon Coulomb's Law to introduce the concept of vector form, suggesting that understanding Coulomb's Law is necessary to grasp the vector form. The use of transitional phrases and the sequential explanation of Coulomb's Law before vector form implies a prerequisite relationship between the two concepts."
+    },
+    {
+      "prerequisite": "Electric Force",
+      "target": "Electric Field",
+      "prerequisite_time": 355.12,
+      "target_time": 357.24,
+      "time_gap": 2.1200000000000045,
+      "teaching_signals": [
+        "then",
+        "depends on",
+        "next",
+        "first"
+      ],
+      "signal_count": 4,
+      "strength": "strong",
+      "context_window": "Let's follow the pair, that is Newton's third I follow the law as much as I can The force you apply on me will be the same as the force I apply on you First, equal and opposite forces are its Let's discuss a few more concepts above There are things that are very important for you to know Lami's Law is a conservative force Lami Law of conservation of force is conservation Forces are path dependent It does not only have initial and final points This means that if you Electric force is related to e",
+      "llm_verified": true,
+      "llm_confidence": 0.8,
+      "llm_reasoning": "The teacher mentions \"Electric force is related to e\" which implies a connection between Electric Force and potentially Electric Field, suggesting that understanding Electric Force may be necessary to grasp the concept of Electric Field. Although the teacher does not explicitly state that Electric Force is a prerequisite, the context implies a relationship between the two concepts. The teacher's explanation of Electric Force seems to be laying the groundwork for discussing Electric Field, indicating that understanding Concept A may be necessary before learning Concept B.",
+      "llm_response": "ANSWER: YES\nCONFIDENCE: 0.8\nREASONING: The teacher mentions \"Electric force is related to e\" which implies a connection between Electric Force and potentially Electric Field, suggesting that understanding Electric Force may be necessary to grasp the concept of Electric Field. Although the teacher does not explicitly state that Electric Force is a prerequisite, the context implies a relationship between the two concepts. The teacher's explanation of Electric Force seems to be laying the groundwork for discussing Electric Field, indicating that understanding Concept A may be necessary before learning Concept B."
+    },
+    {
+      "prerequisite": "Point Charge",
+      "target": "Electrical Charge",
+      "prerequisite_time": 12.519,
+      "target_time": 31.92,
+      "time_gap": 19.401000000000003,
+      "teaching_signals": [
+        "then"
+      ],
+      "signal_count": 1,
+      "strength": "strong",
+      "context_window": "I will try to gather complete information that The law tells us what and how many are inside it There are a few important concepts that you should know It should be that I am absolutely fundamental I will clarify point charges Concept, what it is, and then vectors Form of Columns Law we will also understand and Along with that, we will also see that one Numerically, what are its applications So let's start the conversation quickly They are about Coulomb's Law in detail We are going to take infor",
+      "llm_verified": true,
+      "llm_confidence": 0.8,
+      "llm_reasoning": "The teacher mentions that they will \"clarify point charges Concept\" before diving into other topics, implying that understanding point charges is a foundational step. The explanation of point charges is presented as a necessary precursor to discussing other concepts, including Coulomb's Law, which is related to electrical charge. Although the teacher does not explicitly state that point charge is a prerequisite for electrical charge, the sequence of topics and the emphasis on clarifying point charges first suggests that understanding point charges is necessary before learning about electrical charge.",
+      "llm_response": "ANSWER: YES\nCONFIDENCE: 0.8\nREASONING: The teacher mentions that they will \"clarify point charges Concept\" before diving into other topics, implying that understanding point charges is a foundational step. The explanation of point charges is presented as a necessary precursor to discussing other concepts, including Coulomb's Law, which is related to electrical charge. Although the teacher does not explicitly state that point charge is a prerequisite for electrical charge, the sequence of topics and the emphasis on clarifying point charges first suggests that understanding point charges is necessary before learning about electrical charge."
+    }
+  ]
+}

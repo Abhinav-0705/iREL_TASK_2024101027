@@ -1,0 +1,2456 @@
+{
+  "video_id": "video_4",
+  "method": "hybrid_implicit_detection",
+  "total_dependencies": 168,
+  "method_breakdown": {
+    "semantic_temporal": 52,
+    "cooccurrence": 15,
+    "video_explanation_overlap": 168,
+    "transitive": 0,
+    "final_unique": 168
+  },
+  "dependencies": [
+    {
+      "prerequisite": "Electrostatics",
+      "concept": "Coulomb's Law",
+      "confidence": 1.0,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 1.0,
+        "vocab_a_size": 88,
+        "vocab_b_size": 88,
+        "t_a": 0,
+        "t_b": 0.48
+      }
+    },
+    {
+      "prerequisite": "Electrostatics",
+      "concept": "Newton's Law",
+      "confidence": 1.0,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 1.0,
+        "vocab_a_size": 88,
+        "vocab_b_size": 88,
+        "t_a": 0,
+        "t_b": 0.48
+      }
+    },
+    {
+      "prerequisite": "Electromagnetic Induction",
+      "concept": "Coulomb's Law",
+      "confidence": 1.0,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 1.0,
+        "vocab_a_size": 88,
+        "vocab_b_size": 88,
+        "t_a": 0,
+        "t_b": 0.48
+      }
+    },
+    {
+      "prerequisite": "Electromagnetic Induction",
+      "concept": "Newton's Law",
+      "confidence": 1.0,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 1.0,
+        "vocab_a_size": 88,
+        "vocab_b_size": 88,
+        "t_a": 0,
+        "t_b": 0.48
+      }
+    },
+    {
+      "prerequisite": "Electromagnetic Induction",
+      "concept": "Inverse Square Law",
+      "confidence": 1.0,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 1.0,
+        "vocab_a_size": 88,
+        "vocab_b_size": 88,
+        "t_a": 0,
+        "t_b": 0.48
+      }
+    },
+    {
+      "prerequisite": "Electromagnetic Induction",
+      "concept": "Gauss's Law",
+      "confidence": 1.0,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 1.0,
+        "vocab_a_size": 88,
+        "vocab_b_size": 88,
+        "t_a": 0,
+        "t_b": 0.48
+      }
+    },
+    {
+      "prerequisite": "Newton's Law",
+      "concept": "Vector Form",
+      "confidence": 0.9887640449438202,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.9887640449438202,
+        "vocab_a_size": 88,
+        "vocab_b_size": 89,
+        "t_a": 0.48,
+        "t_b": 2.56
+      }
+    },
+    {
+      "prerequisite": "Electrostatics",
+      "concept": "Vector Form",
+      "confidence": 0.9887640449438202,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.9887640449438202,
+        "vocab_a_size": 88,
+        "vocab_b_size": 89,
+        "t_a": 0,
+        "t_b": 2.56
+      }
+    },
+    {
+      "prerequisite": "Inverse Square Law",
+      "concept": "Vector Form",
+      "confidence": 0.9887640449438202,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.9887640449438202,
+        "vocab_a_size": 88,
+        "vocab_b_size": 89,
+        "t_a": 0.48,
+        "t_b": 2.56
+      }
+    },
+    {
+      "prerequisite": "Gauss's Law",
+      "concept": "Vector Form",
+      "confidence": 0.9887640449438202,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.9887640449438202,
+        "vocab_a_size": 88,
+        "vocab_b_size": 89,
+        "t_a": 0.48,
+        "t_b": 2.56
+      }
+    },
+    {
+      "prerequisite": "Electromagnetic Induction",
+      "concept": "Vector Form",
+      "confidence": 0.9887640449438202,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.9887640449438202,
+        "vocab_a_size": 88,
+        "vocab_b_size": 89,
+        "t_a": 0,
+        "t_b": 2.56
+      }
+    },
+    {
+      "prerequisite": "Ampere's Law",
+      "concept": "Vector Form",
+      "confidence": 0.9887640449438202,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.9887640449438202,
+        "vocab_a_size": 88,
+        "vocab_b_size": 89,
+        "t_a": 0.48,
+        "t_b": 2.56
+      }
+    },
+    {
+      "prerequisite": "Biot-Savart Law",
+      "concept": "Vector Form",
+      "confidence": 0.9887640449438202,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.9887640449438202,
+        "vocab_a_size": 88,
+        "vocab_b_size": 89,
+        "t_a": 0.48,
+        "t_b": 2.56
+      }
+    },
+    {
+      "prerequisite": "Point Charge",
+      "concept": "Conservation of Energy",
+      "confidence": 0.95,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "cooccurrence",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.5809136506986617,
+          0.9090909090909091,
+          0.99
+        ],
+        "method_count": 3
+      }
+    },
+    {
+      "prerequisite": "Electric Force",
+      "concept": "Electric Field",
+      "confidence": 0.95,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "cooccurrence",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          1.0,
+          0.941747572815534
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Point Charge",
+      "concept": "Permittivity of Free Space",
+      "confidence": 0.95,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "cooccurrence",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          1.0,
+          0.99
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Electromagnetic Forces",
+      "concept": "Electric Field",
+      "confidence": 0.941747572815534,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.941747572815534,
+        "vocab_a_size": 100,
+        "vocab_b_size": 100,
+        "t_a": 29.08,
+        "t_b": 31.92
+      }
+    },
+    {
+      "prerequisite": "Lorentz Force",
+      "concept": "Electric Field",
+      "confidence": 0.941747572815534,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.941747572815534,
+        "vocab_a_size": 100,
+        "vocab_b_size": 100,
+        "t_a": 29.08,
+        "t_b": 31.92
+      }
+    },
+    {
+      "prerequisite": "Lorentz Force",
+      "concept": "Electric Potential",
+      "confidence": 0.941747572815534,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.941747572815534,
+        "vocab_a_size": 100,
+        "vocab_b_size": 100,
+        "t_a": 29.08,
+        "t_b": 31.92
+      }
+    },
+    {
+      "prerequisite": "Coulomb's Law",
+      "concept": "Vector Form",
+      "confidence": 0.91907765555177,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "cooccurrence",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.7227231973838806,
+          0.5862068965517241,
+          0.9887640449438202
+        ],
+        "method_count": 3
+      }
+    },
+    {
+      "prerequisite": "Vector Form",
+      "concept": "Point Charge",
+      "confidence": 0.898989898989899,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.898989898989899,
+        "vocab_a_size": 89,
+        "vocab_b_size": 99,
+        "t_a": 2.56,
+        "t_b": 12.519
+      }
+    },
+    {
+      "prerequisite": "Vector Form",
+      "concept": "Permittivity of Free Space",
+      "confidence": 0.89,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.89,
+        "vocab_a_size": 89,
+        "vocab_b_size": 100,
+        "t_a": 2.56,
+        "t_b": 16.199
+      }
+    },
+    {
+      "prerequisite": "Newton's Law",
+      "concept": "Electrical Charge",
+      "confidence": 0.8888888888888888,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.8888888888888888,
+        "vocab_a_size": 88,
+        "vocab_b_size": 99,
+        "t_a": 0.48,
+        "t_b": 12.519
+      }
+    },
+    {
+      "prerequisite": "Newton's Law",
+      "concept": "Point Charge",
+      "confidence": 0.8888888888888888,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.8888888888888888,
+        "vocab_a_size": 88,
+        "vocab_b_size": 99,
+        "t_a": 0.48,
+        "t_b": 12.519
+      }
+    },
+    {
+      "prerequisite": "Electrostatics",
+      "concept": "Electrical Charge",
+      "confidence": 0.8888888888888888,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.8888888888888888,
+        "vocab_a_size": 88,
+        "vocab_b_size": 99,
+        "t_a": 0,
+        "t_b": 12.519
+      }
+    },
+    {
+      "prerequisite": "Electrostatics",
+      "concept": "Point Charge",
+      "confidence": 0.8888888888888888,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.8888888888888888,
+        "vocab_a_size": 88,
+        "vocab_b_size": 99,
+        "t_a": 0,
+        "t_b": 12.519
+      }
+    },
+    {
+      "prerequisite": "Inverse Square Law",
+      "concept": "Electrical Charge",
+      "confidence": 0.8888888888888888,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.8888888888888888,
+        "vocab_a_size": 88,
+        "vocab_b_size": 99,
+        "t_a": 0.48,
+        "t_b": 12.519
+      }
+    },
+    {
+      "prerequisite": "Gauss's Law",
+      "concept": "Electrical Charge",
+      "confidence": 0.8888888888888888,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.8888888888888888,
+        "vocab_a_size": 88,
+        "vocab_b_size": 99,
+        "t_a": 0.48,
+        "t_b": 12.519
+      }
+    },
+    {
+      "prerequisite": "Gauss's Law",
+      "concept": "Point Charge",
+      "confidence": 0.8888888888888888,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.8888888888888888,
+        "vocab_a_size": 88,
+        "vocab_b_size": 99,
+        "t_a": 0.48,
+        "t_b": 12.519
+      }
+    },
+    {
+      "prerequisite": "Electromagnetic Induction",
+      "concept": "Electrical Charge",
+      "confidence": 0.8888888888888888,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.8888888888888888,
+        "vocab_a_size": 88,
+        "vocab_b_size": 99,
+        "t_a": 0,
+        "t_b": 12.519
+      }
+    },
+    {
+      "prerequisite": "Electromagnetic Induction",
+      "concept": "Point Charge",
+      "confidence": 0.8888888888888888,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.8888888888888888,
+        "vocab_a_size": 88,
+        "vocab_b_size": 99,
+        "t_a": 0,
+        "t_b": 12.519
+      }
+    },
+    {
+      "prerequisite": "Ampere's Law",
+      "concept": "Electrical Charge",
+      "confidence": 0.8888888888888888,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.8888888888888888,
+        "vocab_a_size": 88,
+        "vocab_b_size": 99,
+        "t_a": 0.48,
+        "t_b": 12.519
+      }
+    },
+    {
+      "prerequisite": "Ampere's Law",
+      "concept": "Point Charge",
+      "confidence": 0.8888888888888888,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.8888888888888888,
+        "vocab_a_size": 88,
+        "vocab_b_size": 99,
+        "t_a": 0.48,
+        "t_b": 12.519
+      }
+    },
+    {
+      "prerequisite": "Biot-Savart Law",
+      "concept": "Electrical Charge",
+      "confidence": 0.8888888888888888,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.8888888888888888,
+        "vocab_a_size": 88,
+        "vocab_b_size": 99,
+        "t_a": 0.48,
+        "t_b": 12.519
+      }
+    },
+    {
+      "prerequisite": "Biot-Savart Law",
+      "concept": "Point Charge",
+      "confidence": 0.8888888888888888,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.8888888888888888,
+        "vocab_a_size": 88,
+        "vocab_b_size": 99,
+        "t_a": 0.48,
+        "t_b": 12.519
+      }
+    },
+    {
+      "prerequisite": "Point Charge",
+      "concept": "Electric Field",
+      "confidence": 0.888348588863463,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "cooccurrence",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.8695652173913043,
+          0.7456140350877193
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Inverse Square Law",
+      "concept": "Permittivity of Free Space",
+      "confidence": 0.8840000000000001,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "cooccurrence",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.7272727272727273,
+          0.88
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Electrostatics",
+      "concept": "Inverse Square Law",
+      "confidence": 0.8831539140627385,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.6057343892049789,
+          1.0
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Electrostatics",
+      "concept": "Gauss's Law",
+      "confidence": 0.8831539140627385,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.6057343892049789,
+          1.0
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Electrostatics",
+      "concept": "Ampere's Law",
+      "confidence": 0.8831539140627385,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.6057343892049789,
+          1.0
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Electrostatics",
+      "concept": "Biot-Savart Law",
+      "confidence": 0.8831539140627385,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.6057343892049789,
+          1.0
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Coulomb's Law",
+      "concept": "Point Charge",
+      "confidence": 0.8809091974500233,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.7127641973838805,
+          0.8888888888888888
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Newton's Law",
+      "concept": "Permittivity of Free Space",
+      "confidence": 0.88,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.88,
+        "vocab_a_size": 88,
+        "vocab_b_size": 100,
+        "t_a": 0.48,
+        "t_b": 16.199
+      }
+    },
+    {
+      "prerequisite": "Electrostatics",
+      "concept": "Permittivity of Free Space",
+      "confidence": 0.88,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.88,
+        "vocab_a_size": 88,
+        "vocab_b_size": 100,
+        "t_a": 0,
+        "t_b": 16.199
+      }
+    },
+    {
+      "prerequisite": "Electrostatics",
+      "concept": "Conservation of Energy",
+      "confidence": 0.88,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.88,
+        "vocab_a_size": 88,
+        "vocab_b_size": 100,
+        "t_a": 0,
+        "t_b": 16.199
+      }
+    },
+    {
+      "prerequisite": "Inverse Square Law",
+      "concept": "Conservation of Energy",
+      "confidence": 0.88,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.88,
+        "vocab_a_size": 88,
+        "vocab_b_size": 100,
+        "t_a": 0.48,
+        "t_b": 16.199
+      }
+    },
+    {
+      "prerequisite": "Gauss's Law",
+      "concept": "Permittivity of Free Space",
+      "confidence": 0.88,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.88,
+        "vocab_a_size": 88,
+        "vocab_b_size": 100,
+        "t_a": 0.48,
+        "t_b": 16.199
+      }
+    },
+    {
+      "prerequisite": "Gauss's Law",
+      "concept": "Conservation of Energy",
+      "confidence": 0.88,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.88,
+        "vocab_a_size": 88,
+        "vocab_b_size": 100,
+        "t_a": 0.48,
+        "t_b": 16.199
+      }
+    },
+    {
+      "prerequisite": "Electromagnetic Induction",
+      "concept": "Permittivity of Free Space",
+      "confidence": 0.88,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.88,
+        "vocab_a_size": 88,
+        "vocab_b_size": 100,
+        "t_a": 0,
+        "t_b": 16.199
+      }
+    },
+    {
+      "prerequisite": "Electromagnetic Induction",
+      "concept": "Conservation of Energy",
+      "confidence": 0.88,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.88,
+        "vocab_a_size": 88,
+        "vocab_b_size": 100,
+        "t_a": 0,
+        "t_b": 16.199
+      }
+    },
+    {
+      "prerequisite": "Ampere's Law",
+      "concept": "Permittivity of Free Space",
+      "confidence": 0.88,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.88,
+        "vocab_a_size": 88,
+        "vocab_b_size": 100,
+        "t_a": 0.48,
+        "t_b": 16.199
+      }
+    },
+    {
+      "prerequisite": "Ampere's Law",
+      "concept": "Conservation of Energy",
+      "confidence": 0.88,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.88,
+        "vocab_a_size": 88,
+        "vocab_b_size": 100,
+        "t_a": 0.48,
+        "t_b": 16.199
+      }
+    },
+    {
+      "prerequisite": "Biot-Savart Law",
+      "concept": "Permittivity of Free Space",
+      "confidence": 0.88,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.88,
+        "vocab_a_size": 88,
+        "vocab_b_size": 100,
+        "t_a": 0.48,
+        "t_b": 16.199
+      }
+    },
+    {
+      "prerequisite": "Biot-Savart Law",
+      "concept": "Conservation of Energy",
+      "confidence": 0.88,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.88,
+        "vocab_a_size": 88,
+        "vocab_b_size": 100,
+        "t_a": 0.48,
+        "t_b": 16.199
+      }
+    },
+    {
+      "prerequisite": "Coulomb's Law",
+      "concept": "Permittivity of Free Space",
+      "confidence": 0.8739963085611343,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.7090841973838806,
+          0.88
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Coulomb's Law",
+      "concept": "Conservation of Energy",
+      "confidence": 0.8739963085611343,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.7090841973838806,
+          0.88
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Electrical Charge",
+      "concept": "Permittivity of Free Space",
+      "confidence": 0.8682321179995537,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.5886038509082794,
+          0.99
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Electrical Charge",
+      "concept": "Conservation of Energy",
+      "confidence": 0.8682321179995537,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.5886038509082794,
+          0.99
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Conservation of Energy",
+      "concept": "Electric Field",
+      "confidence": 0.8453470633104502,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "cooccurrence",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.782608695652174,
+          0.7543859649122807
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Coulomb's Law",
+      "concept": "Electrical Charge",
+      "confidence": 0.8406612345091076,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "cooccurrence",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.7127641973838805,
+          0.5,
+          0.8888888888888888
+        ],
+        "method_count": 3
+      }
+    },
+    {
+      "prerequisite": "Electric Force",
+      "concept": "Electric Potential",
+      "confidence": 0.8311196572625081,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.5693790767526626,
+          0.941747572815534
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Electromagnetic Forces",
+      "concept": "Electric Potential",
+      "confidence": 0.8234330431663435,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.5554034147596358,
+          0.941747572815534
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Newton's Law",
+      "concept": "Conservation of Energy",
+      "confidence": 0.8120869608113029,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "cooccurrence",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.4683992202100754,
+          0.6818181818181818,
+          0.88
+        ],
+        "method_count": 3
+      }
+    },
+    {
+      "prerequisite": "Permittivity of Free Space",
+      "concept": "Electromagnetic Forces",
+      "confidence": 0.7857142857142857,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.7857142857142857,
+        "vocab_a_size": 100,
+        "vocab_b_size": 100,
+        "t_a": 16.199,
+        "t_b": 29.08
+      }
+    },
+    {
+      "prerequisite": "Conservation of Energy",
+      "concept": "Electromagnetic Forces",
+      "confidence": 0.7857142857142857,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.7857142857142857,
+        "vocab_a_size": 100,
+        "vocab_b_size": 100,
+        "t_a": 16.199,
+        "t_b": 29.08
+      }
+    },
+    {
+      "prerequisite": "Conservation of Energy",
+      "concept": "Lorentz Force",
+      "confidence": 0.7857142857142857,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.7857142857142857,
+        "vocab_a_size": 100,
+        "vocab_b_size": 100,
+        "t_a": 16.199,
+        "t_b": 29.08
+      }
+    },
+    {
+      "prerequisite": "Electromagnetic Induction",
+      "concept": "Ampere's Law",
+      "confidence": 0.7822857233122588,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.42233767874956124,
+          1.0
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Electromagnetic Induction",
+      "concept": "Biot-Savart Law",
+      "confidence": 0.7822857233122588,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.42233767874956124,
+          1.0
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Point Charge",
+      "concept": "Electromagnetic Forces",
+      "confidence": 0.7767857142857143,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.7767857142857143,
+        "vocab_a_size": 99,
+        "vocab_b_size": 100,
+        "t_a": 12.519,
+        "t_b": 29.08
+      }
+    },
+    {
+      "prerequisite": "Coulomb's Law",
+      "concept": "Electromagnetic Forces",
+      "confidence": 0.7561260442754202,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.6962031973838807,
+          0.6785714285714286
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Coulomb's Law",
+      "concept": "Electric Force",
+      "confidence": 0.7561260442754202,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.6962031973838807,
+          0.6785714285714286
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Coulomb's Law",
+      "concept": "Lorentz Force",
+      "confidence": 0.7561260442754202,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.6962031973838807,
+          0.6785714285714286
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Permittivity of Free Space",
+      "concept": "Electric Field",
+      "confidence": 0.7543859649122807,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.7543859649122807,
+        "vocab_a_size": 100,
+        "vocab_b_size": 100,
+        "t_a": 16.199,
+        "t_b": 31.92
+      }
+    },
+    {
+      "prerequisite": "Conservation of Energy",
+      "concept": "Electric Potential",
+      "confidence": 0.7543859649122807,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.7543859649122807,
+        "vocab_a_size": 100,
+        "vocab_b_size": 100,
+        "t_a": 16.199,
+        "t_b": 31.92
+      }
+    },
+    {
+      "prerequisite": "Electrical Charge",
+      "concept": "Electromagnetic Forces",
+      "confidence": 0.7438797108566966,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.5757228509082795,
+          0.7767857142857143
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Electrical Charge",
+      "concept": "Lorentz Force",
+      "confidence": 0.7438797108566966,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.5757228509082795,
+          0.7767857142857143
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Point Charge",
+      "concept": "Lorentz Force",
+      "confidence": 0.7396501007414069,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.5680326506986617,
+          0.7767857142857143
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Electrical Charge",
+      "concept": "Electric Field",
+      "confidence": 0.7231185882344984,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.5691470344295502,
+          0.7456140350877193
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Electrical Charge",
+      "concept": "Electric Potential",
+      "confidence": 0.7231185882344984,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.5691470344295502,
+          0.7456140350877193
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Vector Form",
+      "concept": "Conservation of Energy",
+      "confidence": 0.7168513018659831,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.41336600339269636,
+          0.89
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Coulomb's Law",
+      "concept": "Electric Field",
+      "confidence": 0.7148480913073306,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.6506009953594207,
+          0.6491228070175439
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Coulomb's Law",
+      "concept": "Electric Potential",
+      "confidence": 0.7148480913073306,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.6506009953594207,
+          0.6491228070175439
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Point Charge",
+      "concept": "Electric Potential",
+      "confidence": 0.7034139076426765,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.5333203424444198,
+          0.7456140350877193
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Electrical Charge",
+      "concept": "Electric Force",
+      "confidence": 0.6983804752579253,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "cooccurrence",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.5757228509082795,
+          0.39344262295081966,
+          0.7767857142857143
+        ],
+        "method_count": 3
+      }
+    },
+    {
+      "prerequisite": "Electrostatics",
+      "concept": "Lorentz Force",
+      "confidence": 0.6906381997770242,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.577134389204979,
+          0.6785714285714286
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Vector Form",
+      "concept": "Electromagnetic Forces",
+      "confidence": 0.6875,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.6875,
+        "vocab_a_size": 89,
+        "vocab_b_size": 100,
+        "t_a": 2.56,
+        "t_b": 29.08
+      }
+    },
+    {
+      "prerequisite": "Vector Form",
+      "concept": "Electric Force",
+      "confidence": 0.6875,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.6875,
+        "vocab_a_size": 89,
+        "vocab_b_size": 100,
+        "t_a": 2.56,
+        "t_b": 29.08
+      }
+    },
+    {
+      "prerequisite": "Newton's Law",
+      "concept": "Electromagnetic Forces",
+      "confidence": 0.6785714285714286,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.6785714285714286,
+        "vocab_a_size": 88,
+        "vocab_b_size": 100,
+        "t_a": 0.48,
+        "t_b": 29.08
+      }
+    },
+    {
+      "prerequisite": "Newton's Law",
+      "concept": "Electric Force",
+      "confidence": 0.6785714285714286,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.6785714285714286,
+        "vocab_a_size": 88,
+        "vocab_b_size": 100,
+        "t_a": 0.48,
+        "t_b": 29.08
+      }
+    },
+    {
+      "prerequisite": "Electrostatics",
+      "concept": "Electromagnetic Forces",
+      "confidence": 0.6785714285714286,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.6785714285714286,
+        "vocab_a_size": 88,
+        "vocab_b_size": 100,
+        "t_a": 0,
+        "t_b": 29.08
+      }
+    },
+    {
+      "prerequisite": "Electrostatics",
+      "concept": "Electric Force",
+      "confidence": 0.6785714285714286,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.6785714285714286,
+        "vocab_a_size": 88,
+        "vocab_b_size": 100,
+        "t_a": 0,
+        "t_b": 29.08
+      }
+    },
+    {
+      "prerequisite": "Inverse Square Law",
+      "concept": "Electromagnetic Forces",
+      "confidence": 0.6785714285714286,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.6785714285714286,
+        "vocab_a_size": 88,
+        "vocab_b_size": 100,
+        "t_a": 0.48,
+        "t_b": 29.08
+      }
+    },
+    {
+      "prerequisite": "Inverse Square Law",
+      "concept": "Electric Force",
+      "confidence": 0.6785714285714286,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.6785714285714286,
+        "vocab_a_size": 88,
+        "vocab_b_size": 100,
+        "t_a": 0.48,
+        "t_b": 29.08
+      }
+    },
+    {
+      "prerequisite": "Gauss's Law",
+      "concept": "Electromagnetic Forces",
+      "confidence": 0.6785714285714286,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.6785714285714286,
+        "vocab_a_size": 88,
+        "vocab_b_size": 100,
+        "t_a": 0.48,
+        "t_b": 29.08
+      }
+    },
+    {
+      "prerequisite": "Gauss's Law",
+      "concept": "Electric Force",
+      "confidence": 0.6785714285714286,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.6785714285714286,
+        "vocab_a_size": 88,
+        "vocab_b_size": 100,
+        "t_a": 0.48,
+        "t_b": 29.08
+      }
+    },
+    {
+      "prerequisite": "Electromagnetic Induction",
+      "concept": "Electromagnetic Forces",
+      "confidence": 0.6785714285714286,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.6785714285714286,
+        "vocab_a_size": 88,
+        "vocab_b_size": 100,
+        "t_a": 0,
+        "t_b": 29.08
+      }
+    },
+    {
+      "prerequisite": "Electromagnetic Induction",
+      "concept": "Electric Force",
+      "confidence": 0.6785714285714286,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.6785714285714286,
+        "vocab_a_size": 88,
+        "vocab_b_size": 100,
+        "t_a": 0,
+        "t_b": 29.08
+      }
+    },
+    {
+      "prerequisite": "Ampere's Law",
+      "concept": "Electromagnetic Forces",
+      "confidence": 0.6785714285714286,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.6785714285714286,
+        "vocab_a_size": 88,
+        "vocab_b_size": 100,
+        "t_a": 0.48,
+        "t_b": 29.08
+      }
+    },
+    {
+      "prerequisite": "Ampere's Law",
+      "concept": "Electric Force",
+      "confidence": 0.6785714285714286,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.6785714285714286,
+        "vocab_a_size": 88,
+        "vocab_b_size": 100,
+        "t_a": 0.48,
+        "t_b": 29.08
+      }
+    },
+    {
+      "prerequisite": "Ampere's Law",
+      "concept": "Lorentz Force",
+      "confidence": 0.6785714285714286,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.6785714285714286,
+        "vocab_a_size": 88,
+        "vocab_b_size": 100,
+        "t_a": 0.48,
+        "t_b": 29.08
+      }
+    },
+    {
+      "prerequisite": "Biot-Savart Law",
+      "concept": "Electromagnetic Forces",
+      "confidence": 0.6785714285714286,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.6785714285714286,
+        "vocab_a_size": 88,
+        "vocab_b_size": 100,
+        "t_a": 0.48,
+        "t_b": 29.08
+      }
+    },
+    {
+      "prerequisite": "Biot-Savart Law",
+      "concept": "Electric Force",
+      "confidence": 0.6785714285714286,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.6785714285714286,
+        "vocab_a_size": 88,
+        "vocab_b_size": 100,
+        "t_a": 0.48,
+        "t_b": 29.08
+      }
+    },
+    {
+      "prerequisite": "Biot-Savart Law",
+      "concept": "Lorentz Force",
+      "confidence": 0.6785714285714286,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.6785714285714286,
+        "vocab_a_size": 88,
+        "vocab_b_size": 100,
+        "t_a": 0.48,
+        "t_b": 29.08
+      }
+    },
+    {
+      "prerequisite": "Point Charge",
+      "concept": "Electric Force",
+      "confidence": 0.6706747658079626,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "cooccurrence",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.4426229508196721,
+          0.7767857142857143
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Electrostatics",
+      "concept": "Electric Potential",
+      "confidence": 0.6687721021489386,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.5668264696168899,
+          0.6491228070175439
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Inverse Square Law",
+      "concept": "Point Charge",
+      "confidence": 0.6660075329566856,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "cooccurrence",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.3220338983050847,
+          0.8888888888888888
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Vector Form",
+      "concept": "Electric Field",
+      "confidence": 0.6578947368421053,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.6578947368421053,
+        "vocab_a_size": 89,
+        "vocab_b_size": 100,
+        "t_a": 2.56,
+        "t_b": 31.92
+      }
+    },
+    {
+      "prerequisite": "Vector Form",
+      "concept": "Electrical Charge",
+      "confidence": 0.6548611111111112,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "cooccurrence",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.2916666666666667,
+          0.898989898989899
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Permittivity of Free Space",
+      "concept": "Electric Force",
+      "confidence": 0.6493562697041069,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.39493347738409046,
+          0.7857142857142857
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Permittivity of Free Space",
+      "concept": "Lorentz Force",
+      "confidence": 0.6493562697041069,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.39493347738409046,
+          0.7857142857142857
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Electrostatics",
+      "concept": "Electric Field",
+      "confidence": 0.6491228070175439,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.6491228070175439,
+        "vocab_a_size": 88,
+        "vocab_b_size": 100,
+        "t_a": 0,
+        "t_b": 31.92
+      }
+    },
+    {
+      "prerequisite": "Inverse Square Law",
+      "concept": "Electric Field",
+      "confidence": 0.6491228070175439,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.6491228070175439,
+        "vocab_a_size": 88,
+        "vocab_b_size": 100,
+        "t_a": 0.48,
+        "t_b": 31.92
+      }
+    },
+    {
+      "prerequisite": "Gauss's Law",
+      "concept": "Electric Field",
+      "confidence": 0.6491228070175439,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.6491228070175439,
+        "vocab_a_size": 88,
+        "vocab_b_size": 100,
+        "t_a": 0.48,
+        "t_b": 31.92
+      }
+    },
+    {
+      "prerequisite": "Electromagnetic Induction",
+      "concept": "Electric Field",
+      "confidence": 0.6491228070175439,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.6491228070175439,
+        "vocab_a_size": 88,
+        "vocab_b_size": 100,
+        "t_a": 0,
+        "t_b": 31.92
+      }
+    },
+    {
+      "prerequisite": "Electromagnetic Induction",
+      "concept": "Electric Potential",
+      "confidence": 0.6491228070175439,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.6491228070175439,
+        "vocab_a_size": 88,
+        "vocab_b_size": 100,
+        "t_a": 0,
+        "t_b": 31.92
+      }
+    },
+    {
+      "prerequisite": "Ampere's Law",
+      "concept": "Electric Field",
+      "confidence": 0.6491228070175439,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.6491228070175439,
+        "vocab_a_size": 88,
+        "vocab_b_size": 100,
+        "t_a": 0.48,
+        "t_b": 31.92
+      }
+    },
+    {
+      "prerequisite": "Ampere's Law",
+      "concept": "Electric Potential",
+      "confidence": 0.6491228070175439,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.6491228070175439,
+        "vocab_a_size": 88,
+        "vocab_b_size": 100,
+        "t_a": 0.48,
+        "t_b": 31.92
+      }
+    },
+    {
+      "prerequisite": "Biot-Savart Law",
+      "concept": "Electric Field",
+      "confidence": 0.6491228070175439,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.6491228070175439,
+        "vocab_a_size": 88,
+        "vocab_b_size": 100,
+        "t_a": 0.48,
+        "t_b": 31.92
+      }
+    },
+    {
+      "prerequisite": "Biot-Savart Law",
+      "concept": "Electric Potential",
+      "confidence": 0.6491228070175439,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.6491228070175439,
+        "vocab_a_size": 88,
+        "vocab_b_size": 100,
+        "t_a": 0.48,
+        "t_b": 31.92
+      }
+    },
+    {
+      "prerequisite": "Permittivity of Free Space",
+      "concept": "Electric Potential",
+      "confidence": 0.6348322228271465,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.3998544402279854,
+          0.7543859649122807
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Newton's Law",
+      "concept": "Lorentz Force",
+      "confidence": 0.6237493068298272,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.4555182202100754,
+          0.6785714285714286
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Newton's Law",
+      "concept": "Electric Field",
+      "confidence": 0.6200610221205188,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "cooccurrence",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.4782608695652174,
+          0.6491228070175439
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Gauss's Law",
+      "concept": "Lorentz Force",
+      "confidence": 0.6170759408494405,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.44338482751846314,
+          0.6785714285714286
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Inverse Square Law",
+      "concept": "Lorentz Force",
+      "confidence": 0.6135499615540675,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.43697395607233047,
+          0.6785714285714286
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Gauss's Law",
+      "concept": "Electric Potential",
+      "confidence": 0.6065229995579009,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.45364628308773036,
+          0.6491228070175439
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Newton's Law",
+      "concept": "Electric Potential",
+      "confidence": 0.6043932841748481,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.44977407330036157,
+          0.6491228070175439
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Conservation of Energy",
+      "concept": "Electric Force",
+      "confidence": 0.6034543325526932,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "cooccurrence",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.3114754098360656,
+          0.7857142857142857
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Inverse Square Law",
+      "concept": "Electric Potential",
+      "confidence": 0.5993780622661595,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.44065548801183696,
+          0.6491228070175439
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Vector Form",
+      "concept": "Lorentz Force",
+      "confidence": 0.598391751865983,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.4004850033926964,
+          0.6875
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Electromagnetic Induction",
+      "concept": "Lorentz Force",
+      "confidence": 0.5897700090265444,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.3937376787495613,
+          0.6785714285714286
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Vector Form",
+      "concept": "Electric Potential",
+      "confidence": 0.5697000859038078,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.3779236011648178,
+          0.6578947368421053
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Point Charge",
+      "concept": "Dielectric Medium",
+      "confidence": 0.46108096517354435,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.5993353168964386,
+          0.2389937106918239
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Electrical Charge",
+      "concept": "Dielectric Medium",
+      "confidence": 0.4025430161479134,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.4929026823043823,
+          0.2389937106918239
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Electric Force",
+      "concept": "Dielectric Medium",
+      "confidence": 0.37187740538697245,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.43864073706722256,
+          0.2375
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Coulomb's Law",
+      "concept": "Dielectric Medium",
+      "confidence": 0.37175483266717263,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.4522336670503616,
+          0.2236842105263158
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Electric Field",
+      "concept": "Dielectric Medium",
+      "confidence": 0.35560960796264274,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.41674925897216797,
+          0.22981366459627328
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Electrostatics",
+      "concept": "Dielectric Medium",
+      "confidence": 0.3511280324564583,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.4147303939399719,
+          0.2236842105263158
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Newton's Law",
+      "concept": "Dielectric Medium",
+      "confidence": 0.34717628280526464,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.40754539457416533,
+          0.2236842105263158
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Electromagnetic Forces",
+      "concept": "Dielectric Medium",
+      "confidence": 0.3403173810658932,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.3812588746652603,
+          0.2375
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Permittivity of Free Space",
+      "concept": "Dielectric Medium",
+      "confidence": 0.2375,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.2375,
+        "vocab_a_size": 100,
+        "vocab_b_size": 98,
+        "t_a": 16.199,
+        "t_b": 139.519
+      }
+    },
+    {
+      "prerequisite": "Conservation of Energy",
+      "concept": "Dielectric Medium",
+      "confidence": 0.2375,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.2375,
+        "vocab_a_size": 100,
+        "vocab_b_size": 98,
+        "t_a": 16.199,
+        "t_b": 139.519
+      }
+    },
+    {
+      "prerequisite": "Lorentz Force",
+      "concept": "Dielectric Medium",
+      "confidence": 0.2375,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.2375,
+        "vocab_a_size": 100,
+        "vocab_b_size": 98,
+        "t_a": 29.08,
+        "t_b": 139.519
+      }
+    },
+    {
+      "prerequisite": "Vector Form",
+      "concept": "Dielectric Medium",
+      "confidence": 0.23026315789473684,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.23026315789473684,
+        "vocab_a_size": 89,
+        "vocab_b_size": 98,
+        "t_a": 2.56,
+        "t_b": 139.519
+      }
+    },
+    {
+      "prerequisite": "Electric Potential",
+      "concept": "Dielectric Medium",
+      "confidence": 0.22981366459627328,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.22981366459627328,
+        "vocab_a_size": 100,
+        "vocab_b_size": 98,
+        "t_a": 31.92,
+        "t_b": 139.519
+      }
+    },
+    {
+      "prerequisite": "Inverse Square Law",
+      "concept": "Dielectric Medium",
+      "confidence": 0.2236842105263158,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.2236842105263158,
+        "vocab_a_size": 88,
+        "vocab_b_size": 98,
+        "t_a": 0.48,
+        "t_b": 139.519
+      }
+    },
+    {
+      "prerequisite": "Gauss's Law",
+      "concept": "Dielectric Medium",
+      "confidence": 0.2236842105263158,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.2236842105263158,
+        "vocab_a_size": 88,
+        "vocab_b_size": 98,
+        "t_a": 0.48,
+        "t_b": 139.519
+      }
+    },
+    {
+      "prerequisite": "Electromagnetic Induction",
+      "concept": "Dielectric Medium",
+      "confidence": 0.2236842105263158,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.2236842105263158,
+        "vocab_a_size": 88,
+        "vocab_b_size": 98,
+        "t_a": 0,
+        "t_b": 139.519
+      }
+    },
+    {
+      "prerequisite": "Ampere's Law",
+      "concept": "Dielectric Medium",
+      "confidence": 0.2236842105263158,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.2236842105263158,
+        "vocab_a_size": 88,
+        "vocab_b_size": 98,
+        "t_a": 0.48,
+        "t_b": 139.519
+      }
+    },
+    {
+      "prerequisite": "Biot-Savart Law",
+      "concept": "Dielectric Medium",
+      "confidence": 0.2236842105263158,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.2236842105263158,
+        "vocab_a_size": 88,
+        "vocab_b_size": 98,
+        "t_a": 0.48,
+        "t_b": 139.519
+      }
+    },
+    {
+      "prerequisite": "Dielectric Medium",
+      "concept": "Magnetic Field",
+      "confidence": 0.21052631578947367,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.21052631578947367,
+        "vocab_a_size": 98,
+        "vocab_b_size": 109,
+        "t_a": 139.519,
+        "t_b": 357.24
+      }
+    },
+    {
+      "prerequisite": "Electrical Charge",
+      "concept": "Magnetic Field",
+      "confidence": 0.20930232558139536,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.20930232558139536,
+        "vocab_a_size": 99,
+        "vocab_b_size": 109,
+        "t_a": 12.519,
+        "t_b": 357.24
+      }
+    },
+    {
+      "prerequisite": "Point Charge",
+      "concept": "Magnetic Field",
+      "confidence": 0.20930232558139536,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.20930232558139536,
+        "vocab_a_size": 99,
+        "vocab_b_size": 109,
+        "t_a": 12.519,
+        "t_b": 357.24
+      }
+    },
+    {
+      "prerequisite": "Electric Field",
+      "concept": "Magnetic Field",
+      "confidence": 0.20809248554913296,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.20809248554913296,
+        "vocab_a_size": 100,
+        "vocab_b_size": 109,
+        "t_a": 31.92,
+        "t_b": 357.24
+      }
+    },
+    {
+      "prerequisite": "Permittivity of Free Space",
+      "concept": "Magnetic Field",
+      "confidence": 0.20809248554913296,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.20809248554913296,
+        "vocab_a_size": 100,
+        "vocab_b_size": 109,
+        "t_a": 16.199,
+        "t_b": 357.24
+      }
+    },
+    {
+      "prerequisite": "Conservation of Energy",
+      "concept": "Magnetic Field",
+      "confidence": 0.20809248554913296,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.20809248554913296,
+        "vocab_a_size": 100,
+        "vocab_b_size": 109,
+        "t_a": 16.199,
+        "t_b": 357.24
+      }
+    },
+    {
+      "prerequisite": "Electric Potential",
+      "concept": "Magnetic Field",
+      "confidence": 0.20809248554913296,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.20809248554913296,
+        "vocab_a_size": 100,
+        "vocab_b_size": 109,
+        "t_a": 31.92,
+        "t_b": 357.24
+      }
+    },
+    {
+      "prerequisite": "Vector Form",
+      "concept": "Magnetic Field",
+      "confidence": 0.2073170731707317,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.2073170731707317,
+        "vocab_a_size": 89,
+        "vocab_b_size": 109,
+        "t_a": 2.56,
+        "t_b": 357.24
+      }
+    },
+    {
+      "prerequisite": "Coulomb's Law",
+      "concept": "Magnetic Field",
+      "confidence": 0.20121951219512196,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.20121951219512196,
+        "vocab_a_size": 88,
+        "vocab_b_size": 109,
+        "t_a": 0.48,
+        "t_b": 357.24
+      }
+    },
+    {
+      "prerequisite": "Newton's Law",
+      "concept": "Magnetic Field",
+      "confidence": 0.20121951219512196,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.20121951219512196,
+        "vocab_a_size": 88,
+        "vocab_b_size": 109,
+        "t_a": 0.48,
+        "t_b": 357.24
+      }
+    },
+    {
+      "prerequisite": "Electrostatics",
+      "concept": "Magnetic Field",
+      "confidence": 0.20121951219512196,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.20121951219512196,
+        "vocab_a_size": 88,
+        "vocab_b_size": 109,
+        "t_a": 0,
+        "t_b": 357.24
+      }
+    },
+    {
+      "prerequisite": "Inverse Square Law",
+      "concept": "Magnetic Field",
+      "confidence": 0.20121951219512196,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.20121951219512196,
+        "vocab_a_size": 88,
+        "vocab_b_size": 109,
+        "t_a": 0.48,
+        "t_b": 357.24
+      }
+    },
+    {
+      "prerequisite": "Gauss's Law",
+      "concept": "Magnetic Field",
+      "confidence": 0.20121951219512196,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.20121951219512196,
+        "vocab_a_size": 88,
+        "vocab_b_size": 109,
+        "t_a": 0.48,
+        "t_b": 357.24
+      }
+    },
+    {
+      "prerequisite": "Electromagnetic Induction",
+      "concept": "Magnetic Field",
+      "confidence": 0.20121951219512196,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.20121951219512196,
+        "vocab_a_size": 88,
+        "vocab_b_size": 109,
+        "t_a": 0,
+        "t_b": 357.24
+      }
+    },
+    {
+      "prerequisite": "Ampere's Law",
+      "concept": "Magnetic Field",
+      "confidence": 0.20121951219512196,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.20121951219512196,
+        "vocab_a_size": 88,
+        "vocab_b_size": 109,
+        "t_a": 0.48,
+        "t_b": 357.24
+      }
+    },
+    {
+      "prerequisite": "Biot-Savart Law",
+      "concept": "Magnetic Field",
+      "confidence": 0.20121951219512196,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.20121951219512196,
+        "vocab_a_size": 88,
+        "vocab_b_size": 109,
+        "t_a": 0.48,
+        "t_b": 357.24
+      }
+    },
+    {
+      "prerequisite": "Electromagnetic Forces",
+      "concept": "Magnetic Field",
+      "confidence": 0.20114942528735633,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.20114942528735633,
+        "vocab_a_size": 100,
+        "vocab_b_size": 109,
+        "t_a": 29.08,
+        "t_b": 357.24
+      }
+    },
+    {
+      "prerequisite": "Electric Force",
+      "concept": "Magnetic Field",
+      "confidence": 0.20114942528735633,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.20114942528735633,
+        "vocab_a_size": 100,
+        "vocab_b_size": 109,
+        "t_a": 29.08,
+        "t_b": 357.24
+      }
+    },
+    {
+      "prerequisite": "Lorentz Force",
+      "concept": "Magnetic Field",
+      "confidence": 0.20114942528735633,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.20114942528735633,
+        "vocab_a_size": 100,
+        "vocab_b_size": 109,
+        "t_a": 29.08,
+        "t_b": 357.24
+      }
+    }
+  ]
+}

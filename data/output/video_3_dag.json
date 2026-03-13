@@ -1,0 +1,114 @@
+{
+  "video_id": "video_3",
+  "nodes": [
+    {
+      "id": 0,
+      "label": "Graph"
+    },
+    {
+      "id": 1,
+      "label": "Depth First Search"
+    },
+    {
+      "id": 2,
+      "label": "Breadth First Search"
+    },
+    {
+      "id": 3,
+      "label": "Tree Traversal"
+    },
+    {
+      "id": 4,
+      "label": "Level Order Traversal"
+    },
+    {
+      "id": 5,
+      "label": "Backtracking"
+    },
+    {
+      "id": 6,
+      "label": "Node"
+    },
+    {
+      "id": 7,
+      "label": "Edge"
+    },
+    {
+      "id": 8,
+      "label": "Recursion"
+    },
+    {
+      "id": 9,
+      "label": "Queue"
+    },
+    {
+      "id": 10,
+      "label": "Stack"
+    },
+    {
+      "id": 11,
+      "label": "Graph Theory"
+    },
+    {
+      "id": 12,
+      "label": "Dynamic Programming"
+    },
+    {
+      "id": 13,
+      "label": "Topological Sort"
+    },
+    {
+      "id": 14,
+      "label": "Time Complexity"
+    },
+    {
+      "id": 15,
+      "label": "Shortest Path"
+    },
+    {
+      "id": 16,
+      "label": "Space Complexity"
+    },
+    {
+      "id": 17,
+      "label": "Minimum Spanning Tree"
+    },
+    {
+      "id": 18,
+      "label": "Maximum Flow"
+    },
+    {
+      "id": 19,
+      "label": "Connected Component"
+    }
+  ],
+  "edges": [
+    {
+      "source": 0,
+      "target": 11,
+      "prerequisite": "Graph",
+      "target_concept": "Graph Theory",
+      "strength": "strong",
+      "teaching_signals": [
+        "then",
+        "using"
+      ]
+    },
+    {
+      "source": 0,
+      "target": 14,
+      "prerequisite": "Graph",
+      "target_concept": "Time Complexity",
+      "strength": "strong",
+      "teaching_signals": [
+        "after",
+        "then"
+      ]
+    }
+  ],
+  "metadata": {
+    "num_nodes": 20,
+    "num_edges": 2,
+    "is_dag": true
+  }
+}

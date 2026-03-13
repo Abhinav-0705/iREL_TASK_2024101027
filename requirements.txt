@@ -1,0 +1,53 @@
+# Core Dependencies
+# Python 3.9+ required (check with: python --version)
+
+# YouTube and Audio Processing
+youtube-transcript-api
+pytube
+pydub
+
+# Speech Recognition
+openai-whisper
+torch
+torchaudio
+
+# NLP Libraries
+spacy
+nltk
+transformers
+sentence-transformers
+keybert
+
+# LLM API
+google-generativeai
+groq
+
+# Text Processing
+scikit-learn
+numpy
+pandas
+
+# Graph and Hypergraph
+networkx
+python-igraph
+
+# Visualization
+matplotlib
+seaborn
+plotly
+graphviz
+pyvis
+
+# Language Detection
+langdetect
+
+# Utilities
+tqdm
+pyyaml
+python-dotenv
+requests
+
+# Jupyter
+jupyter
+ipykernel
+ipywidgets

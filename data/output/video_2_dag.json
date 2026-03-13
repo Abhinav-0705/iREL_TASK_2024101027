@@ -1,0 +1,112 @@
+{
+  "video_id": "video_2",
+  "nodes": [
+    {
+      "id": 0,
+      "label": "Liquid Solutions"
+    },
+    {
+      "id": 1,
+      "label": "Vapor Pressure"
+    },
+    {
+      "id": 2,
+      "label": "Volatile Compounds"
+    },
+    {
+      "id": 3,
+      "label": "Partial Pressure"
+    },
+    {
+      "id": 4,
+      "label": "Raoult's Law"
+    },
+    {
+      "id": 5,
+      "label": "Solution Properties"
+    },
+    {
+      "id": 6,
+      "label": "Binary Solutions"
+    },
+    {
+      "id": 7,
+      "label": "Mole Fraction"
+    },
+    {
+      "id": 8,
+      "label": "Temperature Dependence"
+    },
+    {
+      "id": 9,
+      "label": "Equilibrium"
+    },
+    {
+      "id": 10,
+      "label": "Chemical Composition"
+    },
+    {
+      "id": 11,
+      "label": "Concentration"
+    },
+    {
+      "id": 12,
+      "label": "Phase Behavior"
+    },
+    {
+      "id": 13,
+      "label": "Ideal Solutions"
+    },
+    {
+      "id": 14,
+      "label": "Molecular Interactions"
+    },
+    {
+      "id": 15,
+      "label": "Thermodynamics"
+    },
+    {
+      "id": 16,
+      "label": "Solvent Properties"
+    },
+    {
+      "id": 17,
+      "label": "Solute Properties"
+    },
+    {
+      "id": 18,
+      "label": "Henry's Law"
+    },
+    {
+      "id": 19,
+      "label": "Boiling Point Elevation"
+    },
+    {
+      "id": 20,
+      "label": "Freezing Point Depression"
+    }
+  ],
+  "edges": [
+    {
+      "source": 3,
+      "target": 18,
+      "prerequisite": "Partial Pressure",
+      "target_concept": "Henry's Law",
+      "confidence": 0.8,
+      "teaching_signals": []
+    },
+    {
+      "source": 7,
+      "target": 18,
+      "prerequisite": "Mole Fraction",
+      "target_concept": "Henry's Law",
+      "confidence": 0.9,
+      "teaching_signals": []
+    }
+  ],
+  "metadata": {
+    "num_nodes": 21,
+    "num_edges": 2,
+    "is_dag": true
+  }
+}

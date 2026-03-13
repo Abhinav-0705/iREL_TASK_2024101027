@@ -1,0 +1,1941 @@
+{
+  "video_id": "QhRXgDy7K_c",
+  "source": "translated_from_youtube_api",
+  "transcript": [
+    {
+      "text": "Hello children, today we are going to discuss Coulomb's Law",
+      "start": 0.48,
+      "duration": 4.44,
+      "original_text": "हेलो बच्चों आज हम लोग कलम्स लॉ के बारे"
+    },
+    {
+      "text": "I will try to gather complete information that",
+      "start": 2.56,
+      "duration": 5.84,
+      "original_text": "में पूरी जानकारी लेने की कोशिश करेंगे कि"
+    },
+    {
+      "text": "The law tells us what and how many are inside it",
+      "start": 4.92,
+      "duration": 5.4,
+      "original_text": "लॉ हमें क्या बताता है और उसके अंदर कितने"
+    },
+    {
+      "text": "There are a few important concepts that you should know",
+      "start": 8.4,
+      "duration": 4.119,
+      "original_text": "कुछ इंपॉर्टेंट कांसेप्ट हैं जो आपको पता"
+    },
+    {
+      "text": "It should be that I am absolutely fundamental",
+      "start": 10.32,
+      "duration": 3.76,
+      "original_text": "होने चाहिए वो भी मैं एकदम फंडामेंटल"
+    },
+    {
+      "text": "I will clarify point charges",
+      "start": 12.519,
+      "duration": 3.68,
+      "original_text": "क्लियर करूंगा जैसे पॉइंट चार्जेस"
+    },
+    {
+      "text": "Concept, what it is, and then vectors",
+      "start": 14.08,
+      "duration": 4.52,
+      "original_text": "कांसेप्ट क्या होता है उसके बाद वेक्टर"
+    },
+    {
+      "text": "Form of Columns Law we will also understand and",
+      "start": 16.199,
+      "duration": 4.201,
+      "original_text": "फॉर्म ऑफ कलम्स लॉ भी हम लोग समझेंगे और"
+    },
+    {
+      "text": "Along with that, we will also see that one",
+      "start": 18.6,
+      "duration": 4.04,
+      "original_text": "उसके साथ-साथ हम ये भी देखेंगे कि एक"
+    },
+    {
+      "text": "Numerically, what are its applications",
+      "start": 20.4,
+      "duration": 4.24,
+      "original_text": "न्यूमेरिकल लगा के कि इसका एप्लीकेशन क्या"
+    },
+    {
+      "text": "So let's start the conversation quickly",
+      "start": 22.64,
+      "duration": 4.12,
+      "original_text": "होता है तो चलिए फटाफट बात शुरू कर लेते"
+    },
+    {
+      "text": "They are about Coulomb's Law in detail",
+      "start": 24.64,
+      "duration": 4.44,
+      "original_text": "हैं यानी कलम्स लॉ के बारे में पूरी"
+    },
+    {
+      "text": "We are going to take information, let's start",
+      "start": 26.76,
+      "duration": 5.16,
+      "original_text": "जानकारी हम लेने वाले हैं शुरू करते हैं"
+    },
+    {
+      "text": "As you know, the forces between",
+      "start": 29.08,
+      "duration": 5.04,
+      "original_text": "जैसा आपको मालूम में कि जो फोर्सेस बिटवीन"
+    },
+    {
+      "text": "Electrical charges, that is, charges between them",
+      "start": 31.92,
+      "duration": 4.68,
+      "original_text": "इलेक्ट्रिकल चार्जेस यानी चार्जेस के बीच"
+    },
+    {
+      "text": "Forces are covered in several previous classes",
+      "start": 34.12,
+      "duration": 4.84,
+      "original_text": "में लगते हैं फोर्सेस ये कई पिछले क्लासेस"
+    },
+    {
+      "text": "If you have been reading so far, that's like",
+      "start": 36.6,
+      "duration": 4.76,
+      "original_text": "से आप पढ़ते चले आ रहे हैं अगर वो लाइक"
+    },
+    {
+      "text": "Charges are the same as charges, they are one",
+      "start": 38.96,
+      "duration": 4.36,
+      "original_text": "चार्जेस होते हैं एक जैसे चार्जेस वो एक"
+    },
+    {
+      "text": "The others are affected by this, you know",
+      "start": 41.36,
+      "duration": 4.24,
+      "original_text": "दूसरे को रिपल करते हैं ये आपको मालूम है"
+    },
+    {
+      "text": "As you are seeing in this diagram",
+      "start": 43.32,
+      "duration": 4.68,
+      "original_text": "जैसा कि आप इस डायग्राम में देख रहे हैं"
+    },
+    {
+      "text": "Secondly, look at the fact that if they have unlike charges",
+      "start": 45.6,
+      "duration": 4.599,
+      "original_text": "दूसरी बात देखिए कि अगर वो अनलाइक चार्जेस"
+    },
+    {
+      "text": "Opposite charges attract each other",
+      "start": 48.0,
+      "duration": 5.12,
+      "original_text": "होते हैं तो अनलाइक चार्जेस एक दूसरे को"
+    },
+    {
+      "text": "Attract, now the question arises that",
+      "start": 50.199,
+      "duration": 6.04,
+      "original_text": "अट्रैक्ट करते हैं अब सवाल ये उठता है कि"
+    },
+    {
+      "text": "These charges, how much do they affect each other",
+      "start": 53.12,
+      "duration": 5.64,
+      "original_text": "ये जो चार्जेस हैं वो एक दूसरे को कितने"
+    },
+    {
+      "text": "Attract with force or how many",
+      "start": 56.239,
+      "duration": 4.8,
+      "original_text": "फोर्स से अट्रैक्ट करते हैं या कितने"
+    },
+    {
+      "text": "Forces ripple out so in headings",
+      "start": 58.76,
+      "duration": 4.799,
+      "original_text": "फोर्स से रिपल करते हैं इसलिए हेडिंग में"
+    },
+    {
+      "text": "It is written how much force is equal to the columns law",
+      "start": 61.039,
+      "duration": 4.961,
+      "original_text": "लिखा है हाउ मच फोर्स यही कलम्स लॉ होता"
+    },
+    {
+      "text": "This is Kolm's Law which tells us that two",
+      "start": 63.559,
+      "duration": 5.6,
+      "original_text": "है यही कलम्स लॉ हमको बताता है कि दो"
+    },
+    {
+      "text": "Charges if kept then how many among them",
+      "start": 66.0,
+      "duration": 5.84,
+      "original_text": "चार्जेस अगर रखे हुए हैं तो आपस में कितने"
+    },
+    {
+      "text": "They will attract or repel by force",
+      "start": 69.159,
+      "duration": 4.96,
+      "original_text": "फोर्स से वो अट्रैक्ट करेंगे या रिपेल"
+    },
+    {
+      "text": "We will do it because this information was about Repulsion",
+      "start": 71.84,
+      "duration": 4.52,
+      "original_text": "करेंगे क्योंकि ये जानकारी तो थी रिपल्शन"
+    },
+    {
+      "text": "And attraction, this is Mr. Coulomb",
+      "start": 74.119,
+      "duration": 4.601,
+      "original_text": "और अट्रैक्शन की तो ये कूलाम साहब हैं"
+    },
+    {
+      "text": "These were French scientists, they were",
+      "start": 76.36,
+      "duration": 6.079,
+      "original_text": "इन्होंने ये फ्रेंच साइंटिस्ट थे इन्होंने"
+    },
+    {
+      "text": "This gives you or us a formula that finally for these",
+      "start": 78.72,
+      "duration": 5.6,
+      "original_text": "ये आपको या हमको फार्मूला दिया कि आखिर इन"
+    },
+    {
+      "text": "What force is applied between two charges",
+      "start": 82.439,
+      "duration": 4.761,
+      "original_text": "दो चार्जेस के बीच में कितना फोर्स लगता"
+    },
+    {
+      "text": "is and the force that acts inside the vacuum",
+      "start": 84.32,
+      "duration": 6.6,
+      "original_text": "है और वैक्यूम के अंदर जो फोर्स लगता है"
+    },
+    {
+      "text": "Its value is f = 1/4 of not q1",
+      "start": 87.2,
+      "duration": 7.48,
+      "original_text": "उसकी वैल्यू होती है f = 1/4 पा ए नॉट q1"
+    },
+    {
+      "text": "Charge of q2 / r is the charge of q1, charge of q2 is the charge of q2",
+      "start": 90.92,
+      "duration": 6.879,
+      "original_text": "q2 / r स् q1 इसका चार्ज है q2 इसका चार्ज"
+    },
+    {
+      "text": "The distance between them is r and this",
+      "start": 94.68,
+      "duration": 6.16,
+      "original_text": "है इसके बीच की जो दूरी है वो r है और यह"
+    },
+    {
+      "text": "There is a constant 1 / 4 of pi, pay attention",
+      "start": 97.799,
+      "duration": 5.64,
+      "original_text": "एक कांस्टेंट होता है 1 / 4 पा ए0 ध्यान"
+    },
+    {
+      "text": "Keep in mind that whatever columns law is, that is the point",
+      "start": 100.84,
+      "duration": 4.76,
+      "original_text": "रखिएगा कि जो कलम्स लॉ होता है वो पॉइंट"
+    },
+    {
+      "text": "The point is only valid for charges",
+      "start": 103.439,
+      "duration": 3.881,
+      "original_text": "चार्जेस के लिए ही वैलिड होता है पॉइंट"
+    },
+    {
+      "text": "What are charges, I will explain to you now",
+      "start": 105.6,
+      "duration": 3.839,
+      "original_text": "चार्जेस क्या होते हैं अभी मैं आपको समझा"
+    },
+    {
+      "text": "I will now discuss the constant that exists here",
+      "start": 107.32,
+      "duration": 5.64,
+      "original_text": "दूंगा अब यहां पर ये जो कांस्टेंट होता है"
+    },
+    {
+      "text": "1/4 times this is often written in short as k",
+      "start": 109.439,
+      "duration": 6.32,
+      "original_text": "1/4 पा ए0 इसको कई बार शॉर्ट में k लिखते"
+    },
+    {
+      "text": "So its value should be remembered by us 9",
+      "start": 112.96,
+      "duration": 7.04,
+      "original_text": "हैं तो इसकी वैल्यू हमको याद होनी चाहिए 9"
+    },
+    {
+      "text": "10 to the power of 9 Newton meters per Coulomb",
+      "start": 115.759,
+      "duration": 6.921,
+      "original_text": "* 10 की पावर 9 न्यूटन मीटर स् पर कूलाम"
+    },
+    {
+      "text": "of power -2 and a quantity is coming here",
+      "start": 120.0,
+      "duration": 6.32,
+      "original_text": "की पावर -2 और यहां पर एक क्वांटिटी आ रही"
+    },
+    {
+      "text": "What you are seeing is this 0 of this 0",
+      "start": 122.68,
+      "duration": 6.279,
+      "original_text": "है जो आप देख पा रहे होंगे यह 0 इस 0 की"
+    },
+    {
+      "text": "We should also know the value, remember",
+      "start": 126.32,
+      "duration": 6.88,
+      "original_text": "भी वैल्यू हमको मालूम होनी चाहिए याद कर"
+    },
+    {
+      "text": "Let's take 8.85 * 10 to the power of -12 times",
+      "start": 128.959,
+      "duration": 8.121,
+      "original_text": "लीजिए आप 8.85 * 10 की पा - 12 कलाम"
+    },
+    {
+      "text": "Square Newton - 1 meter is equal to its child",
+      "start": 133.2,
+      "duration": 6.319,
+      "original_text": "स्क्वा न्यूटन - 1 मीटर स् इस ए0 को बेटा"
+    },
+    {
+      "text": "What do they say, this is called",
+      "start": 137.08,
+      "duration": 5.6,
+      "original_text": "कहते क्या हैं तो इस ए0 को कहते हैं"
+    },
+    {
+      "text": "Permitting of the free space is a medium",
+      "start": 139.519,
+      "duration": 5.481,
+      "original_text": "परमिटिंग ऑफ़ दी फ्री स्पेस एक यह मीडियम"
+    },
+    {
+      "text": "has a property that decides this",
+      "start": 142.68,
+      "duration": 4.8,
+      "original_text": "की प्रॉपर्टी होती है जो ये डिसाइड करती"
+    },
+    {
+      "text": "It is how much force one charge exerts on another charge",
+      "start": 145.0,
+      "duration": 5.519,
+      "original_text": "है कि एक चार्ज दूसरे चार्ज पर कितना फर्स"
+    },
+    {
+      "text": "Putting 0 means permitting has been done",
+      "start": 147.48,
+      "duration": 6.52,
+      "original_text": "लगाने वाला है 0 का मतलब हो गया परमिटिंग"
+    },
+    {
+      "text": "Out of the free space, here are the columns",
+      "start": 150.519,
+      "duration": 6.681,
+      "original_text": "ऑफ द फ्री स्पेस तो ये रहा कलम्स का जो"
+    },
+    {
+      "text": "The rule is or the law of clauses is one step further",
+      "start": 154.0,
+      "duration": 5.519,
+      "original_text": "नियम है या कलम्स का जो लॉ है एक कदम और"
+    },
+    {
+      "text": "Moving forward, we increase, now we understand",
+      "start": 157.2,
+      "duration": 4.28,
+      "original_text": "आगे हम लोग बढ़ाते हैं अब ये समझते हैं"
+    },
+    {
+      "text": "Meaning of point charge because we people",
+      "start": 159.519,
+      "duration": 4.401,
+      "original_text": "मीनिंग ऑफ पॉइंट चार्ज क्योंकि हम लोगों"
+    },
+    {
+      "text": "We discussed what is Coolam's law",
+      "start": 161.48,
+      "duration": 4.72,
+      "original_text": "ने डिस्कशन क्या किया है कि जो कूलाम स लॉ"
+    },
+    {
+      "text": "It happens that it is only valid at the point",
+      "start": 163.92,
+      "duration": 4.84,
+      "original_text": "होता है वो केवल वैलिड होता है पॉइंट"
+    },
+    {
+      "text": "Charges for the points are the final charges",
+      "start": 166.2,
+      "duration": 4.84,
+      "original_text": "चार्जेस के लिए तो आखिर ये पॉइंट चार्जेस"
+    },
+    {
+      "text": "What are point charges about",
+      "start": 168.76,
+      "duration": 5.44,
+      "original_text": "है क्या तो पॉइंट चार्जेस के बारे में जो"
+    },
+    {
+      "text": "The information is that the size that exists is charge",
+      "start": 171.04,
+      "duration": 7.199,
+      "original_text": "जानकारी यह है कि जो साइज होता है चार्ज"
+    },
+    {
+      "text": "The size of the distance between them and what is",
+      "start": 174.2,
+      "duration": 6.6,
+      "original_text": "का और उनके बीच का जो डिस्टेंस है साइज उस"
+    },
+    {
+      "text": "The distance should be reduced considerably",
+      "start": 178.239,
+      "duration": 4.521,
+      "original_text": "डिस्टेंस से काफी कम होना होना चाहिए तो"
+    },
+    {
+      "text": "We treat it like a point charge",
+      "start": 180.8,
+      "duration": 4.24,
+      "original_text": "हम उसको पॉइंट चार्ज की तरह ट्रीट करते"
+    },
+    {
+      "text": "There are many children who understand that point charge",
+      "start": 182.76,
+      "duration": 4.28,
+      "original_text": "हैं कई बच्चे समझते हैं कि पॉइंट चार्ज का"
+    },
+    {
+      "text": "It means a very small charge is wrong",
+      "start": 185.04,
+      "duration": 4.759,
+      "original_text": "मतलब होता है बहुत छोटा चार्ज ये गलत"
+    },
+    {
+      "text": "The concept is a miss concept, I understood that",
+      "start": 187.04,
+      "duration": 5.52,
+      "original_text": "धारणा है मिस कंसेप्ट है समझ में आया कि"
+    },
+    {
+      "text": "The size of the charge is between the two of them",
+      "start": 189.799,
+      "duration": 5.041,
+      "original_text": "जो साइज है चार्ज का वो उन दोनों के बीच"
+    },
+    {
+      "text": "The distance should be quite less ideally",
+      "start": 192.56,
+      "duration": 4.44,
+      "original_text": "की डिस्टेंस से काफी कम होना चाहिए यही"
+    },
+    {
+      "text": "The point I mentioned here is this and",
+      "start": 194.84,
+      "duration": 4.24,
+      "original_text": "बात यहां पर मैंने मेंशन की है इसको और"
+    },
+    {
+      "text": "To explain it well, there is an example",
+      "start": 197.0,
+      "duration": 4.319,
+      "original_text": "अच्छे से समझाने के लिए एक एग्जांपल है"
+    },
+    {
+      "text": "Look at the stars that are visible in the sky",
+      "start": 199.08,
+      "duration": 3.92,
+      "original_text": "आसमान में जो तारे दिखते हैं देखिए हम"
+    },
+    {
+      "text": "From here when we look at the stars they",
+      "start": 201.319,
+      "duration": 4.161,
+      "original_text": "यहां से जब तारों को देखते हैं तो वो"
+    },
+    {
+      "text": "Point charges appear but actually",
+      "start": 203.0,
+      "duration": 4.319,
+      "original_text": "पॉइंट चार्ज पॉइंट दिखते हैं लेकिन असल"
+    },
+    {
+      "text": "Is it that they are small, they are actually very big",
+      "start": 205.48,
+      "duration": 4.28,
+      "original_text": "में क्या वो छोटे हैं वो तो बहुत बड़ा"
+    },
+    {
+      "text": "It can be a star, so this is the concept of a point",
+      "start": 207.319,
+      "duration": 5.601,
+      "original_text": "तारा हो सकता है तो यही कांसेप्ट है पॉइंट"
+    },
+    {
+      "text": "Charge of a distance between stars and us",
+      "start": 209.76,
+      "duration": 5.32,
+      "original_text": "चार्ज का कि डिस्टेंस तारे और हमारे बीच"
+    },
+    {
+      "text": "There is a lot in it, so we will point it out",
+      "start": 212.92,
+      "duration": 4.519,
+      "original_text": "में बहुत ज्यादा है इसलिए उसको हम पॉइंट"
+    },
+    {
+      "text": "We treat, so charge means this which",
+      "start": 215.08,
+      "duration": 5.64,
+      "original_text": "ट्रीट करते हैं तो चार्ज का मतलब ये जो"
+    },
+    {
+      "text": "Point charge means what are the charges",
+      "start": 217.439,
+      "duration": 5.72,
+      "original_text": "पॉइंट चार्ज का मतलब क्या हुआ कि चार्जेस"
+    },
+    {
+      "text": "The distance between its size is quite a lot",
+      "start": 220.72,
+      "duration": 4.48,
+      "original_text": "का जो साइज है उसके बीच का डिस्टेंस काफी"
+    },
+    {
+      "text": "If it is more, then we will charge it a point four",
+      "start": 223.159,
+      "duration": 3.841,
+      "original_text": "अगर ज्यादा होगा तो उसको हम पॉइंट चार्ज"
+    },
+    {
+      "text": "We will treat it like I also mentioned",
+      "start": 225.2,
+      "duration": 3.84,
+      "original_text": "की तरह ट्रीट करेंगे जैसे मैंने मेंशन भी"
+    },
+    {
+      "text": "It does not mean point charge",
+      "start": 227.0,
+      "duration": 4.56,
+      "original_text": "किया है पॉइंट चार्ज का मतलब ये नहीं"
+    },
+    {
+      "text": "We need to understand that this is a small charge so this",
+      "start": 229.04,
+      "duration": 5.36,
+      "original_text": "समझना है कि ये छोटा चार्ज है तो ये"
+    },
+    {
+      "text": "Clarity gives you an understanding of this thing that",
+      "start": 231.56,
+      "duration": 4.879,
+      "original_text": "क्लेरिटी आपको मिलती है इस बात की कि"
+    },
+    {
+      "text": "What is called point charge now something",
+      "start": 234.4,
+      "duration": 4.44,
+      "original_text": "पॉइंट चार्ज किसे बोलते हैं अब कुछ"
+    },
+    {
+      "text": "Important concepts that are very essential",
+      "start": 236.439,
+      "duration": 4.841,
+      "original_text": "इंपॉर्टेंट कांसेप्ट जो बहुत जरूरी हैं"
+    },
+    {
+      "text": "To understand Ohm's Law properly",
+      "start": 238.84,
+      "duration": 4.56,
+      "original_text": "कलम्स लॉ को अच्छी तरह समझने के लिए तो"
+    },
+    {
+      "text": "First thing we start with is Columns Law Follow",
+      "start": 241.28,
+      "duration": 4.599,
+      "original_text": "पहली बात स्टार्ट करते हैं कलम्स लॉ फॉलो"
+    },
+    {
+      "text": "It follows the inverse square law after all inverse",
+      "start": 243.4,
+      "duration": 5.16,
+      "original_text": "करता है इवर्स स्क्वायर लॉ आखिर इवर्स"
+    },
+    {
+      "text": "Square law is f is proportional",
+      "start": 245.879,
+      "duration": 5.64,
+      "original_text": "स्क्वायर लॉ क्या है है f इज प्रोपोर्शनल"
+    },
+    {
+      "text": "Two to the power of 1 divided by r, which you saw in the formula",
+      "start": 248.56,
+      "duration": 7.76,
+      "original_text": "टू 1 / r स् जो फॉर्मूले में आपने देखा था"
+    },
+    {
+      "text": "f = 1 / 4 times alpha 0 q1 q2 divided by radius is coming",
+      "start": 251.519,
+      "duration": 7.761,
+      "original_text": "f = 1 / 4 पा ए0 q1 q2 / r स् आ रहा था"
+    },
+    {
+      "text": "That is, force is proportional to 1 / r squared",
+      "start": 256.32,
+      "duration": 5.28,
+      "original_text": "यानी फोर्स 1 / r स् के प्रोपोर्शनल है"
+    },
+    {
+      "text": "That is, this is called the Inverse Square Law",
+      "start": 259.28,
+      "duration": 4.24,
+      "original_text": "यानी ये इसे बोलते हैं इवर्स स्क्वायर लॉ"
+    },
+    {
+      "text": "The second big important concept is that",
+      "start": 261.6,
+      "duration": 5.4,
+      "original_text": "दूसरा बड़ा इंपॉर्टेंट कांसेप्ट है कि"
+    },
+    {
+      "text": "Coulomb's Law is a central force",
+      "start": 263.52,
+      "duration": 5.519,
+      "original_text": "कलम्स लॉ एक सेंट्रल फर्स होता है सेंट्रल"
+    },
+    {
+      "text": "What does first mean in Central Force",
+      "start": 267.0,
+      "duration": 4.88,
+      "original_text": "फर्स का मतलब क्या है सेंट्रल फर्स का"
+    },
+    {
+      "text": "It means that this acts along the line",
+      "start": 269.039,
+      "duration": 5.561,
+      "original_text": "मतलब है कि ये एक्ट करता है अलोंग द लाइन"
+    },
+    {
+      "text": "Joining the center of two bodies in two",
+      "start": 271.88,
+      "duration": 5.12,
+      "original_text": "जॉइनिंग द सेंटर ऑफ टू बॉडीज इन दो"
+    },
+    {
+      "text": "Combine the centers of charges",
+      "start": 274.6,
+      "duration": 6.319,
+      "original_text": "चार्जेस के सेंटर्स को आप मिला दीजिए ये"
+    },
+    {
+      "text": "The line that has been drawn is along this line itself",
+      "start": 277.0,
+      "duration": 6.56,
+      "original_text": "जो लाइन मिलाई गई है इसी लाइन के अलोंग या"
+    },
+    {
+      "text": "So here or inside or it will be applied outside or",
+      "start": 280.919,
+      "duration": 6.081,
+      "original_text": "तो इधर या अंदर या तो ये बाहर लगेगा या"
+    },
+    {
+      "text": "It will be applied inside along this line itself",
+      "start": 283.56,
+      "duration": 6.56,
+      "original_text": "ऐसे अंदर लगेगा इसी लाइन के अलोंग ये"
+    },
+    {
+      "text": "When a force acts, what is this line",
+      "start": 287.0,
+      "duration": 5.919,
+      "original_text": "फोर्स एक्ट करता है तो ये ये लाइन कौन सी"
+    },
+    {
+      "text": "is the line joining the center to center",
+      "start": 290.12,
+      "duration": 6.0,
+      "original_text": "है सेंटर टू सेंटर से मिलाने वाली लाइन तो"
+    },
+    {
+      "text": "The forces along the line joining the center",
+      "start": 292.919,
+      "duration": 6.481,
+      "original_text": "जो फोर्सेस अलोंग द लाइन जॉइनिंग द सेंटर"
+    },
+    {
+      "text": "Forces act on two bodies",
+      "start": 296.12,
+      "duration": 5.56,
+      "original_text": "ऑफ टू बॉडीज एक्ट करते हैं उन फोर्सेस को"
+    },
+    {
+      "text": "We say Central Force, that's why it is called",
+      "start": 299.4,
+      "duration": 4.44,
+      "original_text": "हम बोलते हैं सेंट्रल फर्स इसीलिए इसको"
+    },
+    {
+      "text": "It is said that what is Force",
+      "start": 301.68,
+      "duration": 4.519,
+      "original_text": "कहा जाता है कि जो कलम्स फोर्स है"
+    },
+    {
+      "text": "Columbian force is a central force",
+      "start": 303.84,
+      "duration": 4.639,
+      "original_text": "कोलंबियन फर्स है वो एक सेंट्रल फर्स होता"
+    },
+    {
+      "text": "is because these along the line joining the",
+      "start": 306.199,
+      "duration": 4.761,
+      "original_text": "है क्योंकि ये अलोंग द लाइन जॉइनिंग द"
+    },
+    {
+      "text": "The center of the two bodies acts as the third",
+      "start": 308.479,
+      "duration": 5.16,
+      "original_text": "सेंटर्स ऑफ द टू बॉडीज एक्ट करता है तीसरा"
+    },
+    {
+      "text": "A very important concept, son, is to charges",
+      "start": 310.96,
+      "duration": 6.88,
+      "original_text": "बड़ा इंपॉर्टेंट कांसेप्ट बेटा टू चार्जेस"
+    },
+    {
+      "text": "External and opposite forces on each other means",
+      "start": 313.639,
+      "duration": 6.4,
+      "original_text": "एजर्टन एंड अपोजिट फोर्सेस ऑन ईच अदर मतलब"
+    },
+    {
+      "text": "A charge that exerts a force on another one",
+      "start": 317.84,
+      "duration": 4.799,
+      "original_text": "एक चार्ज जो दूसरे पर फर्स लगाता है उतना"
+    },
+    {
+      "text": "This charge applies force first on this",
+      "start": 320.039,
+      "duration": 5.28,
+      "original_text": "ही चार्ज पहले पर फर्स लगाता है इस पर अगर"
+    },
+    {
+      "text": "It has applied f force so it has also applied this on it",
+      "start": 322.639,
+      "duration": 5.28,
+      "original_text": "इसने लगाया है f फोर्स तो इसने भी इस पर"
+    },
+    {
+      "text": "Applied force is equal to reaction force",
+      "start": 325.319,
+      "duration": 5.241,
+      "original_text": "लगाया है f फोर्स तो ये एक्शन रिएक्शन"
+    },
+    {
+      "text": "Let's follow the pair, that is Newton's third",
+      "start": 327.919,
+      "duration": 5.761,
+      "original_text": "पेयर फॉलो कर देते हैं यानी न्यूटंस थर्ड"
+    },
+    {
+      "text": "I follow the law as much as I can",
+      "start": 330.56,
+      "duration": 5.68,
+      "original_text": "लॉ को फॉलो करते हैं मैं जितना लगा रहा"
+    },
+    {
+      "text": "The force you apply on me will be the same as the force I apply on you",
+      "start": 333.68,
+      "duration": 4.68,
+      "original_text": "हूं तुम पे फोर्स तुम लगाओगे मुझ पे सेम"
+    },
+    {
+      "text": "First, equal and opposite forces are its",
+      "start": 336.24,
+      "duration": 4.399,
+      "original_text": "फर्स तो इक्वल एंड अपोजिट फोर्सेस इसके"
+    },
+    {
+      "text": "Let's discuss a few more concepts above",
+      "start": 338.36,
+      "duration": 3.88,
+      "original_text": "ऊपर लगते हैं कुछ और कांसेप्ट की बात करते"
+    },
+    {
+      "text": "There are things that are very important for you to know",
+      "start": 340.639,
+      "duration": 4.521,
+      "original_text": "हैं जो बड़ा इंपॉर्टेंट है आपके जानने के"
+    },
+    {
+      "text": "Lami's Law is a conservative force Lami",
+      "start": 342.24,
+      "duration": 5.12,
+      "original_text": "लिए कलम्स लॉ इज अ कंजरवेटिव फोर्स कलम्स"
+    },
+    {
+      "text": "Law of conservation of force is conservation",
+      "start": 345.16,
+      "duration": 4.68,
+      "original_text": "लॉ कंजर्वेशन फोर्स होता है कंजर्वेशन"
+    },
+    {
+      "text": "Forces are path dependent",
+      "start": 347.36,
+      "duration": 5.119,
+      "original_text": "फोर्स क्या होते हैं ये पाथ डिपेंडेंट"
+    },
+    {
+      "text": "It does not only have initial and final points",
+      "start": 349.84,
+      "duration": 5.28,
+      "original_text": "नहीं होते केवल इनिशियल एंड फाइनल पॉइंट"
+    },
+    {
+      "text": "This means that if you",
+      "start": 352.479,
+      "duration": 4.761,
+      "original_text": "से इनको मतलब होता है यानी अगर आप"
+    },
+    {
+      "text": "Electric force is related to electric charge",
+      "start": 355.12,
+      "duration": 3.68,
+      "original_text": "इलेक्ट्रिक फोर्स को इलेक्ट्रिक चार्ज को"
+    },
+    {
+      "text": "In an electric field from somewhere to a place",
+      "start": 357.24,
+      "duration": 3.959,
+      "original_text": "इलेक्ट्रिक फील्ड में कहीं एक जगह से"
+    },
+    {
+      "text": "If we move to the second place, by which route will we go",
+      "start": 358.8,
+      "duration": 4.92,
+      "original_text": "दूसरी जगह ले जा जाएंगे तो किस रास्ते से"
+    },
+    {
+      "text": "Taken has its meaning, it has nothing to do with this",
+      "start": 361.199,
+      "duration": 4.521,
+      "original_text": "ले गए हैं इसका मतलब इससे कोई लेना देना"
+    },
+    {
+      "text": "It is not just about giving and taking",
+      "start": 363.72,
+      "duration": 4.44,
+      "original_text": "नहीं है केवल इतना लेना देना है कि"
+    },
+    {
+      "text": "What are the initial and final positions then",
+      "start": 365.72,
+      "duration": 4.96,
+      "original_text": "इनिशियल और फाइनल पोजीशंस क्या हैं तो"
+    },
+    {
+      "text": "Work done will not depend on the path.",
+      "start": 368.16,
+      "duration": 4.8,
+      "original_text": "वर्क डन पाथ पे डिपेंड नहीं करेगा ये"
+    },
+    {
+      "text": "Conservative force is the next one",
+      "start": 370.68,
+      "duration": 4.68,
+      "original_text": "कंजरवेटिव फोर्स होता है दूसरा अगला"
+    },
+    {
+      "text": "Important concept is that columns law",
+      "start": 372.96,
+      "duration": 5.2,
+      "original_text": "इंपॉर्टेंट कांसेप्ट है कि कलम्स लॉ"
+    },
+    {
+      "text": "It depends on the medium, let's assume",
+      "start": 375.36,
+      "duration": 5.48,
+      "original_text": "मीडियम पर डिपेंड करता है जैसे मान लीजिए"
+    },
+    {
+      "text": "You have taken two charges in vacuum of them",
+      "start": 378.16,
+      "duration": 5.68,
+      "original_text": "आपने वैक्यूम में दो चार्जेस लिए हैं उन"
+    },
+    {
+      "text": "What is the force applied on it, son, f now",
+      "start": 380.84,
+      "duration": 5.52,
+      "original_text": "पे लगने वाला फर्स कितना है बेटा f अब"
+    },
+    {
+      "text": "We are going to dive these systems into water",
+      "start": 383.84,
+      "duration": 4.919,
+      "original_text": "इन्हीं सिस्टम को हम पानी में डुबकी मरवा"
+    },
+    {
+      "text": "If we immerse it in water then now",
+      "start": 386.36,
+      "duration": 4.88,
+      "original_text": "देते हैं पानी में डुबो देते हैं तो अब"
+    },
+    {
+      "text": "In the meantime, the medium changed, it was vacuum earlier",
+      "start": 388.759,
+      "duration": 5.88,
+      "original_text": "इसके बीच में मीडियम बदल गया पहले वैक्यूम"
+    },
+    {
+      "text": "Now water has come because of water",
+      "start": 391.24,
+      "duration": 6.84,
+      "original_text": "था अब आ गया है वाटर तो पानी की वजह से अब"
+    },
+    {
+      "text": "The force that will be applied, this f1, how much will it be applied, f",
+      "start": 394.639,
+      "duration": 5.721,
+      "original_text": "जो फोर्स लगेगा ये f1 वो कितना लग जाएगा f"
+    },
+    {
+      "text": "For example, I have taken this example",
+      "start": 398.08,
+      "duration": 5.16,
+      "original_text": "/ 80 एग्जांपल के लिए मैंने ये एग्जांपल"
+    },
+    {
+      "text": "taken, that is, you will take away from this that",
+      "start": 400.36,
+      "duration": 6.32,
+      "original_text": "लिया है यानी आप इससे ये टेक अवे लेंगे कि"
+    },
+    {
+      "text": "Changing the medium results in Kalman Filter, or Colamn",
+      "start": 403.24,
+      "duration": 6.399,
+      "original_text": "मीडियम बदलने से कलामन फर्स यानी कूलाम"
+    },
+    {
+      "text": "The first one that is, changes, right, in this",
+      "start": 406.68,
+      "duration": 5.519,
+      "original_text": "वाला जो फर्स है वो बदल जाता है है ना इस"
+    },
+    {
+      "text": "We need to grasp the concept of Gravitational Force",
+      "start": 409.639,
+      "duration": 4.321,
+      "original_text": "बात को पकड़ के रखना है ग्रेविटेशनल फर्स"
+    },
+    {
+      "text": "It didn't change, to be careful but",
+      "start": 412.199,
+      "duration": 3.44,
+      "original_text": "नहीं बदलता था ध्यान रखना लेकिन"
+    },
+    {
+      "text": "Electrical forces, these are Columbian",
+      "start": 413.96,
+      "duration": 4.12,
+      "original_text": "इलेक्ट्रिकल फोर्सेस ये जो कोलंबियन"
+    },
+    {
+      "text": "Forces are these that change by holding it",
+      "start": 415.639,
+      "duration": 5.12,
+      "original_text": "फोर्सेस हैं ये बदल जाते हैं इसको पकड़ के"
+    },
+    {
+      "text": "There is a need to maintain force is a long range",
+      "start": 418.08,
+      "duration": 4.76,
+      "original_text": "रखने की जरूरत है फोर्स इज अ लॉन्ग रेंज"
+    },
+    {
+      "text": "The force raises a question about what is Coolam's",
+      "start": 420.759,
+      "duration": 5.081,
+      "original_text": "फोर्स सवाल ये उठता है कि जो कूलाम का"
+    },
+    {
+      "text": "Force is how far it works",
+      "start": 422.84,
+      "duration": 5.039,
+      "original_text": "फोर्स है वो कितनी दूरी तक काम करता है"
+    },
+    {
+      "text": "What is the smallest distance from the smallest to the largest",
+      "start": 425.84,
+      "duration": 4.759,
+      "original_text": "छोटी से छोटी दूरी क्या है बड़ी से बड़ी"
+    },
+    {
+      "text": "Distance is the shortest distance",
+      "start": 427.879,
+      "duration": 5.16,
+      "original_text": "दूरी क्या है तो छोटी से छोटी दूरी है"
+    },
+    {
+      "text": "Nuclear range I also mentioned in mine",
+      "start": 430.599,
+      "duration": 6.44,
+      "original_text": "न्यूक्लियर रेंज आपने मैंने मेंशन भी किया"
+    },
+    {
+      "text": "Is r to the power of 10 to the power of minus 15 meters which",
+      "start": 433.039,
+      "duration": 6.081,
+      "original_text": "है r की पावर 10 की पावर माइ 15 मीटर जो"
+    },
+    {
+      "text": "that there is a Columbian force inside the nucleus as well",
+      "start": 437.039,
+      "duration": 4.321,
+      "original_text": "कि न्यूक्लियस के अंदर भी कोलंबियन फोर्स"
+    },
+    {
+      "text": "Works at such a small distance and",
+      "start": 439.12,
+      "duration": 4.199,
+      "original_text": "काम करता है इतनी छोटी डिस्टेंस पर और"
+    },
+    {
+      "text": "The distance of the universe is to the power of 10",
+      "start": 441.36,
+      "duration": 4.44,
+      "original_text": "यूनिवर्स वाली जो डिस्टेंस है 10 की पावर"
+    },
+    {
+      "text": "18 meters is where it works, meaning a lot",
+      "start": 443.319,
+      "duration": 5.0,
+      "original_text": "18 मीटर वहां तक काम करता है यानी बहुत"
+    },
+    {
+      "text": "Smallest to largest distance and very small to very large",
+      "start": 445.8,
+      "duration": 5.72,
+      "original_text": "छोटी से छोटी दूरी और बहुत बड़ी से बड़ी"
+    },
+    {
+      "text": "This is applicable to a great extent and does excellent work",
+      "start": 448.319,
+      "duration": 5.481,
+      "original_text": "दूरी तक ये एप्लीकेबल होता है बढ़िया काम"
+    },
+    {
+      "text": "It does, that's why we call it Coulomb's Force",
+      "start": 451.52,
+      "duration": 5.079,
+      "original_text": "करता है इसीलिए बोलते हैं कूलाम फोर्स"
+    },
+    {
+      "text": "What is a long range force now onwards",
+      "start": 453.8,
+      "duration": 4.959,
+      "original_text": "क्या होता है एक लॉन्ग रेंज फोर्स अब आगे"
+    },
+    {
+      "text": "Before we proceed, a small information that",
+      "start": 456.599,
+      "duration": 4.241,
+      "original_text": "बढ़ने से पहले एक छोटी सी इंफॉर्मेशन कि"
+    },
+    {
+      "text": "If you want in a very good way",
+      "start": 458.759,
+      "duration": 4.761,
+      "original_text": "अगर आप चाहते हैं कि बड़े ही अच्छी तरीके"
+    },
+    {
+      "text": "Let's study Physics of 11th and 12th with me",
+      "start": 460.84,
+      "duration": 5.44,
+      "original_text": "से फिजिक्स कोल 11 12थ की आप मेरे साथ पढ़"
+    },
+    {
+      "text": "If possible, you can join me in Drona",
+      "start": 463.52,
+      "duration": 5.799,
+      "original_text": "सकें तो आप मेरे साथ जुड़ सकते हैं द्रोणा"
+    },
+    {
+      "text": "Within the batch, this is Drone 1.0 for Class 11th",
+      "start": 466.28,
+      "duration": 6.28,
+      "original_text": "बैच के अंदर ये द्रोणा 1.0 है क्लास 11थ"
+    },
+    {
+      "text": "Physics in easy language entirely",
+      "start": 469.319,
+      "duration": 5.44,
+      "original_text": "फिजिक्स के लिए पूरे का पूरा इजी भाषा में"
+    },
+    {
+      "text": "I will clear all the concepts for you",
+      "start": 472.56,
+      "duration": 4.88,
+      "original_text": "मैं सारे कांसेप्ट आपके क्लियर करा दूंगा"
+    },
+    {
+      "text": "And Drona is 2.0 for Class 12 Physics",
+      "start": 474.759,
+      "duration": 5.4,
+      "original_text": "और द्रोणा है 2.0 क्लास 12 फिजिक्स के लिए"
+    },
+    {
+      "text": "Son, it's a live course, you can join, it's for you",
+      "start": 477.44,
+      "duration": 5.159,
+      "original_text": "बेटा लाइव कोर्स है आप जो सकते हैं आपको"
+    },
+    {
+      "text": "Derivation numerical concepts are all clear",
+      "start": 480.159,
+      "duration": 4.641,
+      "original_text": "डेरिवेशन न्यूमेरिकल कांसेप्ट सारे क्लियर"
+    },
+    {
+      "text": "will be the children who are in my courses",
+      "start": 482.599,
+      "duration": 4.6,
+      "original_text": "हो जाएंगे जो बच्चे ये कोर्सेस में मेरे"
+    },
+    {
+      "text": "Want to come to classes together, that's Arvind",
+      "start": 484.8,
+      "duration": 4.88,
+      "original_text": "साथ क्लासेस में आना चाहते हैं वो अरविंद"
+    },
+    {
+      "text": "Download the Academy app",
+      "start": 487.199,
+      "duration": 4.881,
+      "original_text": "अकेडमी ऐप को डाउनलोड कर लीजिए डाउनलोड"
+    },
+    {
+      "text": "Go to the store section, there you will have",
+      "start": 489.68,
+      "duration": 4.639,
+      "original_text": "करके स्टोर सेक्शन में जाइए वहां आपको"
+    },
+    {
+      "text": "Courses will be displayed, click on the course",
+      "start": 492.08,
+      "duration": 4.0,
+      "original_text": "कोर्सेस दिखेंगे कोर्स के ऊपर क्लिक"
+    },
+    {
+      "text": "We will have a button that says I Am Interested",
+      "start": 494.319,
+      "duration": 4.241,
+      "original_text": "करेंगे तो आई एम इंटरेस्टेड का एक बटन"
+    },
+    {
+      "text": "You will see, when you click, you will get a message",
+      "start": 496.08,
+      "duration": 4.92,
+      "original_text": "दिखेगा क्लिक करेंगे तो आपको मैसेज आ"
+    },
+    {
+      "text": "will go",
+      "start": 498.56,
+      "duration": 2.44,
+      "original_text": "जाएगा"
+    },
+    {
+      "text": "So the link to Aravind Academy app is",
+      "start": 509.52,
+      "duration": 2.879,
+      "original_text": "तो अरविंद अकेडमी ऐप का लिंक मैं"
+    },
+    {
+      "text": "Description is given by clicking",
+      "start": 511.0,
+      "duration": 3.599,
+      "original_text": "डिस्क्रिप्शन में दे रहा हूं क्लिक करके"
+    },
+    {
+      "text": "Download it and in the Drona batch mine",
+      "start": 512.399,
+      "duration": 4.64,
+      "original_text": "डाउनलोड कर लीजिए और द्रोणा बैच में मेरे"
+    },
+    {
+      "text": "Join us now as we move on to the next topic",
+      "start": 514.599,
+      "duration": 5.36,
+      "original_text": "साथ जुड़ जाइए अब अगली बात हम लोग करते"
+    },
+    {
+      "text": "We move forward and come back to the topic",
+      "start": 517.039,
+      "duration": 5.281,
+      "original_text": "हैं आगे बढ़ते हैं वापस आते हैं टॉपिक पर"
+    },
+    {
+      "text": "Let's see the Coolman's first law when we are talking",
+      "start": 519.959,
+      "duration": 4.681,
+      "original_text": "देखिए कूलाम फर्स की जब हम बात कर रहे हैं"
+    },
+    {
+      "text": "So first, a vector quantity is",
+      "start": 522.32,
+      "duration": 4.48,
+      "original_text": "तो फर्स तो एक वेक्टर क्वांटिटी होता है"
+    },
+    {
+      "text": "We had said the things that",
+      "start": 524.64,
+      "duration": 3.08,
+      "original_text": "हमने जो बातें भी कहीं थी वो तो केवल"
+    },
+    {
+      "text": "Magni",
+      "start": 526.8,
+      "duration": 5.479,
+      "original_text": "मैग्नी"
+    },
+    {
+      "text": "Module 1 of 4, PA, with q1 q2 divided by r, this will be",
+      "start": 527.72,
+      "duration": 7.119,
+      "original_text": "ूडल 1 / 4 पा ए0 q1 q2 / r स् होगी ये तो"
+    },
+    {
+      "text": "Scalar form Coulomb's law states that",
+      "start": 532.279,
+      "duration": 4.801,
+      "original_text": "स्केलर फॉर्म कूलाम हुआ का हुआ केवल"
+    },
+    {
+      "text": "Magni Tud told about the direction of what to do",
+      "start": 534.839,
+      "duration": 4.281,
+      "original_text": "मैग्नी ट्यूड बताया डायरेक्शन का क्या तो"
+    },
+    {
+      "text": "Direction is also known as Magnetic North Direction",
+      "start": 537.08,
+      "duration": 4.4,
+      "original_text": "डायरेक्शन भी यानी मैग्नी ट्यूड डायरेक्शन"
+    },
+    {
+      "text": "To tell both we have vector form of",
+      "start": 539.12,
+      "duration": 5.48,
+      "original_text": "दोनों बताने के लिए हम वेक्टर फॉर्म ऑफ"
+    },
+    {
+      "text": "Let's take Coulomb's Law together now here",
+      "start": 541.48,
+      "duration": 5.88,
+      "original_text": "कलम्स लॉ को साथ में लेते हैं अब यहां पर"
+    },
+    {
+      "text": "I have made a diagram, this is q1",
+      "start": 544.6,
+      "duration": 5.4,
+      "original_text": "एक डायग्राम मैंने बताया बनाया है ये q1"
+    },
+    {
+      "text": "Charge q2 charge, the distance between them is r",
+      "start": 547.36,
+      "duration": 4.8,
+      "original_text": "चार्ज q2 चार्ज इनके बीच का डिस्टेंस r है"
+    },
+    {
+      "text": "And some vectors are written here in",
+      "start": 550.0,
+      "duration": 4.279,
+      "original_text": "और कुछ यहां वेक्टर्स लिखे हैं इन"
+    },
+    {
+      "text": "What vectors mean, I will explain quickly",
+      "start": 552.16,
+      "duration": 5.04,
+      "original_text": "वेक्टर्स का मतलब क्या है यह मैं जल्दी से"
+    },
+    {
+      "text": "I will explain to you in a way that you understand, like a conversation that makes sense.",
+      "start": 554.279,
+      "duration": 5.24,
+      "original_text": "आपको समझाता हूं जैसे बात समझ में आए जैसे"
+    },
+    {
+      "text": "The first vector is written here, see",
+      "start": 557.2,
+      "duration": 7.8,
+      "original_text": "पहला वेक्टर यहां पे लिखा हुआ है देखिए"
+    },
+    {
+      "text": "F21, what does this F21 mean, Force On",
+      "start": 559.519,
+      "duration": 8.0,
+      "original_text": "f21 इस f21 का मतलब क्या होता है फोर्स ऑन"
+    },
+    {
+      "text": "Second charge, this is the second charge, right?",
+      "start": 565.0,
+      "duration": 6.959,
+      "original_text": "सेकंड चार्ज इस पर ये सेकंड चार्ज है ना"
+    },
+    {
+      "text": "Number two to force on on to do to one",
+      "start": 567.519,
+      "duration": 6.801,
+      "original_text": "नंबर टू तो फोर्स ऑन ऑन टू ड्यू टू वन"
+    },
+    {
+      "text": "Force on what was written first, force on that",
+      "start": 571.959,
+      "duration": 4.641,
+      "original_text": "फोर्स ऑन टू जो पहले लिखा है उस पर फोर्स"
+    },
+    {
+      "text": "It seems now whatever is written is being implemented",
+      "start": 574.32,
+      "duration": 6.72,
+      "original_text": "लग रहा है अब बाद में जो लिखा वो लगा रहा"
+    },
+    {
+      "text": "So what happened is Force on to do to",
+      "start": 576.6,
+      "duration": 7.64,
+      "original_text": "है तो ये क्या हो गया फोर्स ऑन टू ड्यू टू"
+    },
+    {
+      "text": "The force acting on one due to the other",
+      "start": 581.04,
+      "duration": 5.52,
+      "original_text": "वन इस पे लगने वाला फोर्स इसके द्वारा जो"
+    },
+    {
+      "text": "The point being made is, let's see it here",
+      "start": 584.24,
+      "duration": 5.52,
+      "original_text": "लगाया जा रहा है यही बात देखिए यहां पर"
+    },
+    {
+      "text": "Mention the force on charge q2 due to q1",
+      "start": 586.56,
+      "duration": 6.36,
+      "original_text": "मेंशन कर दी फोर्स ऑन चार्ज q2 ड्यू टू q1"
+    },
+    {
+      "text": "In the same way, if we talk about f12 then",
+      "start": 589.76,
+      "duration": 7.4,
+      "original_text": "इसी तरीके से अगर हम बात करेंगे f12 की तो"
+    },
+    {
+      "text": "Force on one due to two is the same thing or is written",
+      "start": 592.92,
+      "duration": 7.0,
+      "original_text": "फोर्स ऑन वन ड्यू टू टू यही बात या लिखी"
+    },
+    {
+      "text": "Is force on charge q1 due to q2, so this",
+      "start": 597.16,
+      "duration": 5.84,
+      "original_text": "है फोर्स ऑन चार्ज q1 ड्यू टू q 2 तो ये"
+    },
+    {
+      "text": "You must have understood the language, the meaning of f21 and f12",
+      "start": 599.92,
+      "duration": 5.359,
+      "original_text": "भाषा आप समझ गए होंगे f21 f12 का मतलब"
+    },
+    {
+      "text": "What is this second one that writes unit vector",
+      "start": 603.0,
+      "duration": 3.8,
+      "original_text": "क्या है दूसरा ये जो यूनिट वेक्टर लिखे"
+    },
+    {
+      "text": "We will also give you information about this",
+      "start": 605.279,
+      "duration": 3.56,
+      "original_text": "हैं इसके बारे में भी आपको जानकारी दे"
+    },
+    {
+      "text": "I am giving, for example, I also mentioned here",
+      "start": 606.8,
+      "duration": 5.0,
+      "original_text": "देता हूं जैसे मैंने यहां पे मेंशन भी कर"
+    },
+    {
+      "text": "It is given that r12 if it is written as",
+      "start": 608.839,
+      "duration": 7.321,
+      "original_text": "दिया है कि r12 अगर लिख दिया गया है तो"
+    },
+    {
+      "text": "r12 means unit vector from",
+      "start": 611.8,
+      "duration": 6.64,
+      "original_text": "r12 का मतलब होता है यूनिट वेक्टर फ्रॉम"
+    },
+    {
+      "text": "One to one, see this direction also with the arrow",
+      "start": 616.16,
+      "duration": 5.76,
+      "original_text": "वन टू टू ये डायरेक्शन भी देखिए एरो से"
+    },
+    {
+      "text": "Made from unit vector from charge q1",
+      "start": 618.44,
+      "duration": 6.68,
+      "original_text": "बनाया है तो यूनिट वेक्टर फ्रॉम चार्ज q1"
+    },
+    {
+      "text": "Two q2 now in the same way if I take the second one",
+      "start": 621.92,
+      "duration": 5.039,
+      "original_text": "टू q2 अब इसी तरह अगर मैं सेकंड वाले"
+    },
+    {
+      "text": "Let's talk about charge, this is about unit vector",
+      "start": 625.12,
+      "duration": 4.68,
+      "original_text": "चार्ज की बात करूं ये यूनिट वेक्टर की बात"
+    },
+    {
+      "text": "If I do r21 then the unit vector is from two two to one",
+      "start": 626.959,
+      "duration": 6.361,
+      "original_text": "करूं r21 तो यूनिट वेक्टर है दो दो से एक"
+    },
+    {
+      "text": "From two to one side, 2 1 means from two to",
+      "start": 629.8,
+      "duration": 6.279,
+      "original_text": "की तरफ दो से एक की तरफ 2 1 का मतलब दो से"
+    },
+    {
+      "text": "On one side, 1 to 2 means from one to two and",
+      "start": 633.32,
+      "duration": 5.12,
+      "original_text": "एक की तरफ 1 2 का मतलब एक से दो की तरफ और"
+    },
+    {
+      "text": "Let's see these things, I have also mentioned here",
+      "start": 636.079,
+      "duration": 5.601,
+      "original_text": "यह बातें देखिए यहां पर मैंने मेंशन भी कर"
+    },
+    {
+      "text": "That is, what is the r12 r21 vector, now many",
+      "start": 638.44,
+      "duration": 4.839,
+      "original_text": "दी कि r12 r21 वेक्टर क्या होता है अब कई"
+    },
+    {
+      "text": "Children may get confused that",
+      "start": 641.68,
+      "duration": 3.599,
+      "original_text": "बच्चों को हो सकता है कंफ्यूजन हो कि"
+    },
+    {
+      "text": "A unit vector is what a unit",
+      "start": 643.279,
+      "duration": 3.841,
+      "original_text": "यूनिट वेक्टर होता क्या है तो यूनिट"
+    },
+    {
+      "text": "Vectors, you know, if you have to extract",
+      "start": 645.279,
+      "duration": 4.041,
+      "original_text": "वेक्टर आपको पता है अगर आपको निकालना होता"
+    },
+    {
+      "text": "is that you any vector quantity",
+      "start": 647.12,
+      "duration": 4.44,
+      "original_text": "है तो आप किसी भी वेक्टर क्वांटिटी को"
+    },
+    {
+      "text": "of it",
+      "start": 649.32,
+      "duration": 2.24,
+      "original_text": "उसके"
+    },
+    {
+      "text": "Magnesia",
+      "start": 653.56,
+      "duration": 5.88,
+      "original_text": "मैग्निटिया"
+    },
+    {
+      "text": "These are unit vectors, this is the r vector and of",
+      "start": 655.639,
+      "duration": 5.801,
+      "original_text": "हैं यूनिट वेक्टर ये r वेक्टर है और का"
+    },
+    {
+      "text": "Magnitude r is written which you have divided",
+      "start": 659.44,
+      "duration": 6.8,
+      "original_text": "मैग्नी r लिखा है जिससे आपने डिवाइड किया"
+    },
+    {
+      "text": "So what is the unit vector whose magnitude",
+      "start": 661.44,
+      "duration": 7.959,
+      "original_text": "है तो यूनिट वेक्टर क्या रहा जिसका मैग्नी"
+    },
+    {
+      "text": "Oodle direction is given to be applied",
+      "start": 666.24,
+      "duration": 5.76,
+      "original_text": "ूडल डायरेक्शन देने के लिए लगाया जाता है"
+    },
+    {
+      "text": "Somewhere we will apply it and it will give direction",
+      "start": 669.399,
+      "duration": 5.601,
+      "original_text": "कहीं पर हम लगा देंगे तो डायरेक्शन देगा"
+    },
+    {
+      "text": "Magnesia",
+      "start": 672.0,
+      "duration": 3.0,
+      "original_text": "मैग्निटिया"
+    },
+    {
+      "text": "So this is its vector form of Ohm's Law",
+      "start": 675.079,
+      "duration": 7.2,
+      "original_text": "तो ये रहा इसका वेक्टर फॉर्म ऑफ ओम्स लॉ"
+    },
+    {
+      "text": "This vector form of columns law f21 vector",
+      "start": 678.36,
+      "duration": 5.44,
+      "original_text": "या वेक्टर फॉर्म ऑफ कलम्स लॉ f21 वेक्टर"
+    },
+    {
+      "text": "See the arrow marked in the form is a vector",
+      "start": 682.279,
+      "duration": 4.601,
+      "original_text": "फॉर्म में देखिए तीर लगा हुआ है वेक्टर"
+    },
+    {
+      "text": "Force on this pay attention",
+      "start": 683.8,
+      "duration": 8.64,
+      "original_text": "फॉर्म में यानी फोर्स ऑन टू इस पे लगने"
+    },
+    {
+      "text": "Force due to this is f21 1/4",
+      "start": 686.88,
+      "duration": 8.759,
+      "original_text": "वाला फोर्स ड्यू टू इसके द्वारा f21 1/4"
+    },
+    {
+      "text": "Got it, son, now p and q1 q2 divided by r has been done",
+      "start": 692.44,
+      "duration": 6.72,
+      "original_text": "पा ए0 q1 q2 / r स् ये तो हो गया बेटा"
+    },
+    {
+      "text": "In Magnitude, r cap 1 2 means you know",
+      "start": 695.639,
+      "duration": 6.921,
+      "original_text": "मैग्नी ूडल में r कैप 1 2 का मतलब आप जान"
+    },
+    {
+      "text": "We are moving from one to two",
+      "start": 699.16,
+      "duration": 5.84,
+      "original_text": "रहे हैं वन से टू की तरफ आप एक से दो की"
+    },
+    {
+      "text": "In this direction, this unit vector is",
+      "start": 702.56,
+      "duration": 4.92,
+      "original_text": "तरफ ये वाला डायरेक्शन ये यूनिट वेक्टर य"
+    },
+    {
+      "text": "See, 21 is, this is 1 2, understand it in this way",
+      "start": 705.0,
+      "duration": 4.92,
+      "original_text": "देखिए 21 है ये 1 2 है इस तरीके से समझ के"
+    },
+    {
+      "text": "We will proceed and you can also see that",
+      "start": 707.48,
+      "duration": 4.28,
+      "original_text": "चलेंगे और आपको दिखाई भी पड़ रहा है कि"
+    },
+    {
+      "text": "Here, there is a repulsive force of the force",
+      "start": 709.92,
+      "duration": 4.24,
+      "original_text": "यहां पर रिपल्सिव फोर्स है फोर्स का"
+    },
+    {
+      "text": "Direction is this way, so what is the force here?",
+      "start": 711.76,
+      "duration": 4.319,
+      "original_text": "डायरेक्शन इधर है तो फोर्स ये किसकी"
+    },
+    {
+      "text": "Direction of r12 is in the direction",
+      "start": 714.16,
+      "duration": 4.64,
+      "original_text": "डायरेक्शन में r12 की डायरेक्शन में है"
+    },
+    {
+      "text": "Force is being applied here, so let's see",
+      "start": 716.079,
+      "duration": 4.641,
+      "original_text": "इधर फोर्स लग रहा है इधर तो इसलिए देखिए"
+    },
+    {
+      "text": "These two are in the same direction if",
+      "start": 718.8,
+      "duration": 4.0,
+      "original_text": "ये दोनों एक ही डायरेक्शन में है अगर"
+    },
+    {
+      "text": "If it were reverse, a minus sign would have been written here",
+      "start": 720.72,
+      "duration": 4.44,
+      "original_text": "उल्टे होते तो यहां माइनस साइन लिखा होता"
+    },
+    {
+      "text": "So this is the vector form of Ohm's Law itself",
+      "start": 722.8,
+      "duration": 5.44,
+      "original_text": "तो दिस इज द वेक्टर फॉर्म ऑफ ओम्स लॉ इसी"
+    },
+    {
+      "text": "Vector form of Coulomb's Law is similar to f12",
+      "start": 725.16,
+      "duration": 6.04,
+      "original_text": "वेक्टर फॉर्म ऑफ कलम्स लॉ इसी तरह f12 को"
+    },
+    {
+      "text": "We can write f12, which means force",
+      "start": 728.24,
+      "duration": 6.959,
+      "original_text": "लिख सकते हैं आप f12 का मतलब हो गया फोर्स"
+    },
+    {
+      "text": "On one do to two second charge and here 1",
+      "start": 731.2,
+      "duration": 7.92,
+      "original_text": "ऑन वन ड्यू टू टू सेकंड चार्ज और यहां 1"
+    },
+    {
+      "text": "We have 4 pairs of q1 q2 in the system of magnitudes",
+      "start": 735.199,
+      "duration": 7.281,
+      "original_text": "अप 4 पा ए0 q1 q2 / r स् ये मैग्नी ूड्स"
+    },
+    {
+      "text": "For the unit vector 2^1, that is, r cap",
+      "start": 739.12,
+      "duration": 5.12,
+      "original_text": "के लिए r कैप यानी यूनिट वेक्टर 21 का"
+    },
+    {
+      "text": "Used here, let's see what is written",
+      "start": 742.48,
+      "duration": 4.56,
+      "original_text": "इस्तेमाल किया गया यहां देखिए ये जो लिखा"
+    },
+    {
+      "text": "It is the opposite, in some books it is the same",
+      "start": 744.24,
+      "duration": 5.36,
+      "original_text": "है इसका उल्टा है कुछ बुक्स में ये सेम"
+    },
+    {
+      "text": "We write but change its meaning to the opposite",
+      "start": 747.04,
+      "duration": 4.159,
+      "original_text": "लिखते हैं लेकिन इसका मतलब उल्टा कर देते"
+    },
+    {
+      "text": "You should not be afraid of that",
+      "start": 749.6,
+      "duration": 4.039,
+      "original_text": "हैं वो तो उससे घबराना नहीं है आपको"
+    },
+    {
+      "text": "Absolutely right concept is, grasp it and you",
+      "start": 751.199,
+      "duration": 4.681,
+      "original_text": "बिल्कुल सही कांसेप्ट है इसको पकड़ के आप"
+    },
+    {
+      "text": "Let's move on, now we can discuss further.",
+      "start": 753.639,
+      "duration": 5.161,
+      "original_text": "चल सकते हैं अब आगे की हम लोग बात करते"
+    },
+    {
+      "text": "There are applications of this or a numerical",
+      "start": 755.88,
+      "duration": 4.88,
+      "original_text": "हैं बेटा इसकी एप्लीकेशन या एक न्यूमेरिकल"
+    },
+    {
+      "text": "Let's see what is written here, what is",
+      "start": 758.8,
+      "duration": 4.76,
+      "original_text": "लगाते हैं यहां देखिए लिखा है व्हाट इज द"
+    },
+    {
+      "text": "Force between two small charge spheres two",
+      "start": 760.76,
+      "duration": 5.12,
+      "original_text": "फोर्स बिटवीन टू स्मॉल चार्ज स्फीयर दो"
+    },
+    {
+      "text": "Small charge spheres have charges",
+      "start": 763.56,
+      "duration": 5.639,
+      "original_text": "स्मॉल चार्ज स्फीयर हैं जिस पे चार्जेस"
+    },
+    {
+      "text": "We have been given this one and this one which is 30",
+      "start": 765.88,
+      "duration": 6.639,
+      "original_text": "हमको दे रखे हैं दिस वन एंड दिस वन जो 30"
+    },
+    {
+      "text": "I am separate from air when air is spoken of",
+      "start": 769.199,
+      "duration": 5.76,
+      "original_text": "सें मी अपार्ट है एयर में जब एयर बोला जाए"
+    },
+    {
+      "text": "So just consider it as vacuum then",
+      "start": 772.519,
+      "duration": 4.361,
+      "original_text": "तो आप उसको वैक्यूम ही समझ लीजिएगा तो"
+    },
+    {
+      "text": "I have created a photograph for your understanding",
+      "start": 774.959,
+      "duration": 4.761,
+      "original_text": "आपके समझने के लिए मैंने फोटोग्राफ बना"
+    },
+    {
+      "text": "Let's see, these are the photos given here, two four of them",
+      "start": 776.88,
+      "duration": 5.56,
+      "original_text": "दिए है देखिए ये फोटो है दो चार यहां पर"
+    },
+    {
+      "text": "There is 30 centimeters between these, look at this",
+      "start": 779.72,
+      "duration": 5.88,
+      "original_text": "है इनके बीच 30 सेंटीमीटर का यह देखिए"
+    },
+    {
+      "text": "The difference is and this charge q1 and this q2 of",
+      "start": 782.44,
+      "duration": 5.959,
+      "original_text": "डिफरेंस है और यह चार्ज q1 और यह q2 की"
+    },
+    {
+      "text": "The value is, you know, on this",
+      "start": 785.6,
+      "duration": 5.96,
+      "original_text": "वैल्यू है आप जानते हैं कि ये इस पे"
+    },
+    {
+      "text": "Repulsion force will be applied because both are same",
+      "start": 788.399,
+      "duration": 5.481,
+      "original_text": "रिपल्शन का फोर्स लगेगा क्योंकि दोनों सेम"
+    },
+    {
+      "text": "Charges are like charges are very good",
+      "start": 791.56,
+      "duration": 4.639,
+      "original_text": "चार्ज हैं लाइक चार्जेस हैं बड़ी अच्छी"
+    },
+    {
+      "text": "The topic is now the formula of Coulomb's Law",
+      "start": 793.88,
+      "duration": 6.68,
+      "original_text": "बात है अब जो फार्मूला होता कलम्स लॉ का"
+    },
+    {
+      "text": "1/4 of the force on q1 due to q2 / r squared is",
+      "start": 796.199,
+      "duration": 6.521,
+      "original_text": "1/4 पा एन q1 q2 / r स् ये फोर्स का"
+    },
+    {
+      "text": "The formula is in this, by picking it up you get the whole",
+      "start": 800.56,
+      "duration": 5.12,
+      "original_text": "फार्मूला है इसी में उठाकर आप सारी"
+    },
+    {
+      "text": "Put the values as you have 1/4 part",
+      "start": 802.72,
+      "duration": 6.04,
+      "original_text": "वैल्यूज को पुट कर दीजिए जैसे आपने 1/4 पा"
+    },
+    {
+      "text": "The value of A was remembered as 9 * 10",
+      "start": 805.68,
+      "duration": 6.279,
+      "original_text": "ए0 की जो वैल्यू थी वो याद की थी 9 * 10"
+    },
+    {
+      "text": "The power of 9 q1 has become 2 * 10 times",
+      "start": 808.76,
+      "duration": 6.12,
+      "original_text": "की पावर 9 q1 की वैल्यू हो गई 2 * 10 की"
+    },
+    {
+      "text": "Power -7 q2 has become 3 * 10",
+      "start": 811.959,
+      "duration": 6.801,
+      "original_text": "पावर -7 q2 की वैल्यू हो गई 3 * 10 की"
+    },
+    {
+      "text": "Power -7 and r is how much 30 centimeters is so its",
+      "start": 814.88,
+      "duration": 6.04,
+      "original_text": "पावर -7 और r कितना है 30 सेमी है तो इसको"
+    },
+    {
+      "text": "Change it to meters, then it's 30 * 10",
+      "start": 818.76,
+      "duration": 5.48,
+      "original_text": "मीटर में चेंज कर लीजिए तो 30 * 10 की"
+    },
+    {
+      "text": "Power -2 of the square and you solve it",
+      "start": 820.92,
+      "duration": 5.919,
+      "original_text": "पावर -2 का स्क्वायर और इसे आप सॉल्व करके"
+    },
+    {
+      "text": "When you write, the value will come as 6 * 10",
+      "start": 824.24,
+      "duration": 6.0,
+      "original_text": "जब आप लिखेंगे तो वैल्यू आ जाएगी 6 * 10"
+    },
+    {
+      "text": "of power -3 Newton this is magnitude's",
+      "start": 826.839,
+      "duration": 6.56,
+      "original_text": "की पावर -3 न्यूटन ये हुआ मैग्नी ूडल का"
+    },
+    {
+      "text": "Behavior is recursive in nature, that is one",
+      "start": 830.24,
+      "duration": 6.12,
+      "original_text": "बिहेवियर है रिपल्सिव इन नेचर यानी एक"
+    },
+    {
+      "text": "They are rippling the second one in this way",
+      "start": 833.399,
+      "duration": 5.201,
+      "original_text": "दूसरे को रिपल कर रहे हैं तो इस तरीके से"
+    },
+    {
+      "text": "This application also becomes easy with this",
+      "start": 836.36,
+      "duration": 5.36,
+      "original_text": "यह एप्लीकेशन भी हो जाता है आराम से इसको"
+    },
+    {
+      "text": "You can also do what the children want",
+      "start": 838.6,
+      "duration": 5.239,
+      "original_text": "आप भी कर सकते हैं जो बच्चे यह चाहते हैं"
+    },
+    {
+      "text": "that what I have taught you is absolutely",
+      "start": 841.72,
+      "duration": 5.239,
+      "original_text": "कि यह जो मैंने आपको पढ़ाया है बिल्कुल"
+    },
+    {
+      "text": "Accurate information in less time about it",
+      "start": 843.839,
+      "duration": 5.56,
+      "original_text": "सटीक कम टाइम में पूरी जानकारी उसका"
+    },
+    {
+      "text": "If you want a presentation, then Arvind Academy",
+      "start": 846.959,
+      "duration": 5.0,
+      "original_text": "प्रेजेंटेशन चाहते हैं तो अरविंद एकेडमी"
+    },
+    {
+      "text": "You can join the Telegram channel link",
+      "start": 849.399,
+      "duration": 4.761,
+      "original_text": "टेलीग्राम चैनल को जवाइन कर सकते हैं लिंक"
+    },
+    {
+      "text": "You will get it inside the description and",
+      "start": 851.959,
+      "duration": 4.921,
+      "original_text": "आपको मिल जाएगा डिस्क्रिप्शन के अंदर और"
+    },
+    {
+      "text": "Yes, subscribe to Arvind Academy channel",
+      "start": 854.16,
+      "duration": 5.52,
+      "original_text": "हां अरविंद एकेडमी चैनल को सब्सक्राइब"
+    },
+    {
+      "text": "Don't forget the top quality physics",
+      "start": 856.88,
+      "duration": 4.959,
+      "original_text": "करना मत भूलिए फिजिक्स के टॉप क्वालिटी"
+    },
+    {
+      "text": "Content for class 11 and 12, thank you",
+      "start": 859.68,
+      "duration": 6.48,
+      "original_text": "कंटेंट के लिए क्लास 11 12 के लिए थैंक यू"
+    },
+    {
+      "text": "Very much wish you all the best",
+      "start": 861.839,
+      "duration": 4.321,
+      "original_text": "वेरी मच विश यू ऑल द बेस्ट"
+    }
+  ],
+  "full_text": "Hello children, today we are going to discuss Coulomb's Law I will try to gather complete information that The law tells us what and how many are inside it There are a few important concepts that you should know It should be that I am absolutely fundamental I will clarify point charges Concept, what it is, and then vectors Form of Columns Law we will also understand and Along with that, we will also see that one Numerically, what are its applications So let's start the conversation quickly They are about Coulomb's Law in detail We are going to take information, let's start As you know, the forces between Electrical charges, that is, charges between them Forces are covered in several previous classes If you have been reading so far, that's like Charges are the same as charges, they are one The others are affected by this, you know As you are seeing in this diagram Secondly, look at the fact that if they have unlike charges Opposite charges attract each other Attract, now the question arises that These charges, how much do they affect each other Attract with force or how many Forces ripple out so in headings It is written how much force is equal to the columns law This is Kolm's Law which tells us that two Charges if kept then how many among them They will attract or repel by force We will do it because this information was about Repulsion And attraction, this is Mr. Coulomb These were French scientists, they were This gives you or us a formula that finally for these What force is applied between two charges is and the force that acts inside the vacuum Its value is f = 1/4 of not q1 Charge of q2 / r is the charge of q1, charge of q2 is the charge of q2 The distance between them is r and this There is a constant 1 / 4 of pi, pay attention Keep in mind that whatever columns law is, that is the point The point is only valid for charges What are charges, I will explain to you now I will now discuss the constant that exists here 1/4 times this is often written in short as k So its value should be remembered by us 9 10 to the power of 9 Newton meters per Coulomb of power -2 and a quantity is coming here What you are seeing is this 0 of this 0 We should also know the value, remember Let's take 8.85 * 10 to the power of -12 times Square Newton - 1 meter is equal to its child What do they say, this is called Permitting of the free space is a medium has a property that decides this It is how much force one charge exerts on another charge Putting 0 means permitting has been done Out of the free space, here are the columns The rule is or the law of clauses is one step further Moving forward, we increase, now we understand Meaning of point charge because we people We discussed what is Coolam's law It happens that it is only valid at the point Charges for the points are the final charges What are point charges about The information is that the size that exists is charge The size of the distance between them and what is The distance should be reduced considerably We treat it like a point charge There are many children who understand that point charge It means a very small charge is wrong The concept is a miss concept, I understood that The size of the charge is between the two of them The distance should be quite less ideally The point I mentioned here is this and To explain it well, there is an example Look at the stars that are visible in the sky From here when we look at the stars they Point charges appear but actually Is it that they are small, they are actually very big It can be a star, so this is the concept of a point Charge of a distance between stars and us There is a lot in it, so we will point it out We treat, so charge means this which Point charge means what are the charges The distance between its size is quite a lot If it is more, then we will charge it a point four We will treat it like I also mentioned It does not mean point charge We need to understand that this is a small charge so this Clarity gives you an understanding of this thing that What is called point charge now something Important concepts that are very essential To understand Ohm's Law properly First thing we start with is Columns Law Follow It follows the inverse square law after all inverse Square law is f is proportional Two to the power of 1 divided by r, which you saw in the formula f = 1 / 4 times alpha 0 q1 q2 divided by radius is coming That is, force is proportional to 1 / r squared That is, this is called the Inverse Square Law The second big important concept is that Coulomb's Law is a central force What does first mean in Central Force It means that this acts along the line Joining the center of two bodies in two Combine the centers of charges The line that has been drawn is along this line itself So here or inside or it will be applied outside or It will be applied inside along this line itself When a force acts, what is this line is the line joining the center to center The forces along the line joining the center Forces act on two bodies We say Central Force, that's why it is called It is said that what is Force Columbian force is a central force is because these along the line joining the The center of the two bodies acts as the third A very important concept, son, is to charges External and opposite forces on each other means A charge that exerts a force on another one This charge applies force first on this It has applied f force so it has also applied this on it Applied force is equal to reaction force Let's follow the pair, that is Newton's third I follow the law as much as I can The force you apply on me will be the same as the force I apply on you First, equal and opposite forces are its Let's discuss a few more concepts above There are things that are very important for you to know Lami's Law is a conservative force Lami Law of conservation of force is conservation Forces are path dependent It does not only have initial and final points This means that if you Electric force is related to electric charge In an electric field from somewhere to a place If we move to the second place, by which route will we go Taken has its meaning, it has nothing to do with this It is not just about giving and taking What are the initial and final positions then Work done will not depend on the path. Conservative force is the next one Important concept is that columns law It depends on the medium, let's assume You have taken two charges in vacuum of them What is the force applied on it, son, f now We are going to dive these systems into water If we immerse it in water then now In the meantime, the medium changed, it was vacuum earlier Now water has come because of water The force that will be applied, this f1, how much will it be applied, f For example, I have taken this example taken, that is, you will take away from this that Changing the medium results in Kalman Filter, or Colamn The first one that is, changes, right, in this We need to grasp the concept of Gravitational Force It didn't change, to be careful but Electrical forces, these are Columbian Forces are these that change by holding it There is a need to maintain force is a long range The force raises a question about what is Coolam's Force is how far it works What is the smallest distance from the smallest to the largest Distance is the shortest distance Nuclear range I also mentioned in mine Is r to the power of 10 to the power of minus 15 meters which that there is a Columbian force inside the nucleus as well Works at such a small distance and The distance of the universe is to the power of 10 18 meters is where it works, meaning a lot Smallest to largest distance and very small to very large This is applicable to a great extent and does excellent work It does, that's why we call it Coulomb's Force What is a long range force now onwards Before we proceed, a small information that If you want in a very good way Let's study Physics of 11th and 12th with me If possible, you can join me in Drona Within the batch, this is Drone 1.0 for Class 11th Physics in easy language entirely I will clear all the concepts for you And Drona is 2.0 for Class 12 Physics Son, it's a live course, you can join, it's for you Derivation numerical concepts are all clear will be the children who are in my courses Want to come to classes together, that's Arvind Download the Academy app Go to the store section, there you will have Courses will be displayed, click on the course We will have a button that says I Am Interested You will see, when you click, you will get a message will go So the link to Aravind Academy app is Description is given by clicking Download it and in the Drona batch mine Join us now as we move on to the next topic We move forward and come back to the topic Let's see the Coolman's first law when we are talking So first, a vector quantity is We had said the things that Magni Module 1 of 4, PA, with q1 q2 divided by r, this will be Scalar form Coulomb's law states that Magni Tud told about the direction of what to do Direction is also known as Magnetic North Direction To tell both we have vector form of Let's take Coulomb's Law together now here I have made a diagram, this is q1 Charge q2 charge, the distance between them is r And some vectors are written here in What vectors mean, I will explain quickly I will explain to you in a way that you understand, like a conversation that makes sense. The first vector is written here, see F21, what does this F21 mean, Force On Second charge, this is the second charge, right? Number two to force on on to do to one Force on what was written first, force on that It seems now whatever is written is being implemented So what happened is Force on to do to The force acting on one due to the other The point being made is, let's see it here Mention the force on charge q2 due to q1 In the same way, if we talk about f12 then Force on one due to two is the same thing or is written Is force on charge q1 due to q2, so this You must have understood the language, the meaning of f21 and f12 What is this second one that writes unit vector We will also give you information about this I am giving, for example, I also mentioned here It is given that r12 if it is written as r12 means unit vector from One to one, see this direction also with the arrow Made from unit vector from charge q1 Two q2 now in the same way if I take the second one Let's talk about charge, this is about unit vector If I do r21 then the unit vector is from two two to one From two to one side, 2 1 means from two to On one side, 1 to 2 means from one to two and Let's see these things, I have also mentioned here That is, what is the r12 r21 vector, now many Children may get confused that A unit vector is what a unit Vectors, you know, if you have to extract is that you any vector quantity of it Magnesia These are unit vectors, this is the r vector and of Magnitude r is written which you have divided So what is the unit vector whose magnitude Oodle direction is given to be applied Somewhere we will apply it and it will give direction Magnesia So this is its vector form of Ohm's Law This vector form of columns law f21 vector See the arrow marked in the form is a vector Force on this pay attention Force due to this is f21 1/4 Got it, son, now p and q1 q2 divided by r has been done In Magnitude, r cap 1 2 means you know We are moving from one to two In this direction, this unit vector is See, 21 is, this is 1 2, understand it in this way We will proceed and you can also see that Here, there is a repulsive force of the force Direction is this way, so what is the force here? Direction of r12 is in the direction Force is being applied here, so let's see These two are in the same direction if If it were reverse, a minus sign would have been written here So this is the vector form of Ohm's Law itself Vector form of Coulomb's Law is similar to f12 We can write f12, which means force On one do to two second charge and here 1 We have 4 pairs of q1 q2 in the system of magnitudes For the unit vector 2^1, that is, r cap Used here, let's see what is written It is the opposite, in some books it is the same We write but change its meaning to the opposite You should not be afraid of that Absolutely right concept is, grasp it and you Let's move on, now we can discuss further. There are applications of this or a numerical Let's see what is written here, what is Force between two small charge spheres two Small charge spheres have charges We have been given this one and this one which is 30 I am separate from air when air is spoken of So just consider it as vacuum then I have created a photograph for your understanding Let's see, these are the photos given here, two four of them There is 30 centimeters between these, look at this The difference is and this charge q1 and this q2 of The value is, you know, on this Repulsion force will be applied because both are same Charges are like charges are very good The topic is now the formula of Coulomb's Law 1/4 of the force on q1 due to q2 / r squared is The formula is in this, by picking it up you get the whole Put the values as you have 1/4 part The value of A was remembered as 9 * 10 The power of 9 q1 has become 2 * 10 times Power -7 q2 has become 3 * 10 Power -7 and r is how much 30 centimeters is so its Change it to meters, then it's 30 * 10 Power -2 of the square and you solve it When you write, the value will come as 6 * 10 of power -3 Newton this is magnitude's Behavior is recursive in nature, that is one They are rippling the second one in this way This application also becomes easy with this You can also do what the children want that what I have taught you is absolutely Accurate information in less time about it If you want a presentation, then Arvind Academy You can join the Telegram channel link You will get it inside the description and Yes, subscribe to Arvind Academy channel Don't forget the top quality physics Content for class 11 and 12, thank you Very much wish you all the best",
+  "original_full_text": "हेलो बच्चों आज हम लोग कलम्स लॉ के बारे में पूरी जानकारी लेने की कोशिश करेंगे कि लॉ हमें क्या बताता है और उसके अंदर कितने कुछ इंपॉर्टेंट कांसेप्ट हैं जो आपको पता होने चाहिए वो भी मैं एकदम फंडामेंटल क्लियर करूंगा जैसे पॉइंट चार्जेस कांसेप्ट क्या होता है उसके बाद वेक्टर फॉर्म ऑफ कलम्स लॉ भी हम लोग समझेंगे और उसके साथ-साथ हम ये भी देखेंगे कि एक न्यूमेरिकल लगा के कि इसका एप्लीकेशन क्या होता है तो चलिए फटाफट बात शुरू कर लेते हैं यानी कलम्स लॉ के बारे में पूरी जानकारी हम लेने वाले हैं शुरू करते हैं जैसा आपको मालूम में कि जो फोर्सेस बिटवीन इलेक्ट्रिकल चार्जेस यानी चार्जेस के बीच में लगते हैं फोर्सेस ये कई पिछले क्लासेस से आप पढ़ते चले आ रहे हैं अगर वो लाइक चार्जेस होते हैं एक जैसे चार्जेस वो एक दूसरे को रिपल करते हैं ये आपको मालूम है जैसा कि आप इस डायग्राम में देख रहे हैं दूसरी बात देखिए कि अगर वो अनलाइक चार्जेस होते हैं तो अनलाइक चार्जेस एक दूसरे को अट्रैक्ट करते हैं अब सवाल ये उठता है कि ये जो चार्जेस हैं वो एक दूसरे को कितने फोर्स से अट्रैक्ट करते हैं या कितने फोर्स से रिपल करते हैं इसलिए हेडिंग में लिखा है हाउ मच फोर्स यही कलम्स लॉ होता है यही कलम्स लॉ हमको बताता है कि दो चार्जेस अगर रखे हुए हैं तो आपस में कितने फोर्स से वो अट्रैक्ट करेंगे या रिपेल करेंगे क्योंकि ये जानकारी तो थी रिपल्शन और अट्रैक्शन की तो ये कूलाम साहब हैं इन्होंने ये फ्रेंच साइंटिस्ट थे इन्होंने ये आपको या हमको फार्मूला दिया कि आखिर इन दो चार्जेस के बीच में कितना फोर्स लगता है और वैक्यूम के अंदर जो फोर्स लगता है उसकी वैल्यू होती है f = 1/4 पा ए नॉट q1 q2 / r स् q1 इसका चार्ज है q2 इसका चार्ज है इसके बीच की जो दूरी है वो r है और यह एक कांस्टेंट होता है 1 / 4 पा ए0 ध्यान रखिएगा कि जो कलम्स लॉ होता है वो पॉइंट चार्जेस के लिए ही वैलिड होता है पॉइंट चार्जेस क्या होते हैं अभी मैं आपको समझा दूंगा अब यहां पर ये जो कांस्टेंट होता है 1/4 पा ए0 इसको कई बार शॉर्ट में k लिखते हैं तो इसकी वैल्यू हमको याद होनी चाहिए 9 * 10 की पावर 9 न्यूटन मीटर स् पर कूलाम की पावर -2 और यहां पर एक क्वांटिटी आ रही है जो आप देख पा रहे होंगे यह 0 इस 0 की भी वैल्यू हमको मालूम होनी चाहिए याद कर लीजिए आप 8.85 * 10 की पा - 12 कलाम स्क्वा न्यूटन - 1 मीटर स् इस ए0 को बेटा कहते क्या हैं तो इस ए0 को कहते हैं परमिटिंग ऑफ़ दी फ्री स्पेस एक यह मीडियम की प्रॉपर्टी होती है जो ये डिसाइड करती है कि एक चार्ज दूसरे चार्ज पर कितना फर्स लगाने वाला है 0 का मतलब हो गया परमिटिंग ऑफ द फ्री स्पेस तो ये रहा कलम्स का जो नियम है या कलम्स का जो लॉ है एक कदम और आगे हम लोग बढ़ाते हैं अब ये समझते हैं मीनिंग ऑफ पॉइंट चार्ज क्योंकि हम लोगों ने डिस्कशन क्या किया है कि जो कूलाम स लॉ होता है वो केवल वैलिड होता है पॉइंट चार्जेस के लिए तो आखिर ये पॉइंट चार्जेस है क्या तो पॉइंट चार्जेस के बारे में जो जानकारी यह है कि जो साइज होता है चार्ज का और उनके बीच का जो डिस्टेंस है साइज उस डिस्टेंस से काफी कम होना होना चाहिए तो हम उसको पॉइंट चार्ज की तरह ट्रीट करते हैं कई बच्चे समझते हैं कि पॉइंट चार्ज का मतलब होता है बहुत छोटा चार्ज ये गलत धारणा है मिस कंसेप्ट है समझ में आया कि जो साइज है चार्ज का वो उन दोनों के बीच की डिस्टेंस से काफी कम होना चाहिए यही बात यहां पर मैंने मेंशन की है इसको और अच्छे से समझाने के लिए एक एग्जांपल है आसमान में जो तारे दिखते हैं देखिए हम यहां से जब तारों को देखते हैं तो वो पॉइंट चार्ज पॉइंट दिखते हैं लेकिन असल में क्या वो छोटे हैं वो तो बहुत बड़ा तारा हो सकता है तो यही कांसेप्ट है पॉइंट चार्ज का कि डिस्टेंस तारे और हमारे बीच में बहुत ज्यादा है इसलिए उसको हम पॉइंट ट्रीट करते हैं तो चार्ज का मतलब ये जो पॉइंट चार्ज का मतलब क्या हुआ कि चार्जेस का जो साइज है उसके बीच का डिस्टेंस काफी अगर ज्यादा होगा तो उसको हम पॉइंट चार्ज की तरह ट्रीट करेंगे जैसे मैंने मेंशन भी किया है पॉइंट चार्ज का मतलब ये नहीं समझना है कि ये छोटा चार्ज है तो ये क्लेरिटी आपको मिलती है इस बात की कि पॉइंट चार्ज किसे बोलते हैं अब कुछ इंपॉर्टेंट कांसेप्ट जो बहुत जरूरी हैं कलम्स लॉ को अच्छी तरह समझने के लिए तो पहली बात स्टार्ट करते हैं कलम्स लॉ फॉलो करता है इवर्स स्क्वायर लॉ आखिर इवर्स स्क्वायर लॉ क्या है है f इज प्रोपोर्शनल टू 1 / r स् जो फॉर्मूले में आपने देखा था f = 1 / 4 पा ए0 q1 q2 / r स् आ रहा था यानी फोर्स 1 / r स् के प्रोपोर्शनल है यानी ये इसे बोलते हैं इवर्स स्क्वायर लॉ दूसरा बड़ा इंपॉर्टेंट कांसेप्ट है कि कलम्स लॉ एक सेंट्रल फर्स होता है सेंट्रल फर्स का मतलब क्या है सेंट्रल फर्स का मतलब है कि ये एक्ट करता है अलोंग द लाइन जॉइनिंग द सेंटर ऑफ टू बॉडीज इन दो चार्जेस के सेंटर्स को आप मिला दीजिए ये जो लाइन मिलाई गई है इसी लाइन के अलोंग या तो इधर या अंदर या तो ये बाहर लगेगा या ऐसे अंदर लगेगा इसी लाइन के अलोंग ये फोर्स एक्ट करता है तो ये ये लाइन कौन सी है सेंटर टू सेंटर से मिलाने वाली लाइन तो जो फोर्सेस अलोंग द लाइन जॉइनिंग द सेंटर ऑफ टू बॉडीज एक्ट करते हैं उन फोर्सेस को हम बोलते हैं सेंट्रल फर्स इसीलिए इसको कहा जाता है कि जो कलम्स फोर्स है कोलंबियन फर्स है वो एक सेंट्रल फर्स होता है क्योंकि ये अलोंग द लाइन जॉइनिंग द सेंटर्स ऑफ द टू बॉडीज एक्ट करता है तीसरा बड़ा इंपॉर्टेंट कांसेप्ट बेटा टू चार्जेस एजर्टन एंड अपोजिट फोर्सेस ऑन ईच अदर मतलब एक चार्ज जो दूसरे पर फर्स लगाता है उतना ही चार्ज पहले पर फर्स लगाता है इस पर अगर इसने लगाया है f फोर्स तो इसने भी इस पर लगाया है f फोर्स तो ये एक्शन रिएक्शन पेयर फॉलो कर देते हैं यानी न्यूटंस थर्ड लॉ को फॉलो करते हैं मैं जितना लगा रहा हूं तुम पे फोर्स तुम लगाओगे मुझ पे सेम फर्स तो इक्वल एंड अपोजिट फोर्सेस इसके ऊपर लगते हैं कुछ और कांसेप्ट की बात करते हैं जो बड़ा इंपॉर्टेंट है आपके जानने के लिए कलम्स लॉ इज अ कंजरवेटिव फोर्स कलम्स लॉ कंजर्वेशन फोर्स होता है कंजर्वेशन फोर्स क्या होते हैं ये पाथ डिपेंडेंट नहीं होते केवल इनिशियल एंड फाइनल पॉइंट से इनको मतलब होता है यानी अगर आप इलेक्ट्रिक फोर्स को इलेक्ट्रिक चार्ज को इलेक्ट्रिक फील्ड में कहीं एक जगह से दूसरी जगह ले जा जाएंगे तो किस रास्ते से ले गए हैं इसका मतलब इससे कोई लेना देना नहीं है केवल इतना लेना देना है कि इनिशियल और फाइनल पोजीशंस क्या हैं तो वर्क डन पाथ पे डिपेंड नहीं करेगा ये कंजरवेटिव फोर्स होता है दूसरा अगला इंपॉर्टेंट कांसेप्ट है कि कलम्स लॉ मीडियम पर डिपेंड करता है जैसे मान लीजिए आपने वैक्यूम में दो चार्जेस लिए हैं उन पे लगने वाला फर्स कितना है बेटा f अब इन्हीं सिस्टम को हम पानी में डुबकी मरवा देते हैं पानी में डुबो देते हैं तो अब इसके बीच में मीडियम बदल गया पहले वैक्यूम था अब आ गया है वाटर तो पानी की वजह से अब जो फोर्स लगेगा ये f1 वो कितना लग जाएगा f / 80 एग्जांपल के लिए मैंने ये एग्जांपल लिया है यानी आप इससे ये टेक अवे लेंगे कि मीडियम बदलने से कलामन फर्स यानी कूलाम वाला जो फर्स है वो बदल जाता है है ना इस बात को पकड़ के रखना है ग्रेविटेशनल फर्स नहीं बदलता था ध्यान रखना लेकिन इलेक्ट्रिकल फोर्सेस ये जो कोलंबियन फोर्सेस हैं ये बदल जाते हैं इसको पकड़ के रखने की जरूरत है फोर्स इज अ लॉन्ग रेंज फोर्स सवाल ये उठता है कि जो कूलाम का फोर्स है वो कितनी दूरी तक काम करता है छोटी से छोटी दूरी क्या है बड़ी से बड़ी दूरी क्या है तो छोटी से छोटी दूरी है न्यूक्लियर रेंज आपने मैंने मेंशन भी किया है r की पावर 10 की पावर माइ 15 मीटर जो कि न्यूक्लियस के अंदर भी कोलंबियन फोर्स काम करता है इतनी छोटी डिस्टेंस पर और यूनिवर्स वाली जो डिस्टेंस है 10 की पावर 18 मीटर वहां तक काम करता है यानी बहुत छोटी से छोटी दूरी और बहुत बड़ी से बड़ी दूरी तक ये एप्लीकेबल होता है बढ़िया काम करता है इसीलिए बोलते हैं कूलाम फोर्स क्या होता है एक लॉन्ग रेंज फोर्स अब आगे बढ़ने से पहले एक छोटी सी इंफॉर्मेशन कि अगर आप चाहते हैं कि बड़े ही अच्छी तरीके से फिजिक्स कोल 11 12थ की आप मेरे साथ पढ़ सकें तो आप मेरे साथ जुड़ सकते हैं द्रोणा बैच के अंदर ये द्रोणा 1.0 है क्लास 11थ फिजिक्स के लिए पूरे का पूरा इजी भाषा में मैं सारे कांसेप्ट आपके क्लियर करा दूंगा और द्रोणा है 2.0 क्लास 12 फिजिक्स के लिए बेटा लाइव कोर्स है आप जो सकते हैं आपको डेरिवेशन न्यूमेरिकल कांसेप्ट सारे क्लियर हो जाएंगे जो बच्चे ये कोर्सेस में मेरे साथ क्लासेस में आना चाहते हैं वो अरविंद अकेडमी ऐप को डाउनलोड कर लीजिए डाउनलोड करके स्टोर सेक्शन में जाइए वहां आपको कोर्सेस दिखेंगे कोर्स के ऊपर क्लिक करेंगे तो आई एम इंटरेस्टेड का एक बटन दिखेगा क्लिक करेंगे तो आपको मैसेज आ जाएगा तो अरविंद अकेडमी ऐप का लिंक मैं डिस्क्रिप्शन में दे रहा हूं क्लिक करके डाउनलोड कर लीजिए और द्रोणा बैच में मेरे साथ जुड़ जाइए अब अगली बात हम लोग करते हैं आगे बढ़ते हैं वापस आते हैं टॉपिक पर देखिए कूलाम फर्स की जब हम बात कर रहे हैं तो फर्स तो एक वेक्टर क्वांटिटी होता है हमने जो बातें भी कहीं थी वो तो केवल मैग्नी ूडल 1 / 4 पा ए0 q1 q2 / r स् होगी ये तो स्केलर फॉर्म कूलाम हुआ का हुआ केवल मैग्नी ट्यूड बताया डायरेक्शन का क्या तो डायरेक्शन भी यानी मैग्नी ट्यूड डायरेक्शन दोनों बताने के लिए हम वेक्टर फॉर्म ऑफ कलम्स लॉ को साथ में लेते हैं अब यहां पर एक डायग्राम मैंने बताया बनाया है ये q1 चार्ज q2 चार्ज इनके बीच का डिस्टेंस r है और कुछ यहां वेक्टर्स लिखे हैं इन वेक्टर्स का मतलब क्या है यह मैं जल्दी से आपको समझाता हूं जैसे बात समझ में आए जैसे पहला वेक्टर यहां पे लिखा हुआ है देखिए f21 इस f21 का मतलब क्या होता है फोर्स ऑन सेकंड चार्ज इस पर ये सेकंड चार्ज है ना नंबर टू तो फोर्स ऑन ऑन टू ड्यू टू वन फोर्स ऑन टू जो पहले लिखा है उस पर फोर्स लग रहा है अब बाद में जो लिखा वो लगा रहा है तो ये क्या हो गया फोर्स ऑन टू ड्यू टू वन इस पे लगने वाला फोर्स इसके द्वारा जो लगाया जा रहा है यही बात देखिए यहां पर मेंशन कर दी फोर्स ऑन चार्ज q2 ड्यू टू q1 इसी तरीके से अगर हम बात करेंगे f12 की तो फोर्स ऑन वन ड्यू टू टू यही बात या लिखी है फोर्स ऑन चार्ज q1 ड्यू टू q 2 तो ये भाषा आप समझ गए होंगे f21 f12 का मतलब क्या है दूसरा ये जो यूनिट वेक्टर लिखे हैं इसके बारे में भी आपको जानकारी दे देता हूं जैसे मैंने यहां पे मेंशन भी कर दिया है कि r12 अगर लिख दिया गया है तो r12 का मतलब होता है यूनिट वेक्टर फ्रॉम वन टू टू ये डायरेक्शन भी देखिए एरो से बनाया है तो यूनिट वेक्टर फ्रॉम चार्ज q1 टू q2 अब इसी तरह अगर मैं सेकंड वाले चार्ज की बात करूं ये यूनिट वेक्टर की बात करूं r21 तो यूनिट वेक्टर है दो दो से एक की तरफ दो से एक की तरफ 2 1 का मतलब दो से एक की तरफ 1 2 का मतलब एक से दो की तरफ और यह बातें देखिए यहां पर मैंने मेंशन भी कर दी कि r12 r21 वेक्टर क्या होता है अब कई बच्चों को हो सकता है कंफ्यूजन हो कि यूनिट वेक्टर होता क्या है तो यूनिट वेक्टर आपको पता है अगर आपको निकालना होता है तो आप किसी भी वेक्टर क्वांटिटी को उसके मैग्निटिया हैं यूनिट वेक्टर ये r वेक्टर है और का मैग्नी r लिखा है जिससे आपने डिवाइड किया है तो यूनिट वेक्टर क्या रहा जिसका मैग्नी ूडल डायरेक्शन देने के लिए लगाया जाता है कहीं पर हम लगा देंगे तो डायरेक्शन देगा मैग्निटिया तो ये रहा इसका वेक्टर फॉर्म ऑफ ओम्स लॉ या वेक्टर फॉर्म ऑफ कलम्स लॉ f21 वेक्टर फॉर्म में देखिए तीर लगा हुआ है वेक्टर फॉर्म में यानी फोर्स ऑन टू इस पे लगने वाला फोर्स ड्यू टू इसके द्वारा f21 1/4 पा ए0 q1 q2 / r स् ये तो हो गया बेटा मैग्नी ूडल में r कैप 1 2 का मतलब आप जान रहे हैं वन से टू की तरफ आप एक से दो की तरफ ये वाला डायरेक्शन ये यूनिट वेक्टर य देखिए 21 है ये 1 2 है इस तरीके से समझ के चलेंगे और आपको दिखाई भी पड़ रहा है कि यहां पर रिपल्सिव फोर्स है फोर्स का डायरेक्शन इधर है तो फोर्स ये किसकी डायरेक्शन में r12 की डायरेक्शन में है इधर फोर्स लग रहा है इधर तो इसलिए देखिए ये दोनों एक ही डायरेक्शन में है अगर उल्टे होते तो यहां माइनस साइन लिखा होता तो दिस इज द वेक्टर फॉर्म ऑफ ओम्स लॉ इसी वेक्टर फॉर्म ऑफ कलम्स लॉ इसी तरह f12 को लिख सकते हैं आप f12 का मतलब हो गया फोर्स ऑन वन ड्यू टू टू सेकंड चार्ज और यहां 1 अप 4 पा ए0 q1 q2 / r स् ये मैग्नी ूड्स के लिए r कैप यानी यूनिट वेक्टर 21 का इस्तेमाल किया गया यहां देखिए ये जो लिखा है इसका उल्टा है कुछ बुक्स में ये सेम लिखते हैं लेकिन इसका मतलब उल्टा कर देते हैं वो तो उससे घबराना नहीं है आपको बिल्कुल सही कांसेप्ट है इसको पकड़ के आप चल सकते हैं अब आगे की हम लोग बात करते हैं बेटा इसकी एप्लीकेशन या एक न्यूमेरिकल लगाते हैं यहां देखिए लिखा है व्हाट इज द फोर्स बिटवीन टू स्मॉल चार्ज स्फीयर दो स्मॉल चार्ज स्फीयर हैं जिस पे चार्जेस हमको दे रखे हैं दिस वन एंड दिस वन जो 30 सें मी अपार्ट है एयर में जब एयर बोला जाए तो आप उसको वैक्यूम ही समझ लीजिएगा तो आपके समझने के लिए मैंने फोटोग्राफ बना दिए है देखिए ये फोटो है दो चार यहां पर है इनके बीच 30 सेंटीमीटर का यह देखिए डिफरेंस है और यह चार्ज q1 और यह q2 की वैल्यू है आप जानते हैं कि ये इस पे रिपल्शन का फोर्स लगेगा क्योंकि दोनों सेम चार्ज हैं लाइक चार्जेस हैं बड़ी अच्छी बात है अब जो फार्मूला होता कलम्स लॉ का 1/4 पा एन q1 q2 / r स् ये फोर्स का फार्मूला है इसी में उठाकर आप सारी वैल्यूज को पुट कर दीजिए जैसे आपने 1/4 पा ए0 की जो वैल्यू थी वो याद की थी 9 * 10 की पावर 9 q1 की वैल्यू हो गई 2 * 10 की पावर -7 q2 की वैल्यू हो गई 3 * 10 की पावर -7 और r कितना है 30 सेमी है तो इसको मीटर में चेंज कर लीजिए तो 30 * 10 की पावर -2 का स्क्वायर और इसे आप सॉल्व करके जब आप लिखेंगे तो वैल्यू आ जाएगी 6 * 10 की पावर -3 न्यूटन ये हुआ मैग्नी ूडल का बिहेवियर है रिपल्सिव इन नेचर यानी एक दूसरे को रिपल कर रहे हैं तो इस तरीके से यह एप्लीकेशन भी हो जाता है आराम से इसको आप भी कर सकते हैं जो बच्चे यह चाहते हैं कि यह जो मैंने आपको पढ़ाया है बिल्कुल सटीक कम टाइम में पूरी जानकारी उसका प्रेजेंटेशन चाहते हैं तो अरविंद एकेडमी टेलीग्राम चैनल को जवाइन कर सकते हैं लिंक आपको मिल जाएगा डिस्क्रिप्शन के अंदर और हां अरविंद एकेडमी चैनल को सब्सक्राइब करना मत भूलिए फिजिक्स के टॉप क्वालिटी कंटेंट के लिए क्लास 11 12 के लिए थैंक यू वेरी मच विश यू ऑल द बेस्ट",
+  "translation_model": "llama-3.3-70b-versatile (Groq)"
+}

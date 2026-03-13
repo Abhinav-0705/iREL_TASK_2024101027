@@ -1,0 +1,78 @@
+# Video Configuration
+# Supports Hinglish (Hindi+English) and Telugu-English mixed content
+
+videos:
+  - id: video_1
+    title: "Dynamic Programming Explained"
+    domain: "Computer Science"
+    url: "https://www.youtube.com/watch?v=tyB0ztf0DNY"  # Aditya Verma
+    language: "Hinglish"
+    duration_min: 15
+    instructor: "Aditya Verma"
+    expected_concepts:
+      - Recursion
+      - Overlapping Subproblems
+      - Optimal Substructure
+      - Memoization
+      - Dynamic Programming
+    
+  - id: video_2
+    title: "Liquid Solutions - Chemistry"
+    domain: "Chemistry"
+    url: "https://www.youtube.com/watch?v=S3Ub4HAjaIw"
+    language: "Hinglish"
+    duration_min: 20
+    instructor: "Unknown"
+    expected_concepts:
+      - Liquid Solutions
+      - Solubility
+      - Concentration
+      - Molarity
+      - Raoult's Law
+      - Colligative Properties
+
+    
+  - id: video_3
+    title: "DFS and BFS Explained"
+    domain: "Algorithms"
+    url: "https://www.youtube.com/watch?v=N2P7w22tN9c" # Gate Smashers - Graph Traversal
+    language: "Hinglish"
+    duration_min: 15
+    instructor: "Gate Smashers"
+    expected_concepts:
+      - Graph Representation
+      - Recursion
+      - Stack
+      - Queue
+      - DFS
+      - BFS
+
+  - id: video_4
+    title: "Electric Field Explained"
+    domain: "Physics"
+    url: "https://www.youtube.com/watch?v=QhRXgDy7K_c"  # Physics Wallah - Electric Field
+    language: "Hinglish"
+    duration_min: 10
+    instructor: "Physics Wallah"
+    expected_concepts:
+      - Charge
+      - Coulomb's Law
+      - Vector Addition
+      - Electric Field
+      - Electric Potential
+
+    
+  - id: video_5
+    title: "New Telugu-English Lecture"
+    domain: "Chemistry"
+    url: "https://www.youtube.com/watch?v=QFi05agKd70&list=PL0uOSGzadmy5zRC1Ma-y7VSdRrtuz1XTA&index=7"
+    language: "Telugu-English"
+    duration_min: 15
+    instructor: "Unknown"
+    expected conceptss:
+      - Thermodyanmics
+      - Enthalpy
+      - Entropy
+      - Gibbs Free Energy
+    notes: "Telugu-English mixed content from user-provided playlist"
+

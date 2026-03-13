@@ -1,0 +1,46 @@
+{
+  "video_id": "video_2",
+  "total_concepts": 21,
+  "candidate_edges": [
+    {
+      "prerequisite": "Vapor Pressure",
+      "target": "Partial Pressure",
+      "prerequisite_time": 137.53,
+      "target_time": 211.31,
+      "time_gap": 73.78,
+      "teaching_signals": [
+        "need",
+        "then"
+      ],
+      "signal_count": 2,
+      "strength": "strong",
+      "context_window": "Vapor pressure will be combined The total vapor pressure that you have here will be Water vapor pressure development will be of baby water vapor Pressure development will also take place, it's a poetic pressure How much it will be, that needs to be calculated, how to do it Calculate when it is hundred percent He was the President then, now he does Seven Eight 0.41 6 Presentation Bundle Operation Polo Matter That's it, now you can say this is 14% or this We can say this is 50% and multiply It has"
+    },
+    {
+      "prerequisite": "Partial Pressure",
+      "target": "Henry's Law",
+      "prerequisite_time": 211.31,
+      "target_time": 727.2,
+      "time_gap": 515.8900000000001,
+      "teaching_signals": [],
+      "signal_count": 0,
+      "strength": "weak",
+      "context_window": "Percentage of infection in mall traction is whose Percentage small percentage in precious moments Expressed in small fraction and gas Will be equal to K times parcel pressure and Gas back this formula has become if I From here to here Let me pause and explain how to parse it I have kept the pressure and gas at the mall Fraction of gas put it there into one I will make the accountant which is the The function will become a formula, a mole fraction Our gas multiplied by k between which we They say"
+    },
+    {
+      "prerequisite": "Mole Fraction",
+      "target": "Henry's Law",
+      "prerequisite_time": 684.5,
+      "target_time": 727.2,
+      "time_gap": 42.700000000000045,
+      "teaching_signals": [],
+      "signal_count": 0,
+      "strength": "weak",
+      "context_window": "Percentage of infection in mall traction is whose Percentage small percentage in precious moments Expressed in small fraction and gas Will be equal to K times parcel pressure and Gas back this formula has become if I From here to here Let me pause and explain how to parse it I have kept the pressure and gas at the mall Fraction of gas put it there into one I will make the accountant which is the The function will become a formula, a mole fraction Our gas multiplied by k between which we They say"
+    }
+  ],
+  "total_candidates": 3,
+  "strong_candidates": 1,
+  "weak_candidates": 2,
+  "window_seconds": 30
+}

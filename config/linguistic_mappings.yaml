@@ -1,0 +1,128 @@
+# Linguistic Normalization Mappings
+# Code-mixed phrases to standard terminology
+
+# Computer Science
+cs_mappings:
+  "recursion wala approach": "Recursion"
+  "recursive call": "Recursion"
+  "overlapping cases": "Overlapping Subproblems"
+  "overlapping subproblems": "Overlapping Subproblems"
+  "optimal solution": "Optimal Substructure"
+  "memoization technique": "Memoization"
+  "dp approach": "Dynamic Programming"
+  "dynamic programming": "Dynamic Programming"
+  "base case": "Base Case"
+  "recursive case": "Recursive Case"
+
+# Machine Learning
+ml_mappings:
+  "neural net": "Neural Network"
+  "neural network": "Neural Network"
+  "loss function": "Loss Function"
+  "cost function": "Loss Function"
+  "chain rule": "Chain Rule"
+  "derivative": "Partial Derivatives"
+  "gradient": "Gradient Descent"
+  "backprop": "Backpropagation"
+  "backpropagation": "Backpropagation"
+  "weight update": "Weight Update"
+
+# Algorithms
+algo_mappings:
+  "graph representation": "Graph Representation"
+  "adjacency list": "Adjacency List"
+  "adjacency matrix": "Adjacency Matrix"
+  "stack": "Stack"
+  "queue": "Queue"
+  "dfs": "Depth First Search"
+  "depth first search": "Depth First Search"
+  "bfs": "Breadth First Search"
+  "breadth first search": "Breadth First Search"
+
+# Physics
+physics_mappings:
+  "charge ka rule": "Coulomb's Law"
+  "coulomb's law": "Coulomb's Law"
+  "coulomb ka niyam": "Coulomb's Law"
+  "electric field": "Electric Field"
+  "vector addition": "Vector Addition"
+  "electric potential": "Electric Potential"
+  "charge": "Charge"
+
+# Chemistry
+chemistry_mappings:
+  "H+ ka concentration": "Hydrogen Ion Concentration"
+  "hydrogen ion": "Hydrogen Ion Concentration"
+  "pH value": "pH"
+  "pOH value": "pOH"
+  "acid base": "Acid Base Equilibrium"
+  "equilibrium": "Chemical Equilibrium"
+  "log function": "Logarithm"
+  "ionization": "Ionization"
+  "dissociation": "Dissociation"
+  "H+ concentration": "Hydrogen Ion Concentration"
+  "OH- concentration": "Hydroxide Ion Concentration"
+  "acid strength": "Acid Strength"
+  "base strength": "Base Strength"
+  
+# Telugu Chemistry Terms (add as needed)
+chemistry_mappings_telugu:
+  "H+ concentration": "Hydrogen Ion Concentration"
+  "acid": "Acid"
+  "base": "Base"
+  "pH value": "pH"
+  "ionization": "Ionization"
+
+# Dependency Indicators (Multilingual)
+dependency_indicators:
+  english:
+    - "to understand"
+    - "requires"
+    - "based on"
+    - "depends on"
+    - "prerequisite"
+    - "before"
+    - "after"
+    - "first"
+    - "then"
+    - "need to know"
+    - "must understand"
+    
+  hindi:
+    - "samajhne ke liye"
+    - "pehle"
+    - "baad mein"
+    - "ke baad"
+    - "zaroori hai"
+    - "jaruri hai"
+    - "chahiye"
+    - "se pehle"
+    - "depend karta hai"
+    - "iske liye"
+    
+  hinglish:
+    - "understand karne ke liye"
+    - "pehle samajhna padega"
+    - "ke baad hi"
+    - "depend karta"
+    - "based hai"
+    - "required hai"
+    - "necessary hai"
+    
+  telugu:
+    - "artham chesukovadaniki"  # to understand
+    - "mundhu"  # before
+    - "tarvatha"  # after
+    - "kavali"  # need
+    - "avasaram"  # necessary
+    - "depend avuthundi"  # depends on
+    - "base chesukuni"  # based on
+    - "telusukovali"  # must know
+    
+  telugu_english:
+    - "understand chesukovadaniki"
+    - "mundhu telusukovali"
+    - "required kavali"
+    - "depends avuthundi"
+    - "necessary avasaram"
+    - "base chesukoni"

@@ -1,0 +1,1716 @@
+{
+  "video_id": "video_3",
+  "method": "hybrid_implicit_detection",
+  "total_dependencies": 124,
+  "method_breakdown": {
+    "semantic_temporal": 22,
+    "cooccurrence": 1,
+    "video_explanation_overlap": 124,
+    "transitive": 0,
+    "final_unique": 124
+  },
+  "dependencies": [
+    {
+      "prerequisite": "Node",
+      "concept": "Graph",
+      "confidence": 1.0,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 1.0,
+        "vocab_a_size": 40,
+        "vocab_b_size": 40,
+        "t_a": 0,
+        "t_b": 3.59
+      }
+    },
+    {
+      "prerequisite": "Edge",
+      "concept": "Graph",
+      "confidence": 1.0,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 1.0,
+        "vocab_a_size": 40,
+        "vocab_b_size": 40,
+        "t_a": 0,
+        "t_b": 3.59
+      }
+    },
+    {
+      "prerequisite": "Queue",
+      "concept": "Graph",
+      "confidence": 1.0,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 1.0,
+        "vocab_a_size": 40,
+        "vocab_b_size": 40,
+        "t_a": 0,
+        "t_b": 3.59
+      }
+    },
+    {
+      "prerequisite": "Stack",
+      "concept": "Graph",
+      "confidence": 1.0,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 1.0,
+        "vocab_a_size": 40,
+        "vocab_b_size": 40,
+        "t_a": 0,
+        "t_b": 3.59
+      }
+    },
+    {
+      "prerequisite": "Dynamic Programming",
+      "concept": "Graph",
+      "confidence": 1.0,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 1.0,
+        "vocab_a_size": 40,
+        "vocab_b_size": 40,
+        "t_a": 0,
+        "t_b": 3.59
+      }
+    },
+    {
+      "prerequisite": "Dynamic Programming",
+      "concept": "Graph Theory",
+      "confidence": 1.0,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 1.0,
+        "vocab_a_size": 40,
+        "vocab_b_size": 40,
+        "t_a": 0,
+        "t_b": 3.59
+      }
+    },
+    {
+      "prerequisite": "Topological Sort",
+      "concept": "Graph",
+      "confidence": 1.0,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 1.0,
+        "vocab_a_size": 40,
+        "vocab_b_size": 40,
+        "t_a": 0,
+        "t_b": 3.59
+      }
+    },
+    {
+      "prerequisite": "Topological Sort",
+      "concept": "Graph Theory",
+      "confidence": 1.0,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 1.0,
+        "vocab_a_size": 40,
+        "vocab_b_size": 40,
+        "t_a": 0,
+        "t_b": 3.59
+      }
+    },
+    {
+      "prerequisite": "Shortest Path",
+      "concept": "Backtracking",
+      "confidence": 0.9322033898305084,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.9322033898305084,
+        "vocab_a_size": 116,
+        "vocab_b_size": 112,
+        "t_a": 156.29,
+        "t_b": 162.68
+      }
+    },
+    {
+      "prerequisite": "Node",
+      "concept": "Graph Theory",
+      "confidence": 0.8226403148179056,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.4957096633052826,
+          1.0
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Node",
+      "concept": "Time Complexity",
+      "confidence": 0.8226403148179056,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.4957096633052826,
+          1.0
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Queue",
+      "concept": "Graph Theory",
+      "confidence": 0.8207217420344354,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.4922213491535187,
+          1.0
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Queue",
+      "concept": "Time Complexity",
+      "confidence": 0.8207217420344354,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.4922213491535187,
+          1.0
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Dynamic Programming",
+      "concept": "Time Complexity",
+      "confidence": 0.7940236885552406,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.44367943373680113,
+          1.0
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Edge",
+      "concept": "Graph Theory",
+      "confidence": 0.7922547984575034,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.4404632699227333,
+          1.0
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Edge",
+      "concept": "Time Complexity",
+      "confidence": 0.7922547984575034,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.4404632699227333,
+          1.0
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Topological Sort",
+      "concept": "Time Complexity",
+      "confidence": 0.7645608626012803,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.39011065927505495,
+          1.0
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Stack",
+      "concept": "Graph Theory",
+      "confidence": 0.7609254711200596,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.38350085658192634,
+          1.0
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Stack",
+      "concept": "Time Complexity",
+      "confidence": 0.7609254711200596,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.38350085658192634,
+          1.0
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Space Complexity",
+      "concept": "Maximum Flow",
+      "confidence": 0.7134097775393725,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.4221086864352227,
+          0.875
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Level Order Traversal",
+      "concept": "Shortest Path",
+      "confidence": 0.6214880654715704,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.5359933384513855,
+          0.5939849624060151
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Connected Component",
+      "concept": "Recursion",
+      "confidence": 0.5648854961832062,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.5648854961832062,
+        "vocab_a_size": 114,
+        "vocab_b_size": 91,
+        "t_a": 335.23,
+        "t_b": 365.32
+      }
+    },
+    {
+      "prerequisite": "Level Order Traversal",
+      "concept": "Backtracking",
+      "confidence": 0.5503267834192559,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.45985341093063353,
+          0.5407407407407407
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Minimum Spanning Tree",
+      "concept": "Space Complexity",
+      "confidence": 0.5392156862745098,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.5392156862745098,
+        "vocab_a_size": 93,
+        "vocab_b_size": 64,
+        "t_a": 604.46,
+        "t_b": 636.69
+      }
+    },
+    {
+      "prerequisite": "Depth First Search",
+      "concept": "Level Order Traversal",
+      "confidence": 0.5377758068770951,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.4731870383586883,
+          0.5045871559633027
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Tree Traversal",
+      "concept": "Space Complexity",
+      "confidence": 0.5154703841146605,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.3980031939339637,
+          0.5392156862745098
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Breadth First Search",
+      "concept": "Level Order Traversal",
+      "confidence": 0.49966469960220516,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.4038941160407066,
+          0.5045871559633027
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Minimum Spanning Tree",
+      "concept": "Maximum Flow",
+      "confidence": 0.4915114681152924,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.43287290102958687,
+          0.46078431372549017
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Tree Traversal",
+      "concept": "Maximum Flow",
+      "confidence": 0.4518950547753199,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.3608430585932732,
+          0.46078431372549017
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Depth First Search",
+      "concept": "Shortest Path",
+      "confidence": 0.42283060228019825,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.4910051354589462,
+          0.2777777777777778
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Depth First Search",
+      "concept": "Backtracking",
+      "confidence": 0.41053967026507293,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "cooccurrence",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.440531286863327,
+          0.35294117647058826,
+          0.2328767123287671
+        ],
+        "method_count": 3
+      }
+    },
+    {
+      "prerequisite": "Breadth First Search",
+      "concept": "Shortest Path",
+      "confidence": 0.39348297422319517,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.43764581171894074,
+          0.2777777777777778
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Breadth First Search",
+      "concept": "Backtracking",
+      "confidence": 0.348342945186226,
+      "method": "combined",
+      "details": {
+        "methods": [
+          "semantic_temporal",
+          "video_explanation_overlap"
+        ],
+        "individual_confidences": [
+          0.40047409710073467,
+          0.2328767123287671
+        ],
+        "method_count": 2
+      }
+    },
+    {
+      "prerequisite": "Backtracking",
+      "concept": "Connected Component",
+      "confidence": 0.22826086956521738,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.22826086956521738,
+        "vocab_a_size": 112,
+        "vocab_b_size": 114,
+        "t_a": 162.68,
+        "t_b": 335.23
+      }
+    },
+    {
+      "prerequisite": "Shortest Path",
+      "concept": "Connected Component",
+      "confidence": 0.21693121693121692,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.21693121693121692,
+        "vocab_a_size": 116,
+        "vocab_b_size": 114,
+        "t_a": 156.29,
+        "t_b": 335.23
+      }
+    },
+    {
+      "prerequisite": "Backtracking",
+      "concept": "Recursion",
+      "confidence": 0.2155688622754491,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.2155688622754491,
+        "vocab_a_size": 112,
+        "vocab_b_size": 91,
+        "t_a": 162.68,
+        "t_b": 365.32
+      }
+    },
+    {
+      "prerequisite": "Graph",
+      "concept": "Maximum Flow",
+      "confidence": 0.21518987341772153,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.21518987341772153,
+        "vocab_a_size": 40,
+        "vocab_b_size": 56,
+        "t_a": 3.59,
+        "t_b": 644.64
+      }
+    },
+    {
+      "prerequisite": "Node",
+      "concept": "Maximum Flow",
+      "confidence": 0.21518987341772153,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.21518987341772153,
+        "vocab_a_size": 40,
+        "vocab_b_size": 56,
+        "t_a": 0,
+        "t_b": 644.64
+      }
+    },
+    {
+      "prerequisite": "Edge",
+      "concept": "Maximum Flow",
+      "confidence": 0.21518987341772153,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.21518987341772153,
+        "vocab_a_size": 40,
+        "vocab_b_size": 56,
+        "t_a": 0,
+        "t_b": 644.64
+      }
+    },
+    {
+      "prerequisite": "Queue",
+      "concept": "Maximum Flow",
+      "confidence": 0.21518987341772153,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.21518987341772153,
+        "vocab_a_size": 40,
+        "vocab_b_size": 56,
+        "t_a": 0,
+        "t_b": 644.64
+      }
+    },
+    {
+      "prerequisite": "Stack",
+      "concept": "Maximum Flow",
+      "confidence": 0.21518987341772153,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.21518987341772153,
+        "vocab_a_size": 40,
+        "vocab_b_size": 56,
+        "t_a": 0,
+        "t_b": 644.64
+      }
+    },
+    {
+      "prerequisite": "Graph Theory",
+      "concept": "Maximum Flow",
+      "confidence": 0.21518987341772153,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.21518987341772153,
+        "vocab_a_size": 40,
+        "vocab_b_size": 56,
+        "t_a": 3.59,
+        "t_b": 644.64
+      }
+    },
+    {
+      "prerequisite": "Dynamic Programming",
+      "concept": "Maximum Flow",
+      "confidence": 0.21518987341772153,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.21518987341772153,
+        "vocab_a_size": 40,
+        "vocab_b_size": 56,
+        "t_a": 0,
+        "t_b": 644.64
+      }
+    },
+    {
+      "prerequisite": "Topological Sort",
+      "concept": "Maximum Flow",
+      "confidence": 0.21518987341772153,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.21518987341772153,
+        "vocab_a_size": 40,
+        "vocab_b_size": 56,
+        "t_a": 0,
+        "t_b": 644.64
+      }
+    },
+    {
+      "prerequisite": "Time Complexity",
+      "concept": "Maximum Flow",
+      "confidence": 0.21518987341772153,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.21518987341772153,
+        "vocab_a_size": 40,
+        "vocab_b_size": 56,
+        "t_a": 3.59,
+        "t_b": 644.64
+      }
+    },
+    {
+      "prerequisite": "Shortest Path",
+      "concept": "Recursion",
+      "confidence": 0.20348837209302326,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.20348837209302326,
+        "vocab_a_size": 116,
+        "vocab_b_size": 91,
+        "t_a": 156.29,
+        "t_b": 365.32
+      }
+    },
+    {
+      "prerequisite": "Graph",
+      "concept": "Space Complexity",
+      "confidence": 0.19540229885057472,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.19540229885057472,
+        "vocab_a_size": 40,
+        "vocab_b_size": 64,
+        "t_a": 3.59,
+        "t_b": 636.69
+      }
+    },
+    {
+      "prerequisite": "Node",
+      "concept": "Space Complexity",
+      "confidence": 0.19540229885057472,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.19540229885057472,
+        "vocab_a_size": 40,
+        "vocab_b_size": 64,
+        "t_a": 0,
+        "t_b": 636.69
+      }
+    },
+    {
+      "prerequisite": "Edge",
+      "concept": "Space Complexity",
+      "confidence": 0.19540229885057472,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.19540229885057472,
+        "vocab_a_size": 40,
+        "vocab_b_size": 64,
+        "t_a": 0,
+        "t_b": 636.69
+      }
+    },
+    {
+      "prerequisite": "Queue",
+      "concept": "Space Complexity",
+      "confidence": 0.19540229885057472,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.19540229885057472,
+        "vocab_a_size": 40,
+        "vocab_b_size": 64,
+        "t_a": 0,
+        "t_b": 636.69
+      }
+    },
+    {
+      "prerequisite": "Stack",
+      "concept": "Space Complexity",
+      "confidence": 0.19540229885057472,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.19540229885057472,
+        "vocab_a_size": 40,
+        "vocab_b_size": 64,
+        "t_a": 0,
+        "t_b": 636.69
+      }
+    },
+    {
+      "prerequisite": "Graph Theory",
+      "concept": "Space Complexity",
+      "confidence": 0.19540229885057472,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.19540229885057472,
+        "vocab_a_size": 40,
+        "vocab_b_size": 64,
+        "t_a": 3.59,
+        "t_b": 636.69
+      }
+    },
+    {
+      "prerequisite": "Dynamic Programming",
+      "concept": "Space Complexity",
+      "confidence": 0.19540229885057472,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.19540229885057472,
+        "vocab_a_size": 40,
+        "vocab_b_size": 64,
+        "t_a": 0,
+        "t_b": 636.69
+      }
+    },
+    {
+      "prerequisite": "Topological Sort",
+      "concept": "Space Complexity",
+      "confidence": 0.19540229885057472,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.19540229885057472,
+        "vocab_a_size": 40,
+        "vocab_b_size": 64,
+        "t_a": 0,
+        "t_b": 636.69
+      }
+    },
+    {
+      "prerequisite": "Time Complexity",
+      "concept": "Space Complexity",
+      "confidence": 0.19540229885057472,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.19540229885057472,
+        "vocab_a_size": 40,
+        "vocab_b_size": 64,
+        "t_a": 3.59,
+        "t_b": 636.69
+      }
+    },
+    {
+      "prerequisite": "Recursion",
+      "concept": "Tree Traversal",
+      "confidence": 0.19480519480519481,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.19480519480519481,
+        "vocab_a_size": 91,
+        "vocab_b_size": 93,
+        "t_a": 365.32,
+        "t_b": 604.46
+      }
+    },
+    {
+      "prerequisite": "Recursion",
+      "concept": "Minimum Spanning Tree",
+      "confidence": 0.19480519480519481,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.19480519480519481,
+        "vocab_a_size": 91,
+        "vocab_b_size": 93,
+        "t_a": 365.32,
+        "t_b": 604.46
+      }
+    },
+    {
+      "prerequisite": "Level Order Traversal",
+      "concept": "Connected Component",
+      "confidence": 0.19318181818181818,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.19318181818181818,
+        "vocab_a_size": 96,
+        "vocab_b_size": 114,
+        "t_a": 126.4,
+        "t_b": 335.23
+      }
+    },
+    {
+      "prerequisite": "Level Order Traversal",
+      "concept": "Recursion",
+      "confidence": 0.18354430379746836,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.18354430379746836,
+        "vocab_a_size": 96,
+        "vocab_b_size": 91,
+        "t_a": 126.4,
+        "t_b": 365.32
+      }
+    },
+    {
+      "prerequisite": "Connected Component",
+      "concept": "Tree Traversal",
+      "confidence": 0.18285714285714286,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.18285714285714286,
+        "vocab_a_size": 114,
+        "vocab_b_size": 93,
+        "t_a": 335.23,
+        "t_b": 604.46
+      }
+    },
+    {
+      "prerequisite": "Connected Component",
+      "concept": "Minimum Spanning Tree",
+      "confidence": 0.18285714285714286,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.18285714285714286,
+        "vocab_a_size": 114,
+        "vocab_b_size": 93,
+        "t_a": 335.23,
+        "t_b": 604.46
+      }
+    },
+    {
+      "prerequisite": "Depth First Search",
+      "concept": "Recursion",
+      "confidence": 0.17777777777777778,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.17777777777777778,
+        "vocab_a_size": 68,
+        "vocab_b_size": 91,
+        "t_a": 98.659,
+        "t_b": 365.32
+      }
+    },
+    {
+      "prerequisite": "Breadth First Search",
+      "concept": "Recursion",
+      "confidence": 0.17777777777777778,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.17777777777777778,
+        "vocab_a_size": 68,
+        "vocab_b_size": 91,
+        "t_a": 98.659,
+        "t_b": 365.32
+      }
+    },
+    {
+      "prerequisite": "Graph",
+      "concept": "Tree Traversal",
+      "confidence": 0.17699115044247787,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.17699115044247787,
+        "vocab_a_size": 40,
+        "vocab_b_size": 93,
+        "t_a": 3.59,
+        "t_b": 604.46
+      }
+    },
+    {
+      "prerequisite": "Graph",
+      "concept": "Minimum Spanning Tree",
+      "confidence": 0.17699115044247787,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.17699115044247787,
+        "vocab_a_size": 40,
+        "vocab_b_size": 93,
+        "t_a": 3.59,
+        "t_b": 604.46
+      }
+    },
+    {
+      "prerequisite": "Node",
+      "concept": "Tree Traversal",
+      "confidence": 0.17699115044247787,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.17699115044247787,
+        "vocab_a_size": 40,
+        "vocab_b_size": 93,
+        "t_a": 0,
+        "t_b": 604.46
+      }
+    },
+    {
+      "prerequisite": "Node",
+      "concept": "Minimum Spanning Tree",
+      "confidence": 0.17699115044247787,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.17699115044247787,
+        "vocab_a_size": 40,
+        "vocab_b_size": 93,
+        "t_a": 0,
+        "t_b": 604.46
+      }
+    },
+    {
+      "prerequisite": "Edge",
+      "concept": "Tree Traversal",
+      "confidence": 0.17699115044247787,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.17699115044247787,
+        "vocab_a_size": 40,
+        "vocab_b_size": 93,
+        "t_a": 0,
+        "t_b": 604.46
+      }
+    },
+    {
+      "prerequisite": "Edge",
+      "concept": "Minimum Spanning Tree",
+      "confidence": 0.17699115044247787,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.17699115044247787,
+        "vocab_a_size": 40,
+        "vocab_b_size": 93,
+        "t_a": 0,
+        "t_b": 604.46
+      }
+    },
+    {
+      "prerequisite": "Queue",
+      "concept": "Tree Traversal",
+      "confidence": 0.17699115044247787,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.17699115044247787,
+        "vocab_a_size": 40,
+        "vocab_b_size": 93,
+        "t_a": 0,
+        "t_b": 604.46
+      }
+    },
+    {
+      "prerequisite": "Queue",
+      "concept": "Minimum Spanning Tree",
+      "confidence": 0.17699115044247787,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.17699115044247787,
+        "vocab_a_size": 40,
+        "vocab_b_size": 93,
+        "t_a": 0,
+        "t_b": 604.46
+      }
+    },
+    {
+      "prerequisite": "Stack",
+      "concept": "Tree Traversal",
+      "confidence": 0.17699115044247787,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.17699115044247787,
+        "vocab_a_size": 40,
+        "vocab_b_size": 93,
+        "t_a": 0,
+        "t_b": 604.46
+      }
+    },
+    {
+      "prerequisite": "Stack",
+      "concept": "Minimum Spanning Tree",
+      "confidence": 0.17699115044247787,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.17699115044247787,
+        "vocab_a_size": 40,
+        "vocab_b_size": 93,
+        "t_a": 0,
+        "t_b": 604.46
+      }
+    },
+    {
+      "prerequisite": "Graph Theory",
+      "concept": "Tree Traversal",
+      "confidence": 0.17699115044247787,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.17699115044247787,
+        "vocab_a_size": 40,
+        "vocab_b_size": 93,
+        "t_a": 3.59,
+        "t_b": 604.46
+      }
+    },
+    {
+      "prerequisite": "Graph Theory",
+      "concept": "Minimum Spanning Tree",
+      "confidence": 0.17699115044247787,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.17699115044247787,
+        "vocab_a_size": 40,
+        "vocab_b_size": 93,
+        "t_a": 3.59,
+        "t_b": 604.46
+      }
+    },
+    {
+      "prerequisite": "Dynamic Programming",
+      "concept": "Tree Traversal",
+      "confidence": 0.17699115044247787,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.17699115044247787,
+        "vocab_a_size": 40,
+        "vocab_b_size": 93,
+        "t_a": 0,
+        "t_b": 604.46
+      }
+    },
+    {
+      "prerequisite": "Dynamic Programming",
+      "concept": "Minimum Spanning Tree",
+      "confidence": 0.17699115044247787,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.17699115044247787,
+        "vocab_a_size": 40,
+        "vocab_b_size": 93,
+        "t_a": 0,
+        "t_b": 604.46
+      }
+    },
+    {
+      "prerequisite": "Topological Sort",
+      "concept": "Tree Traversal",
+      "confidence": 0.17699115044247787,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.17699115044247787,
+        "vocab_a_size": 40,
+        "vocab_b_size": 93,
+        "t_a": 0,
+        "t_b": 604.46
+      }
+    },
+    {
+      "prerequisite": "Topological Sort",
+      "concept": "Minimum Spanning Tree",
+      "confidence": 0.17699115044247787,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.17699115044247787,
+        "vocab_a_size": 40,
+        "vocab_b_size": 93,
+        "t_a": 0,
+        "t_b": 604.46
+      }
+    },
+    {
+      "prerequisite": "Time Complexity",
+      "concept": "Tree Traversal",
+      "confidence": 0.17699115044247787,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.17699115044247787,
+        "vocab_a_size": 40,
+        "vocab_b_size": 93,
+        "t_a": 3.59,
+        "t_b": 604.46
+      }
+    },
+    {
+      "prerequisite": "Time Complexity",
+      "concept": "Minimum Spanning Tree",
+      "confidence": 0.17699115044247787,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.17699115044247787,
+        "vocab_a_size": 40,
+        "vocab_b_size": 93,
+        "t_a": 3.59,
+        "t_b": 604.46
+      }
+    },
+    {
+      "prerequisite": "Backtracking",
+      "concept": "Tree Traversal",
+      "confidence": 0.17142857142857143,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.17142857142857143,
+        "vocab_a_size": 112,
+        "vocab_b_size": 93,
+        "t_a": 162.68,
+        "t_b": 604.46
+      }
+    },
+    {
+      "prerequisite": "Backtracking",
+      "concept": "Minimum Spanning Tree",
+      "confidence": 0.17142857142857143,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.17142857142857143,
+        "vocab_a_size": 112,
+        "vocab_b_size": 93,
+        "t_a": 162.68,
+        "t_b": 604.46
+      }
+    },
+    {
+      "prerequisite": "Depth First Search",
+      "concept": "Connected Component",
+      "confidence": 0.1592356687898089,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.1592356687898089,
+        "vocab_a_size": 68,
+        "vocab_b_size": 114,
+        "t_a": 98.659,
+        "t_b": 335.23
+      }
+    },
+    {
+      "prerequisite": "Breadth First Search",
+      "concept": "Connected Component",
+      "confidence": 0.1592356687898089,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.1592356687898089,
+        "vocab_a_size": 68,
+        "vocab_b_size": 114,
+        "t_a": 98.659,
+        "t_b": 335.23
+      }
+    },
+    {
+      "prerequisite": "Shortest Path",
+      "concept": "Tree Traversal",
+      "confidence": 0.15469613259668508,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.15469613259668508,
+        "vocab_a_size": 116,
+        "vocab_b_size": 93,
+        "t_a": 156.29,
+        "t_b": 604.46
+      }
+    },
+    {
+      "prerequisite": "Shortest Path",
+      "concept": "Minimum Spanning Tree",
+      "confidence": 0.15469613259668508,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.15469613259668508,
+        "vocab_a_size": 116,
+        "vocab_b_size": 93,
+        "t_a": 156.29,
+        "t_b": 604.46
+      }
+    },
+    {
+      "prerequisite": "Level Order Traversal",
+      "concept": "Tree Traversal",
+      "confidence": 0.1524390243902439,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.1524390243902439,
+        "vocab_a_size": 96,
+        "vocab_b_size": 93,
+        "t_a": 126.4,
+        "t_b": 604.46
+      }
+    },
+    {
+      "prerequisite": "Level Order Traversal",
+      "concept": "Minimum Spanning Tree",
+      "confidence": 0.1524390243902439,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.1524390243902439,
+        "vocab_a_size": 96,
+        "vocab_b_size": 93,
+        "t_a": 126.4,
+        "t_b": 604.46
+      }
+    },
+    {
+      "prerequisite": "Backtracking",
+      "concept": "Space Complexity",
+      "confidence": 0.14285714285714285,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.14285714285714285,
+        "vocab_a_size": 112,
+        "vocab_b_size": 64,
+        "t_a": 162.68,
+        "t_b": 636.69
+      }
+    },
+    {
+      "prerequisite": "Depth First Search",
+      "concept": "Tree Traversal",
+      "confidence": 0.14184397163120568,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.14184397163120568,
+        "vocab_a_size": 68,
+        "vocab_b_size": 93,
+        "t_a": 98.659,
+        "t_b": 604.46
+      }
+    },
+    {
+      "prerequisite": "Depth First Search",
+      "concept": "Minimum Spanning Tree",
+      "confidence": 0.14184397163120568,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.14184397163120568,
+        "vocab_a_size": 68,
+        "vocab_b_size": 93,
+        "t_a": 98.659,
+        "t_b": 604.46
+      }
+    },
+    {
+      "prerequisite": "Breadth First Search",
+      "concept": "Tree Traversal",
+      "confidence": 0.14184397163120568,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.14184397163120568,
+        "vocab_a_size": 68,
+        "vocab_b_size": 93,
+        "t_a": 98.659,
+        "t_b": 604.46
+      }
+    },
+    {
+      "prerequisite": "Breadth First Search",
+      "concept": "Minimum Spanning Tree",
+      "confidence": 0.14184397163120568,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.14184397163120568,
+        "vocab_a_size": 68,
+        "vocab_b_size": 93,
+        "t_a": 98.659,
+        "t_b": 604.46
+      }
+    },
+    {
+      "prerequisite": "Recursion",
+      "concept": "Space Complexity",
+      "confidence": 0.13970588235294118,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.13970588235294118,
+        "vocab_a_size": 91,
+        "vocab_b_size": 64,
+        "t_a": 365.32,
+        "t_b": 636.69
+      }
+    },
+    {
+      "prerequisite": "Depth First Search",
+      "concept": "Space Complexity",
+      "confidence": 0.13793103448275862,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.13793103448275862,
+        "vocab_a_size": 68,
+        "vocab_b_size": 64,
+        "t_a": 98.659,
+        "t_b": 636.69
+      }
+    },
+    {
+      "prerequisite": "Breadth First Search",
+      "concept": "Space Complexity",
+      "confidence": 0.13793103448275862,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.13793103448275862,
+        "vocab_a_size": 68,
+        "vocab_b_size": 64,
+        "t_a": 98.659,
+        "t_b": 636.69
+      }
+    },
+    {
+      "prerequisite": "Depth First Search",
+      "concept": "Maximum Flow",
+      "confidence": 0.13761467889908258,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.13761467889908258,
+        "vocab_a_size": 68,
+        "vocab_b_size": 56,
+        "t_a": 98.659,
+        "t_b": 644.64
+      }
+    },
+    {
+      "prerequisite": "Breadth First Search",
+      "concept": "Maximum Flow",
+      "confidence": 0.13761467889908258,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.13761467889908258,
+        "vocab_a_size": 68,
+        "vocab_b_size": 56,
+        "t_a": 98.659,
+        "t_b": 644.64
+      }
+    },
+    {
+      "prerequisite": "Backtracking",
+      "concept": "Maximum Flow",
+      "confidence": 0.12751677852348994,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.12751677852348994,
+        "vocab_a_size": 112,
+        "vocab_b_size": 56,
+        "t_a": 162.68,
+        "t_b": 644.64
+      }
+    },
+    {
+      "prerequisite": "Graph",
+      "concept": "Depth First Search",
+      "confidence": 0.125,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.125,
+        "vocab_a_size": 40,
+        "vocab_b_size": 68,
+        "t_a": 3.59,
+        "t_b": 98.659
+      }
+    },
+    {
+      "prerequisite": "Graph",
+      "concept": "Breadth First Search",
+      "confidence": 0.125,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.125,
+        "vocab_a_size": 40,
+        "vocab_b_size": 68,
+        "t_a": 3.59,
+        "t_b": 98.659
+      }
+    },
+    {
+      "prerequisite": "Node",
+      "concept": "Depth First Search",
+      "confidence": 0.125,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.125,
+        "vocab_a_size": 40,
+        "vocab_b_size": 68,
+        "t_a": 0,
+        "t_b": 98.659
+      }
+    },
+    {
+      "prerequisite": "Node",
+      "concept": "Breadth First Search",
+      "confidence": 0.125,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.125,
+        "vocab_a_size": 40,
+        "vocab_b_size": 68,
+        "t_a": 0,
+        "t_b": 98.659
+      }
+    },
+    {
+      "prerequisite": "Edge",
+      "concept": "Depth First Search",
+      "confidence": 0.125,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.125,
+        "vocab_a_size": 40,
+        "vocab_b_size": 68,
+        "t_a": 0,
+        "t_b": 98.659
+      }
+    },
+    {
+      "prerequisite": "Edge",
+      "concept": "Breadth First Search",
+      "confidence": 0.125,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.125,
+        "vocab_a_size": 40,
+        "vocab_b_size": 68,
+        "t_a": 0,
+        "t_b": 98.659
+      }
+    },
+    {
+      "prerequisite": "Queue",
+      "concept": "Depth First Search",
+      "confidence": 0.125,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.125,
+        "vocab_a_size": 40,
+        "vocab_b_size": 68,
+        "t_a": 0,
+        "t_b": 98.659
+      }
+    },
+    {
+      "prerequisite": "Queue",
+      "concept": "Breadth First Search",
+      "confidence": 0.125,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.125,
+        "vocab_a_size": 40,
+        "vocab_b_size": 68,
+        "t_a": 0,
+        "t_b": 98.659
+      }
+    },
+    {
+      "prerequisite": "Stack",
+      "concept": "Depth First Search",
+      "confidence": 0.125,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.125,
+        "vocab_a_size": 40,
+        "vocab_b_size": 68,
+        "t_a": 0,
+        "t_b": 98.659
+      }
+    },
+    {
+      "prerequisite": "Stack",
+      "concept": "Breadth First Search",
+      "confidence": 0.125,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.125,
+        "vocab_a_size": 40,
+        "vocab_b_size": 68,
+        "t_a": 0,
+        "t_b": 98.659
+      }
+    },
+    {
+      "prerequisite": "Graph Theory",
+      "concept": "Depth First Search",
+      "confidence": 0.125,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.125,
+        "vocab_a_size": 40,
+        "vocab_b_size": 68,
+        "t_a": 3.59,
+        "t_b": 98.659
+      }
+    },
+    {
+      "prerequisite": "Graph Theory",
+      "concept": "Breadth First Search",
+      "confidence": 0.125,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.125,
+        "vocab_a_size": 40,
+        "vocab_b_size": 68,
+        "t_a": 3.59,
+        "t_b": 98.659
+      }
+    },
+    {
+      "prerequisite": "Dynamic Programming",
+      "concept": "Depth First Search",
+      "confidence": 0.125,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.125,
+        "vocab_a_size": 40,
+        "vocab_b_size": 68,
+        "t_a": 0,
+        "t_b": 98.659
+      }
+    },
+    {
+      "prerequisite": "Dynamic Programming",
+      "concept": "Breadth First Search",
+      "confidence": 0.125,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.125,
+        "vocab_a_size": 40,
+        "vocab_b_size": 68,
+        "t_a": 0,
+        "t_b": 98.659
+      }
+    },
+    {
+      "prerequisite": "Topological Sort",
+      "concept": "Depth First Search",
+      "confidence": 0.125,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.125,
+        "vocab_a_size": 40,
+        "vocab_b_size": 68,
+        "t_a": 0,
+        "t_b": 98.659
+      }
+    },
+    {
+      "prerequisite": "Topological Sort",
+      "concept": "Breadth First Search",
+      "confidence": 0.125,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.125,
+        "vocab_a_size": 40,
+        "vocab_b_size": 68,
+        "t_a": 0,
+        "t_b": 98.659
+      }
+    },
+    {
+      "prerequisite": "Time Complexity",
+      "concept": "Depth First Search",
+      "confidence": 0.125,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.125,
+        "vocab_a_size": 40,
+        "vocab_b_size": 68,
+        "t_a": 3.59,
+        "t_b": 98.659
+      }
+    },
+    {
+      "prerequisite": "Time Complexity",
+      "concept": "Breadth First Search",
+      "confidence": 0.125,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.125,
+        "vocab_a_size": 40,
+        "vocab_b_size": 68,
+        "t_a": 3.59,
+        "t_b": 98.659
+      }
+    },
+    {
+      "prerequisite": "Shortest Path",
+      "concept": "Space Complexity",
+      "confidence": 0.125,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.125,
+        "vocab_a_size": 116,
+        "vocab_b_size": 64,
+        "t_a": 156.29,
+        "t_b": 636.69
+      }
+    },
+    {
+      "prerequisite": "Recursion",
+      "concept": "Maximum Flow",
+      "confidence": 0.12213740458015267,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.12213740458015267,
+        "vocab_a_size": 91,
+        "vocab_b_size": 56,
+        "t_a": 365.32,
+        "t_b": 644.64
+      }
+    },
+    {
+      "prerequisite": "Connected Component",
+      "concept": "Space Complexity",
+      "confidence": 0.11949685534591195,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.11949685534591195,
+        "vocab_a_size": 114,
+        "vocab_b_size": 64,
+        "t_a": 335.23,
+        "t_b": 636.69
+      }
+    },
+    {
+      "prerequisite": "Level Order Traversal",
+      "concept": "Space Complexity",
+      "confidence": 0.11888111888111888,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.11888111888111888,
+        "vocab_a_size": 96,
+        "vocab_b_size": 64,
+        "t_a": 126.4,
+        "t_b": 636.69
+      }
+    },
+    {
+      "prerequisite": "Level Order Traversal",
+      "concept": "Maximum Flow",
+      "confidence": 0.11764705882352941,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.11764705882352941,
+        "vocab_a_size": 96,
+        "vocab_b_size": 56,
+        "t_a": 126.4,
+        "t_b": 644.64
+      }
+    },
+    {
+      "prerequisite": "Shortest Path",
+      "concept": "Maximum Flow",
+      "confidence": 0.10967741935483871,
+      "method": "video_explanation_overlap",
+      "details": {
+        "overlap": 0.10967741935483871,
+        "vocab_a_size": 116,
+        "vocab_b_size": 56,
+        "t_a": 156.29,
+        "t_b": 644.64
+      }
+    }
+  ]
+}

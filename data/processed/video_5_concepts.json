@@ -1,0 +1,277 @@
+{
+  "video_id": "video_5",
+  "domain": null,
+  "total_concepts": 20,
+  "extraction_method": "llm_iterative_refinement",
+  "llm_model": "llama-3.3-70b-versatile",
+  "concepts": [
+    {
+      "concept": "Heat Capacity",
+      "frequency": 0,
+      "domain_match": 1,
+      "keybert_score": 0.0,
+      "combined_score": 59.8,
+      "extraction_method": "llm_pass3",
+      "llm_confidence": 0.98,
+      "llm_category": "core",
+      "llm_domain": "physics"
+    },
+    {
+      "concept": "Specific Heat Capacity",
+      "frequency": 0,
+      "domain_match": 1,
+      "keybert_score": 0.0,
+      "combined_score": 59.6,
+      "extraction_method": "llm_pass3",
+      "llm_confidence": 0.96,
+      "llm_category": "core",
+      "llm_domain": "physics"
+    },
+    {
+      "concept": "Molar Heat Capacity",
+      "frequency": 0,
+      "domain_match": 1,
+      "keybert_score": 0.0,
+      "combined_score": 59.4,
+      "extraction_method": "llm_pass3",
+      "llm_confidence": 0.94,
+      "llm_category": "core",
+      "llm_domain": "physics"
+    },
+    {
+      "concept": "Thermodynamics",
+      "frequency": 0,
+      "domain_match": 1,
+      "keybert_score": 0.0,
+      "combined_score": 59.2,
+      "extraction_method": "llm_pass3",
+      "llm_confidence": 0.92,
+      "llm_category": "core",
+      "llm_domain": "physics"
+    },
+    {
+      "concept": "Internal Energy",
+      "frequency": 0,
+      "domain_match": 1,
+      "keybert_score": 0.0,
+      "combined_score": 39.0,
+      "extraction_method": "llm_pass3",
+      "llm_confidence": 0.9,
+      "llm_category": "prerequisite",
+      "llm_domain": "physics"
+    },
+    {
+      "concept": "First Law Of Thermodynamics",
+      "frequency": 0,
+      "domain_match": 1,
+      "keybert_score": 0.0,
+      "combined_score": 38.8,
+      "extraction_method": "llm_pass3",
+      "llm_confidence": 0.88,
+      "llm_category": "prerequisite",
+      "llm_domain": "physics"
+    },
+    {
+      "concept": "Ideal Gas",
+      "frequency": 0,
+      "domain_match": 1,
+      "keybert_score": 0.0,
+      "combined_score": 38.6,
+      "extraction_method": "llm_pass3",
+      "llm_confidence": 0.86,
+      "llm_category": "prerequisite",
+      "llm_domain": "physics"
+    },
+    {
+      "concept": "Gas Constant",
+      "frequency": 0,
+      "domain_match": 1,
+      "keybert_score": 0.0,
+      "combined_score": 38.0,
+      "extraction_method": "llm_pass3",
+      "llm_confidence": 0.8,
+      "llm_category": "prerequisite",
+      "llm_domain": "physics"
+    },
+    {
+      "concept": "Mole",
+      "frequency": 0,
+      "domain_match": 1,
+      "keybert_score": 0.0,
+      "combined_score": 36.4,
+      "extraction_method": "llm_pass3",
+      "llm_confidence": 0.64,
+      "llm_category": "prerequisite",
+      "llm_domain": "chemistry"
+    },
+    {
+      "concept": "Mass",
+      "frequency": 0,
+      "domain_match": 1,
+      "keybert_score": 0.0,
+      "combined_score": 36.2,
+      "extraction_method": "llm_pass3",
+      "llm_confidence": 0.62,
+      "llm_category": "prerequisite",
+      "llm_domain": "physics"
+    },
+    {
+      "concept": "Ideal Gas Law",
+      "frequency": 0,
+      "domain_match": 1,
+      "keybert_score": 0.0,
+      "combined_score": 36.0,
+      "extraction_method": "llm_pass3",
+      "llm_confidence": 0.6,
+      "llm_category": "prerequisite",
+      "llm_domain": "physics"
+    },
+    {
+      "concept": "Heat Transfer",
+      "frequency": 0,
+      "domain_match": 0,
+      "keybert_score": 0.0,
+      "combined_score": 18.4,
+      "extraction_method": "llm_pass3",
+      "llm_confidence": 0.84,
+      "llm_category": "related",
+      "llm_domain": "physics"
+    },
+    {
+      "concept": "Thermal Energy",
+      "frequency": 0,
+      "domain_match": 0,
+      "keybert_score": 0.0,
+      "combined_score": 18.2,
+      "extraction_method": "llm_pass3",
+      "llm_confidence": 0.82,
+      "llm_category": "related",
+      "llm_domain": "physics"
+    },
+    {
+      "concept": "Temperature",
+      "frequency": 0,
+      "domain_match": 0,
+      "keybert_score": 0.0,
+      "combined_score": 17.8,
+      "extraction_method": "llm_pass3",
+      "llm_confidence": 0.78,
+      "llm_category": "definition",
+      "llm_domain": "physics"
+    },
+    {
+      "concept": "Constant Volume",
+      "frequency": 0,
+      "domain_match": 0,
+      "keybert_score": 0.0,
+      "combined_score": 17.6,
+      "extraction_method": "llm_pass3",
+      "llm_confidence": 0.76,
+      "llm_category": "related",
+      "llm_domain": "physics"
+    },
+    {
+      "concept": "Constant Pressure",
+      "frequency": 0,
+      "domain_match": 0,
+      "keybert_score": 0.0,
+      "combined_score": 17.4,
+      "extraction_method": "llm_pass3",
+      "llm_confidence": 0.74,
+      "llm_category": "related",
+      "llm_domain": "physics"
+    },
+    {
+      "concept": "Adiabatic Process",
+      "frequency": 0,
+      "domain_match": 0,
+      "keybert_score": 0.0,
+      "combined_score": 17.2,
+      "extraction_method": "llm_pass3",
+      "llm_confidence": 0.72,
+      "llm_category": "related",
+      "llm_domain": "physics"
+    },
+    {
+      "concept": "Isothermal Process",
+      "frequency": 0,
+      "domain_match": 0,
+      "keybert_score": 0.0,
+      "combined_score": 17.0,
+      "extraction_method": "llm_pass3",
+      "llm_confidence": 0.7,
+      "llm_category": "related",
+      "llm_domain": "physics"
+    },
+    {
+      "concept": "Isobaric Process",
+      "frequency": 0,
+      "domain_match": 0,
+      "keybert_score": 0.0,
+      "combined_score": 16.8,
+      "extraction_method": "llm_pass3",
+      "llm_confidence": 0.68,
+      "llm_category": "related",
+      "llm_domain": "physics"
+    },
+    {
+      "concept": "Isochoric Process",
+      "frequency": 0,
+      "domain_match": 0,
+      "keybert_score": 0.0,
+      "combined_score": 16.6,
+      "extraction_method": "llm_pass3",
+      "llm_confidence": 0.66,
+      "llm_category": "related",
+      "llm_domain": "physics"
+    }
+  ],
+  "sentences_with_concepts": [
+    {
+      "text": "అందరికీ నమస్కారం, కెమిస్ట్రీ తరగతులకు స్వాగతం. కాబట్టి, ఈరోజు తరగతిలో, మనం నిర్దిష్ట ఉష్ణ సామర్థ్యం మరియు మోలార్ ఉష్ణ సామర్థ్యం గురించి చర్చిస్తాము. Cp - Cv = R అనే సంబంధాన్ని కూడా మనం పరిశీలిస్తాము. ముందుగా, \"ఉష్ణ సామర్థ్యం\" అనే భావనను అర్థం చేసుకుందాం. మనం ఒక వ్యవస్థను తీసుకుంటాము - ఏదైనా ఏకపక్ష వ్యవస్థను తీసుకుంటాము. ఈ వ్యవస్థ యొక్క ఉష్ణోగ్రతను ఒక యూనిట్ డిగ్రీ పెంచడానికి, కొంత మొత్తంలో వేడి అవసరం.",
+      "concepts": []
+    },
+    {
+      "text": "ఈ \"యూనిట్ డిగ్రీ\" ఒక డిగ్రీ సెల్సియస్ లేదా ఒక డిగ్రీ ఫారెన్‌హీట్ కావచ్చు. ఇచ్చిన వ్యవస్థ యొక్క ఉష్ణోగ్రతను ఒక యూనిట్ డిగ్రీ పెంచడానికి అవసరమైన వేడి మొత్తాన్ని మనం \"ఉష్ణ సామర్థ్యం\" అని పిలుస్తాము. కాబట్టి, ఉష్ణ సామర్థ్యాన్ని ఇలా నిర్వచించవచ్చు: ఇచ్చిన ద్రవ్యరాశి (లేదా ఒక నిర్దిష్ట వ్యవస్థ) యొక్క ఉష్ణోగ్రతను ఒక యూనిట్ డిగ్రీ పెంచడానికి అవసరమైన వేడి మొత్తం.",
+      "concepts": []
+    },
+    {
+      "text": "మనం ఉష్ణ సామర్థ్యం కోసం సూత్రాన్ని పరిశీలిస్తే, అది: Q = C * ΔT. ఇక్కడ, 'C' ఉష్ణ సామర్థ్యాన్ని సూచిస్తుంది. ఈ సమీకరణం అవసరమైన వేడి (Q) మొత్తం ఉష్ణోగ్రతలో మార్పుకు (ΔT) నేరుగా అనులోమానుపాతంలో ఉంటుందని సూచిస్తుంది. ఉదాహరణకు, మీకు ఘన, ద్రవ లేదా వాయువు ఏదైనా ఒక పదార్థం ఉంటే మరియు మీరు దాని ఉష్ణోగ్రతను ఒక డిగ్రీ సెల్సియస్ పెంచాలనుకుంటే, దీనిని సాధించడానికి అవసరమైన నిర్దిష్ట వేడి మొత్తం దాని ఉష్ణ సామర్థ్యం.",
+      "concepts": []
+    },
+    {
+      "text": "కాబట్టి, ఉష్ణ సామర్థ్యం అనేది ఇచ్చిన వ్యవస్థ యొక్క ఉష్ణోగ్రతను ఒక యూనిట్ డిగ్రీ పెంచడానికి అవసరమైన నిర్దిష్ట వేడి మొత్తం. ఇది మన పరిచయ భాగం లేదా పునశ్చరణలా భావించవచ్చు. ఇప్పుడు, తదుపరి అంశానికి వెళ్దాం: నిర్దిష్ట ఉష్ణ సామర్థ్యం.",
+      "concepts": []
+    },
+    {
+      "text": "నిర్దిష్ట ఉష్ణ సామర్థ్యం అనేది ఒక పదార్థం దాని ద్రవ్యరాశిలోని ఒక యూనిట్ యొక్క ఉష్ణోగ్రతను ఒక డిగ్రీ (ఒక డిగ్రీ సెల్సియస్ లేదా ఒక డిగ్రీ కెల్విన్) పెంచడానికి గ్రహించిన వేడి పరిమాణంగా నిర్వచించబడింది. అంటే, యూనిట్ మాస్ ఉన్న పదార్థం ఉష్ణోగ్రతను ఒక యూనిట్ డిగ్రీ పెంచడానికి అవసరమైన వేడి పరిమాణం \"నిర్దిష్ట ఉష్ణ సామర్థ్యం\".",
+      "concepts": []
+    },
+    {
+      "text": "శోషించబడిన వేడి (Q) పరిమాణానికి సూత్రం ఇలా ఇవ్వబడింది: Q = m * c * ΔT, ఇక్కడ 'm' పదార్థం యొక్క ద్రవ్యరాశిని సూచిస్తుంది, 'c' నిర్దిష్ట ఉష్ణ సామర్థ్యాన్ని సూచిస్తుంది మరియు 'ΔT' ఉష్ణోగ్రతలో మార్పును సూచిస్తుంది. ఈ సమీకరణం ద్వారా మనం మాస్, నిర్దిష్ట ఉష్ణ సామర్థ్యం మరియు ఉష్ణోగ్రత మార్పు కలిసి ఎంత వేడి అవసరమవుతుందో గణించవచ్చు.",
+      "concepts": []
+    },
+    {
+      "text": "మొత్తం ఉష్ణ సామర్థ్యం మరియు నిర్దిష్ట ఉష్ణ సామర్థ్యం మధ్య ఒక సంబంధం ఉంది. ఉదాహరణకు, ఈ సంబంధం తరచుగా స్థిర ఘనపరిమాణం లేదా స్థిర పీడనం వంటి పరిస్థితులలో పరిశీలించబడుతుంది. ఇప్పుడు, స్థిర పీడనం మరియు స్థిర ఘనపరిమాణం వద్ద జరిగే ఉష్ణ మార్పుల మధ్య ఉన్న సంబంధాన్ని చర్చిద్దాం. ఒక ఆదర్శ వాయువు విషయంలో, స్థిర ఘనపరిమాణం వద్ద గ్రహించబడిన ఉష్ణం—దీనిని Q_v తో సూచిస్తారు—Q_v = C_v ΔT అనే సమీకరణం ద్వారా ఇవ్వబడుతుంది. ఘనపరిమాణం స్థిరంగా ఉంటుంది కాబట్టి, ఎటువంటి పని జరగదు (W=0); అందువల్ల, ఉష్ణగతిక శాస్త్ర మొదటి నియమం ప్రకారం, స్థిర ఘనపరిమాణం వద్ద గ్రహించబడిన ఉష్ణం అంతరిక శక్తిలో కలిగే మార్పుకు సమానంగా ఉంటుంది: Q_v = ΔU.",
+      "concepts": []
+    },
+    {
+      "text": "తరువాత, స్థిర పీడనం ఉన్న సందర్భాన్ని పరిశీలిద్దాం. మనం గత తరగతిలో నిర్ధారించుకున్నట్లుగా, స్థిర ఘనపరిమాణం వద్ద Q_v = ΔU అవుతుంది. స్థిర పీడనం వద్ద, గ్రహించబడిన ఉష్ణం—దీనిని Q_p తో సూచిస్తారు—Q_p = C_p ΔT ద్వారా ఇవ్వబడుతుంది. ఉష్ణగతిక శాస్త్ర మొదటి నియమం ప్రకారం, Q_p = ΔU + W. స్థిర పీడనం వద్ద పని జరుగుతుంది కాబట్టి, W = P ΔV అవుతుంది. కాబట్టి, Q_p = ΔU + P ΔV.",
+      "concepts": []
+    },
+    {
+      "text": "ఒక మోల్ ఆదర్శ వాయువు కోసం, ఆదర్శ వాయు సమీకరణం PV = nRT అని పేర్కొంటుంది. ఒక మోల్ (n=1) విషయంలో, ఇది PV = RT గా సరళీకరించబడుతుంది. స్థిర పీడనం వద్ద ఉష్ణోగ్రత ΔT మేర మారితే, ఘనపరిమాణం ΔV మేర మారుతుంది; దీని ఫలితంగా P ΔV = R ΔT అనే సమీకరణం ఏర్పడుతుంది. దీనిని Q_p సమీకరణంలో ప్రతిక్షేపించగా, మనకు Q_p = ΔU + R ΔT లభిస్తుంది. Q_p = C_p ΔT మరియు ΔU = C_v ΔT కాబట్టి, మనం ఈ విధంగా రాయవచ్చు: C_p ΔT = C_v ΔT + R ΔT. సమీకరణం యొక్క రెండు వైపులా ΔT ద్వారా భాగిస్తే, మనం ఈ వ్యక్తీకరణకు చేరుకుంటాము: C_p = C_v + R.",
+      "concepts": []
+    },
+    {
+      "text": "ఈ సమీకరణాన్ని తిరిగి అమర్చడం ద్వారా, స్థిరమైన పీడనం వద్ద మోలార్ ఉష్ణ సామర్థ్యాలు మరియు స్థిరమైన ఘనపరిమాణం మధ్య సంబంధాన్ని మనం పొందుతాము: C_p - C_v = R. ఈ వ్యక్తీకరణ స్థిరమైన పీడనం మరియు స్థిరమైన ఘనపరిమాణ పరిస్థితులలో ఆదర్శ వాయువు యొక్క నిర్దిష్ట ఉష్ణ సామర్థ్యాల మధ్య ప్రాథమిక సంబంధాన్ని సూచిస్తుంది. దయచేసి సభ్యత్వాన్ని పొందండి! సంబంధాలు ముఖ్యమైనవి; మీరు మన మధ్య సంబంధాన్ని విలువైనదిగా భావిస్తే—మరియు ఈ వీడియో—దయచేసి నా ఛానెల్‌కు సభ్యత్వాన్ని పొందండి. ధన్యవాదాలు.",
+      "concepts": []
+    }
+  ],
+  "llm_metadata": {
+    "pass1_raw_count": 45,
+    "pass1_unique_count": 35,
+    "pass2_final_count": 20,
+    "chunks_processed": 2
+  }
+}

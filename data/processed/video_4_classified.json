@@ -1,0 +1,32 @@
+{
+  "video_id": "video_4",
+  "domain": "Physics",
+  "total_relations": 0,
+  "relation_type_counts": {
+    "SINGLE": 0,
+    "HARD_AND": 0,
+    "SOFT_AND": 0,
+    "OR": 0
+  },
+  "relations": [],
+  "concepts": [
+    "Coulomb's Law",
+    "Charge",
+    "Electric Field",
+    "Electromagnetic Forces",
+    "Permittivity of Free Space",
+    "Electric Potential",
+    "Vector Addition",
+    "Newton's Law",
+    "Conservation of Energy",
+    "Electrostatics",
+    "Inverse Square Law",
+    "Dielectric Medium",
+    "Gauss's Law",
+    "Magnetic Field",
+    "Electromagnetic Induction",
+    "Lorentz Force",
+    "Ampere's Law",
+    "Biot-Savart Law"
+  ]
+}

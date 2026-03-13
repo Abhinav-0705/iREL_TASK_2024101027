@@ -1,0 +1,137 @@
+{
+  "video_id": "video_4",
+  "nodes": [
+    {
+      "id": 0,
+      "label": "Coulomb's Law"
+    },
+    {
+      "id": 1,
+      "label": "Electrical Charge"
+    },
+    {
+      "id": 2,
+      "label": "Electric Field"
+    },
+    {
+      "id": 3,
+      "label": "Electromagnetic Forces"
+    },
+    {
+      "id": 4,
+      "label": "Permittivity of Free Space"
+    },
+    {
+      "id": 5,
+      "label": "Electric Force"
+    },
+    {
+      "id": 6,
+      "label": "Point Charge"
+    },
+    {
+      "id": 7,
+      "label": "Vector Form"
+    },
+    {
+      "id": 8,
+      "label": "Newton's Law"
+    },
+    {
+      "id": 9,
+      "label": "Conservation of Energy"
+    },
+    {
+      "id": 10,
+      "label": "Electrostatics"
+    },
+    {
+      "id": 11,
+      "label": "Inverse Square Law"
+    },
+    {
+      "id": 12,
+      "label": "Dielectric Medium"
+    },
+    {
+      "id": 13,
+      "label": "Gauss's Law"
+    },
+    {
+      "id": 14,
+      "label": "Electric Potential"
+    },
+    {
+      "id": 15,
+      "label": "Magnetic Field"
+    },
+    {
+      "id": 16,
+      "label": "Electromagnetic Induction"
+    },
+    {
+      "id": 17,
+      "label": "Lorentz Force"
+    },
+    {
+      "id": 18,
+      "label": "Ampere's Law"
+    },
+    {
+      "id": 19,
+      "label": "Biot-Savart Law"
+    }
+  ],
+  "edges": [
+    {
+      "source": 0,
+      "target": 6,
+      "prerequisite": "Coulomb's Law",
+      "target_concept": "Point Charge",
+      "confidence": 0.8,
+      "teaching_signals": [
+        "then"
+      ]
+    },
+    {
+      "source": 0,
+      "target": 7,
+      "prerequisite": "Coulomb's Law",
+      "target_concept": "Vector Form",
+      "confidence": 0.8,
+      "teaching_signals": [
+        "next",
+        "let's see",
+        "first"
+      ]
+    },
+    {
+      "source": 5,
+      "target": 2,
+      "prerequisite": "Electric Force",
+      "target_concept": "Electric Field",
+      "confidence": 0.8,
+      "teaching_signals": [
+        "then",
+        "depends on",
+        "next",
+        "first"
+      ]
+    },
+    {
+      "source": 6,
+      "target": 1,
+      "prerequisite": "Point Charge",
+      "target_concept": "Electrical Charge",
+      "confidence": 0.8,
+      "teaching_signals": [
+        "then"
+      ]
+    }
+  ],
+  "metadata": {
+    "num_nodes": 20,
+    "num_edges": 4,
+    "is_dag": true
+  }
+}

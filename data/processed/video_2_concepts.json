@@ -1,0 +1,240 @@
+{
+  "video_id": "video_2",
+  "domain": "Chemistry",
+  "total_concepts": 21,
+  "extraction_method": "llm_iterative_refinement",
+  "llm_model": "llama-3.3-70b-versatile",
+  "concepts": [
+    {
+      "concept": "Liquid Solutions",
+      "frequency": 15,
+      "domain_match": 1,
+      "keybert_score": 0.8,
+      "combined_score": 89.5,
+      "extraction_method": "llm_pass2",
+      "llm_confidence": 0.95,
+      "llm_category": "core",
+      "llm_domain": "chemistry"
+    },
+    {
+      "concept": "Vapor Pressure",
+      "frequency": 12,
+      "domain_match": 1,
+      "keybert_score": 0.75,
+      "combined_score": 87.2,
+      "extraction_method": "llm_pass2",
+      "llm_confidence": 0.93,
+      "llm_category": "core",
+      "llm_domain": "chemistry"
+    },
+    {
+      "concept": "Volatile Compounds",
+      "frequency": 8,
+      "domain_match": 1,
+      "keybert_score": 0.7,
+      "combined_score": 82.1,
+      "extraction_method": "llm_pass2",
+      "llm_confidence": 0.9,
+      "llm_category": "core",
+      "llm_domain": "chemistry"
+    },
+    {
+      "concept": "Partial Pressure",
+      "frequency": 6,
+      "domain_match": 1,
+      "keybert_score": 0.65,
+      "combined_score": 78.8,
+      "extraction_method": "llm_pass2",
+      "llm_confidence": 0.88,
+      "llm_category": "core",
+      "llm_domain": "chemistry"
+    },
+    {
+      "concept": "Raoult's Law",
+      "frequency": 5,
+      "domain_match": 1,
+      "keybert_score": 0.72,
+      "combined_score": 77.5,
+      "extraction_method": "llm_pass2",
+      "llm_confidence": 0.92,
+      "llm_category": "core",
+      "llm_domain": "chemistry"
+    },
+    {
+      "concept": "Solution Properties",
+      "frequency": 10,
+      "domain_match": 1,
+      "keybert_score": 0.6,
+      "combined_score": 75.3,
+      "extraction_method": "llm_pass2",
+      "llm_confidence": 0.85,
+      "llm_category": "core",
+      "llm_domain": "chemistry"
+    },
+    {
+      "concept": "Binary Solutions",
+      "frequency": 4,
+      "domain_match": 1,
+      "keybert_score": 0.55,
+      "combined_score": 72.1,
+      "extraction_method": "llm_pass2",
+      "llm_confidence": 0.82,
+      "llm_category": "core",
+      "llm_domain": "chemistry"
+    },
+    {
+      "concept": "Mole Fraction",
+      "frequency": 7,
+      "domain_match": 1,
+      "keybert_score": 0.58,
+      "combined_score": 70.8,
+      "extraction_method": "llm_pass2",
+      "llm_confidence": 0.87,
+      "llm_category": "core",
+      "llm_domain": "chemistry"
+    },
+    {
+      "concept": "Temperature Dependence",
+      "frequency": 5,
+      "domain_match": 1,
+      "keybert_score": 0.52,
+      "combined_score": 68.5,
+      "extraction_method": "llm_pass2",
+      "llm_confidence": 0.8,
+      "llm_category": "supporting",
+      "llm_domain": "chemistry"
+    },
+    {
+      "concept": "Equilibrium",
+      "frequency": 6,
+      "domain_match": 1,
+      "keybert_score": 0.48,
+      "combined_score": 66.2,
+      "extraction_method": "llm_pass2",
+      "llm_confidence": 0.78,
+      "llm_category": "supporting",
+      "llm_domain": "chemistry"
+    },
+    {
+      "concept": "Chemical Composition",
+      "frequency": 8,
+      "domain_match": 1,
+      "keybert_score": 0.45,
+      "combined_score": 64.8,
+      "extraction_method": "llm_pass2",
+      "llm_confidence": 0.76,
+      "llm_category": "supporting",
+      "llm_domain": "chemistry"
+    },
+    {
+      "concept": "Concentration",
+      "frequency": 9,
+      "domain_match": 1,
+      "keybert_score": 0.42,
+      "combined_score": 63.5,
+      "extraction_method": "llm_pass2",
+      "llm_confidence": 0.74,
+      "llm_category": "supporting",
+      "llm_domain": "chemistry"
+    },
+    {
+      "concept": "Phase Behavior",
+      "frequency": 3,
+      "domain_match": 1,
+      "keybert_score": 0.4,
+      "combined_score": 61.2,
+      "extraction_method": "llm_pass2",
+      "llm_confidence": 0.72,
+      "llm_category": "supporting",
+      "llm_domain": "chemistry"
+    },
+    {
+      "concept": "Ideal Solutions",
+      "frequency": 4,
+      "domain_match": 1,
+      "keybert_score": 0.38,
+      "combined_score": 59.8,
+      "extraction_method": "llm_pass2",
+      "llm_confidence": 0.7,
+      "llm_category": "supporting",
+      "llm_domain": "chemistry"
+    },
+    {
+      "concept": "Molecular Interactions",
+      "frequency": 5,
+      "domain_match": 1,
+      "keybert_score": 0.35,
+      "combined_score": 58.5,
+      "extraction_method": "llm_pass2",
+      "llm_confidence": 0.68,
+      "llm_category": "supporting",
+      "llm_domain": "chemistry"
+    },
+    {
+      "concept": "Thermodynamics",
+      "frequency": 3,
+      "domain_match": 1,
+      "keybert_score": 0.33,
+      "combined_score": 56.2,
+      "extraction_method": "llm_pass2",
+      "llm_confidence": 0.65,
+      "llm_category": "supporting",
+      "llm_domain": "chemistry"
+    },
+    {
+      "concept": "Solvent Properties",
+      "frequency": 6,
+      "domain_match": 1,
+      "keybert_score": 0.3,
+      "combined_score": 54.8,
+      "extraction_method": "llm_pass2",
+      "llm_confidence": 0.63,
+      "llm_category": "supporting",
+      "llm_domain": "chemistry"
+    },
+    {
+      "concept": "Solute Properties", 
+      "frequency": 4,
+      "domain_match": 1,
+      "keybert_score": 0.28,
+      "combined_score": 53.5,
+      "extraction_method": "llm_pass2",
+      "llm_confidence": 0.61,
+      "llm_category": "supporting",
+      "llm_domain": "chemistry"
+    },
+    {
+      "concept": "Henry's Law",
+      "frequency": 2,
+      "domain_match": 1,
+      "keybert_score": 0.25,
+      "combined_score": 51.2,
+      "extraction_method": "llm_pass2",
+      "llm_confidence": 0.58,
+      "llm_category": "advanced",
+      "llm_domain": "chemistry"
+    },
+    {
+      "concept": "Boiling Point Elevation",
+      "frequency": 3,
+      "domain_match": 1,
+      "keybert_score": 0.22,
+      "combined_score": 49.8,
+      "extraction_method": "llm_pass2",
+      "llm_confidence": 0.55,
+      "llm_category": "advanced",
+      "llm_domain": "chemistry"
+    },
+    {
+      "concept": "Freezing Point Depression",
+      "frequency": 2,
+      "domain_match": 1,
+      "keybert_score": 0.2,
+      "combined_score": 48.5,
+      "extraction_method": "llm_pass2",
+      "llm_confidence": 0.52,
+      "llm_category": "advanced",
+      "llm_domain": "chemistry"
+    }
+  ]
+}

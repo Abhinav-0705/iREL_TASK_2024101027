@@ -1,0 +1,314 @@
+{
+  "video_id": "video_3",
+  "method": "hybrid_implicit_filtered",
+  "num_nodes": 20,
+  "num_edges": 23,
+  "nodes": [
+    {
+      "id": 0,
+      "label": "Graph",
+      "concept": "Graph",
+      "llm_category": "core"
+    },
+    {
+      "id": 1,
+      "label": "Depth First Search",
+      "concept": "Depth First Search",
+      "llm_category": "core"
+    },
+    {
+      "id": 2,
+      "label": "Breadth First Search",
+      "concept": "Breadth First Search",
+      "llm_category": "core"
+    },
+    {
+      "id": 3,
+      "label": "Tree Traversal",
+      "concept": "Tree Traversal",
+      "llm_category": "core"
+    },
+    {
+      "id": 4,
+      "label": "Level Order Traversal",
+      "concept": "Level Order Traversal",
+      "llm_category": "core"
+    },
+    {
+      "id": 5,
+      "label": "Backtracking",
+      "concept": "Backtracking",
+      "llm_category": "core"
+    },
+    {
+      "id": 6,
+      "label": "Node",
+      "concept": "Node",
+      "llm_category": "prerequisite"
+    },
+    {
+      "id": 7,
+      "label": "Edge",
+      "concept": "Edge",
+      "llm_category": "prerequisite"
+    },
+    {
+      "id": 8,
+      "label": "Recursion",
+      "concept": "Recursion",
+      "llm_category": "prerequisite"
+    },
+    {
+      "id": 9,
+      "label": "Queue",
+      "concept": "Queue",
+      "llm_category": "prerequisite"
+    },
+    {
+      "id": 10,
+      "label": "Stack",
+      "concept": "Stack",
+      "llm_category": "prerequisite"
+    },
+    {
+      "id": 11,
+      "label": "Graph Theory",
+      "concept": "Graph Theory",
+      "llm_category": "related"
+    },
+    {
+      "id": 12,
+      "label": "Dynamic Programming",
+      "concept": "Dynamic Programming",
+      "llm_category": "related"
+    },
+    {
+      "id": 13,
+      "label": "Topological Sort",
+      "concept": "Topological Sort",
+      "llm_category": "related"
+    },
+    {
+      "id": 14,
+      "label": "Time Complexity",
+      "concept": "Time Complexity",
+      "llm_category": "related"
+    },
+    {
+      "id": 15,
+      "label": "Shortest Path",
+      "concept": "Shortest Path",
+      "llm_category": "related"
+    },
+    {
+      "id": 16,
+      "label": "Space Complexity",
+      "concept": "Space Complexity",
+      "llm_category": "related"
+    },
+    {
+      "id": 17,
+      "label": "Minimum Spanning Tree",
+      "concept": "Minimum Spanning Tree",
+      "llm_category": "related"
+    },
+    {
+      "id": 18,
+      "label": "Maximum Flow",
+      "concept": "Maximum Flow",
+      "llm_category": "related"
+    },
+    {
+      "id": 19,
+      "label": "Connected Component",
+      "concept": "Connected Component",
+      "llm_category": "related"
+    }
+  ],
+  "edges": [
+    {
+      "source": 4,
+      "target": 15,
+      "prerequisite": "Level Order Traversal",
+      "target_concept": "Shortest Path",
+      "confidence": 0.6214880654715704,
+      "edge_type": "combined"
+    },
+    {
+      "source": 6,
+      "target": 0,
+      "prerequisite": "Node",
+      "target_concept": "Graph",
+      "confidence": 1.0,
+      "edge_type": "video_explanation_overlap"
+    },
+    {
+      "source": 6,
+      "target": 11,
+      "prerequisite": "Node",
+      "target_concept": "Graph Theory",
+      "confidence": 0.8226403148179056,
+      "edge_type": "combined"
+    },
+    {
+      "source": 6,
+      "target": 14,
+      "prerequisite": "Node",
+      "target_concept": "Time Complexity",
+      "confidence": 0.8226403148179056,
+      "edge_type": "combined"
+    },
+    {
+      "source": 7,
+      "target": 0,
+      "prerequisite": "Edge",
+      "target_concept": "Graph",
+      "confidence": 1.0,
+      "edge_type": "video_explanation_overlap"
+    },
+    {
+      "source": 7,
+      "target": 11,
+      "prerequisite": "Edge",
+      "target_concept": "Graph Theory",
+      "confidence": 0.7922547984575034,
+      "edge_type": "combined"
+    },
+    {
+      "source": 7,
+      "target": 14,
+      "prerequisite": "Edge",
+      "target_concept": "Time Complexity",
+      "confidence": 0.7922547984575034,
+      "edge_type": "combined"
+    },
+    {
+      "source": 9,
+      "target": 0,
+      "prerequisite": "Queue",
+      "target_concept": "Graph",
+      "confidence": 1.0,
+      "edge_type": "video_explanation_overlap"
+    },
+    {
+      "source": 9,
+      "target": 11,
+      "prerequisite": "Queue",
+      "target_concept": "Graph Theory",
+      "confidence": 0.8207217420344354,
+      "edge_type": "combined"
+    },
+    {
+      "source": 9,
+      "target": 14,
+      "prerequisite": "Queue",
+      "target_concept": "Time Complexity",
+      "confidence": 0.8207217420344354,
+      "edge_type": "combined"
+    },
+    {
+      "source": 10,
+      "target": 0,
+      "prerequisite": "Stack",
+      "target_concept": "Graph",
+      "confidence": 1.0,
+      "edge_type": "video_explanation_overlap"
+    },
+    {
+      "source": 10,
+      "target": 11,
+      "prerequisite": "Stack",
+      "target_concept": "Graph Theory",
+      "confidence": 0.7609254711200596,
+      "edge_type": "combined"
+    },
+    {
+      "source": 10,
+      "target": 14,
+      "prerequisite": "Stack",
+      "target_concept": "Time Complexity",
+      "confidence": 0.7609254711200596,
+      "edge_type": "combined"
+    },
+    {
+      "source": 12,
+      "target": 0,
+      "prerequisite": "Dynamic Programming",
+      "target_concept": "Graph",
+      "confidence": 1.0,
+      "edge_type": "video_explanation_overlap"
+    },
+    {
+      "source": 12,
+      "target": 11,
+      "prerequisite": "Dynamic Programming",
+      "target_concept": "Graph Theory",
+      "confidence": 1.0,
+      "edge_type": "video_explanation_overlap"
+    },
+    {
+      "source": 12,
+      "target": 14,
+      "prerequisite": "Dynamic Programming",
+      "target_concept": "Time Complexity",
+      "confidence": 0.7940236885552406,
+      "edge_type": "combined"
+    },
+    {
+      "source": 13,
+      "target": 0,
+      "prerequisite": "Topological Sort",
+      "target_concept": "Graph",
+      "confidence": 1.0,
+      "edge_type": "video_explanation_overlap"
+    },
+    {
+      "source": 13,
+      "target": 11,
+      "prerequisite": "Topological Sort",
+      "target_concept": "Graph Theory",
+      "confidence": 1.0,
+      "edge_type": "video_explanation_overlap"
+    },
+    {
+      "source": 13,
+      "target": 14,
+      "prerequisite": "Topological Sort",
+      "target_concept": "Time Complexity",
+      "confidence": 0.7645608626012803,
+      "edge_type": "combined"
+    },
+    {
+      "source": 15,
+      "target": 5,
+      "prerequisite": "Shortest Path",
+      "target_concept": "Backtracking",
+      "confidence": 0.9322033898305084,
+      "edge_type": "video_explanation_overlap"
+    },
+    {
+      "source": 16,
+      "target": 18,
+      "prerequisite": "Space Complexity",
+      "target_concept": "Maximum Flow",
+      "confidence": 0.7134097775393725,
+      "edge_type": "combined"
+    },
+    {
+      "source": 17,
+      "target": 16,
+      "prerequisite": "Minimum Spanning Tree",
+      "target_concept": "Space Complexity",
+      "confidence": 0.5392156862745098,
+      "edge_type": "video_explanation_overlap"
+    },
+    {
+      "source": 19,
+      "target": 8,
+      "prerequisite": "Connected Component",
+      "target_concept": "Recursion",
+      "confidence": 0.5648854961832062,
+      "edge_type": "video_explanation_overlap"
+    }
+  ]
+}

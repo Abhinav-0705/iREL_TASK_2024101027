@@ -1,0 +1,416 @@
+{
+  "video_id": "video_1",
+  "total_candidates": 19,
+  "total_verified": 4,
+  "all_edges": [
+    {
+      "prerequisite": "Dynamic Programming",
+      "target": "Recursion",
+      "prerequisite_time": 7.04,
+      "target_time": 27.439,
+      "time_gap": 20.399,
+      "teaching_signals": [],
+      "signal_count": 0,
+      "strength": "weak",
+      "context_window": "hey everyone welcome back to the channel i hope you guys are doing extremely well so finally it's yeah yes the ultimate dynamic programming playlist now you might be thinking or what is the hype all about let me tell you this is going to be the best yes when i say best i mean it i've already delivered one of the best craft playlist one of the best three playlists one of the best price playlist one of the best recursion playlist none of the topics were easy but i have made videos which will make ",
+      "llm_verified": false,
+      "llm_confidence": 0.8,
+      "llm_reasoning": "The teacher mentions both Dynamic Programming and Recursion in the context of having created playlists for these topics, but does not explicitly link the two concepts in a way that suggests understanding Dynamic Programming is necessary before learning Recursion. The teacher's mention of the topics appears to be more of a promotional nature, highlighting their past work rather than establishing a prerequisite relationship. There are no teaching signals, such as \"before\" or \"based on\", that indicate a dependency between the two concepts.",
+      "llm_response": "ANSWER: NO\nCONFIDENCE: 0.8\nREASONING: The teacher mentions both Dynamic Programming and Recursion in the context of having created playlists for these topics, but does not explicitly link the two concepts in a way that suggests understanding Dynamic Programming is necessary before learning Recursion. The teacher's mention of the topics appears to be more of a promotional nature, highlighting their past work rather than establishing a prerequisite relationship. There are no teaching signals, such as \"before\" or \"based on\", that indicate a dependency between the two concepts."
+    },
+    {
+      "prerequisite": "Dynamic Programming",
+      "target": "Time Complexity",
+      "prerequisite_time": 7.04,
+      "target_time": 239.12,
+      "time_gap": 232.08,
+      "teaching_signals": [
+        "depends on",
+        "then",
+        "after"
+      ],
+      "signal_count": 3,
+      "strength": "strong",
+      "context_window": "dynamic programming again when i say top down it doesn't means that it is going to be from n to zero it can be the vice versa also depends on your implementation skills so going forward in every lecture what i'm going to do is i'm going to teach you uh the memorization topic then i'm going to discuss the time complexity and the space complexity once i've done that i will move to the tabulation yes i'll move to the tabulation and i'll teach you again the time complexity and the space complexity t",
+      "llm_verified": false,
+      "llm_confidence": 0.8,
+      "llm_reasoning": "The teacher mentions dynamic programming and time complexity in the same context, but does not explicitly indicate that understanding dynamic programming is necessary before learning time complexity. In fact, the teacher plans to discuss time complexity after teaching memorization topics, and then again after tabulation, without implying that dynamic programming is a prerequisite. The teacher's explanation suggests that time complexity can be discussed independently of dynamic programming, at least in this specific context.",
+      "llm_response": "ANSWER: NO\nCONFIDENCE: 0.8\nREASONING: The teacher mentions dynamic programming and time complexity in the same context, but does not explicitly indicate that understanding dynamic programming is necessary before learning time complexity. In fact, the teacher plans to discuss time complexity after teaching memorization topics, and then again after tabulation, without implying that dynamic programming is a prerequisite. The teacher's explanation suggests that time complexity can be discussed independently of dynamic programming, at least in this specific context."
+    },
+    {
+      "prerequisite": "Dynamic Programming",
+      "target": "Space Complexity",
+      "prerequisite_time": 7.04,
+      "target_time": 229.12,
+      "time_gap": 222.08,
+      "teaching_signals": [
+        "depends on",
+        "then",
+        "after"
+      ],
+      "signal_count": 3,
+      "strength": "strong",
+      "context_window": "also but yeah as the name suggests it's a bottom up dynamic programming and when i say uh memoration it's a top down dynamic programming again when i say top down it doesn't means that it is going to be from n to zero it can be the vice versa also depends on your implementation skills so going forward in every lecture what i'm going to do is i'm going to teach you uh the memorization topic then i'm going to discuss the time complexity and the space complexity once i've done that i will move to t",
+      "llm_verified": false,
+      "llm_confidence": 0.8,
+      "llm_reasoning": "The teacher does not explicitly reference Dynamic Programming as a prerequisite for understanding Space Complexity. The explanation of Space Complexity is mentioned as a separate topic that will be discussed after memorization, without indicating that Dynamic Programming is necessary to understand it. The teacher's explanation suggests a parallel or sequential discussion of topics rather than a hierarchical dependency between Dynamic Programming and Space Complexity.",
+      "llm_response": "ANSWER: NO\nCONFIDENCE: 0.8\nREASONING: The teacher does not explicitly reference Dynamic Programming as a prerequisite for understanding Space Complexity. The explanation of Space Complexity is mentioned as a separate topic that will be discussed after memorization, without indicating that Dynamic Programming is necessary to understand it. The teacher's explanation suggests a parallel or sequential discussion of topics rather than a hierarchical dependency between Dynamic Programming and Space Complexity."
+    },
+    {
+      "prerequisite": "Dynamic Programming",
+      "target": "Memoization",
+      "prerequisite_time": 7.04,
+      "target_time": 166.12,
+      "time_gap": 159.08,
+      "teaching_signals": [
+        "remember"
+      ],
+      "signal_count": 1,
+      "strength": "strong",
+      "context_window": "doubts so without waiting let's get started what is dp those who cannot remember the past are condemned to repeat it this is one of the famous quotes for dp which is dynamic programming yes now when i talk about a dynamic programming there are a couple of ways in which people tend to solve it one is the tabulation we while the other one is the memoization way a lot of people called to uh tend to call this memorization memoration doesn't matter as long as you understand it's okay another thing th",
+      "llm_verified": true,
+      "llm_confidence": 0.9,
+      "llm_reasoning": "The teacher explains memoization in the context of dynamic programming, implying that memoization is a method or approach within dynamic programming. The teacher also mentions that there are two ways to solve dynamic programming problems, one of which is memoization, suggesting that understanding dynamic programming is necessary to grasp memoization. The teacher's explanation of memoization is embedded within the discussion of dynamic programming, indicating a prerequisite relationship between the two concepts.",
+      "llm_response": "ANSWER: YES\nCONFIDENCE: 0.9\nREASONING: The teacher explains memoization in the context of dynamic programming, implying that memoization is a method or approach within dynamic programming. The teacher also mentions that there are two ways to solve dynamic programming problems, one of which is memoization, suggesting that understanding dynamic programming is necessary to grasp memoization. The teacher's explanation of memoization is embedded within the discussion of dynamic programming, indicating a prerequisite relationship between the two concepts."
+    },
+    {
+      "prerequisite": "Dynamic Programming",
+      "target": "Bottom Up Dynamic Programming",
+      "prerequisite_time": 7.04,
+      "target_time": 187.68,
+      "time_gap": 180.64000000000001,
+      "teaching_signals": [
+        "depends on"
+      ],
+      "signal_count": 1,
+      "strength": "strong",
+      "context_window": "in which people tend to solve it one is the tabulation we while the other one is the memoization way a lot of people called to uh tend to call this memorization memoration doesn't matter as long as you understand it's okay another thing the series is going to be entirely in english so it doesn't matter where you're where you are located you're going to understand each and every word of this series so when i say tabulation it means a bottom up dynamic programming yes now when i say bottom up it d",
+      "llm_verified": true,
+      "llm_confidence": 0.9,
+      "llm_reasoning": "The teacher explicitly references \"bottom up dynamic programming\" as an explanation for \"tabulation\", implying that understanding dynamic programming is necessary to grasp the concept of bottom up dynamic programming. The phrase \"a bottom up dynamic programming\" suggests that bottom up dynamic programming is a subset or a specific approach within the broader concept of dynamic programming. This indicates that the teacher assumes prior knowledge of dynamic programming, making it a prerequisite for understanding bottom up dynamic programming.",
+      "llm_response": "ANSWER: YES\nCONFIDENCE: 0.9\nREASONING: The teacher explicitly references \"bottom up dynamic programming\" as an explanation for \"tabulation\", implying that understanding dynamic programming is necessary to grasp the concept of bottom up dynamic programming. The phrase \"a bottom up dynamic programming\" suggests that bottom up dynamic programming is a subset or a specific approach within the broader concept of dynamic programming. This indicates that the teacher assumes prior knowledge of dynamic programming, making it a prerequisite for understanding bottom up dynamic programming."
+    },
+    {
+      "prerequisite": "Dynamic Programming",
+      "target": "DP Array",
+      "prerequisite_time": 7.04,
+      "target_time": 919.519,
+      "time_gap": 912.479,
+      "teaching_signals": [],
+      "signal_count": 0,
+      "strength": "weak",
+      "context_window": "so if you carefully see where are the sub problems what are the sub problems there is a sub problem as f of 5 there is a problem as f of 4 f of 3 f of 2 f of 1 f of 0 so can i say at max the sub problems are from 0 to 5 okay make sense 0 to 5. so can i say uh if i can create a array of six eyes if i can create an array of six size and i can call that as some dp array sounds cool right you can call it as fibo array as well dp dynamic programming so what i did was what i did was f of 2 was compute",
+      "llm_verified": true,
+      "llm_confidence": 0.8,
+      "llm_reasoning": "The teacher explicitly references \"dynamic programming\" when explaining the \"DP Array\", indicating a connection between the two concepts. The teacher also uses the phrase \"dp dynamic programming\" while introducing the \"DP Array\", suggesting that understanding dynamic programming is relevant to grasping the concept of a DP Array. Although the teacher does not use explicit teaching signals like \"before\" or \"first\", the context implies that dynamic programming is a foundational concept for understanding the DP Array.",
+      "llm_response": "ANSWER: YES\nCONFIDENCE: 0.8\nREASONING: The teacher explicitly references \"dynamic programming\" when explaining the \"DP Array\", indicating a connection between the two concepts. The teacher also uses the phrase \"dp dynamic programming\" while introducing the \"DP Array\", suggesting that understanding dynamic programming is relevant to grasping the concept of a DP Array. Although the teacher does not use explicit teaching signals like \"before\" or \"first\", the context implies that dynamic programming is a foundational concept for understanding the DP Array."
+    },
+    {
+      "prerequisite": "Recursion",
+      "target": "Optimization",
+      "prerequisite_time": 27.439,
+      "target_time": 111.2,
+      "time_gap": 83.761,
+      "teaching_signals": [
+        "then",
+        "after"
+      ],
+      "signal_count": 2,
+      "strength": "strong",
+      "context_window": "the second reason is most of the people either teach uh the uh tabulation format where they just form tables they give you some formulas and then they fill up the table i'm not gonna do that way now i'm gonna do the recursion way then the tabulation way you might be thinking okay this has also been done on the market someone has also done the recursion way and then the tabulation way so what's different in yours the difference is i'm gonna do recursion i'm gonna do tabulation and after that i'm ",
+      "llm_verified": false,
+      "llm_confidence": 0.8,
+      "llm_reasoning": "The teacher mentions recursion as a method they will use, but does not explicitly link it to optimization as a prerequisite. The context suggests that the teacher is discussing different approaches to teaching a topic, and recursion is one of the methods, but it is not clear that understanding recursion is necessary before learning optimization. The teacher's explanation does not contain teaching signals that indicate a prerequisite relationship between recursion and optimization.",
+      "llm_response": "ANSWER: NO\nCONFIDENCE: 0.8\nREASONING: The teacher mentions recursion as a method they will use, but does not explicitly link it to optimization as a prerequisite. The context suggests that the teacher is discussing different approaches to teaching a topic, and recursion is one of the methods, but it is not clear that understanding recursion is necessary before learning optimization. The teacher's explanation does not contain teaching signals that indicate a prerequisite relationship between recursion and optimization."
+    },
+    {
+      "prerequisite": "Recursion",
+      "target": "Tabulation",
+      "prerequisite_time": 27.439,
+      "target_time": 85.6,
+      "time_gap": 58.160999999999994,
+      "teaching_signals": [
+        "then",
+        "after"
+      ],
+      "signal_count": 2,
+      "strength": "strong",
+      "context_window": "this is going to be on some different level point number one why the reason is because this series will contain the maximum number of videos which none of the other channels have given this series will be containing around 60 to 70 videos yes i repeat 60 to 70 videos so when you solve 60 to 70 videos on a given pattern you tend to master a topic yes you do the second reason is most of the people either teach uh the uh tabulation format where they just form tables they give you some formulas and ",
+      "llm_verified": false,
+      "llm_confidence": 0.8,
+      "llm_reasoning": "The teacher does not explicitly mention \"Recursion\" when explaining \"Tabulation\", and there is no indication that Concept B builds upon or extends Concept A. The teacher only mentions that some people teach tabulation by forming tables and giving formulas, without referencing recursion as a prerequisite or foundational concept. This suggests that the teacher does not consider understanding recursion necessary before learning tabulation, at least in this specific context.",
+      "llm_response": "ANSWER: NO\nCONFIDENCE: 0.8\nREASONING: The teacher does not explicitly mention \"Recursion\" when explaining \"Tabulation\", and there is no indication that Concept B builds upon or extends Concept A. The teacher only mentions that some people teach tabulation by forming tables and giving formulas, without referencing recursion as a prerequisite or foundational concept. This suggests that the teacher does not consider understanding recursion necessary before learning tabulation, at least in this specific context."
+    },
+    {
+      "prerequisite": "Recursion",
+      "target": "Recurrence Relation",
+      "prerequisite_time": 27.439,
+      "target_time": 398.56,
+      "time_gap": 371.121,
+      "teaching_signals": [
+        "need",
+        "assuming",
+        "first",
+        "next"
+      ],
+      "signal_count": 4,
+      "strength": "strong",
+      "context_window": "fibonacci number is 0 followed by 1 followed by 1 followed by 2 followed by 3 followed by 5 followed by 8 followed by 13 followed by 21 and so on now if you carefully observe these are the first two fibonacci numbers and when you add them up yes when you add them up you get the next fibonacci number similarly if you take the next two fibonacci numbers and you add them up you get the next fibonacci number correct so what i can say is the recurrence relation again i have already explained this so ",
+      "llm_verified": false,
+      "llm_confidence": 0.9,
+      "llm_reasoning": "The teacher does not explicitly reference \"Recursion\" when explaining \"Recurrence Relation\", and the explanation of Recurrence Relation is based on the pattern of Fibonacci numbers, which does not inherently require an understanding of Recursion. The teacher's explanation of Recurrence Relation is self-contained and does not indicate that prior knowledge of Recursion is necessary to grasp the concept.",
+      "llm_response": "ANSWER: NO\nCONFIDENCE: 0.9\nREASONING: The teacher does not explicitly reference \"Recursion\" when explaining \"Recurrence Relation\", and the explanation of Recurrence Relation is based on the pattern of Fibonacci numbers, which does not inherently require an understanding of Recursion. The teacher's explanation of Recurrence Relation is self-contained and does not indicate that prior knowledge of Recursion is necessary to grasp the concept."
+    },
+    {
+      "prerequisite": "Space Complexity",
+      "target": "Time Complexity",
+      "prerequisite_time": 229.12,
+      "target_time": 239.12,
+      "time_gap": 10.0,
+      "teaching_signals": [
+        "depends on",
+        "then",
+        "after"
+      ],
+      "signal_count": 3,
+      "strength": "strong",
+      "context_window": "dynamic programming again when i say top down it doesn't means that it is going to be from n to zero it can be the vice versa also depends on your implementation skills so going forward in every lecture what i'm going to do is i'm going to teach you uh the memorization topic then i'm going to discuss the time complexity and the space complexity once i've done that i will move to the tabulation yes i'll move to the tabulation and i'll teach you again the time complexity and the space complexity t",
+      "llm_verified": false,
+      "llm_confidence": 0.8,
+      "llm_reasoning": "The teacher mentions discussing both time complexity and space complexity after teaching the memorization topic, but does not indicate that understanding space complexity is a prerequisite for learning time complexity. In fact, the teacher lists them separately, suggesting they are distinct concepts to be covered. There are no teaching signals that imply a dependency between the two concepts, such as \"before\" or \"based on\", which further supports the conclusion that space complexity is not a prerequisite for time complexity.",
+      "llm_response": "ANSWER: NO\nCONFIDENCE: 0.8\nREASONING: The teacher mentions discussing both time complexity and space complexity after teaching the memorization topic, but does not indicate that understanding space complexity is a prerequisite for learning time complexity. In fact, the teacher lists them separately, suggesting they are distinct concepts to be covered. There are no teaching signals that imply a dependency between the two concepts, such as \"before\" or \"based on\", which further supports the conclusion that space complexity is not a prerequisite for time complexity."
+    },
+    {
+      "prerequisite": "Memoization",
+      "target": "Bottom Up Dynamic Programming",
+      "prerequisite_time": 166.12,
+      "target_time": 187.68,
+      "time_gap": 21.560000000000002,
+      "teaching_signals": [
+        "depends on"
+      ],
+      "signal_count": 1,
+      "strength": "strong",
+      "context_window": "in which people tend to solve it one is the tabulation we while the other one is the memoization way a lot of people called to uh tend to call this memorization memoration doesn't matter as long as you understand it's okay another thing the series is going to be entirely in english so it doesn't matter where you're where you are located you're going to understand each and every word of this series so when i say tabulation it means a bottom up dynamic programming yes now when i say bottom up it d",
+      "llm_verified": false,
+      "llm_confidence": 0.8,
+      "llm_reasoning": "The teacher explains \"tabulation\" as a \"bottom up dynamic programming\" without explicitly referencing memoization as a prerequisite or building block for understanding bottom up dynamic programming. The teacher mentions memoization as an alternative approach, but does not indicate that it is necessary to understand memoization before learning about bottom up dynamic programming. The lack of teaching signals like \"before\", \"first\", or \"based on\" when explaining bottom up dynamic programming further suggests that memoization is not a prerequisite.",
+      "llm_response": "ANSWER: NO\nCONFIDENCE: 0.8\nREASONING: The teacher explains \"tabulation\" as a \"bottom up dynamic programming\" without explicitly referencing memoization as a prerequisite or building block for understanding bottom up dynamic programming. The teacher mentions memoization as an alternative approach, but does not indicate that it is necessary to understand memoization before learning about bottom up dynamic programming. The lack of teaching signals like \"before\", \"first\", or \"based on\" when explaining bottom up dynamic programming further suggests that memoization is not a prerequisite."
+    },
+    {
+      "prerequisite": "Optimization",
+      "target": "Time Complexity",
+      "prerequisite_time": 111.2,
+      "target_time": 239.12,
+      "time_gap": 127.92,
+      "teaching_signals": [
+        "depends on",
+        "then",
+        "after"
+      ],
+      "signal_count": 3,
+      "strength": "strong",
+      "context_window": "dynamic programming again when i say top down it doesn't means that it is going to be from n to zero it can be the vice versa also depends on your implementation skills so going forward in every lecture what i'm going to do is i'm going to teach you uh the memorization topic then i'm going to discuss the time complexity and the space complexity once i've done that i will move to the tabulation yes i'll move to the tabulation and i'll teach you again the time complexity and the space complexity t",
+      "llm_verified": false,
+      "llm_confidence": 0.8,
+      "llm_reasoning": "The teacher does not explicitly reference \"Optimization\" when explaining \"Time Complexity\", and the explanation of \"Time Complexity\" does not appear to build upon or extend the concept of \"Optimization\". The teacher's discussion of \"Time Complexity\" seems to be a separate topic that is addressed after introducing a memorization topic, without any indication that understanding \"Optimization\" is necessary beforehand.",
+      "llm_response": "ANSWER: NO\nCONFIDENCE: 0.8\nREASONING: The teacher does not explicitly reference \"Optimization\" when explaining \"Time Complexity\", and the explanation of \"Time Complexity\" does not appear to build upon or extend the concept of \"Optimization\". The teacher's discussion of \"Time Complexity\" seems to be a separate topic that is addressed after introducing a memorization topic, without any indication that understanding \"Optimization\" is necessary beforehand."
+    },
+    {
+      "prerequisite": "Optimization",
+      "target": "Space Complexity",
+      "prerequisite_time": 111.2,
+      "target_time": 229.12,
+      "time_gap": 117.92,
+      "teaching_signals": [
+        "depends on",
+        "then",
+        "after"
+      ],
+      "signal_count": 3,
+      "strength": "strong",
+      "context_window": "also but yeah as the name suggests it's a bottom up dynamic programming and when i say uh memoration it's a top down dynamic programming again when i say top down it doesn't means that it is going to be from n to zero it can be the vice versa also depends on your implementation skills so going forward in every lecture what i'm going to do is i'm going to teach you uh the memorization topic then i'm going to discuss the time complexity and the space complexity once i've done that i will move to t",
+      "llm_verified": false,
+      "llm_confidence": 0.9,
+      "llm_reasoning": "The teacher does not explicitly mention \"Optimization\" when explaining \"Space Complexity\", and there is no indication that understanding optimization is necessary to grasp space complexity. The teacher's explanation of space complexity appears to be a separate topic that will be discussed after memorization, without any reference to optimization. The lack of teaching signals like \"before\", \"first\", or \"based on\" further suggests that optimization is not a prerequisite for understanding space complexity in this context.",
+      "llm_response": "ANSWER: NO\nCONFIDENCE: 0.9\nREASONING: The teacher does not explicitly mention \"Optimization\" when explaining \"Space Complexity\", and there is no indication that understanding optimization is necessary to grasp space complexity. The teacher's explanation of space complexity appears to be a separate topic that will be discussed after memorization, without any reference to optimization. The lack of teaching signals like \"before\", \"first\", or \"based on\" further suggests that optimization is not a prerequisite for understanding space complexity in this context."
+    },
+    {
+      "prerequisite": "Bottom Up Dynamic Programming",
+      "target": "Space Complexity",
+      "prerequisite_time": 187.68,
+      "target_time": 229.12,
+      "time_gap": 41.44,
+      "teaching_signals": [
+        "depends on",
+        "then",
+        "after"
+      ],
+      "signal_count": 3,
+      "strength": "strong",
+      "context_window": "also but yeah as the name suggests it's a bottom up dynamic programming and when i say uh memoration it's a top down dynamic programming again when i say top down it doesn't means that it is going to be from n to zero it can be the vice versa also depends on your implementation skills so going forward in every lecture what i'm going to do is i'm going to teach you uh the memorization topic then i'm going to discuss the time complexity and the space complexity once i've done that i will move to t",
+      "llm_verified": false,
+      "llm_confidence": 0.8,
+      "llm_reasoning": "The teacher does not explicitly reference \"Bottom Up Dynamic Programming\" when explaining \"Space Complexity\", and the explanation of \"Space Complexity\" does not appear to build upon or extend \"Bottom Up Dynamic Programming\". The teacher mentions that they will discuss \"time complexity and the space complexity\" after covering memorization, but there is no indication that understanding \"Bottom Up Dynamic Programming\" is a prerequisite for learning \"Space Complexity\".",
+      "llm_response": "ANSWER: NO\nCONFIDENCE: 0.8\nREASONING: The teacher does not explicitly reference \"Bottom Up Dynamic Programming\" when explaining \"Space Complexity\", and the explanation of \"Space Complexity\" does not appear to build upon or extend \"Bottom Up Dynamic Programming\". The teacher mentions that they will discuss \"time complexity and the space complexity\" after covering memorization, but there is no indication that understanding \"Bottom Up Dynamic Programming\" is a prerequisite for learning \"Space Complexity\"."
+    },
+    {
+      "prerequisite": "Tabulation",
+      "target": "Time Complexity",
+      "prerequisite_time": 85.6,
+      "target_time": 239.12,
+      "time_gap": 153.52,
+      "teaching_signals": [
+        "depends on",
+        "then",
+        "after"
+      ],
+      "signal_count": 3,
+      "strength": "strong",
+      "context_window": "dynamic programming again when i say top down it doesn't means that it is going to be from n to zero it can be the vice versa also depends on your implementation skills so going forward in every lecture what i'm going to do is i'm going to teach you uh the memorization topic then i'm going to discuss the time complexity and the space complexity once i've done that i will move to the tabulation yes i'll move to the tabulation and i'll teach you again the time complexity and the space complexity t",
+      "llm_verified": false,
+      "llm_confidence": 0.8,
+      "llm_reasoning": "The teacher explains that they will discuss time complexity before moving to tabulation, indicating that time complexity can be understood independently of tabulation. The teacher also mentions that they will teach time complexity again after covering tabulation, suggesting that time complexity is not built upon or extended by tabulation. This implies that a student can grasp time complexity without first understanding tabulation, as the teacher does not explicitly reference tabulation as a prerequisite for understanding time complexity.",
+      "llm_response": "ANSWER: NO\nCONFIDENCE: 0.8\nREASONING: The teacher explains that they will discuss time complexity before moving to tabulation, indicating that time complexity can be understood independently of tabulation. The teacher also mentions that they will teach time complexity again after covering tabulation, suggesting that time complexity is not built upon or extended by tabulation. This implies that a student can grasp time complexity without first understanding tabulation, as the teacher does not explicitly reference tabulation as a prerequisite for understanding time complexity."
+    },
+    {
+      "prerequisite": "Tabulation",
+      "target": "Space Complexity",
+      "prerequisite_time": 85.6,
+      "target_time": 229.12,
+      "time_gap": 143.52,
+      "teaching_signals": [
+        "depends on",
+        "then",
+        "after"
+      ],
+      "signal_count": 3,
+      "strength": "strong",
+      "context_window": "also but yeah as the name suggests it's a bottom up dynamic programming and when i say uh memoration it's a top down dynamic programming again when i say top down it doesn't means that it is going to be from n to zero it can be the vice versa also depends on your implementation skills so going forward in every lecture what i'm going to do is i'm going to teach you uh the memorization topic then i'm going to discuss the time complexity and the space complexity once i've done that i will move to t",
+      "llm_verified": false,
+      "llm_confidence": 0.8,
+      "llm_reasoning": "The teacher does not explicitly reference \"Tabulation\" when explaining \"Space Complexity\" in this context, and the explanation of \"Space Complexity\" does not appear to build upon or extend \"Tabulation\". The teacher mentions that they will discuss \"memorization\", \"time complexity\", and \"space complexity\" in the lectures, but does not indicate that understanding \"Tabulation\" is a prerequisite for learning \"Space Complexity\".",
+      "llm_response": "ANSWER: NO\nCONFIDENCE: 0.8\nREASONING: The teacher does not explicitly reference \"Tabulation\" when explaining \"Space Complexity\" in this context, and the explanation of \"Space Complexity\" does not appear to build upon or extend \"Tabulation\". The teacher mentions that they will discuss \"memorization\", \"time complexity\", and \"space complexity\" in the lectures, but does not indicate that understanding \"Tabulation\" is a prerequisite for learning \"Space Complexity\"."
+    },
+    {
+      "prerequisite": "Tabulation",
+      "target": "Memoization",
+      "prerequisite_time": 85.6,
+      "target_time": 166.12,
+      "time_gap": 80.52000000000001,
+      "teaching_signals": [
+        "remember"
+      ],
+      "signal_count": 1,
+      "strength": "strong",
+      "context_window": "doubts so without waiting let's get started what is dp those who cannot remember the past are condemned to repeat it this is one of the famous quotes for dp which is dynamic programming yes now when i talk about a dynamic programming there are a couple of ways in which people tend to solve it one is the tabulation we while the other one is the memoization way a lot of people called to uh tend to call this memorization memoration doesn't matter as long as you understand it's okay another thing th",
+      "llm_verified": false,
+      "llm_confidence": 0.8,
+      "llm_reasoning": "The teacher mentions both tabulation and memoization as ways to solve dynamic programming, but does not explicitly state that understanding tabulation is necessary before learning memoization. The teacher presents them as two separate approaches, without indicating a prerequisite relationship between the two concepts. The lack of teaching signals like \"before\", \"first\", or \"based on\" further suggests that the teacher does not intend for tabulation to be a prerequisite for memoization.",
+      "llm_response": "ANSWER: NO\nCONFIDENCE: 0.8\nREASONING: The teacher mentions both tabulation and memoization as ways to solve dynamic programming, but does not explicitly state that understanding tabulation is necessary before learning memoization. The teacher presents them as two separate approaches, without indicating a prerequisite relationship between the two concepts. The lack of teaching signals like \"before\", \"first\", or \"based on\" further suggests that the teacher does not intend for tabulation to be a prerequisite for memoization."
+    },
+    {
+      "prerequisite": "Tabulation",
+      "target": "Optimization",
+      "prerequisite_time": 85.6,
+      "target_time": 111.2,
+      "time_gap": 25.60000000000001,
+      "teaching_signals": [
+        "then",
+        "after"
+      ],
+      "signal_count": 2,
+      "strength": "strong",
+      "context_window": "the second reason is most of the people either teach uh the uh tabulation format where they just form tables they give you some formulas and then they fill up the table i'm not gonna do that way now i'm gonna do the recursion way then the tabulation way you might be thinking okay this has also been done on the market someone has also done the recursion way and then the tabulation way so what's different in yours the difference is i'm gonna do recursion i'm gonna do tabulation and after that i'm ",
+      "llm_verified": false,
+      "llm_confidence": 0.8,
+      "llm_reasoning": "The teacher mentions both recursion and tabulation as methods they will cover, but does not explicitly indicate that understanding tabulation is a prerequisite for learning optimization. The teacher's explanation suggests a parallel or comparative approach to teaching recursion and tabulation, rather than a sequential or hierarchical one. There are no clear teaching signals, such as \"before\" or \"based on\", that would suggest tabulation must be understood before optimization can be learned.",
+      "llm_response": "ANSWER: NO\nCONFIDENCE: 0.8\nREASONING: The teacher mentions both recursion and tabulation as methods they will cover, but does not explicitly indicate that understanding tabulation is a prerequisite for learning optimization. The teacher's explanation suggests a parallel or comparative approach to teaching recursion and tabulation, rather than a sequential or hierarchical one. There are no clear teaching signals, such as \"before\" or \"based on\", that would suggest tabulation must be understood before optimization can be learned."
+    },
+    {
+      "prerequisite": "Tabulation",
+      "target": "Bottom Up Dynamic Programming",
+      "prerequisite_time": 85.6,
+      "target_time": 187.68,
+      "time_gap": 102.08000000000001,
+      "teaching_signals": [
+        "depends on"
+      ],
+      "signal_count": 1,
+      "strength": "strong",
+      "context_window": "in which people tend to solve it one is the tabulation we while the other one is the memoization way a lot of people called to uh tend to call this memorization memoration doesn't matter as long as you understand it's okay another thing the series is going to be entirely in english so it doesn't matter where you're where you are located you're going to understand each and every word of this series so when i say tabulation it means a bottom up dynamic programming yes now when i say bottom up it d",
+      "llm_verified": true,
+      "llm_confidence": 0.9,
+      "llm_reasoning": "The teacher explicitly states that \"when I say tabulation it means a bottom up dynamic programming\", directly linking Concept A (Tabulation) to Concept B (Bottom Up Dynamic Programming). This implies that understanding tabulation is essential to grasping bottom-up dynamic programming, as the teacher presents them as equivalent concepts. The teacher's explanation suggests that Concept B is an extension or another term for Concept A, indicating a strong prerequisite relationship.",
+      "llm_response": "ANSWER: YES\nCONFIDENCE: 0.9\nREASONING: The teacher explicitly states that \"when I say tabulation it means a bottom up dynamic programming\", directly linking Concept A (Tabulation) to Concept B (Bottom Up Dynamic Programming). This implies that understanding tabulation is essential to grasping bottom-up dynamic programming, as the teacher presents them as equivalent concepts. The teacher's explanation suggests that Concept B is an extension or another term for Concept A, indicating a strong prerequisite relationship."
+    }
+  ],
+  "confirmed_edges": [
+    {
+      "prerequisite": "Dynamic Programming",
+      "target": "Memoization",
+      "prerequisite_time": 7.04,
+      "target_time": 166.12,
+      "time_gap": 159.08,
+      "teaching_signals": [
+        "remember"
+      ],
+      "signal_count": 1,
+      "strength": "strong",
+      "context_window": "doubts so without waiting let's get started what is dp those who cannot remember the past are condemned to repeat it this is one of the famous quotes for dp which is dynamic programming yes now when i talk about a dynamic programming there are a couple of ways in which people tend to solve it one is the tabulation we while the other one is the memoization way a lot of people called to uh tend to call this memorization memoration doesn't matter as long as you understand it's okay another thing th",
+      "llm_verified": true,
+      "llm_confidence": 0.9,
+      "llm_reasoning": "The teacher explains memoization in the context of dynamic programming, implying that memoization is a method or approach within dynamic programming. The teacher also mentions that there are two ways to solve dynamic programming problems, one of which is memoization, suggesting that understanding dynamic programming is necessary to grasp memoization. The teacher's explanation of memoization is embedded within the discussion of dynamic programming, indicating a prerequisite relationship between the two concepts.",
+      "llm_response": "ANSWER: YES\nCONFIDENCE: 0.9\nREASONING: The teacher explains memoization in the context of dynamic programming, implying that memoization is a method or approach within dynamic programming. The teacher also mentions that there are two ways to solve dynamic programming problems, one of which is memoization, suggesting that understanding dynamic programming is necessary to grasp memoization. The teacher's explanation of memoization is embedded within the discussion of dynamic programming, indicating a prerequisite relationship between the two concepts."
+    },
+    {
+      "prerequisite": "Dynamic Programming",
+      "target": "Bottom Up Dynamic Programming",
+      "prerequisite_time": 7.04,
+      "target_time": 187.68,
+      "time_gap": 180.64000000000001,
+      "teaching_signals": [
+        "depends on"
+      ],
+      "signal_count": 1,
+      "strength": "strong",
+      "context_window": "in which people tend to solve it one is the tabulation we while the other one is the memoization way a lot of people called to uh tend to call this memorization memoration doesn't matter as long as you understand it's okay another thing the series is going to be entirely in english so it doesn't matter where you're where you are located you're going to understand each and every word of this series so when i say tabulation it means a bottom up dynamic programming yes now when i say bottom up it d",
+      "llm_verified": true,
+      "llm_confidence": 0.9,
+      "llm_reasoning": "The teacher explicitly references \"bottom up dynamic programming\" as an explanation for \"tabulation\", implying that understanding dynamic programming is necessary to grasp the concept of bottom up dynamic programming. The phrase \"a bottom up dynamic programming\" suggests that bottom up dynamic programming is a subset or a specific approach within the broader concept of dynamic programming. This indicates that the teacher assumes prior knowledge of dynamic programming, making it a prerequisite for understanding bottom up dynamic programming.",
+      "llm_response": "ANSWER: YES\nCONFIDENCE: 0.9\nREASONING: The teacher explicitly references \"bottom up dynamic programming\" as an explanation for \"tabulation\", implying that understanding dynamic programming is necessary to grasp the concept of bottom up dynamic programming. The phrase \"a bottom up dynamic programming\" suggests that bottom up dynamic programming is a subset or a specific approach within the broader concept of dynamic programming. This indicates that the teacher assumes prior knowledge of dynamic programming, making it a prerequisite for understanding bottom up dynamic programming."
+    },
+    {
+      "prerequisite": "Dynamic Programming",
+      "target": "DP Array",
+      "prerequisite_time": 7.04,
+      "target_time": 919.519,
+      "time_gap": 912.479,
+      "teaching_signals": [],
+      "signal_count": 0,
+      "strength": "weak",
+      "context_window": "so if you carefully see where are the sub problems what are the sub problems there is a sub problem as f of 5 there is a problem as f of 4 f of 3 f of 2 f of 1 f of 0 so can i say at max the sub problems are from 0 to 5 okay make sense 0 to 5. so can i say uh if i can create a array of six eyes if i can create an array of six size and i can call that as some dp array sounds cool right you can call it as fibo array as well dp dynamic programming so what i did was what i did was f of 2 was compute",
+      "llm_verified": true,
+      "llm_confidence": 0.8,
+      "llm_reasoning": "The teacher explicitly references \"dynamic programming\" when explaining the \"DP Array\", indicating a connection between the two concepts. The teacher also uses the phrase \"dp dynamic programming\" while introducing the \"DP Array\", suggesting that understanding dynamic programming is relevant to grasping the concept of a DP Array. Although the teacher does not use explicit teaching signals like \"before\" or \"first\", the context implies that dynamic programming is a foundational concept for understanding the DP Array.",
+      "llm_response": "ANSWER: YES\nCONFIDENCE: 0.8\nREASONING: The teacher explicitly references \"dynamic programming\" when explaining the \"DP Array\", indicating a connection between the two concepts. The teacher also uses the phrase \"dp dynamic programming\" while introducing the \"DP Array\", suggesting that understanding dynamic programming is relevant to grasping the concept of a DP Array. Although the teacher does not use explicit teaching signals like \"before\" or \"first\", the context implies that dynamic programming is a foundational concept for understanding the DP Array."
+    },
+    {
+      "prerequisite": "Tabulation",
+      "target": "Bottom Up Dynamic Programming",
+      "prerequisite_time": 85.6,
+      "target_time": 187.68,
+      "time_gap": 102.08000000000001,
+      "teaching_signals": [
+        "depends on"
+      ],
+      "signal_count": 1,
+      "strength": "strong",
+      "context_window": "in which people tend to solve it one is the tabulation we while the other one is the memoization way a lot of people called to uh tend to call this memorization memoration doesn't matter as long as you understand it's okay another thing the series is going to be entirely in english so it doesn't matter where you're where you are located you're going to understand each and every word of this series so when i say tabulation it means a bottom up dynamic programming yes now when i say bottom up it d",
+      "llm_verified": true,
+      "llm_confidence": 0.9,
+      "llm_reasoning": "The teacher explicitly states that \"when I say tabulation it means a bottom up dynamic programming\", directly linking Concept A (Tabulation) to Concept B (Bottom Up Dynamic Programming). This implies that understanding tabulation is essential to grasping bottom-up dynamic programming, as the teacher presents them as equivalent concepts. The teacher's explanation suggests that Concept B is an extension or another term for Concept A, indicating a strong prerequisite relationship.",
+      "llm_response": "ANSWER: YES\nCONFIDENCE: 0.9\nREASONING: The teacher explicitly states that \"when I say tabulation it means a bottom up dynamic programming\", directly linking Concept A (Tabulation) to Concept B (Bottom Up Dynamic Programming). This implies that understanding tabulation is essential to grasping bottom-up dynamic programming, as the teacher presents them as equivalent concepts. The teacher's explanation suggests that Concept B is an extension or another term for Concept A, indicating a strong prerequisite relationship."
+    }
+  ]
+}

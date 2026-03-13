@@ -1,0 +1,58 @@
+{
+  "video_id": "video_5",
+  "method": "hybrid_implicit_detection",
+  "total_dependencies": 4,
+  "method_breakdown": {
+    "semantic_temporal": 4,
+    "cooccurrence": 0,
+    "video_explanation_overlap": 0,
+    "transitive": 0,
+    "final_unique": 4
+  },
+  "dependencies": [
+    {
+      "prerequisite": "Specific Heat Capacity",
+      "concept": "Mass",
+      "confidence": 0.6912913286685943,
+      "method": "semantic_temporal",
+      "details": {
+        "semantic_score": 0.6447018980979919,
+        "temporal_score": 0.8,
+        "time_gap": 60.0
+      }
+    },
+    {
+      "prerequisite": "Heat Capacity",
+      "concept": "Mass",
+      "confidence": 0.6762221002578734,
+      "method": "semantic_temporal",
+      "details": {
+        "semantic_score": 0.6231744289398193,
+        "temporal_score": 0.8,
+        "time_gap": 60.0
+      }
+    },
+    {
+      "prerequisite": "Molar Heat Capacity",
+      "concept": "Mass",
+      "confidence": 0.5813269877433777,
+      "method": "semantic_temporal",
+      "details": {
+        "semantic_score": 0.48760998249053955,
+        "temporal_score": 0.8,
+        "time_gap": 60.0
+      }
+    },
+    {
+      "prerequisite": "First Law Of Thermodynamics",
+      "concept": "Mass",
+      "confidence": 0.4058546388149261,
+      "method": "semantic_temporal",
+      "details": {
+        "semantic_score": 0.23693519830703735,
+        "temporal_score": 0.8,
+        "time_gap": 60.0
+      }
+    }
+  ]
+}
